@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-19T21:50:23.093+06:30",
+  "generatedAt": "2026-07-19T21:54:43.901+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 12,
   "matches": [
@@ -31,7 +31,7 @@
       },
       "sourcePages": {},
       "streams": [],
-      "updatedAt": "2026-07-19T15:20:23.093Z"
+      "updatedAt": "2026-07-19T15:24:23.182Z"
     },
     {
       "matchId": "deportivo_cuenca_universidad_catolica_20260719",
@@ -60,7 +60,7 @@
       },
       "sourcePages": {},
       "streams": [],
-      "updatedAt": "2026-07-19T15:20:23.093Z"
+      "updatedAt": "2026-07-19T15:24:23.183Z"
     },
     {
       "matchId": "france_england_20260719",
@@ -89,7 +89,7 @@
       },
       "sourcePages": {},
       "streams": [],
-      "updatedAt": "2026-07-19T15:20:23.093Z"
+      "updatedAt": "2026-07-19T15:24:23.183Z"
     },
     {
       "matchId": "ldu_de_quito_leones_del_norte_20260719",
@@ -118,7 +118,7 @@
       },
       "sourcePages": {},
       "streams": [],
-      "updatedAt": "2026-07-19T15:20:23.093Z"
+      "updatedAt": "2026-07-19T15:24:23.184Z"
     },
     {
       "matchId": "barcelona_sc_libertad_20260719",
@@ -147,7 +147,7 @@
       },
       "sourcePages": {},
       "streams": [],
-      "updatedAt": "2026-07-19T15:20:23.093Z"
+      "updatedAt": "2026-07-19T15:24:23.185Z"
     },
     {
       "matchId": "altai_semey_aktobe_20260719",
@@ -176,7 +176,7 @@
       },
       "sourcePages": {},
       "streams": [],
-      "updatedAt": "2026-07-19T15:20:23.093Z"
+      "updatedAt": "2026-07-19T15:24:23.185Z"
     },
     {
       "matchId": "irtysh_pavlodar_fc_astana_20260719",
@@ -205,7 +205,7 @@
       },
       "sourcePages": {},
       "streams": [],
-      "updatedAt": "2026-07-19T15:20:01.992Z"
+      "updatedAt": "2026-07-19T15:24:23.186Z"
     },
     {
       "matchId": "ordabasy_shymkent_fc_yelimay_20260719",
@@ -234,7 +234,7 @@
       },
       "sourcePages": {},
       "streams": [],
-      "updatedAt": "2026-07-19T15:20:01.993Z"
+      "updatedAt": "2026-07-19T15:24:23.187Z"
     },
     {
       "matchId": "tecnico_universitario_aucas_20260719",
@@ -263,7 +263,7 @@
       },
       "sourcePages": {},
       "streams": [],
-      "updatedAt": "2026-07-19T15:20:01.994Z"
+      "updatedAt": "2026-07-19T15:24:23.188Z"
     },
     {
       "matchId": "spain_argentina_20260720",
@@ -292,7 +292,7 @@
       },
       "sourcePages": {},
       "streams": [],
-      "updatedAt": "2026-07-19T15:20:01.996Z"
+      "updatedAt": "2026-07-19T15:24:23.189Z"
     },
     {
       "matchId": "guayaquil_city_manta_20260720",
@@ -321,7 +321,7 @@
       },
       "sourcePages": {},
       "streams": [],
-      "updatedAt": "2026-07-19T15:20:02.009Z"
+      "updatedAt": "2026-07-19T15:24:23.189Z"
     },
     {
       "matchId": "independiente_del_valle_emelec_20260720",
@@ -350,7 +350,7 @@
       },
       "sourcePages": {},
       "streams": [],
-      "updatedAt": "2026-07-19T15:20:02.010Z"
+      "updatedAt": "2026-07-19T15:24:23.190Z"
     }
   ],
   "meta": {
@@ -363,6 +363,281 @@
       "highlight",
       "myanmartv"
     ],
+    "sourcesDoc": {
+      "updatedAt": "2026-07-16T00:00:00.000Z",
+      "sources": [
+        {
+          "name": "fotmob",
+          "enabled": true,
+          "type": "fixtures",
+          "domains": [
+            "https://www.fotmob.com"
+          ],
+          "api": {
+            "matches": "https://www.fotmob.com/api/data/matches",
+            "leagues": "https://www.fotmob.com/api/data/leagues"
+          },
+          "selectors": {},
+          "headers": {
+            "Accept": "application/json",
+            "Referer": "https://www.fotmob.com/"
+          }
+        },
+        {
+          "name": "luongson",
+          "enabled": true,
+          "type": "streaming",
+          "domains": [
+            "https://luongsontvv.org"
+          ],
+          "mirrorDomains": [],
+          "paths": {
+            "home": "/",
+            "schedule": "/lich-thi-dau"
+          },
+          "selectors": {
+            "matchCard": [
+              ".match-item",
+              ".match-card",
+              ".event-card",
+              ".list-match .item",
+              "a.match"
+            ],
+            "league": [
+              ".league-name",
+              ".competition",
+              ".tour-title",
+              ".league"
+            ],
+            "homeTeam": [
+              ".home-team",
+              ".team-home",
+              ".team.home",
+              ".home .name"
+            ],
+            "awayTeam": [
+              ".away-team",
+              ".team-away",
+              ".team.away",
+              ".away .name"
+            ],
+            "time": [
+              ".match-time",
+              ".time",
+              ".kickoff",
+              ".hour"
+            ],
+            "matchLink": [
+              "a",
+              "a.match-link",
+              "a[href*='/truc-tiep']",
+              "a[href*='/live']"
+            ],
+            "qualityButton": [
+              ".quality-btn",
+              ".server-btn",
+              ".stream-option",
+              ".btn-quality",
+              ".list-server button",
+              ".server-list a"
+            ],
+            "iframe": [
+              "iframe",
+              "iframe.player",
+              "iframe#player",
+              ".player-container iframe"
+            ],
+            "video": [
+              "video",
+              "video source",
+              "#player video"
+            ]
+          },
+          "streamDetection": {
+            "m3u8Patterns": [
+              "\\.m3u8",
+              "master\\.m3u8",
+              "playlist\\.m3u8",
+              "index\\.m3u8"
+            ],
+            "waitAfterLoadMs": 8000,
+            "waitAfterClickMs": 4000
+          },
+          "playerRules": {
+            "autoPlay": true,
+            "clickPlaySelectors": [
+              ".vjs-big-play-button",
+              ".play-btn",
+              "#play",
+              ".btn-play"
+            ]
+          }
+        },
+        {
+          "name": "socolive",
+          "enabled": true,
+          "type": "streaming",
+          "domains": [
+            "https://socoliveku.cc"
+          ],
+          "mirrorDomains": [],
+          "paths": {
+            "home": "/",
+            "schedule": "/lich-thi-dau"
+          },
+          "selectors": {
+            "matchCard": [
+              ".match-item",
+              ".match-card",
+              ".event-item",
+              ".schedule-item",
+              ".list-game .item"
+            ],
+            "league": [
+              ".league",
+              ".league-name",
+              ".competition-name",
+              ".tour"
+            ],
+            "homeTeam": [
+              ".home",
+              ".team-home",
+              ".home-name",
+              ".name-home"
+            ],
+            "awayTeam": [
+              ".away",
+              ".team-away",
+              ".away-name",
+              ".name-away"
+            ],
+            "time": [
+              ".time",
+              ".match-time",
+              ".start-time"
+            ],
+            "matchLink": [
+              "a",
+              "a[href*='/live']",
+              "a[href*='/truc-tiep']"
+            ],
+            "qualityButton": [
+              ".quality",
+              ".server",
+              ".btn-server",
+              ".stream-btn",
+              ".list-btn button"
+            ],
+            "iframe": [
+              "iframe",
+              "iframe[src*='player']",
+              "#live-player iframe"
+            ],
+            "video": [
+              "video",
+              "video source"
+            ]
+          },
+          "streamDetection": {
+            "m3u8Patterns": [
+              "\\.m3u8",
+              "master\\.m3u8",
+              "playlist\\.m3u8"
+            ],
+            "waitAfterLoadMs": 8000,
+            "waitAfterClickMs": 4000
+          },
+          "playerRules": {
+            "autoPlay": true,
+            "clickPlaySelectors": [
+              ".play",
+              ".vjs-big-play-button",
+              ".btn-play"
+            ]
+          }
+        },
+        {
+          "name": "xoilac",
+          "enabled": true,
+          "type": "streaming",
+          "domains": [
+            "https://xoilacxyy.io"
+          ],
+          "mirrorDomains": [],
+          "paths": {
+            "home": "/",
+            "schedule": "/lich-thi-dau"
+          },
+          "selectors": {
+            "matchCard": [
+              ".match",
+              ".match-item",
+              ".fixture-item",
+              ".event-card",
+              ".list-match li"
+            ],
+            "league": [
+              ".league-name",
+              ".tour-name",
+              ".competition"
+            ],
+            "homeTeam": [
+              ".home-team",
+              ".team1",
+              ".club-home"
+            ],
+            "awayTeam": [
+              ".away-team",
+              ".team2",
+              ".club-away"
+            ],
+            "time": [
+              ".time",
+              ".kick-off",
+              ".match-hour"
+            ],
+            "matchLink": [
+              "a",
+              "a[href*='/live']",
+              "a[href*='/watch']"
+            ],
+            "qualityButton": [
+              ".server-item",
+              ".quality-item",
+              ".btn-quality",
+              ".list-server a",
+              ".cdn-list button"
+            ],
+            "iframe": [
+              "iframe",
+              ".embed iframe",
+              "#player iframe"
+            ],
+            "video": [
+              "video",
+              "video source"
+            ]
+          },
+          "streamDetection": {
+            "m3u8Patterns": [
+              "\\.m3u8",
+              "master\\.m3u8",
+              "playlist\\.m3u8"
+            ],
+            "waitAfterLoadMs": 9000,
+            "waitAfterClickMs": 4500
+          },
+          "playerRules": {
+            "autoPlay": true,
+            "clickPlaySelectors": [
+              ".vjs-big-play-button",
+              ".play-button",
+              ".btn-play"
+            ]
+          }
+        }
+      ]
+    },
     "adminApplied": true,
     "liveCount": 1,
     "scheduledCount": 5,
@@ -370,8 +645,8 @@
     "manualStreamCount": 0,
     "highlightCount": 0,
     "channelCount": 18,
-    "checksum": "c40aeda217b821341629697998edf07ea67a0276677ee459a3b8c1fb78b5c611",
-    "cachedAt": "2026-07-19T15:20:23.099Z",
+    "checksum": "6cb02f3c916a90ce5ce64ec0b77204547689524849f2c3c2d3f20e664e0bc1f6",
+    "cachedAt": "2026-07-19T15:24:43.907Z",
     "feed": "matches"
   }
 }
