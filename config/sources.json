@@ -1,4 +1,3 @@
-[
 {
   "updatedAt": "2026-07-19T00:00:00.000Z",
   "sources": [
@@ -234,6 +233,16 @@
       "parser": "socolive",
       "domains": ["https://socolivegg.io"],
       "mirrorDomains": ["https://socoliveku.cc"],
+      "paths": {
+        "home": "/",
+        "schedule": "/lich-thi-dau"
+      },
+      "attrs": {
+        "href": ["href", "data-href", "data-url"],
+        "src": ["src", "data-src", "data-lazy-src"]
+      },
+      "selectors": {
+        "matchCard": [".match-item", ".match-card", ".event-item", ".schedule-item", ".list-game .item"],
         "league": [".league", ".league-name", ".competition-name", ".tour"],
         "homeTeam": [".home", ".team-home", ".home-name", ".name-home"],
         "awayTeam": [".away", ".team-away", ".away-name", ".name-away"],
@@ -243,15 +252,15 @@
         "iframe": ["iframe", "iframe[src*='player']", "#live-player iframe"],
         "video": ["video", "video source"]
       },
-      "streamDetection",":", {
+      "streamDetection": {
         "m3u8Patterns": ["\\.m3u8", "master\\.m3u8", "playlist\\.m3u8"],
         "waitAfterLoadMs": 8000,
         "waitAfterClickMs": 4000
       },
-      "playerRules",":", {
+      "playerRules": {
         "autoPlay": true,
         "clickPlaySelectors": [".play", ".vjs-big-play-button", ".btn-play"]
-      }]
+      }
     },
     {
       "name": "soco",
@@ -344,5 +353,5 @@
         "channels": "https://www.myanmartvchannels.com/tv-channels.html"
       }
     }
-  
-]
+  ]
+}
