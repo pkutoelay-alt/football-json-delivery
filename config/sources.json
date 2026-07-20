@@ -1,3 +1,4 @@
+[
 {
   "updatedAt": "2026-07-19T00:00:00.000Z",
   "sources": [
@@ -242,15 +243,15 @@
         "iframe": ["iframe", "iframe[src*='player']", "#live-player iframe"],
         "video": ["video", "video source"]
       },
-      "streamDetection": {
+      "streamDetection",":", {
         "m3u8Patterns": ["\\.m3u8", "master\\.m3u8", "playlist\\.m3u8"],
         "waitAfterLoadMs": 8000,
         "waitAfterClickMs": 4000
       },
-      "playerRules": {
+      "playerRules",":", {
         "autoPlay": true,
         "clickPlaySelectors": [".play", ".vjs-big-play-button", ".btn-play"]
-      }
+      }]
     },
     {
       "name": "soco",
@@ -343,5 +344,5 @@
         "channels": "https://www.myanmartvchannels.com/tv-channels.html"
       }
     }
-  ]
-}
+  
+]
