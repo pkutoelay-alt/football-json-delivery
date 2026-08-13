@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-13T23:45:34.235+06:30",
+  "generatedAt": "2026-08-14T00:00:33.091+06:30",
   "timezone": "Asia/Yangon",
-  "matchCount": 22,
+  "matchCount": 79,
   "matches": [
     {
       "matchId": "besiktas_hradec_kralove_20260813",
@@ -82,7 +82,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-13T17:15:34.219Z"
+      "updatedAt": "2026-08-13T17:30:33.079Z"
     },
     {
       "matchId": "gornik_zabrze_ferencvaros_20260813",
@@ -162,7 +162,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-13T17:15:34.219Z"
+      "updatedAt": "2026-08-13T17:30:33.079Z"
     },
     {
       "matchId": "omonia_nicosia_lincoln_red_imps_fc_20260813",
@@ -242,7 +242,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-13T17:15:34.219Z"
+      "updatedAt": "2026-08-13T17:30:33.079Z"
     },
     {
       "matchId": "pafos_fc_salzburg_20260813",
@@ -322,7 +322,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-13T17:15:34.224Z"
+      "updatedAt": "2026-08-13T17:30:33.079Z"
     },
     {
       "matchId": "universitatea_craiova_kups_20260813",
@@ -402,7 +402,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-13T17:15:34.224Z"
+      "updatedAt": "2026-08-13T17:30:33.080Z"
     },
     {
       "matchId": "klaksvik_lech_poznan_20260814",
@@ -418,7 +418,7 @@
       "time": "00:00",
       "kickoff": "2026-08-14T00:00:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -477,7 +477,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-13T17:15:34.224Z"
+      "updatedAt": "2026-08-13T17:30:33.080Z"
     },
     {
       "matchId": "vikingur_reykjavik_thun_20260814",
@@ -493,7 +493,7 @@
       "time": "00:00",
       "kickoff": "2026-08-14T00:00:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -511,7 +511,9 @@
       "streams": [],
       "streamAttempts": {
         "t30": true,
-        "t15": true
+        "t15": true,
+        "t5": true,
+        "t0": true
       },
       "streamSearch": {
         "started": true,
@@ -519,40 +521,41 @@
         "stopTime": null,
         "slotsDone": {
           "t30": true,
-          "t15": true
+          "t15": true,
+          "t0": true
         },
         "sources": {
           "cakhia": {
             "status": "FAILED",
-            "attempts": 2,
-            "postKickoffAttempts": 0,
+            "attempts": 3,
+            "postKickoffAttempts": 1,
             "lastError": "no_match_page",
-            "updatedAt": "2026-08-13T17:15:34.117Z"
+            "updatedAt": "2026-08-13T17:30:32.844Z"
           },
           "xoilac": {
             "status": "FAILED",
-            "attempts": 2,
-            "postKickoffAttempts": 0,
+            "attempts": 3,
+            "postKickoffAttempts": 1,
             "lastError": "no_match_page",
-            "updatedAt": "2026-08-13T17:15:34.117Z"
+            "updatedAt": "2026-08-13T17:30:32.844Z"
           },
           "colatv": {
             "status": "FAILED",
-            "attempts": 2,
-            "postKickoffAttempts": 0,
+            "attempts": 3,
+            "postKickoffAttempts": 1,
             "lastError": "no_match_page",
-            "updatedAt": "2026-08-13T17:15:34.117Z"
+            "updatedAt": "2026-08-13T17:30:32.844Z"
           },
           "socolive": {
             "status": "FAILED",
-            "attempts": 2,
-            "postKickoffAttempts": 0,
+            "attempts": 3,
+            "postKickoffAttempts": 1,
             "lastError": "no_match_page",
-            "updatedAt": "2026-08-13T17:15:34.117Z"
+            "updatedAt": "2026-08-13T17:30:32.844Z"
           }
         }
       },
-      "updatedAt": "2026-08-13T17:15:34.224Z"
+      "updatedAt": "2026-08-13T17:30:33.080Z"
     },
     {
       "matchId": "cska_sofia_maccabi_tel_aviv_20260814",
@@ -584,15 +587,48 @@
       },
       "sourcePages": {},
       "streams": [],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true
+      },
       "streamSearch": {
-        "started": false,
+        "started": true,
         "stopped": false,
         "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
+        "slotsDone": {
+          "t30": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "FAILED",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "no_match_page",
+            "updatedAt": "2026-08-13T17:30:32.863Z"
+          },
+          "xoilac": {
+            "status": "FAILED",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "no_match_page",
+            "updatedAt": "2026-08-13T17:30:32.863Z"
+          },
+          "colatv": {
+            "status": "FAILED",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "no_match_page",
+            "updatedAt": "2026-08-13T17:30:32.863Z"
+          },
+          "socolive": {
+            "status": "FAILED",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "no_match_page",
+            "updatedAt": "2026-08-13T17:30:32.863Z"
+          }
+        }
       },
-      "updatedAt": "2026-08-13T17:15:34.225Z"
+      "updatedAt": "2026-08-13T17:30:33.080Z"
     },
     {
       "matchId": "anderlecht_paok_thessaloniki_20260814",
@@ -632,7 +668,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-13T17:15:34.225Z"
+      "updatedAt": "2026-08-13T17:30:33.080Z"
     },
     {
       "matchId": "rangers_jagiellonia_bia_ystok_20260814",
@@ -672,7 +708,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-13T17:15:34.231Z"
+      "updatedAt": "2026-08-13T17:30:33.081Z"
     },
     {
       "matchId": "hearts_benfica_20260814",
@@ -712,7 +748,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-13T17:15:34.231Z"
+      "updatedAt": "2026-08-13T17:30:33.081Z"
     },
     {
       "matchId": "egnatia_shamrock_rovers_20260814",
@@ -752,7 +788,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-13T17:15:34.232Z"
+      "updatedAt": "2026-08-13T17:30:33.081Z"
     },
     {
       "matchId": "pamba_jiji_dodoma_jiji_fc_20260814",
@@ -792,7 +828,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-13T17:15:34.232Z"
+      "updatedAt": "2026-08-13T17:30:33.081Z"
     },
     {
       "matchId": "mbeya_city_geita_gold_fc_20260814",
@@ -832,7 +868,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-13T17:15:34.232Z"
+      "updatedAt": "2026-08-13T17:30:33.081Z"
     },
     {
       "matchId": "orenburg_lokomotiv_20260814",
@@ -872,7 +908,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-13T17:15:34.233Z"
+      "updatedAt": "2026-08-13T17:30:33.082Z"
     },
     {
       "matchId": "arsenal_dzerzhinsk_slavia_mozyr_20260814",
@@ -912,7 +948,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-13T17:15:34.233Z"
+      "updatedAt": "2026-08-13T17:30:33.082Z"
     },
     {
       "matchId": "epitsentr_kamianets_podilskyi_veres_rivne_20260814",
@@ -952,7 +988,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-13T17:15:34.233Z"
+      "updatedAt": "2026-08-13T17:30:33.082Z"
     },
     {
       "matchId": "marseille_atletico_madrid_20260814",
@@ -992,7 +1028,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-13T17:15:34.234Z"
+      "updatedAt": "2026-08-13T17:30:33.082Z"
     },
     {
       "matchId": "turan_tovuz_fk_qabala_20260814",
@@ -1032,7 +1068,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-13T17:15:34.234Z"
+      "updatedAt": "2026-08-13T17:30:33.083Z"
     },
     {
       "matchId": "dnyapro_mogilev_belshina_bobruisk_20260814",
@@ -1072,7 +1108,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-13T17:15:34.234Z"
+      "updatedAt": "2026-08-13T17:30:33.083Z"
     },
     {
       "matchId": "gandzasar_shirak_20260814",
@@ -1112,7 +1148,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-13T17:15:34.234Z"
+      "updatedAt": "2026-08-13T17:30:33.083Z"
     },
     {
       "matchId": "singida_black_stars_fountain_gate_fc_20260814",
@@ -1152,7 +1188,2287 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-13T17:15:34.235Z"
+      "updatedAt": "2026-08-13T17:30:33.083Z"
+    },
+    {
+      "matchId": "lask_ried_20260815",
+      "league": "Bundesliga",
+      "leagueIcon": null,
+      "homeTeam": "LASK",
+      "awayTeam": "Ried",
+      "homeTeamId": 9977,
+      "awayTeamId": 10017,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9977.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10017.png",
+      "date": "2026-08-15",
+      "time": "00:00",
+      "kickoff": "2026-08-15T00:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "AUT Bundesliga",
+          "homeTeam": "LASK",
+          "awayTeam": "Ried"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.084Z"
+    },
+    {
+      "matchId": "klaksvik_lech_poznan_20260815",
+      "league": "UEFA Europa League",
+      "leagueIcon": null,
+      "homeTeam": "Klaksvik",
+      "awayTeam": "Lech Poznań",
+      "homeTeamId": 8106,
+      "awayTeamId": 2182,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8106.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/2182.png",
+      "date": "2026-08-15",
+      "time": "00:30",
+      "kickoff": "2026-08-15T00:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League Qualification",
+          "homeTeam": "Klaksvik",
+          "awayTeam": "Lech Poznań"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.084Z"
+    },
+    {
+      "matchId": "celik_zenica_siroki_brijeg_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Celik Zenica",
+      "awayTeam": "Siroki Brijeg",
+      "homeTeamId": 10109,
+      "awayTeamId": 10112,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10109.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10112.png",
+      "date": "2026-08-15",
+      "time": "00:30",
+      "kickoff": "2026-08-15T00:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "BIH Premier League",
+          "homeTeam": "Celik Zenica",
+          "awayTeam": "Siroki Brijeg"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.084Z"
+    },
+    {
+      "matchId": "coventry_monaco_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "Coventry",
+      "awayTeam": "Monaco",
+      "homeTeamId": 8669,
+      "awayTeamId": 9829,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8669.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9829.png",
+      "date": "2026-08-15",
+      "time": "01:00",
+      "kickoff": "2026-08-15T01:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "Coventry",
+          "awayTeam": "Monaco"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.085Z"
+    },
+    {
+      "matchId": "atalanta_athletic_club_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "Atalanta",
+      "awayTeam": "Athletic Club",
+      "homeTeamId": 8524,
+      "awayTeamId": 8315,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8524.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8315.png",
+      "date": "2026-08-15",
+      "time": "01:15",
+      "kickoff": "2026-08-15T01:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "Atalanta",
+          "awayTeam": "Athletic Club"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.085Z"
+    },
+    {
+      "matchId": "airbus_uk_broughton_ammanford_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Airbus UK Broughton",
+      "awayTeam": "Ammanford",
+      "homeTeamId": 2200,
+      "awayTeamId": 949644,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/2200.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/949644.png",
+      "date": "2026-08-15",
+      "time": "01:15",
+      "kickoff": "2026-08-15T01:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "WAL Premier League",
+          "homeTeam": "Airbus UK Broughton",
+          "awayTeam": "Ammanford"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.085Z"
+    },
+    {
+      "matchId": "cambrian_united_flint_town_united_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Cambrian United",
+      "awayTeam": "Flint Town United",
+      "homeTeamId": 316361,
+      "awayTeamId": 316297,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/316361.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/316297.png",
+      "date": "2026-08-15",
+      "time": "01:15",
+      "kickoff": "2026-08-15T01:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "WAL Premier League",
+          "homeTeam": "Cambrian United",
+          "awayTeam": "Flint Town United"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.085Z"
+    },
+    {
+      "matchId": "connah_s_quay_nomads_trefelin_bgc_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Connah's Quay Nomads",
+      "awayTeam": "Trefelin BGC",
+      "homeTeamId": 2193,
+      "awayTeamId": 1265280,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/2193.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1265280.png",
+      "date": "2026-08-15",
+      "time": "01:15",
+      "kickoff": "2026-08-15T01:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "WAL Premier League",
+          "homeTeam": "Connah's Quay Nomads",
+          "awayTeam": "Trefelin BGC"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.086Z"
+    },
+    {
+      "matchId": "haverfordwest_penybont_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Haverfordwest",
+      "awayTeam": "Penybont",
+      "homeTeamId": 2194,
+      "awayTeamId": 474592,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/2194.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/474592.png",
+      "date": "2026-08-15",
+      "time": "01:15",
+      "kickoff": "2026-08-15T01:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "WAL Premier League",
+          "homeTeam": "Haverfordwest",
+          "awayTeam": "Penybont"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.086Z"
+    },
+    {
+      "matchId": "llandudno_fc_holywell_town_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Llandudno FC",
+      "awayTeam": "Holywell Town",
+      "homeTeamId": 316296,
+      "awayTeamId": 525403,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/316296.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/525403.png",
+      "date": "2026-08-15",
+      "time": "01:15",
+      "kickoff": "2026-08-15T01:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "WAL Premier League",
+          "homeTeam": "Llandudno FC",
+          "awayTeam": "Holywell Town"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.086Z"
+    },
+    {
+      "matchId": "the_new_saints_briton_ferry_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "The New Saints",
+      "awayTeam": "Briton Ferry",
+      "homeTeamId": 7852,
+      "awayTeamId": 560955,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/7852.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/560955.png",
+      "date": "2026-08-15",
+      "time": "01:15",
+      "kickoff": "2026-08-15T01:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "WAL Premier League",
+          "homeTeam": "The New Saints",
+          "awayTeam": "Briton Ferry"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.086Z"
+    },
+    {
+      "matchId": "vancouver_fc_pacific_fc_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Vancouver FC",
+      "awayTeam": "Pacific FC",
+      "homeTeamId": 1436202,
+      "awayTeamId": 1022953,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1436202.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1022953.png",
+      "date": "2026-08-15",
+      "time": "07:30",
+      "kickoff": "2026-08-15T07:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "CAN Premier League",
+          "homeTeam": "Vancouver FC",
+          "awayTeam": "Pacific FC"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.086Z"
+    },
+    {
+      "matchId": "kryvbas_liviy_bereh_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Kryvbas",
+      "awayTeam": "Liviy Bereh",
+      "homeTeamId": 558259,
+      "awayTeamId": 1507991,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/558259.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1507991.png",
+      "date": "2026-08-15",
+      "time": "16:30",
+      "kickoff": "2026-08-15T16:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "UKR Premier League",
+          "homeTeam": "Kryvbas",
+          "awayTeam": "Liviy Bereh"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.086Z"
+    },
+    {
+      "matchId": "fc_seoul_daejeon_hana_citizen_20260815",
+      "league": "K League 1 (KOR D1)",
+      "leagueIcon": null,
+      "homeTeam": "FC Seoul",
+      "awayTeam": "Daejeon Hana Citizen",
+      "homeTeamId": 92630,
+      "awayTeamId": 133900,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/92630.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/133900.png",
+      "date": "2026-08-15",
+      "time": "17:00",
+      "kickoff": "2026-08-15T17:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "KOR K-League 1",
+          "homeTeam": "FC Seoul",
+          "awayTeam": "Daejeon Hana Citizen"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.086Z"
+    },
+    {
+      "matchId": "gwangju_fc_pohang_steelers_20260815",
+      "league": "K League 1 (KOR D1)",
+      "leagueIcon": null,
+      "homeTeam": "Gwangju FC",
+      "awayTeam": "Pohang Steelers",
+      "homeTeamId": 245905,
+      "awayTeamId": 109373,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/245905.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/109373.png",
+      "date": "2026-08-15",
+      "time": "17:00",
+      "kickoff": "2026-08-15T17:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "KOR K-League 1",
+          "homeTeam": "Gwangju FC",
+          "awayTeam": "Pohang Steelers"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.086Z"
+    },
+    {
+      "matchId": "jeju_sk_fc_anyang_20260815",
+      "league": "K League 1 (KOR D1)",
+      "leagueIcon": null,
+      "homeTeam": "Jeju SK",
+      "awayTeam": "FC Anyang",
+      "homeTeamId": 133898,
+      "awayTeamId": 429440,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/133898.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/429440.png",
+      "date": "2026-08-15",
+      "time": "17:00",
+      "kickoff": "2026-08-15T17:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "KOR K-League 1",
+          "homeTeam": "Jeju SK",
+          "awayTeam": "FC Anyang"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.086Z"
+    },
+    {
+      "matchId": "rodina_akron_togliatti_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Rodina",
+      "awayTeam": "Akron Togliatti",
+      "homeTeamId": 1066681,
+      "awayTeamId": 1068364,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1066681.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1068364.png",
+      "date": "2026-08-15",
+      "time": "17:30",
+      "kickoff": "2026-08-15T17:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "RUS Premier League",
+          "homeTeam": "Rodina",
+          "awayTeam": "Akron Togliatti"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.086Z"
+    },
+    {
+      "matchId": "barry_town_cardiff_met_university_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Barry Town",
+      "awayTeam": "Cardiff Met University",
+      "homeTeamId": 1603,
+      "awayTeamId": 560953,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1603.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/560953.png",
+      "date": "2026-08-15",
+      "time": "18:00",
+      "kickoff": "2026-08-15T18:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "WAL Premier League",
+          "homeTeam": "Barry Town",
+          "awayTeam": "Cardiff Met University"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.087Z"
+    },
+    {
+      "matchId": "freiburg_crystal_palace_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "Freiburg",
+      "awayTeam": "Crystal Palace",
+      "homeTeamId": 8358,
+      "awayTeamId": 9826,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8358.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9826.png",
+      "date": "2026-08-15",
+      "time": "18:30",
+      "kickoff": "2026-08-15T18:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "Freiburg",
+          "awayTeam": "Crystal Palace"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.087Z"
+    },
+    {
+      "matchId": "van_ararat_armenia_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Van",
+      "awayTeam": "Ararat Armenia",
+      "homeTeamId": 1078400,
+      "awayTeamId": 866109,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1078400.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/866109.png",
+      "date": "2026-08-15",
+      "time": "18:30",
+      "kickoff": "2026-08-15T18:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "ARM Premier League",
+          "homeTeam": "Van",
+          "awayTeam": "Ararat Armenia"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.087Z"
+    },
+    {
+      "matchId": "gomel_naftan_novopolotsk_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Gomel",
+      "awayTeam": "Naftan Novopolotsk",
+      "homeTeamId": 10060,
+      "awayTeamId": 10071,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10060.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10071.png",
+      "date": "2026-08-15",
+      "time": "18:40",
+      "kickoff": "2026-08-15T18:40:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "BLR Premier League",
+          "homeTeam": "Gomel",
+          "awayTeam": "Naftan Novopolotsk"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.087Z"
+    },
+    {
+      "matchId": "kudrivka_obolon_kyiv_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Kudrivka",
+      "awayTeam": "Obolon Kyiv",
+      "homeTeamId": 1763072,
+      "awayTeamId": 583129,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1763072.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/583129.png",
+      "date": "2026-08-15",
+      "time": "19:00",
+      "kickoff": "2026-08-15T19:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "UKR Premier League",
+          "homeTeam": "Kudrivka",
+          "awayTeam": "Obolon Kyiv"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.087Z"
+    },
+    {
+      "matchId": "singapore_thailand_20260815",
+      "league": "ASEAN Championship",
+      "leagueIcon": null,
+      "homeTeam": "Singapore",
+      "awayTeam": "Thailand",
+      "homeTeamId": 5825,
+      "awayTeamId": 5788,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/5825.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/5788.png",
+      "date": "2026-08-15",
+      "time": "19:30",
+      "kickoff": "2026-08-15T19:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT ASEAN Championship",
+          "homeTeam": "Singapore",
+          "awayTeam": "Thailand"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.087Z"
+    },
+    {
+      "matchId": "chelsea_real_sociedad_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "Chelsea",
+      "awayTeam": "Real Sociedad",
+      "homeTeamId": 8455,
+      "awayTeamId": 8560,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8455.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8560.png",
+      "date": "2026-08-15",
+      "time": "19:30",
+      "kickoff": "2026-08-15T19:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "Chelsea",
+          "awayTeam": "Real Sociedad"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.087Z"
+    },
+    {
+      "matchId": "leeds_augsburg_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "Leeds",
+      "awayTeam": "Augsburg",
+      "homeTeamId": 8463,
+      "awayTeamId": 8406,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8463.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8406.png",
+      "date": "2026-08-15",
+      "time": "19:30",
+      "kickoff": "2026-08-15T19:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "Leeds",
+          "awayTeam": "Augsburg"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.087Z"
+    },
+    {
+      "matchId": "zhenis_zhetysu_taldykorgan_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Zhenis",
+      "awayTeam": "Zhetysu Taldykorgan",
+      "homeTeamId": 1614087,
+      "awayTeamId": 2118,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1614087.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/2118.png",
+      "date": "2026-08-15",
+      "time": "19:30",
+      "kickoff": "2026-08-15T19:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "KAZ Premier League",
+          "homeTeam": "Zhenis",
+          "awayTeam": "Zhetysu Taldykorgan"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.087Z"
+    },
+    {
+      "matchId": "polisi_tanzania_fc_azam_fc_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Polisi Tanzania FC",
+      "awayTeam": "Azam FC",
+      "homeTeamId": 165093,
+      "awayTeamId": 165091,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/165093.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/165091.png",
+      "date": "2026-08-15",
+      "time": "19:30",
+      "kickoff": "2026-08-15T19:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "TAN Premier League",
+          "homeTeam": "Polisi Tanzania FC",
+          "awayTeam": "Azam FC"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.088Z"
+    },
+    {
+      "matchId": "cska_fakel_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "CSKA",
+      "awayTeam": "Fakel",
+      "homeTeamId": 9760,
+      "awayTeamId": 1692,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9760.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1692.png",
+      "date": "2026-08-15",
+      "time": "19:45",
+      "kickoff": "2026-08-15T19:45:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "RUS Premier League",
+          "homeTeam": "CSKA",
+          "awayTeam": "Fakel"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.088Z"
+    },
+    {
+      "matchId": "bayern_munich_rb_leipzig_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "Bayern Munich",
+      "awayTeam": "RB Leipzig",
+      "homeTeamId": 9823,
+      "awayTeamId": 178475,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9823.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/178475.png",
+      "date": "2026-08-15",
+      "time": "20:00",
+      "kickoff": "2026-08-15T20:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "Bayern München",
+          "awayTeam": "RB Leipzig"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.088Z"
+    },
+    {
+      "matchId": "m_gladbach_aston_villa_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "M'gladbach",
+      "awayTeam": "Aston Villa",
+      "homeTeamId": 9788,
+      "awayTeamId": 10252,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9788.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10252.png",
+      "date": "2026-08-15",
+      "time": "20:00",
+      "kickoff": "2026-08-15T20:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "M'gladbach",
+          "awayTeam": "Aston Villa"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.088Z"
+    },
+    {
+      "matchId": "mainz_bournemouth_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "Mainz",
+      "awayTeam": "Bournemouth",
+      "homeTeamId": 9905,
+      "awayTeamId": 8678,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9905.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8678.png",
+      "date": "2026-08-15",
+      "time": "20:00",
+      "kickoff": "2026-08-15T20:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "Mainz",
+          "awayTeam": "Bournemouth"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.088Z"
+    },
+    {
+      "matchId": "union_berlin_ipswich_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "Union Berlin",
+      "awayTeam": "Ipswich",
+      "homeTeamId": 8149,
+      "awayTeamId": 9902,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8149.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9902.png",
+      "date": "2026-08-15",
+      "time": "20:00",
+      "kickoff": "2026-08-15T20:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "Union Berlin",
+          "awayTeam": "Ipswich"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.088Z"
+    },
+    {
+      "matchId": "brentford_frankfurt_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "Brentford",
+      "awayTeam": "Frankfurt",
+      "homeTeamId": 9937,
+      "awayTeamId": 9810,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9937.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9810.png",
+      "date": "2026-08-15",
+      "time": "20:30",
+      "kickoff": "2026-08-15T20:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "Brentford",
+          "awayTeam": "Frankfurt"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.088Z"
+    },
+    {
+      "matchId": "brighton_and_hove_albion_bologna_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "Brighton & Hove Albion",
+      "awayTeam": "Bologna",
+      "homeTeamId": 10204,
+      "awayTeamId": 9857,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10204.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9857.png",
+      "date": "2026-08-15",
+      "time": "20:30",
+      "kickoff": "2026-08-15T20:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "Brighton",
+          "awayTeam": "Bologna"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.088Z"
+    },
+    {
+      "matchId": "everton_lille_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "Everton",
+      "awayTeam": "Lille",
+      "homeTeamId": 8668,
+      "awayTeamId": 8639,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8668.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8639.png",
+      "date": "2026-08-15",
+      "time": "20:30",
+      "kickoff": "2026-08-15T20:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "Everton",
+          "awayTeam": "Lille"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.088Z"
+    },
+    {
+      "matchId": "hull_nice_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "Hull",
+      "awayTeam": "Nice",
+      "homeTeamId": 8667,
+      "awayTeamId": 9831,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8667.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9831.png",
+      "date": "2026-08-15",
+      "time": "20:30",
+      "kickoff": "2026-08-15T20:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "Hull",
+          "awayTeam": "Nice"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.089Z"
+    },
+    {
+      "matchId": "newcastle_united_leverkusen_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "Newcastle United",
+      "awayTeam": "Leverkusen",
+      "homeTeamId": 10261,
+      "awayTeamId": 8178,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10261.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8178.png",
+      "date": "2026-08-15",
+      "time": "20:30",
+      "kickoff": "2026-08-15T20:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "Newcastle",
+          "awayTeam": "Leverkusen"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.089Z"
+    },
+    {
+      "matchId": "sunderland_rennes_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "Sunderland",
+      "awayTeam": "Rennes",
+      "homeTeamId": 8472,
+      "awayTeamId": 9851,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8472.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9851.png",
+      "date": "2026-08-15",
+      "time": "20:30",
+      "kickoff": "2026-08-15T20:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "Sunderland",
+          "awayTeam": "Rennes"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.089Z"
+    },
+    {
+      "matchId": "tottenham_hotspur_hoffenheim_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "Tottenham Hotspur",
+      "awayTeam": "Hoffenheim",
+      "homeTeamId": 8586,
+      "awayTeamId": 8226,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8586.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8226.png",
+      "date": "2026-08-15",
+      "time": "20:30",
+      "kickoff": "2026-08-15T20:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "Tottenham",
+          "awayTeam": "Hoffenheim"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.089Z"
+    },
+    {
+      "matchId": "kairat_almaty_ulytau_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Kairat Almaty",
+      "awayTeam": "Ulytau",
+      "homeTeamId": 8037,
+      "awayTeamId": 1622701,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8037.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1622701.png",
+      "date": "2026-08-15",
+      "time": "20:30",
+      "kickoff": "2026-08-15T20:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "KAZ Premier League",
+          "homeTeam": "Kairat Almaty",
+          "awayTeam": "Ulytau"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.089Z"
+    },
+    {
+      "matchId": "araz_pfk_imisli_fk_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Araz PFK",
+      "awayTeam": "Imisli FK",
+      "homeTeamId": 485832,
+      "awayTeamId": 1786024,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/485832.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1786024.png",
+      "date": "2026-08-15",
+      "time": "21:00",
+      "kickoff": "2026-08-15T21:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "AZE Premier League",
+          "homeTeam": "Araz PFK",
+          "awayTeam": "Imisli FK"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.090Z"
+    },
+    {
+      "matchId": "manchester_united_ac_milan_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "Manchester United",
+      "awayTeam": "AC Milan",
+      "homeTeamId": 10260,
+      "awayTeamId": 8564,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10260.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8564.png",
+      "date": "2026-08-15",
+      "time": "21:15",
+      "kickoff": "2026-08-15T21:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "Man United",
+          "awayTeam": "Milan"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.090Z"
+    },
+    {
+      "matchId": "fulham_vfb_stuttgart_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "Fulham",
+      "awayTeam": "VfB Stuttgart",
+      "homeTeamId": 9879,
+      "awayTeamId": 10269,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9879.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10269.png",
+      "date": "2026-08-15",
+      "time": "21:30",
+      "kickoff": "2026-08-15T21:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "Fulham",
+          "awayTeam": "VfB Stuttgart"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.090Z"
+    },
+    {
+      "matchId": "zeljeznicar_fk_sarajevo_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Zeljeznicar",
+      "awayTeam": "FK Sarajevo",
+      "homeTeamId": 10108,
+      "awayTeamId": 10105,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10108.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10105.png",
+      "date": "2026-08-15",
+      "time": "21:30",
+      "kickoff": "2026-08-15T21:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "BIH Premier League",
+          "homeTeam": "Zeljeznicar",
+          "awayTeam": "FK Sarajevo"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.090Z"
+    },
+    {
+      "matchId": "kaisar_kyzylorda_aktobe_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Kaisar Kyzylorda",
+      "awayTeam": "Aktobe",
+      "homeTeamId": 2125,
+      "awayTeamId": 8000,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/2125.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8000.png",
+      "date": "2026-08-15",
+      "time": "21:30",
+      "kickoff": "2026-08-15T21:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "KAZ Premier League",
+          "homeTeam": "Kaisar Kyzylorda",
+          "awayTeam": "Aktobe"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.090Z"
+    },
+    {
+      "matchId": "ordabasy_shymkent_altai_semey_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Ordabasy Shymkent",
+      "awayTeam": "Altai Semey",
+      "homeTeamId": 2127,
+      "awayTeamId": 732295,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/2127.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/732295.png",
+      "date": "2026-08-15",
+      "time": "21:30",
+      "kickoff": "2026-08-15T21:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "KAZ Premier League",
+          "homeTeam": "Ordabasy Shymkent",
+          "awayTeam": "Altai Semey"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.090Z"
+    },
+    {
+      "matchId": "austria_lustenau_wolfsberger_ac_20260815",
+      "league": "Bundesliga",
+      "leagueIcon": null,
+      "homeTeam": "Austria Lustenau",
+      "awayTeam": "Wolfsberger AC",
+      "homeTeamId": 9982,
+      "awayTeamId": 1954,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9982.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1954.png",
+      "date": "2026-08-15",
+      "time": "21:30",
+      "kickoff": "2026-08-15T21:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "AUT Bundesliga",
+          "homeTeam": "Austria Lustenau",
+          "awayTeam": "Wolfsberger AC"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.090Z"
+    },
+    {
+      "matchId": "karpaty_bukovyna_chernivtsi_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Karpaty",
+      "awayTeam": "Bukovyna Chernivtsi",
+      "homeTeamId": 8691,
+      "awayTeamId": 205684,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8691.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/205684.png",
+      "date": "2026-08-15",
+      "time": "21:30",
+      "kickoff": "2026-08-15T21:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "UKR Premier League",
+          "homeTeam": "Karpaty",
+          "awayTeam": "Bukovyna Chernivtsi"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.090Z"
+    },
+    {
+      "matchId": "neman_grodno_fc_minsk_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Neman Grodno",
+      "awayTeam": "FC Minsk",
+      "homeTeamId": 10061,
+      "awayTeamId": 56865,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10061.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/56865.png",
+      "date": "2026-08-15",
+      "time": "21:30",
+      "kickoff": "2026-08-15T21:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "BLR Premier League",
+          "homeTeam": "Neman Grodno",
+          "awayTeam": "FC Minsk"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.090Z"
+    },
+    {
+      "matchId": "borussia_dortmund_roma_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "Borussia Dortmund",
+      "awayTeam": "Roma",
+      "homeTeamId": 9789,
+      "awayTeamId": 8686,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9789.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8686.png",
+      "date": "2026-08-15",
+      "time": "22:00",
+      "kickoff": "2026-08-15T22:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "Dortmund",
+          "awayTeam": "Roma"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.090Z"
+    },
+    {
+      "matchId": "bkma_ararat_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "BKMA",
+      "awayTeam": "Ararat",
+      "homeTeamId": 1078402,
+      "awayTeamId": 2212,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1078402.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/2212.png",
+      "date": "2026-08-15",
+      "time": "22:00",
+      "kickoff": "2026-08-15T22:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "ARM Premier League",
+          "homeTeam": "BKMA",
+          "awayTeam": "Ararat"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.091Z"
+    },
+    {
+      "matchId": "coastal_union_mashujaa_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Coastal Union",
+      "awayTeam": "Mashujaa",
+      "homeTeamId": 287669,
+      "awayTeamId": 1499086,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/287669.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1499086.png",
+      "date": "2026-08-15",
+      "time": "22:00",
+      "kickoff": "2026-08-15T22:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "TAN Premier League",
+          "homeTeam": "Coastal Union",
+          "awayTeam": "Mashujaa"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.091Z"
+    },
+    {
+      "matchId": "rostov_rubin_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Rostov",
+      "awayTeam": "Rubin",
+      "homeTeamId": 8705,
+      "awayTeamId": 8683,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8705.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8683.png",
+      "date": "2026-08-15",
+      "time": "22:00",
+      "kickoff": "2026-08-15T22:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "RUS Premier League",
+          "homeTeam": "Rostov",
+          "awayTeam": "Rubin"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.091Z"
+    },
+    {
+      "matchId": "caernarfon_colwyn_bay_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Caernarfon",
+      "awayTeam": "Colwyn Bay",
+      "homeTeamId": 2198,
+      "awayTeamId": 207869,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/2198.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/207869.png",
+      "date": "2026-08-15",
+      "time": "22:45",
+      "kickoff": "2026-08-15T22:45:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "WAL Premier League",
+          "homeTeam": "Caernarfon",
+          "awayTeam": "Colwyn Bay"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.091Z"
+    },
+    {
+      "matchId": "sabah_fk_fc_kapaz_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "Sabah FK",
+      "awayTeam": "FC Kapaz",
+      "homeTeamId": 951893,
+      "awayTeamId": 4150,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/951893.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/4150.png",
+      "date": "2026-08-15",
+      "time": "23:15",
+      "kickoff": "2026-08-15T23:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "AZE Premier League",
+          "homeTeam": "Sabah FK",
+          "awayTeam": "FC Kapaz"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.091Z"
+    },
+    {
+      "matchId": "toulouse_hamburger_sv_20260815",
+      "league": "Club Friendlies",
+      "leagueIcon": null,
+      "homeTeam": "Toulouse",
+      "awayTeam": "Hamburger SV",
+      "homeTeamId": 9941,
+      "awayTeamId": 9790,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9941.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9790.png",
+      "date": "2026-08-15",
+      "time": "23:30",
+      "kickoff": "2026-08-15T23:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Club Friendlies",
+          "homeTeam": "Toulouse",
+          "awayTeam": "Hamburger SV"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.091Z"
+    },
+    {
+      "matchId": "bate_borisov_fk_vitebsk_20260815",
+      "league": "English Premier League (EPL)",
+      "leagueIcon": null,
+      "homeTeam": "BATE Borisov",
+      "awayTeam": "FK Vitebsk",
+      "homeTeamId": 10063,
+      "awayTeamId": 10075,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10063.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10075.png",
+      "date": "2026-08-15",
+      "time": "23:30",
+      "kickoff": "2026-08-15T23:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "BLR Premier League",
+          "homeTeam": "BATE Borisov",
+          "awayTeam": "FK Vitebsk"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-08-13T17:30:33.091Z"
     }
   ],
   "meta": {
@@ -1167,18 +3483,18 @@
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 7,
+      "removedExpired": 0,
       "streamsAdded": 0,
-      "matchesAdded": 0
+      "matchesAdded": 57
     },
     "liveCount": 0,
-    "scheduledCount": 17,
+    "scheduledCount": 72,
     "endedCount": 0,
     "manualStreamCount": 0,
     "highlightCount": 0,
     "channelCount": 18,
-    "checksum": "69bb5160a86ab3d219a9b26c7c5d63aded5229109299bab3e997f5b1a8c5400b",
-    "cachedAt": "2026-08-13T17:15:34.245Z",
+    "checksum": "101edb0a07c34edec10aacf3f45362ca2a25e600c00903e61224ad6789bc58bf",
+    "cachedAt": "2026-08-13T17:30:33.104Z",
     "feed": "matches"
   }
 }
