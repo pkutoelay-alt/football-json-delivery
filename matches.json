@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-16T16:15:08.454+06:30",
+  "generatedAt": "2026-08-16T16:31:33.412+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 21,
   "matches": [
@@ -18,7 +18,7 @@
       "time": "5:00 PM",
       "kickoff": "2026-08-16T17:00:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "fotmobMatchId": 5973785,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
@@ -106,7 +106,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.450Z"
+      "updatedAt": "2026-08-16T10:01:33.407Z"
     },
     {
       "matchId": "bucheon_fc_1995_jeonbuk_hyundai_motors_fc_20260816",
@@ -122,17 +122,17 @@
       "time": "5:00 PM",
       "kickoff": "2026-08-16T17:00:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "fotmobMatchId": 5139997,
       "leagueId": 919356,
       "leagueName": "K League 1 (KOR D1)",
-      "source": "fotmob",
+      "source": "socolive",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "KOR K-League 1",
@@ -148,29 +148,92 @@
         "socolive": "https://socolivepp.tv/truc-tiep/bucheon-1995-vs-jeonbuk-hyundai-luc-1730-ngay-16-08-2026/",
         "cakhia": "https://cakhiazvm.tv/truc-tiep/bucheon-1995-vs-jeonbuk-hyundai-luc-1730-ngay-16-08-2026/"
       },
-      "streams": [],
-      "streamAttempts": {},
+      "streams": [
+        {
+          "source": "socolive",
+          "type": "m3u8",
+          "quality": "Link 1",
+          "name": "Link 1",
+          "url": "https://live2.livefeedtextbox.com/live/channel19.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "active": true,
+          "checkedAt": "2026-08-16T10:01:32.804Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
+        }
+      ],
+      "streamAttempts": {
+        "t30": true
+      },
       "matchUrl": "https://colatv65.live/truc-tiep/bucheon-fc-1995-vs-jeonbuk-hyundai-motors-luc-1730-ngay-16-08-2026-xvkjoi80m11t879/",
       "matchUrlStatus": "MATCH_CONFIRMED",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": "2026-08-16T08:58:17.358Z",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "attempts": 0,
-      "validationStatus": null,
+      "matchUrlAttempts": 1,
+      "lastMatchUrlAttemptAt": "2026-08-16T10:00:26.320Z",
+      "streamUrl": "https://live2.livefeedtextbox.com/live/channel19.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://soco.textliveupdaterz.com/"
+      },
+      "streamStatus": "AVAILABLE",
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
+      "lastAttemptAt": "2026-08-16T10:01:33.337Z",
       "streamSearch": {
-        "started": false,
+        "started": true,
         "stopped": false,
         "stopTime": null,
         "slotsDone": {},
-        "sources": {}
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "Navigation timeout of 25000 ms exceeded",
+            "lastAttemptAt": "2026-08-16T10:01:32.667Z",
+            "updatedAt": "2026-08-16T10:01:32.667Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": null
+          },
+          "colatv": {
+            "status": "SEARCHING",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "Navigation timeout of 25000 ms exceeded",
+            "lastAttemptAt": "2026-08-16T10:01:27.951Z",
+            "updatedAt": "2026-08-16T10:01:27.951Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": null
+          },
+          "socolive": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-08-16T10:01:33.337Z",
+            "updatedAt": "2026-08-16T10:01:33.337Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios"
+          }
+        }
       },
       "matchUrlSearch": {
         "slotsDone": {
-          "tEarly": true
+          "tEarly": true,
+          "t30": true
         },
         "sources": {
           "cakhia": {
@@ -184,12 +247,13 @@
             "confidence": 84
           },
           "xoilac": {
-            "matchUrl": null,
+            "matchUrl": "https://xoilacxtr.tv/truc-tiep/bucheon-1995-vs-jeonbuk-hyundai-luc-1730-ngay-16-08-2026/",
             "status": "MATCH_URL_NOT_FOUND",
-            "attempts": 0,
-            "lastAttemptAt": "2026-08-16T08:58:17.358Z",
+            "attempts": 1,
+            "lastAttemptAt": "2026-08-16T10:00:26.320Z",
             "slotsDone": {
-              "tEarly": true
+              "tEarly": true,
+              "t30": true
             },
             "confidence": 0
           },
@@ -215,7 +279,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.450Z"
+      "updatedAt": "2026-08-16T10:01:33.407Z"
     },
     {
       "matchId": "incheon_united_gimcheon_sangmu_20260816",
@@ -231,7 +295,7 @@
       "time": "5:00 PM",
       "kickoff": "2026-08-16T17:00:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "fotmobMatchId": 5139998,
       "leagueId": 919356,
       "leagueName": "K League 1 (KOR D1)",
@@ -324,7 +388,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.451Z"
+      "updatedAt": "2026-08-16T10:01:33.408Z"
     },
     {
       "matchId": "ulsan_hd_fc_gangwon_fc_20260816",
@@ -340,7 +404,7 @@
       "time": "5:00 PM",
       "kickoff": "2026-08-16T17:00:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "fotmobMatchId": 5139999,
       "leagueId": 919356,
       "leagueName": "K League 1 (KOR D1)",
@@ -428,7 +492,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.451Z"
+      "updatedAt": "2026-08-16T10:01:33.408Z"
     },
     {
       "matchId": "malaysia_vietnam_20260816",
@@ -535,7 +599,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.451Z"
+      "updatedAt": "2026-08-16T10:01:33.408Z"
     },
     {
       "matchId": "nottm_forest_brest_20260816",
@@ -639,7 +703,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.451Z"
+      "updatedAt": "2026-08-16T10:01:33.409Z"
     },
     {
       "matchId": "basel_barcelona_20260816",
@@ -747,7 +811,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.451Z"
+      "updatedAt": "2026-08-16T10:01:33.409Z"
     },
     {
       "matchId": "racing_santander_villarreal_20260816",
@@ -856,7 +920,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.452Z"
+      "updatedAt": "2026-08-16T10:01:33.409Z"
     },
     {
       "matchId": "newcastle_united_strasbourg_20260816",
@@ -963,7 +1027,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.453Z"
+      "updatedAt": "2026-08-16T10:01:33.409Z"
     },
     {
       "matchId": "schalke_04_real_madrid_20260816",
@@ -1072,7 +1136,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.453Z"
+      "updatedAt": "2026-08-16T10:01:33.409Z"
     },
     {
       "matchId": "espanyol_levante_20260816",
@@ -1180,7 +1244,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.453Z"
+      "updatedAt": "2026-08-16T10:01:33.409Z"
     },
     {
       "matchId": "chapecoense_af_bahia_20260816",
@@ -1284,7 +1348,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.453Z"
+      "updatedAt": "2026-08-16T10:01:33.409Z"
     },
     {
       "matchId": "vasco_da_gama_santos_fc_20260817",
@@ -1391,7 +1455,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.453Z"
+      "updatedAt": "2026-08-16T10:01:33.409Z"
     },
     {
       "matchId": "atletico_mg_gremio_20260817",
@@ -1495,7 +1559,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.453Z"
+      "updatedAt": "2026-08-16T10:01:33.409Z"
     },
     {
       "matchId": "mirassol_flamengo_20260817",
@@ -1599,7 +1663,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.454Z"
+      "updatedAt": "2026-08-16T10:01:33.409Z"
     },
     {
       "matchId": "vitoria_botafogo_rj_20260817",
@@ -1703,7 +1767,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.454Z"
+      "updatedAt": "2026-08-16T10:01:33.410Z"
     },
     {
       "matchId": "corinthians_cruzeiro_20260817",
@@ -1807,7 +1871,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.454Z"
+      "updatedAt": "2026-08-16T10:01:33.411Z"
     },
     {
       "matchId": "pyunik_sardarapat_20260816",
@@ -1911,7 +1975,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.454Z"
+      "updatedAt": "2026-08-16T10:01:33.411Z"
     },
     {
       "matchId": "kagera_sugar_simba_sc_20260816",
@@ -2015,7 +2079,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.454Z"
+      "updatedAt": "2026-08-16T10:01:33.412Z"
     },
     {
       "matchId": "jkt_tanzania_tra_united_20260817",
@@ -2119,7 +2183,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.454Z"
+      "updatedAt": "2026-08-16T10:01:33.412Z"
     },
     {
       "matchId": "fc_noah_alashkert_fc_20260817",
@@ -2223,7 +2287,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T09:45:08.454Z"
+      "updatedAt": "2026-08-16T10:01:33.412Z"
     }
   ],
   "meta": {
@@ -2232,24 +2296,22 @@
       "cakhia",
       "xoilac",
       "colatv",
-      "socolive",
-      "highlight",
-      "myanmartv"
+      "socolive"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 7,
-      "streamsAdded": 0,
+      "removedExpired": 0,
+      "streamsAdded": 1,
       "matchesAdded": 0
     },
     "liveCount": 0,
-    "scheduledCount": 21,
+    "scheduledCount": 17,
     "endedCount": 0,
     "manualStreamCount": 0,
     "highlightCount": 12,
     "channelCount": 18,
-    "checksum": "3a206015c8b0f2b662f402fea13179f9c19803dd5c0827ed4400290b9134f301",
-    "cachedAt": "2026-08-16T09:45:08.466Z",
+    "checksum": "c016a1cfa40750085e7a445860270f415c44d4d4cdf7671c66f598530cb31927",
+    "cachedAt": "2026-08-16T10:01:33.436Z",
     "feed": "matches"
   }
 }
