@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-16T20:45:09.347+06:30",
+  "generatedAt": "2026-08-16T21:00:13.238+06:30",
   "timezone": "Asia/Yangon",
-  "matchCount": 18,
+  "matchCount": 14,
   "matches": [
     {
       "matchId": "malaysia_vietnam_20260816",
@@ -144,7 +144,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:15:09.345Z"
+      "updatedAt": "2026-08-16T14:30:13.232Z"
     },
     {
       "matchId": "nottm_forest_brest_20260816",
@@ -258,7 +258,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:15:09.345Z"
+      "updatedAt": "2026-08-16T14:30:13.233Z"
     },
     {
       "matchId": "basel_barcelona_20260816",
@@ -274,7 +274,7 @@
       "time": "9:00 PM",
       "kickoff": "2026-08-16T21:00:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "PREPARING_STREAM",
+      "status": "LIVE",
       "fotmobMatchId": 6000973,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
@@ -435,7 +435,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:15:09.345Z"
+      "updatedAt": "2026-08-16T14:30:13.233Z"
     },
     {
       "matchId": "racing_santander_villarreal_20260816",
@@ -451,17 +451,17 @@
       "time": "9:30 PM",
       "kickoff": "2026-08-16T21:30:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "fotmobMatchId": 5868017,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": "fotmob",
+      "source": "cakhia",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "ESP LaLiga",
@@ -477,26 +477,94 @@
         "socolive": "https://socolivepp.tv/truc-tiep/racing-santander-vs-villarreal-luc-2200-ngay-16-08-2026/",
         "cakhia": "https://cakhiazvm.tv/truc-tiep/racing-santander-vs-villarreal-luc-2200-ngay-16-08-2026/"
       },
-      "streams": [],
-      "streamAttempts": {},
+      "streams": [
+        {
+          "source": "cakhia",
+          "type": "m3u8",
+          "quality": "Link 1",
+          "name": "Link 1",
+          "url": "https://live2.livefeedtextbox.com/live/channel24.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "active": true,
+          "checkedAt": "2026-08-16T14:30:12.811Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
+        }
+      ],
+      "streamAttempts": {
+        "t30": true
+      },
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/racing-santander-vs-villarreal-luc-2200-ngay-16-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 0,
       "lastMatchUrlAttemptAt": "2026-08-16T08:58:17.364Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "attempts": 0,
-      "validationStatus": null,
+      "streamUrl": "https://live2.livefeedtextbox.com/live/channel24.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://soco.textliveupdaterz.com/"
+      },
+      "streamStatus": "AVAILABLE",
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
+      "lastAttemptAt": "2026-08-16T14:30:13.206Z",
       "streamSearch": {
-        "started": false,
+        "started": true,
         "stopped": false,
         "stopTime": null,
         "slotsDone": {},
-        "sources": {}
+        "sources": {
+          "cakhia": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-08-16T14:30:13.206Z",
+            "updatedAt": "2026-08-16T14:30:13.206Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios"
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-16T14:30:09.168Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          },
+          "colatv": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-16T14:30:09.168Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-16T14:30:09.168Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          }
+        }
       },
       "matchUrlSearch": {
         "slotsDone": {
@@ -545,7 +613,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:15:09.345Z"
+      "updatedAt": "2026-08-16T14:30:13.233Z"
     },
     {
       "matchId": "newcastle_united_strasbourg_20260816",
@@ -561,7 +629,7 @@
       "time": "9:30 PM",
       "kickoff": "2026-08-16T21:30:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "fotmobMatchId": 5918243,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
@@ -653,7 +721,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:15:09.345Z"
+      "updatedAt": "2026-08-16T14:30:13.234Z"
     },
     {
       "matchId": "schalke_04_real_madrid_20260816",
@@ -669,7 +737,7 @@
       "time": "9:30 PM",
       "kickoff": "2026-08-16T21:30:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "fotmobMatchId": 5979020,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
@@ -763,7 +831,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:15:09.346Z"
+      "updatedAt": "2026-08-16T14:30:13.234Z"
     },
     {
       "matchId": "espanyol_levante_20260816",
@@ -873,7 +941,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:15:09.346Z"
+      "updatedAt": "2026-08-16T14:30:13.234Z"
     },
     {
       "matchId": "chapecoense_af_bahia_20260816",
@@ -999,7 +1067,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:15:09.346Z"
+      "updatedAt": "2026-08-16T14:30:13.234Z"
     },
     {
       "matchId": "vasco_da_gama_santos_fc_20260817",
@@ -1107,7 +1175,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:15:09.346Z"
+      "updatedAt": "2026-08-16T14:30:13.234Z"
     },
     {
       "matchId": "atletico_mg_gremio_20260817",
@@ -1212,7 +1280,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:15:09.346Z"
+      "updatedAt": "2026-08-16T14:30:13.235Z"
     },
     {
       "matchId": "mirassol_flamengo_20260817",
@@ -1319,7 +1387,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:15:09.346Z"
+      "updatedAt": "2026-08-16T14:30:13.235Z"
     },
     {
       "matchId": "vitoria_botafogo_rj_20260817",
@@ -1424,7 +1492,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:15:09.346Z"
+      "updatedAt": "2026-08-16T14:30:13.235Z"
     },
     {
       "matchId": "corinthians_cruzeiro_20260817",
@@ -1529,7 +1597,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:15:09.346Z"
+      "updatedAt": "2026-08-16T14:30:13.235Z"
     },
     {
       "matchId": "nottingham_forest_brest_20260816",
@@ -1625,441 +1693,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-16T14:15:09.346Z"
-    },
-    {
-      "matchId": "kagera_sugar_simba_sc_20260816",
-      "league": "Tanzanian Premier League",
-      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/9066.png",
-      "homeTeam": "Kagera Sugar",
-      "awayTeam": "Simba SC",
-      "homeTeamId": 165085,
-      "awayTeamId": 165086,
-      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/165085.png",
-      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/165086.png",
-      "date": "2026-08-16",
-      "time": "7:30 PM",
-      "kickoff": "2026-08-16T19:30:00.000+06:30",
-      "timezone": "Asia/Yangon",
-      "status": "END",
-      "fotmobMatchId": 5998278,
-      "leagueId": 9066,
-      "leagueName": "Tanzanian Premier League",
-      "source": "fotmob",
-      "manual": false,
-      "statusLocked": false,
-      "pinned": false,
-      "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "TAN Premier League",
-          "country": "TAN",
-          "leagueId": 9066,
-          "homeTeam": "Kagera Sugar",
-          "awayTeam": "Simba SC"
-        }
-      },
-      "sourcePages": {},
-      "streams": [],
-      "streamAttempts": {
-        "t30": true,
-        "t15": true,
-        "t5": true,
-        "t0": true,
-        "tP5": true,
-        "tP10": true
-      },
-      "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_FAILED",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": "2026-08-16T14:00:11.124Z",
-      "matchUrlSource": null,
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "streamSearch": {
-        "started": true,
-        "stopped": true,
-        "stopTime": "2026-08-16T20:44:44.878+06:30",
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {
-          "tEarly": true
-        },
-        "sources": {
-          "cakhia": {
-            "matchUrl": null,
-            "status": "MATCH_URL_NOT_FOUND",
-            "attempts": 0,
-            "lastAttemptAt": "2026-08-16T14:00:11.124Z",
-            "slotsDone": {
-              "tEarly": true
-            },
-            "confidence": 0
-          },
-          "xoilac": {
-            "matchUrl": null,
-            "status": "MATCH_URL_NOT_FOUND",
-            "attempts": 0,
-            "lastAttemptAt": "2026-08-16T14:00:11.124Z",
-            "slotsDone": {
-              "tEarly": true
-            },
-            "confidence": 0
-          },
-          "colatv": {
-            "matchUrl": null,
-            "status": "MATCH_URL_NOT_FOUND",
-            "attempts": 0,
-            "lastAttemptAt": "2026-08-16T14:00:11.124Z",
-            "slotsDone": {
-              "tEarly": true
-            },
-            "confidence": 0
-          },
-          "socolive": {
-            "matchUrl": null,
-            "status": "MATCH_URL_NOT_FOUND",
-            "attempts": 0,
-            "lastAttemptAt": "2026-08-16T14:00:11.124Z",
-            "slotsDone": {
-              "tEarly": true
-            },
-            "confidence": 0
-          }
-        }
-      },
-      "updatedAt": "2026-08-16T14:15:09.346Z"
-    },
-    {
-      "matchId": "pyunik_sardarapat_20260816",
-      "league": "Armenian Premier League",
-      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/118.png",
-      "homeTeam": "Pyunik",
-      "awayTeam": "Sardarapat",
-      "homeTeamId": 6345,
-      "awayTeamId": 2101520,
-      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/6345.png",
-      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/2101520.png",
-      "date": "2026-08-16",
-      "time": "9:00 PM",
-      "kickoff": "2026-08-16T21:00:00.000+06:30",
-      "timezone": "Asia/Yangon",
-      "status": "PREPARING_STREAM",
-      "fotmobMatchId": 5972942,
-      "leagueId": 118,
-      "leagueName": "Armenian Premier League",
-      "source": "fotmob",
-      "manual": false,
-      "statusLocked": false,
-      "pinned": false,
-      "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ARM Premier League",
-          "country": "ARM",
-          "leagueId": 118,
-          "homeTeam": "Pyunik",
-          "awayTeam": "Sardarapat"
-        }
-      },
-      "sourcePages": {},
-      "streams": [],
-      "streamAttempts": {
-        "t30": true,
-        "t15": true
-      },
-      "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 2,
-      "lastMatchUrlAttemptAt": "2026-08-16T14:14:44.883Z",
-      "matchUrlSource": null,
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "streamSearch": {
-        "started": true,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {
-          "t30": true
-        },
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {
-          "tEarly": true,
-          "t30": true,
-          "t15": true
-        },
-        "sources": {
-          "cakhia": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 2,
-            "lastAttemptAt": "2026-08-16T14:14:44.883Z",
-            "slotsDone": {
-              "t15": true
-            },
-            "confidence": 0
-          },
-          "xoilac": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 2,
-            "lastAttemptAt": "2026-08-16T14:14:44.883Z",
-            "slotsDone": {
-              "t15": true
-            },
-            "confidence": 0
-          },
-          "colatv": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 2,
-            "lastAttemptAt": "2026-08-16T14:14:44.883Z",
-            "slotsDone": {
-              "t15": true
-            },
-            "confidence": 0
-          },
-          "socolive": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 2,
-            "lastAttemptAt": "2026-08-16T14:14:44.883Z",
-            "slotsDone": {
-              "t15": true
-            },
-            "confidence": 0
-          }
-        }
-      },
-      "updatedAt": "2026-08-16T14:15:09.346Z"
-    },
-    {
-      "matchId": "jkt_tanzania_tra_united_20260817",
-      "league": "Tanzanian Premier League",
-      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/9066.png",
-      "homeTeam": "JKT Tanzania",
-      "awayTeam": "TRA United",
-      "homeTeamId": 1045552,
-      "awayTeamId": 1524586,
-      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1045552.png",
-      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1524586.png",
-      "date": "2026-08-17",
-      "time": "12:00 AM",
-      "kickoff": "2026-08-17T00:00:00.000+06:30",
-      "timezone": "Asia/Yangon",
-      "status": "Scheduled",
-      "fotmobMatchId": 5998279,
-      "leagueId": 9066,
-      "leagueName": "Tanzanian Premier League",
-      "source": "fotmob",
-      "manual": false,
-      "statusLocked": false,
-      "pinned": false,
-      "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "TAN Premier League",
-          "country": "TAN",
-          "leagueId": 9066,
-          "homeTeam": "JKT Tanzania",
-          "awayTeam": "TRA United"
-        }
-      },
-      "sourcePages": {},
-      "streams": [],
-      "streamAttempts": {},
-      "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": "2026-08-16T14:15:09.300Z",
-      "matchUrlSource": null,
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {
-          "tEarly": true
-        },
-        "sources": {
-          "cakhia": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 0,
-            "lastAttemptAt": "2026-08-16T14:15:09.300Z",
-            "slotsDone": {
-              "tEarly": true
-            },
-            "confidence": 0
-          },
-          "xoilac": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 0,
-            "lastAttemptAt": "2026-08-16T14:15:09.300Z",
-            "slotsDone": {
-              "tEarly": true
-            },
-            "confidence": 0
-          },
-          "colatv": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 0,
-            "lastAttemptAt": "2026-08-16T14:15:09.300Z",
-            "slotsDone": {
-              "tEarly": true
-            },
-            "confidence": 0
-          },
-          "socolive": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 0,
-            "lastAttemptAt": "2026-08-16T14:15:09.300Z",
-            "slotsDone": {
-              "tEarly": true
-            },
-            "confidence": 0
-          }
-        }
-      },
-      "updatedAt": "2026-08-16T14:15:09.347Z"
-    },
-    {
-      "matchId": "fc_noah_alashkert_fc_20260817",
-      "league": "Armenian Premier League",
-      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/118.png",
-      "homeTeam": "FC Noah",
-      "awayTeam": "Alashkert FC",
-      "homeTeamId": 866111,
-      "awayTeamId": 310094,
-      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/866111.png",
-      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/310094.png",
-      "date": "2026-08-17",
-      "time": "10:30 PM",
-      "kickoff": "2026-08-17T22:30:00.000+06:30",
-      "timezone": "Asia/Yangon",
-      "status": "Scheduled",
-      "fotmobMatchId": 5972941,
-      "leagueId": 118,
-      "leagueName": "Armenian Premier League",
-      "source": "fotmob",
-      "manual": false,
-      "statusLocked": false,
-      "pinned": false,
-      "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ARM Premier League",
-          "country": "ARM",
-          "leagueId": 118,
-          "homeTeam": "FC Noah",
-          "awayTeam": "Alashkert FC"
-        }
-      },
-      "sourcePages": {},
-      "streams": [],
-      "streamAttempts": {},
-      "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": "2026-08-16T14:15:09.307Z",
-      "matchUrlSource": null,
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {
-          "tEarly": true
-        },
-        "sources": {
-          "cakhia": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 0,
-            "lastAttemptAt": "2026-08-16T14:15:09.307Z",
-            "slotsDone": {
-              "tEarly": true
-            },
-            "confidence": 0
-          },
-          "xoilac": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 0,
-            "lastAttemptAt": "2026-08-16T14:15:09.307Z",
-            "slotsDone": {
-              "tEarly": true
-            },
-            "confidence": 0
-          },
-          "colatv": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 0,
-            "lastAttemptAt": "2026-08-16T14:15:09.307Z",
-            "slotsDone": {
-              "tEarly": true
-            },
-            "confidence": 0
-          },
-          "socolive": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 0,
-            "lastAttemptAt": "2026-08-16T14:15:09.307Z",
-            "slotsDone": {
-              "tEarly": true
-            },
-            "confidence": 0
-          }
-        }
-      },
-      "updatedAt": "2026-08-16T14:15:09.347Z"
+      "updatedAt": "2026-08-16T14:30:13.237Z"
     }
   ],
   "meta": {
@@ -2068,24 +1702,22 @@
       "cakhia",
       "xoilac",
       "colatv",
-      "socolive",
-      "highlight",
-      "myanmartv"
+      "socolive"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 11,
-      "streamsAdded": 0,
+      "removedExpired": 4,
+      "streamsAdded": 1,
       "matchesAdded": 0
     },
-    "liveCount": 1,
-    "scheduledCount": 11,
-    "endedCount": 4,
+    "liveCount": 2,
+    "scheduledCount": 6,
+    "endedCount": 3,
     "manualStreamCount": 0,
-    "highlightCount": 12,
+    "highlightCount": 13,
     "channelCount": 18,
-    "checksum": "349a3e555e5be63db50934443fd241126308dbe91a9ba92d30228b1b3f4e8117",
-    "cachedAt": "2026-08-16T14:15:09.360Z",
+    "checksum": "e348f9f06579da7a88cc2d004b49002f04540fcf76226025e12ddedd09c82a9b",
+    "cachedAt": "2026-08-16T14:30:13.254Z",
     "feed": "matches"
   }
 }
