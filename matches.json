@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-16T21:00:46.437+06:30",
+  "generatedAt": "2026-08-16T21:00:50.863+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 14,
   "matches": [
@@ -144,7 +144,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:30:46.433Z"
+      "updatedAt": "2026-08-16T14:30:50.860Z"
     },
     {
       "matchId": "nottm_forest_brest_20260816",
@@ -258,7 +258,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:30:46.434Z"
+      "updatedAt": "2026-08-16T14:30:50.860Z"
     },
     {
       "matchId": "basel_barcelona_20260816",
@@ -435,7 +435,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:30:46.435Z"
+      "updatedAt": "2026-08-16T14:30:50.860Z"
     },
     {
       "matchId": "racing_santander_villarreal_20260816",
@@ -493,9 +493,7 @@
             "Referer": "https://soco.textliveupdaterz.com/"
           },
           "active": true,
-          "checkedAt": "2026-08-16T14:30:12.811Z",
-          "validationStatus": "AVAILABLE",
-          "validationReason": null
+          "checkedAt": "2026-08-16T14:30:12.811Z"
         }
       ],
       "streamAttempts": {
@@ -619,7 +617,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:30:46.435Z"
+      "updatedAt": "2026-08-16T14:30:50.860Z"
     },
     {
       "matchId": "newcastle_united_strasbourg_20260816",
@@ -639,13 +637,13 @@
       "fotmobMatchId": 5918243,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": "fotmob",
+      "source": "cakhia",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "INT Club Friendlies",
@@ -659,30 +657,79 @@
         "socolive": "https://socolivepp.tv/truc-tiep/newcastle-united-vs-strasbourg-luc-2200-ngay-16-08-2026/",
         "cakhia": "https://cakhiazvm.tv/truc-tiep/newcastle-united-vs-strasbourg-luc-2200-ngay-16-08-2026/"
       },
-      "streams": [],
-      "streamAttempts": {},
+      "streams": [
+        {
+          "source": "cakhia",
+          "type": "m3u8",
+          "quality": "Link 1",
+          "name": "Link 1",
+          "url": "https://live2.livefeedtextbox.com/live/channel21.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "active": true,
+          "checkedAt": "2026-08-16T14:30:50.778Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
+        }
+      ],
+      "streamAttempts": {
+        "t30": true
+      },
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/newcastle-united-vs-strasbourg-luc-2200-ngay-16-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": "2026-08-16T14:15:09.298Z",
+      "matchUrlAttempts": 1,
+      "lastMatchUrlAttemptAt": "2026-08-16T14:30:09.168Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "attempts": 0,
-      "validationStatus": null,
+      "streamUrl": "https://live2.livefeedtextbox.com/live/channel21.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://soco.textliveupdaterz.com/"
+      },
+      "streamStatus": "AVAILABLE",
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
+      "lastAttemptAt": "2026-08-16T14:30:50.844Z",
       "streamSearch": {
-        "started": false,
+        "started": true,
         "stopped": false,
         "stopTime": null,
         "slotsDone": {},
-        "sources": {}
+        "sources": {
+          "cakhia": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-08-16T14:30:50.844Z",
+            "updatedAt": "2026-08-16T14:30:50.844Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios"
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-16T14:30:09.169Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          }
+        }
       },
       "matchUrlSearch": {
         "slotsDone": {
-          "tEarly": true
+          "tEarly": true,
+          "t30": true
         },
         "sources": {
           "cakhia": {
@@ -698,20 +745,20 @@
           "xoilac": {
             "matchUrl": null,
             "status": "MATCH_URL_PENDING",
-            "attempts": 0,
-            "lastAttemptAt": "2026-08-16T14:15:09.298Z",
+            "attempts": 1,
+            "lastAttemptAt": "2026-08-16T14:30:09.168Z",
             "slotsDone": {
-              "tEarly": true
+              "t30": true
             },
             "confidence": 0
           },
           "colatv": {
             "matchUrl": null,
             "status": "MATCH_URL_PENDING",
-            "attempts": 0,
-            "lastAttemptAt": "2026-08-16T14:15:09.298Z",
+            "attempts": 1,
+            "lastAttemptAt": "2026-08-16T14:30:09.168Z",
             "slotsDone": {
-              "tEarly": true
+              "t30": true
             },
             "confidence": 0
           },
@@ -727,7 +774,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:30:46.435Z"
+      "updatedAt": "2026-08-16T14:30:50.861Z"
     },
     {
       "matchId": "schalke_04_real_madrid_20260816",
@@ -837,7 +884,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:30:46.435Z"
+      "updatedAt": "2026-08-16T14:30:50.862Z"
     },
     {
       "matchId": "espanyol_levante_20260816",
@@ -947,7 +994,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:30:46.435Z"
+      "updatedAt": "2026-08-16T14:30:50.862Z"
     },
     {
       "matchId": "chapecoense_af_bahia_20260816",
@@ -1073,7 +1120,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:30:46.436Z"
+      "updatedAt": "2026-08-16T14:30:50.862Z"
     },
     {
       "matchId": "vasco_da_gama_santos_fc_20260817",
@@ -1181,7 +1228,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:30:46.436Z"
+      "updatedAt": "2026-08-16T14:30:50.862Z"
     },
     {
       "matchId": "atletico_mg_gremio_20260817",
@@ -1286,7 +1333,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:30:46.436Z"
+      "updatedAt": "2026-08-16T14:30:50.862Z"
     },
     {
       "matchId": "mirassol_flamengo_20260817",
@@ -1393,7 +1440,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:30:46.436Z"
+      "updatedAt": "2026-08-16T14:30:50.863Z"
     },
     {
       "matchId": "vitoria_botafogo_rj_20260817",
@@ -1498,7 +1545,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:30:46.436Z"
+      "updatedAt": "2026-08-16T14:30:50.863Z"
     },
     {
       "matchId": "corinthians_cruzeiro_20260817",
@@ -1603,7 +1650,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T14:30:46.436Z"
+      "updatedAt": "2026-08-16T14:30:50.863Z"
     },
     {
       "matchId": "nottingham_forest_brest_20260816",
@@ -1699,7 +1746,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-16T14:30:46.437Z"
+      "updatedAt": "2026-08-16T14:30:50.863Z"
     }
   ],
   "meta": {
@@ -1713,7 +1760,7 @@
     "adminApplied": true,
     "sync": {
       "removedExpired": 0,
-      "streamsAdded": 0,
+      "streamsAdded": 1,
       "matchesAdded": 0
     },
     "liveCount": 2,
@@ -1722,8 +1769,8 @@
     "manualStreamCount": 0,
     "highlightCount": 13,
     "channelCount": 18,
-    "checksum": "a0d5c92d1b2efb19a576663e00048a1b9a2028bb2e0621fac6860d5aef87ad48",
-    "cachedAt": "2026-08-16T14:30:46.449Z",
+    "checksum": "80d030a925bc83a69bf6f1b8349ef7567ade88cedaf697fa4e3f9180071ed8a8",
+    "cachedAt": "2026-08-16T14:30:50.872Z",
     "feed": "matches"
   }
 }
