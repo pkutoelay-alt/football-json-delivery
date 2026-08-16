@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-16T16:31:33.412+06:30",
+  "generatedAt": "2026-08-16T16:32:34.109+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 21,
   "matches": [
@@ -106,7 +106,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.407Z"
+      "updatedAt": "2026-08-16T10:02:34.106Z"
     },
     {
       "matchId": "bucheon_fc_1995_jeonbuk_hyundai_motors_fc_20260816",
@@ -164,9 +164,7 @@
             "Referer": "https://soco.textliveupdaterz.com/"
           },
           "active": true,
-          "checkedAt": "2026-08-16T10:01:32.804Z",
-          "validationStatus": "AVAILABLE",
-          "validationReason": null
+          "checkedAt": "2026-08-16T10:01:32.804Z"
         }
       ],
       "streamAttempts": {
@@ -279,7 +277,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.407Z"
+      "updatedAt": "2026-08-16T10:02:34.106Z"
     },
     {
       "matchId": "incheon_united_gimcheon_sangmu_20260816",
@@ -299,13 +297,13 @@
       "fotmobMatchId": 5139998,
       "leagueId": 919356,
       "leagueName": "K League 1 (KOR D1)",
-      "source": "fotmob",
+      "source": "socolive",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "KOR K-League 1",
@@ -321,29 +319,90 @@
         "socolive": "https://socolivepp.tv/truc-tiep/incheon-united-vs-gimcheon-sangmu-luc-1730-ngay-16-08-2026/",
         "cakhia": "https://cakhiazvm.tv/truc-tiep/incheon-united-vs-gimcheon-sangmu-luc-1730-ngay-16-08-2026/"
       },
-      "streams": [],
-      "streamAttempts": {},
+      "streams": [
+        {
+          "source": "socolive",
+          "type": "m3u8",
+          "quality": "Link 1",
+          "name": "Link 1",
+          "url": "https://live2.livefeedtextbox.com/live/channel11.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "active": true,
+          "checkedAt": "2026-08-16T10:02:33.375Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
+        }
+      ],
+      "streamAttempts": {
+        "t30": true
+      },
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/incheon-united-vs-gimcheon-sangmu-luc-1730-ngay-16-08-2026/",
       "matchUrlStatus": "MATCH_CONFIRMED",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": "2026-08-16T08:58:17.359Z",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "attempts": 0,
-      "validationStatus": null,
+      "matchUrlAttempts": 1,
+      "lastMatchUrlAttemptAt": "2026-08-16T10:00:26.321Z",
+      "streamUrl": "https://live2.livefeedtextbox.com/live/channel11.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://soco.textliveupdaterz.com/"
+      },
+      "streamStatus": "AVAILABLE",
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
+      "lastAttemptAt": "2026-08-16T10:02:34.033Z",
       "streamSearch": {
-        "started": false,
+        "started": true,
         "stopped": false,
         "stopTime": null,
         "slotsDone": {},
-        "sources": {}
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "Navigation timeout of 25000 ms exceeded",
+            "lastAttemptAt": "2026-08-16T10:02:28.564Z",
+            "updatedAt": "2026-08-16T10:02:28.564Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": null
+          },
+          "colatv": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-16T10:00:26.321Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          },
+          "socolive": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-08-16T10:02:34.033Z",
+            "updatedAt": "2026-08-16T10:02:34.033Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios"
+          }
+        }
       },
       "matchUrlSearch": {
         "slotsDone": {
-          "tEarly": true
+          "tEarly": true,
+          "t30": true
         },
         "sources": {
           "cakhia": {
@@ -357,12 +416,13 @@
             "confidence": 100
           },
           "xoilac": {
-            "matchUrl": null,
+            "matchUrl": "https://xoilacxtr.tv/truc-tiep/incheon-united-vs-gimcheon-sangmu-luc-1730-ngay-16-08-2026/",
             "status": "MATCH_URL_NOT_FOUND",
-            "attempts": 0,
-            "lastAttemptAt": "2026-08-16T08:58:17.359Z",
+            "attempts": 1,
+            "lastAttemptAt": "2026-08-16T10:00:26.321Z",
             "slotsDone": {
-              "tEarly": true
+              "tEarly": true,
+              "t30": true
             },
             "confidence": 0
           },
@@ -388,7 +448,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.408Z"
+      "updatedAt": "2026-08-16T10:02:34.106Z"
     },
     {
       "matchId": "ulsan_hd_fc_gangwon_fc_20260816",
@@ -492,7 +552,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.408Z"
+      "updatedAt": "2026-08-16T10:02:34.106Z"
     },
     {
       "matchId": "malaysia_vietnam_20260816",
@@ -599,7 +659,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.408Z"
+      "updatedAt": "2026-08-16T10:02:34.106Z"
     },
     {
       "matchId": "nottm_forest_brest_20260816",
@@ -703,7 +763,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.409Z"
+      "updatedAt": "2026-08-16T10:02:34.107Z"
     },
     {
       "matchId": "basel_barcelona_20260816",
@@ -811,7 +871,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.409Z"
+      "updatedAt": "2026-08-16T10:02:34.107Z"
     },
     {
       "matchId": "racing_santander_villarreal_20260816",
@@ -920,7 +980,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.409Z"
+      "updatedAt": "2026-08-16T10:02:34.107Z"
     },
     {
       "matchId": "newcastle_united_strasbourg_20260816",
@@ -1027,7 +1087,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.409Z"
+      "updatedAt": "2026-08-16T10:02:34.107Z"
     },
     {
       "matchId": "schalke_04_real_madrid_20260816",
@@ -1136,7 +1196,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.409Z"
+      "updatedAt": "2026-08-16T10:02:34.107Z"
     },
     {
       "matchId": "espanyol_levante_20260816",
@@ -1244,7 +1304,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.409Z"
+      "updatedAt": "2026-08-16T10:02:34.108Z"
     },
     {
       "matchId": "chapecoense_af_bahia_20260816",
@@ -1348,7 +1408,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.409Z"
+      "updatedAt": "2026-08-16T10:02:34.108Z"
     },
     {
       "matchId": "vasco_da_gama_santos_fc_20260817",
@@ -1455,7 +1515,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.409Z"
+      "updatedAt": "2026-08-16T10:02:34.108Z"
     },
     {
       "matchId": "atletico_mg_gremio_20260817",
@@ -1559,7 +1619,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.409Z"
+      "updatedAt": "2026-08-16T10:02:34.108Z"
     },
     {
       "matchId": "mirassol_flamengo_20260817",
@@ -1663,7 +1723,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.409Z"
+      "updatedAt": "2026-08-16T10:02:34.108Z"
     },
     {
       "matchId": "vitoria_botafogo_rj_20260817",
@@ -1767,7 +1827,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.410Z"
+      "updatedAt": "2026-08-16T10:02:34.108Z"
     },
     {
       "matchId": "corinthians_cruzeiro_20260817",
@@ -1871,7 +1931,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.411Z"
+      "updatedAt": "2026-08-16T10:02:34.108Z"
     },
     {
       "matchId": "pyunik_sardarapat_20260816",
@@ -1975,7 +2035,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.411Z"
+      "updatedAt": "2026-08-16T10:02:34.108Z"
     },
     {
       "matchId": "kagera_sugar_simba_sc_20260816",
@@ -2079,7 +2139,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.412Z"
+      "updatedAt": "2026-08-16T10:02:34.108Z"
     },
     {
       "matchId": "jkt_tanzania_tra_united_20260817",
@@ -2183,7 +2243,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.412Z"
+      "updatedAt": "2026-08-16T10:02:34.108Z"
     },
     {
       "matchId": "fc_noah_alashkert_fc_20260817",
@@ -2287,7 +2347,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-16T10:01:33.412Z"
+      "updatedAt": "2026-08-16T10:02:34.109Z"
     }
   ],
   "meta": {
@@ -2310,8 +2370,8 @@
     "manualStreamCount": 0,
     "highlightCount": 12,
     "channelCount": 18,
-    "checksum": "c016a1cfa40750085e7a445860270f415c44d4d4cdf7671c66f598530cb31927",
-    "cachedAt": "2026-08-16T10:01:33.436Z",
+    "checksum": "80741c7104de0f9e779bc888bc5affc6535d08bc2d7499f5268e16c0851295df",
+    "cachedAt": "2026-08-16T10:02:34.144Z",
     "feed": "matches"
   }
 }
