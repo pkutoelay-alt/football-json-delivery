@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-18T19:45:00.766+06:30",
+  "generatedAt": "2026-08-18T19:45:03.242+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 7,
   "matches": [
@@ -44,7 +44,9 @@
         "t30": true,
         "t15": true,
         "t5": true,
-        "t0": true
+        "t0": true,
+        "tP5": true,
+        "tP10": true
       },
       "matchUrl": null,
       "matchUrlStatus": "MATCH_URL_FAILED",
@@ -53,15 +55,15 @@
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
-      "streamStatus": "SEARCHING",
+      "streamStatus": "FAILED",
       "attempts": 0,
-      "validationStatus": "VALIDATING",
-      "validationReason": null,
+      "validationStatus": "FAILED",
+      "validationReason": "FAILED",
       "lastAttemptAt": null,
       "streamSearch": {
         "started": true,
-        "stopped": false,
-        "stopTime": null,
+        "stopped": true,
+        "stopTime": "2026-08-18T19:45:03.219+06:30",
         "slotsDone": {},
         "sources": {}
       },
@@ -122,7 +124,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-18T13:15:00.764Z"
+      "updatedAt": "2026-08-18T13:15:03.241Z"
     },
     {
       "matchId": "fc_heidenheim_bayern_munich_20260818",
@@ -184,7 +186,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-18T13:15:00.765Z"
+      "updatedAt": "2026-08-18T13:15:03.241Z"
     },
     {
       "matchId": "dinamo_zagreb_viking_20260819",
@@ -246,7 +248,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-18T13:15:00.765Z"
+      "updatedAt": "2026-08-18T13:15:03.241Z"
     },
     {
       "matchId": "fenerbahce_lyon_20260819",
@@ -308,7 +310,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-18T13:15:00.765Z"
+      "updatedAt": "2026-08-18T13:15:03.242Z"
     },
     {
       "matchId": "levski_sofia_aek_athens_20260819",
@@ -370,7 +372,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-18T13:15:00.765Z"
+      "updatedAt": "2026-08-18T13:15:03.242Z"
     },
     {
       "matchId": "chelsea_u18_norwich_u18_20260819",
@@ -432,7 +434,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-18T13:15:00.765Z"
+      "updatedAt": "2026-08-18T13:15:03.242Z"
     },
     {
       "matchId": "vietnam_malaysia_20260819",
@@ -494,15 +496,22 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-18T13:15:00.765Z"
+      "updatedAt": "2026-08-18T13:15:03.242Z"
     }
   ],
   "meta": {
-    "configOrigin": "expire",
-    "sources": [],
+    "configOrigin": "local+github",
+    "sources": [
+      "cakhia",
+      "xoilac",
+      "colatv",
+      "socolive",
+      "highlight",
+      "myanmartv"
+    ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 0,
+      "removedExpired": 2,
       "streamsAdded": 0,
       "matchesAdded": 0
     },
@@ -512,8 +521,8 @@
     "manualStreamCount": 0,
     "highlightCount": 22,
     "channelCount": 18,
-    "checksum": "8dc7955c6c26afc09e768912ce32b48bdbe52f69189ac8abeec5d4f5714d4348",
-    "cachedAt": "2026-08-18T13:15:00.771Z",
+    "checksum": "83fc1c72f6544edde3f3836b782991e1a5df0b19d06f4a3e7256ae6113eb1007",
+    "cachedAt": "2026-08-18T13:15:03.248Z",
     "feed": "matches"
   }
 }
