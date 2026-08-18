@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-18T22:00:59.068+06:30",
+  "generatedAt": "2026-08-18T22:01:04.727+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 1,
   "matches": [
@@ -22,13 +22,13 @@
       "fotmobMatchId": 6000509,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": "fotmob",
+      "source": "cakhia",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "INT Club Friendlies",
@@ -36,32 +36,86 @@
           "leagueId": 915708,
           "homeTeam": "FC Heidenheim",
           "awayTeam": "Bayern München"
+        },
+        "cakhia": {
+          "league": "Club Friendlies",
+          "homeTeam": "Heidenheim",
+          "awayTeam": "Bayern Munich",
+          "url": "https://cakhiazvm.tv/truc-tiep/heidenheim-vs-bayern-munich-luc-2300-ngay-18-08-2026/"
         }
       },
       "sourcePages": {
         "cakhia": "https://cakhiazvm.tv/truc-tiep/heidenheim-vs-bayern-munich-luc-2300-ngay-18-08-2026/",
         "socolive": "https://socolivepp.tv/truc-tiep/heidenheim-vs-bayern-munich-luc-2300-ngay-18-08-2026/"
       },
-      "streams": [],
-      "streamAttempts": {},
+      "streams": [
+        {
+          "source": "cakhia",
+          "type": "m3u8",
+          "quality": "Link 1",
+          "name": "Cakhia · Link 1",
+          "url": "https://live2.livefeedtextbox.com/live/channel16.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "active": true,
+          "checkedAt": "2026-08-18T15:31:04.365Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
+        }
+      ],
+      "streamAttempts": {
+        "t30": true
+      },
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/heidenheim-vs-bayern-munich-luc-2300-ngay-18-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
       "lastMatchUrlAttemptAt": "2026-08-18T15:30:59.044Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "attempts": 0,
-      "validationStatus": null,
+      "streamUrl": "https://live2.livefeedtextbox.com/live/channel16.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://soco.textliveupdaterz.com/"
+      },
+      "streamStatus": "AVAILABLE",
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
+      "lastAttemptAt": "2026-08-18T15:31:04.722Z",
       "streamSearch": {
-        "started": false,
+        "started": true,
         "stopped": false,
         "stopTime": null,
         "slotsDone": {},
-        "sources": {}
+        "sources": {
+          "cakhia": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-08-18T15:31:04.722Z",
+            "updatedAt": "2026-08-18T15:31:04.722Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios"
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-18T15:31:01.289Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          }
+        }
       },
       "matchUrlSearch": {
         "slotsDone": {
@@ -103,7 +157,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-18T15:30:59.068Z"
+      "updatedAt": "2026-08-18T15:31:04.727Z"
     }
   ],
   "meta": {
@@ -117,7 +171,7 @@
     "adminApplied": true,
     "sync": {
       "removedExpired": 0,
-      "streamsAdded": 0,
+      "streamsAdded": 1,
       "matchesAdded": 0
     },
     "liveCount": 0,
@@ -126,8 +180,8 @@
     "manualStreamCount": 0,
     "highlightCount": 23,
     "channelCount": 18,
-    "checksum": "f61c85ff1f052f62122bb60420220022d33b430c4666156030c9293124909477",
-    "cachedAt": "2026-08-18T15:30:59.074Z",
+    "checksum": "76aa0f1f89698cab1ada14b6049c767e3ffa0930ad062a8603dba3b1fba36141",
+    "cachedAt": "2026-08-18T15:31:04.732Z",
     "feed": "matches"
   }
 }
