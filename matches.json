@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-18T22:30:00.734+06:30",
+  "generatedAt": "2026-08-18T22:30:08.252+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 5,
   "matches": [
@@ -92,12 +92,14 @@
       ],
       "streamAttempts": {
         "t30": true,
-        "t15": true
+        "t15": true,
+        "t5": true,
+        "t0": true
       },
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/heidenheim-vs-bayern-munich-luc-2300-ngay-18-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 2,
-      "lastMatchUrlAttemptAt": "2026-08-18T15:42:09.748Z",
+      "lastMatchUrlAttemptAt": "2026-08-18T16:00:04.927Z",
       "matchUrlSource": "cakhia",
       "streamUrl": "https://live2.livefeedtextbox.com/live/channel16.m3u8",
       "streamHeaders": {
@@ -108,7 +110,7 @@
       "attempts": 3,
       "validationStatus": null,
       "validationReason": null,
-      "lastAttemptAt": "2026-08-18T15:45:06.866Z",
+      "lastAttemptAt": "2026-08-18T16:00:08.241Z",
       "streamSearch": {
         "started": true,
         "stopped": false,
@@ -119,12 +121,12 @@
         },
         "sources": {
           "cakhia": {
-            "status": "AVAILABLE",
+            "status": "SEARCHING",
             "attempts": 3,
             "postKickoffAttempts": 0,
             "lastError": null,
             "lastAttemptAt": "2026-08-18T15:45:06.866Z",
-            "updatedAt": "2026-08-18T15:45:06.866Z",
+            "updatedAt": "2026-08-18T16:00:04.930Z",
             "slotsDone": {
               "t30": true,
               "t15": true
@@ -133,14 +135,15 @@
           },
           "socolive": {
             "status": "AVAILABLE",
-            "attempts": 3,
-            "postKickoffAttempts": 0,
+            "attempts": 4,
+            "postKickoffAttempts": 1,
             "lastError": null,
-            "lastAttemptAt": "2026-08-18T15:45:04.901Z",
-            "updatedAt": "2026-08-18T15:45:04.901Z",
+            "lastAttemptAt": "2026-08-18T16:00:08.241Z",
+            "updatedAt": "2026-08-18T16:00:08.241Z",
             "slotsDone": {
               "t30": true,
-              "t15": true
+              "t15": true,
+              "t0": true
             },
             "extractionMethod": "axios"
           }
@@ -148,7 +151,8 @@
       },
       "matchUrlSearch": {
         "slotsDone": {
-          "t30": true
+          "t30": true,
+          "tLive": true
         },
         "sources": {
           "cakhia": {
@@ -164,12 +168,13 @@
           },
           "colatv": {
             "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
+            "status": "MATCH_URL_SEARCHING",
             "attempts": 2,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-08-18T15:42:09.748Z",
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-08-18T16:00:04.927Z",
             "slotsDone": {
-              "t30": true
+              "t30": true,
+              "tLive": true
             },
             "confidence": 0
           },
@@ -186,18 +191,19 @@
           },
           "xoilac": {
             "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
+            "status": "MATCH_URL_SEARCHING",
             "attempts": 1,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-08-18T15:42:09.748Z",
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-08-18T16:00:04.927Z",
             "slotsDone": {
-              "t30": true
+              "t30": true,
+              "tLive": true
             },
             "confidence": 0
           }
         }
       },
-      "updatedAt": "2026-08-18T16:00:00.733Z"
+      "updatedAt": "2026-08-18T16:00:08.251Z"
     },
     {
       "matchId": "dinamo_zagreb_viking_20260819",
@@ -259,7 +265,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-18T16:00:00.733Z"
+      "updatedAt": "2026-08-18T16:00:08.252Z"
     },
     {
       "matchId": "fenerbahce_olympique_lyonnais_20260819",
@@ -321,7 +327,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-18T16:00:00.734Z"
+      "updatedAt": "2026-08-18T16:00:08.252Z"
     },
     {
       "matchId": "levski_sofia_aek_athens_20260819",
@@ -383,7 +389,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-18T16:00:00.734Z"
+      "updatedAt": "2026-08-18T16:00:08.252Z"
     },
     {
       "matchId": "vietnam_malaysia_20260819",
@@ -445,12 +451,17 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-18T16:00:00.734Z"
+      "updatedAt": "2026-08-18T16:00:08.252Z"
     }
   ],
   "meta": {
-    "configOrigin": "expire",
-    "sources": [],
+    "configOrigin": "local+github",
+    "sources": [
+      "cakhia",
+      "xoilac",
+      "colatv",
+      "socolive"
+    ],
     "adminApplied": true,
     "sync": {
       "removedExpired": 0,
@@ -463,8 +474,8 @@
     "manualStreamCount": 0,
     "highlightCount": 23,
     "channelCount": 18,
-    "checksum": "3eed3c866a1c646432aef59575d77f29c706e856277beb4b850d747d6ea8668a",
-    "cachedAt": "2026-08-18T16:00:00.744Z",
+    "checksum": "1e8b3b7b2de6d48fa2c87f23ece93e986f9a361d1c361af12c97119ca613af55",
+    "cachedAt": "2026-08-18T16:00:08.265Z",
     "feed": "matches"
   }
 }
