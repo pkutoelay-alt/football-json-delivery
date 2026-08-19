@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-20T01:30:01.440+06:30",
+  "generatedAt": "2026-08-20T01:32:42.379+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 19,
   "matches": [
@@ -209,7 +209,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-19T19:00:01.422Z"
+      "updatedAt": "2026-08-19T19:02:42.372Z"
     },
     {
       "matchId": "atletico_madrid_malaga_20260820",
@@ -388,7 +388,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-19T19:00:01.422Z"
+      "updatedAt": "2026-08-19T19:02:42.376Z"
     },
     {
       "matchId": "celtic_lask_20260820",
@@ -501,7 +501,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-19T19:00:01.422Z"
+      "updatedAt": "2026-08-19T19:02:42.376Z"
     },
     {
       "matchId": "hapoel_beer_sheva_sabah_fk_20260820",
@@ -521,13 +521,13 @@
       "fotmobMatchId": 5987802,
       "leagueId": 937348,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": "socolive",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "INT Champions League Qualification",
@@ -542,31 +542,95 @@
         "colatv": "https://colatv65.live/truc-tiep/hapoel-beer-sheva-vs-sabah-fc-luc-0200-ngay-20-08-2026-63kv9igy2omtx7e/",
         "socolive": "https://socolivepp.tv/truc-tiep/hapoel-beer-sheva-vs-sabah-fk-luc-0200-ngay-20-08-2026/"
       },
-      "streams": [],
-      "streamAttempts": {},
+      "streams": [
+        {
+          "source": "socolive",
+          "type": "m3u8",
+          "quality": "Link 1",
+          "name": "Socolive · Link 1",
+          "url": "https://live2.livefeedtextbox.com/live/channel15.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "active": true,
+          "checkedAt": "2026-08-19T19:02:41.405Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
+        }
+      ],
+      "streamAttempts": {
+        "t30": true,
+        "t15": true,
+        "t5": true,
+        "t0": true
+      },
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/hapoel-beer-sheva-vs-sabah-fk-luc-0200-ngay-20-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
-      "matchUrlAttempts": 1,
-      "lastMatchUrlAttemptAt": "2026-08-19T18:28:59.680Z",
+      "matchUrlAttempts": 2,
+      "lastMatchUrlAttemptAt": "2026-08-19T18:58:27.243Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "attempts": 0,
-      "validationStatus": null,
+      "streamUrl": "https://live2.livefeedtextbox.com/live/channel15.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://soco.textliveupdaterz.com/"
+      },
+      "streamStatus": "AVAILABLE",
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
+      "lastAttemptAt": "2026-08-19T19:02:42.088Z",
       "streamSearch": {
-        "started": false,
+        "started": true,
         "stopped": false,
         "stopTime": null,
         "slotsDone": {},
-        "sources": {}
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "TIMEOUT",
+            "lastAttemptAt": "2026-08-19T19:02:33.855Z",
+            "updatedAt": "2026-08-19T19:02:33.855Z",
+            "slotsDone": {
+              "t5": true
+            },
+            "extractionMethod": null
+          },
+          "colatv": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-19T18:58:27.246Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          },
+          "socolive": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-08-19T19:02:42.088Z",
+            "updatedAt": "2026-08-19T19:02:42.088Z",
+            "slotsDone": {
+              "t5": true
+            },
+            "extractionMethod": "axios"
+          }
+        }
       },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
-          "t45": true
+          "t45": true,
+          "t30": true
         },
         "sources": {
           "cakhia": {
@@ -605,17 +669,18 @@
           "xoilac": {
             "matchUrl": null,
             "status": "MATCH_URL_PENDING",
-            "attempts": 1,
+            "attempts": 2,
             "liveAttempts": 0,
-            "lastAttemptAt": "2026-08-19T18:28:59.680Z",
+            "lastAttemptAt": "2026-08-19T18:58:27.243Z",
             "slotsDone": {
-              "t45": true
+              "t45": true,
+              "t30": true
             },
             "confidence": 0
           }
         }
       },
-      "updatedAt": "2026-08-19T19:00:01.432Z"
+      "updatedAt": "2026-08-19T19:02:42.376Z"
     },
     {
       "matchId": "nec_nijmegen_bod_glimt_20260820",
@@ -728,7 +793,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-19T19:00:01.432Z"
+      "updatedAt": "2026-08-19T19:02:42.376Z"
     },
     {
       "matchId": "slovan_bratislava_nk_celje_20260820",
@@ -841,7 +906,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-19T19:00:01.433Z"
+      "updatedAt": "2026-08-19T19:02:42.376Z"
     },
     {
       "matchId": "kairat_almaty_anderlecht_20260820",
@@ -903,7 +968,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-19T19:00:01.433Z"
+      "updatedAt": "2026-08-19T19:02:42.377Z"
     },
     {
       "matchId": "jagiellonia_bia_ystok_iberia_1999_20260820",
@@ -965,7 +1030,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-19T19:00:01.433Z"
+      "updatedAt": "2026-08-19T19:02:42.377Z"
     },
     {
       "matchId": "mjallby_salzburg_20260820",
@@ -1027,7 +1092,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-19T19:00:01.433Z"
+      "updatedAt": "2026-08-19T19:02:42.377Z"
     },
     {
       "matchId": "besiktas_fk_kauno_zalgiris_20260820",
@@ -1089,7 +1154,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-19T19:00:01.434Z"
+      "updatedAt": "2026-08-19T19:02:42.377Z"
     },
     {
       "matchId": "egnatia_lillestr_m_20260820",
@@ -1151,7 +1216,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-19T19:00:01.434Z"
+      "updatedAt": "2026-08-19T19:02:42.377Z"
     },
     {
       "matchId": "lech_poznan_thun_20260820",
@@ -1213,7 +1278,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-19T19:00:01.434Z"
+      "updatedAt": "2026-08-19T19:02:42.377Z"
     },
     {
       "matchId": "trabzonspor_ferencvaros_20260820",
@@ -1275,7 +1340,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-19T19:00:01.434Z"
+      "updatedAt": "2026-08-19T19:02:42.377Z"
     },
     {
       "matchId": "universitatea_craiova_ararat_armenia_20260820",
@@ -1337,7 +1402,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-19T19:00:01.434Z"
+      "updatedAt": "2026-08-19T19:02:42.377Z"
     },
     {
       "matchId": "fk_crvena_zvezda_viktoria_plzen_20260821",
@@ -1399,7 +1464,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-19T19:00:01.435Z"
+      "updatedAt": "2026-08-19T19:02:42.377Z"
     },
     {
       "matchId": "ofi_crete_cska_sofia_20260821",
@@ -1461,7 +1526,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-19T19:00:01.435Z"
+      "updatedAt": "2026-08-19T19:02:42.377Z"
     },
     {
       "matchId": "st_truiden_omonia_nicosia_20260821",
@@ -1523,7 +1588,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-19T19:00:01.435Z"
+      "updatedAt": "2026-08-19T19:02:42.378Z"
     },
     {
       "matchId": "rayo_vallecano_alaves_20260821",
@@ -1585,7 +1650,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-19T19:00:01.435Z"
+      "updatedAt": "2026-08-19T19:02:42.379Z"
     },
     {
       "matchId": "benfica_agf_20260821",
@@ -1647,16 +1712,21 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-19T19:00:01.440Z"
+      "updatedAt": "2026-08-19T19:02:42.379Z"
     }
   ],
   "meta": {
-    "configOrigin": "expire",
-    "sources": [],
+    "configOrigin": "local+github",
+    "sources": [
+      "cakhia",
+      "xoilac",
+      "colatv",
+      "socolive"
+    ],
     "adminApplied": true,
     "sync": {
       "removedExpired": 0,
-      "streamsAdded": 0,
+      "streamsAdded": 1,
       "matchesAdded": 0
     },
     "liveCount": 6,
@@ -1665,8 +1735,8 @@
     "manualStreamCount": 0,
     "highlightCount": 18,
     "channelCount": 18,
-    "checksum": "936f91a718b816ff4491df713ad971b44e7bd1806e3989704c0f4b72323452cc",
-    "cachedAt": "2026-08-19T19:00:01.581Z",
+    "checksum": "a13e4cbf42c69f5428a5eae1c5716f4dff10ee1baf040fea6ee5d0a890038471",
+    "cachedAt": "2026-08-19T19:02:42.510Z",
     "feed": "matches"
   }
 }
