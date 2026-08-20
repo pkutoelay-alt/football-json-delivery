@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-21T00:25:53.866+06:30",
+  "generatedAt": "2026-08-21T00:25:59.959+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 2,
   "matches": [
@@ -22,13 +22,13 @@
       "fotmobMatchId": 5987958,
       "leagueId": 937349,
       "leagueName": "UEFA Europa League Qualification",
-      "source": "fotmob",
+      "source": "cakhia",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "INT Europa League Qualification",
@@ -36,6 +36,12 @@
           "leagueId": 937349,
           "homeTeam": "FK Crvena Zvezda",
           "awayTeam": "Viktoria Plzen"
+        },
+        "cakhia": {
+          "league": "UEFA Europa League Qualification",
+          "homeTeam": "Crvena Zvezda",
+          "awayTeam": "Viktoria Plzen",
+          "url": "https://cakhiazvm.tv/truc-tiep/crvena-zvezda-vs-viktoria-plzen-luc-0100-ngay-21-08-2026/"
         }
       },
       "sourcePages": {
@@ -43,20 +49,87 @@
         "mitomtm": "https://mitomtm.cc/truc-tiep/crvena-zvezda-vs-viktoria-plzen-luc-0100-ngay-21-08-2026/",
         "socolive": "https://socolivepp.tv/truc-tiep/crvena-zvezda-vs-viktoria-plzen-luc-0100-ngay-21-08-2026/"
       },
-      "streams": [],
-      "streamAttempts": {},
+      "streams": [
+        {
+          "source": "cakhia",
+          "type": "m3u8",
+          "quality": "ZANE",
+          "name": "Cakhia · ZANE",
+          "url": "https://live2.livefeedtextbox.com/live/channel22.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "active": true,
+          "checkedAt": "2026-08-20T17:55:59.525Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
+        }
+      ],
+      "streamAttempts": {
+        "t30": true,
+        "t15": true,
+        "t5": true
+      },
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/crvena-zvezda-vs-viktoria-plzen-luc-0100-ngay-21-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
       "lastMatchUrlAttemptAt": "2026-08-20T17:55:51.804Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "attempts": 0,
-      "validationStatus": null,
+      "streamUrl": "https://live2.livefeedtextbox.com/live/channel22.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://soco.textliveupdaterz.com/"
+      },
+      "streamStatus": "AVAILABLE",
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
+      "lastAttemptAt": "2026-08-20T17:55:59.953Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {
+          "cakhia": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-08-20T17:55:59.953Z",
+            "updatedAt": "2026-08-20T17:55:59.953Z",
+            "slotsDone": {
+              "t5": true
+            },
+            "extractionMethod": "axios"
+          },
+          "mitomtm": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-20T17:55:53.860Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-20T17:55:53.860Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t30": true
@@ -108,7 +181,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-20T17:55:53.865Z"
+      "updatedAt": "2026-08-20T17:55:59.958Z"
     },
     {
       "matchId": "ofi_crete_cska_sofia_20260821",
@@ -214,7 +287,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-20T17:55:53.866Z"
+      "updatedAt": "2026-08-20T17:55:59.958Z"
     }
   ],
   "meta": {
@@ -228,8 +301,8 @@
     "adminApplied": true,
     "sync": {
       "removedExpired": 0,
-      "streamsAdded": 0,
-      "matchesAdded": 1
+      "streamsAdded": 1,
+      "matchesAdded": 0
     },
     "liveCount": 0,
     "scheduledCount": 0,
@@ -237,8 +310,8 @@
     "manualStreamCount": 0,
     "highlightCount": 8,
     "channelCount": 18,
-    "checksum": "04cc05eee1f1cff5ca7babf6783e29f8441f97d9e179889dd7cb324fc2cf50ce",
-    "cachedAt": "2026-08-20T17:55:53.870Z",
+    "checksum": "2f4feb1c46bc3721958abd1e39d9359b3a9249e1f46a016273d80a86eae036e9",
+    "cachedAt": "2026-08-20T17:55:59.966Z",
     "feed": "matches"
   }
 }
