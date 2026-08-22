@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-23T01:45:00.960+06:30",
+  "generatedAt": "2026-08-23T01:56:15.781+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 33,
   "matches": [
@@ -107,7 +107,7 @@
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/valencia-cf-vs-rc-celta-luc-0030-ngay-23-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
-      "lastMatchUrlAttemptAt": "2026-08-22T16:45:05.487Z",
+      "lastMatchUrlAttemptAt": "2026-08-22T19:15:05.148Z",
       "matchUrlSource": "cakhia",
       "streamUrl": "https://live2.livefeedtextbox.com/live/channel19.m3u8",
       "streamHeaders": {
@@ -171,7 +171,8 @@
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
-          "t45": true
+          "t45": true,
+          "tLive": true
         },
         "sources": {
           "cakhia": {
@@ -209,18 +210,19 @@
           },
           "xoilac": {
             "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
+            "status": "MATCH_URL_SEARCHING",
             "attempts": 1,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-08-22T16:45:05.487Z",
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-08-22T19:15:05.148Z",
             "slotsDone": {
-              "t45": true
+              "t45": true,
+              "tLive": true
             },
             "confidence": 0
           }
         }
       },
-      "updatedAt": "2026-08-22T19:15:00.946Z"
+      "updatedAt": "2026-08-22T19:26:15.766Z"
     },
     {
       "matchId": "le_mans_brest_20260823",
@@ -325,18 +327,15 @@
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/le-mans-vs-brest-luc-0145-ngay-23-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
-      "lastMatchUrlAttemptAt": "2026-08-22T17:45:43.737Z",
+      "lastMatchUrlAttemptAt": "2026-08-22T19:15:05.150Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": "https://live2.livefeedtextbox.com/live/channel20.m3u8",
-      "streamHeaders": {
-        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-        "Referer": "https://soco.textliveupdaterz.com/"
-      },
-      "streamStatus": "AVAILABLE",
-      "attempts": 2,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": "2026-08-22T19:00:46.658Z",
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "FAILED",
+      "attempts": 3,
+      "validationStatus": "NOT_FOUND",
+      "validationReason": "NOT_FOUND",
+      "lastAttemptAt": "2026-08-22T19:17:10.614Z",
       "streamSearch": {
         "started": true,
         "stopped": true,
@@ -348,12 +347,12 @@
         },
         "sources": {
           "cakhia": {
-            "status": "AVAILABLE",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-08-22T19:00:41.476Z",
-            "updatedAt": "2026-08-22T19:00:41.476Z",
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-08-22T19:16:34.046Z",
+            "updatedAt": "2026-08-22T19:16:34.046Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -363,12 +362,12 @@
             "extractionMethod": "axios"
           },
           "mitomtm": {
-            "status": "AVAILABLE",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-08-22T19:00:43.936Z",
-            "updatedAt": "2026-08-22T19:00:43.936Z",
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-08-22T19:16:08.808Z",
+            "updatedAt": "2026-08-22T19:16:08.808Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -378,12 +377,12 @@
             "extractionMethod": "axios"
           },
           "socolive": {
-            "status": "AVAILABLE",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-08-22T19:00:46.658Z",
-            "updatedAt": "2026-08-22T19:00:46.658Z",
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-08-22T19:17:10.614Z",
+            "updatedAt": "2026-08-22T19:17:10.614Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -396,7 +395,8 @@
       },
       "matchUrlSearch": {
         "slotsDone": {
-          "t60": true
+          "t60": true,
+          "tLive": true
         },
         "sources": {
           "cakhia": {
@@ -431,10 +431,21 @@
               "t60": true
             },
             "confidence": 100
+          },
+          "xoilac": {
+            "matchUrl": null,
+            "status": "MATCH_URL_SEARCHING",
+            "attempts": 0,
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-08-22T19:15:05.150Z",
+            "slotsDone": {
+              "tLive": true
+            },
+            "confidence": 0
           }
         }
       },
-      "updatedAt": "2026-08-22T19:15:00.949Z"
+      "updatedAt": "2026-08-22T19:26:15.766Z"
     },
     {
       "matchId": "nice_lorient_20260823",
@@ -539,18 +550,15 @@
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/ogc-nice-vs-lorient-luc-0145-ngay-23-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
-      "lastMatchUrlAttemptAt": "2026-08-22T17:45:46.067Z",
+      "lastMatchUrlAttemptAt": "2026-08-22T19:15:05.151Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": "https://live2.livefeedtextbox.com/live/channel22.m3u8",
-      "streamHeaders": {
-        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-        "Referer": "https://soco.textliveupdaterz.com/"
-      },
-      "streamStatus": "AVAILABLE",
-      "attempts": 2,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": "2026-08-22T19:00:54.916Z",
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "FAILED",
+      "attempts": 3,
+      "validationStatus": "NOT_FOUND",
+      "validationReason": "NOT_FOUND",
+      "lastAttemptAt": "2026-08-22T19:19:04.799Z",
       "streamSearch": {
         "started": true,
         "stopped": true,
@@ -562,12 +570,12 @@
         },
         "sources": {
           "cakhia": {
-            "status": "AVAILABLE",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-08-22T19:00:49.725Z",
-            "updatedAt": "2026-08-22T19:00:49.725Z",
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-08-22T19:18:02.672Z",
+            "updatedAt": "2026-08-22T19:18:02.672Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -577,12 +585,12 @@
             "extractionMethod": "axios"
           },
           "mitomtm": {
-            "status": "AVAILABLE",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-08-22T19:00:52.371Z",
-            "updatedAt": "2026-08-22T19:00:52.371Z",
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-08-22T19:18:13.002Z",
+            "updatedAt": "2026-08-22T19:18:13.002Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -592,12 +600,12 @@
             "extractionMethod": "axios"
           },
           "socolive": {
-            "status": "AVAILABLE",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-08-22T19:00:54.916Z",
-            "updatedAt": "2026-08-22T19:00:54.916Z",
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-08-22T19:19:04.799Z",
+            "updatedAt": "2026-08-22T19:19:04.799Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -610,7 +618,8 @@
       },
       "matchUrlSearch": {
         "slotsDone": {
-          "t60": true
+          "t60": true,
+          "tLive": true
         },
         "sources": {
           "cakhia": {
@@ -645,10 +654,21 @@
               "t60": true
             },
             "confidence": 100
+          },
+          "xoilac": {
+            "matchUrl": null,
+            "status": "MATCH_URL_SEARCHING",
+            "attempts": 0,
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-08-22T19:15:05.151Z",
+            "slotsDone": {
+              "tLive": true
+            },
+            "confidence": 0
           }
         }
       },
-      "updatedAt": "2026-08-22T19:15:00.949Z"
+      "updatedAt": "2026-08-22T19:26:15.767Z"
     },
     {
       "matchId": "toulouse_olympique_lyonnais_20260823",
@@ -753,18 +773,15 @@
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/toulouse-fc-vs-lyon-luc-0145-ngay-23-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
-      "lastMatchUrlAttemptAt": "2026-08-22T17:45:48.303Z",
+      "lastMatchUrlAttemptAt": "2026-08-22T19:15:05.152Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": "https://live2.livefeedtextbox.com/live/channel14.m3u8",
-      "streamHeaders": {
-        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-        "Referer": "https://soco.textliveupdaterz.com/"
-      },
-      "streamStatus": "AVAILABLE",
-      "attempts": 2,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": "2026-08-22T19:01:04.434Z",
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "FAILED",
+      "attempts": 3,
+      "validationStatus": "NOT_FOUND",
+      "validationReason": "NOT_FOUND",
+      "lastAttemptAt": "2026-08-22T19:20:42.777Z",
       "streamSearch": {
         "started": true,
         "stopped": true,
@@ -776,12 +793,12 @@
         },
         "sources": {
           "cakhia": {
-            "status": "AVAILABLE",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-08-22T19:00:58.214Z",
-            "updatedAt": "2026-08-22T19:00:58.214Z",
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-08-22T19:19:41.085Z",
+            "updatedAt": "2026-08-22T19:19:41.085Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -791,12 +808,12 @@
             "extractionMethod": "axios"
           },
           "mitomtm": {
-            "status": "AVAILABLE",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-08-22T19:01:01.282Z",
-            "updatedAt": "2026-08-22T19:01:01.282Z",
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-08-22T19:20:07.262Z",
+            "updatedAt": "2026-08-22T19:20:07.262Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -806,12 +823,12 @@
             "extractionMethod": "axios"
           },
           "socolive": {
-            "status": "AVAILABLE",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-08-22T19:01:04.434Z",
-            "updatedAt": "2026-08-22T19:01:04.434Z",
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-08-22T19:20:42.777Z",
+            "updatedAt": "2026-08-22T19:20:42.777Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -824,7 +841,8 @@
       },
       "matchUrlSearch": {
         "slotsDone": {
-          "t60": true
+          "t60": true,
+          "tLive": true
         },
         "sources": {
           "cakhia": {
@@ -859,10 +877,21 @@
               "t60": true
             },
             "confidence": 100
+          },
+          "xoilac": {
+            "matchUrl": null,
+            "status": "MATCH_URL_SEARCHING",
+            "attempts": 0,
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-08-22T19:15:05.152Z",
+            "slotsDone": {
+              "tLive": true
+            },
+            "confidence": 0
           }
         }
       },
-      "updatedAt": "2026-08-22T19:15:00.949Z"
+      "updatedAt": "2026-08-22T19:26:15.767Z"
     },
     {
       "matchId": "troyes_paris_fc_20260823",
@@ -967,18 +996,15 @@
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/troyes-vs-paris-fc-luc-0145-ngay-23-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
-      "lastMatchUrlAttemptAt": "2026-08-22T17:45:50.510Z",
+      "lastMatchUrlAttemptAt": "2026-08-22T19:15:05.153Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": "https://live2.livefeedtextbox.com/live/channel21.m3u8",
-      "streamHeaders": {
-        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-        "Referer": "https://soco.textliveupdaterz.com/"
-      },
-      "streamStatus": "AVAILABLE",
-      "attempts": 2,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": "2026-08-22T19:01:12.185Z",
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "FAILED",
+      "attempts": 3,
+      "validationStatus": "NOT_FOUND",
+      "validationReason": "NOT_FOUND",
+      "lastAttemptAt": "2026-08-22T19:22:41.679Z",
       "streamSearch": {
         "started": true,
         "stopped": true,
@@ -990,12 +1016,12 @@
         },
         "sources": {
           "cakhia": {
-            "status": "AVAILABLE",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-08-22T19:01:05.843Z",
-            "updatedAt": "2026-08-22T19:01:05.843Z",
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-08-22T19:21:38.192Z",
+            "updatedAt": "2026-08-22T19:21:38.192Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -1005,12 +1031,12 @@
             "extractionMethod": "axios"
           },
           "mitomtm": {
-            "status": "AVAILABLE",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-08-22T19:01:12.185Z",
-            "updatedAt": "2026-08-22T19:01:12.185Z",
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-08-22T19:21:47.657Z",
+            "updatedAt": "2026-08-22T19:21:47.657Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -1020,12 +1046,12 @@
             "extractionMethod": "axios"
           },
           "socolive": {
-            "status": "AVAILABLE",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-08-22T19:01:09.607Z",
-            "updatedAt": "2026-08-22T19:01:09.607Z",
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-08-22T19:22:41.679Z",
+            "updatedAt": "2026-08-22T19:22:41.679Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -1038,7 +1064,8 @@
       },
       "matchUrlSearch": {
         "slotsDone": {
-          "t60": true
+          "t60": true,
+          "tLive": true
         },
         "sources": {
           "cakhia": {
@@ -1073,10 +1100,21 @@
               "t60": true
             },
             "confidence": 100
+          },
+          "xoilac": {
+            "matchUrl": null,
+            "status": "MATCH_URL_SEARCHING",
+            "attempts": 0,
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-08-22T19:15:05.153Z",
+            "slotsDone": {
+              "tLive": true
+            },
+            "confidence": 0
           }
         }
       },
-      "updatedAt": "2026-08-22T19:15:00.950Z"
+      "updatedAt": "2026-08-22T19:26:15.767Z"
     },
     {
       "matchId": "genoa_napoli_20260823",
@@ -1181,18 +1219,15 @@
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/genoa-vs-napoli-luc-0145-ngay-23-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
-      "lastMatchUrlAttemptAt": "2026-08-22T17:45:52.698Z",
+      "lastMatchUrlAttemptAt": "2026-08-22T19:15:05.154Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": "https://live2.livefeedtextbox.com/live/channel15.m3u8",
-      "streamHeaders": {
-        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-        "Referer": "https://soco.textliveupdaterz.com/"
-      },
-      "streamStatus": "AVAILABLE",
-      "attempts": 2,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": "2026-08-22T19:01:24.481Z",
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "FAILED",
+      "attempts": 3,
+      "validationStatus": "NOT_FOUND",
+      "validationReason": "NOT_FOUND",
+      "lastAttemptAt": "2026-08-22T19:24:19.228Z",
       "streamSearch": {
         "started": true,
         "stopped": true,
@@ -1204,12 +1239,12 @@
         },
         "sources": {
           "cakhia": {
-            "status": "AVAILABLE",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-08-22T19:01:21.303Z",
-            "updatedAt": "2026-08-22T19:01:21.303Z",
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-08-22T19:23:16.578Z",
+            "updatedAt": "2026-08-22T19:23:16.578Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -1219,12 +1254,12 @@
             "extractionMethod": "axios"
           },
           "mitomtm": {
-            "status": "AVAILABLE",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-08-22T19:01:17.926Z",
-            "updatedAt": "2026-08-22T19:01:17.926Z",
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-08-22T19:23:44.316Z",
+            "updatedAt": "2026-08-22T19:23:44.316Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -1234,12 +1269,12 @@
             "extractionMethod": "axios"
           },
           "socolive": {
-            "status": "AVAILABLE",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-08-22T19:01:24.481Z",
-            "updatedAt": "2026-08-22T19:01:24.481Z",
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-08-22T19:24:19.228Z",
+            "updatedAt": "2026-08-22T19:24:19.228Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -1252,7 +1287,8 @@
       },
       "matchUrlSearch": {
         "slotsDone": {
-          "t60": true
+          "t60": true,
+          "tLive": true
         },
         "sources": {
           "cakhia": {
@@ -1287,10 +1323,21 @@
               "t60": true
             },
             "confidence": 100
+          },
+          "xoilac": {
+            "matchUrl": null,
+            "status": "MATCH_URL_SEARCHING",
+            "attempts": 0,
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-08-22T19:15:05.154Z",
+            "slotsDone": {
+              "tLive": true
+            },
+            "confidence": 0
           }
         }
       },
-      "updatedAt": "2026-08-22T19:15:00.952Z"
+      "updatedAt": "2026-08-22T19:26:15.767Z"
     },
     {
       "matchId": "parma_cagliari_20260823",
@@ -1395,18 +1442,15 @@
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/parma-vs-cagliari-luc-0145-ngay-23-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
-      "lastMatchUrlAttemptAt": "2026-08-22T17:45:55.645Z",
+      "lastMatchUrlAttemptAt": "2026-08-22T19:15:05.155Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": "https://live2.livefeedtextbox.com/live/channel24.m3u8",
-      "streamHeaders": {
-        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-        "Referer": "https://soco.textliveupdaterz.com/"
-      },
-      "streamStatus": "AVAILABLE",
-      "attempts": 2,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": "2026-08-22T19:01:32.285Z",
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "FAILED",
+      "attempts": 3,
+      "validationStatus": "NOT_FOUND",
+      "validationReason": "NOT_FOUND",
+      "lastAttemptAt": "2026-08-22T19:26:15.655Z",
       "streamSearch": {
         "started": true,
         "stopped": true,
@@ -1418,12 +1462,12 @@
         },
         "sources": {
           "cakhia": {
-            "status": "AVAILABLE",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-08-22T19:01:25.434Z",
-            "updatedAt": "2026-08-22T19:01:25.434Z",
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-08-22T19:25:13.402Z",
+            "updatedAt": "2026-08-22T19:25:13.402Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -1433,12 +1477,12 @@
             "extractionMethod": "axios"
           },
           "mitomtm": {
-            "status": "AVAILABLE",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-08-22T19:01:32.285Z",
-            "updatedAt": "2026-08-22T19:01:32.285Z",
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-08-22T19:25:21.645Z",
+            "updatedAt": "2026-08-22T19:25:21.645Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -1448,12 +1492,12 @@
             "extractionMethod": "axios"
           },
           "socolive": {
-            "status": "AVAILABLE",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-08-22T19:01:29.345Z",
-            "updatedAt": "2026-08-22T19:01:29.345Z",
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-08-22T19:26:15.655Z",
+            "updatedAt": "2026-08-22T19:26:15.655Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -1466,7 +1510,8 @@
       },
       "matchUrlSearch": {
         "slotsDone": {
-          "t60": true
+          "t60": true,
+          "tLive": true
         },
         "sources": {
           "cakhia": {
@@ -1501,10 +1546,21 @@
               "t60": true
             },
             "confidence": 100
+          },
+          "xoilac": {
+            "matchUrl": null,
+            "status": "MATCH_URL_SEARCHING",
+            "attempts": 0,
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-08-22T19:15:05.155Z",
+            "slotsDone": {
+              "tLive": true
+            },
+            "confidence": 0
           }
         }
       },
-      "updatedAt": "2026-08-22T19:15:00.952Z"
+      "updatedAt": "2026-08-22T19:26:15.768Z"
     },
     {
       "matchId": "fluminense_remo_20260823",
@@ -1546,24 +1602,26 @@
         "t30": true,
         "t15": true,
         "t5": true,
-        "t0": true
+        "t0": true,
+        "tP5": true,
+        "tP10": true
       },
       "matchUrl": null,
       "matchUrlStatus": "MATCH_URL_SEARCHING",
       "matchUrlAttempts": 3,
-      "lastMatchUrlAttemptAt": "2026-08-22T19:00:38.335Z",
+      "lastMatchUrlAttemptAt": "2026-08-22T19:15:05.158Z",
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
-      "streamStatus": "SEARCHING",
+      "streamStatus": "FAILED",
       "attempts": 0,
-      "validationStatus": "VALIDATING",
-      "validationReason": null,
+      "validationStatus": "FAILED",
+      "validationReason": "FAILED",
       "lastAttemptAt": null,
       "streamSearch": {
         "started": true,
-        "stopped": false,
-        "stopTime": null,
+        "stopped": true,
+        "stopTime": "2026-08-23T01:45:05.159+06:30",
         "slotsDone": {},
         "sources": {}
       },
@@ -1579,8 +1637,8 @@
             "matchUrl": null,
             "status": "MATCH_URL_SEARCHING",
             "attempts": 3,
-            "liveAttempts": 1,
-            "lastAttemptAt": "2026-08-22T19:00:38.335Z",
+            "liveAttempts": 2,
+            "lastAttemptAt": "2026-08-22T19:15:05.158Z",
             "slotsDone": {
               "t60": true,
               "t45": true,
@@ -1593,8 +1651,8 @@
             "matchUrl": null,
             "status": "MATCH_URL_SEARCHING",
             "attempts": 3,
-            "liveAttempts": 1,
-            "lastAttemptAt": "2026-08-22T19:00:38.335Z",
+            "liveAttempts": 2,
+            "lastAttemptAt": "2026-08-22T19:15:05.158Z",
             "slotsDone": {
               "t60": true,
               "t45": true,
@@ -1607,8 +1665,8 @@
             "matchUrl": null,
             "status": "MATCH_URL_SEARCHING",
             "attempts": 3,
-            "liveAttempts": 1,
-            "lastAttemptAt": "2026-08-22T19:00:38.335Z",
+            "liveAttempts": 2,
+            "lastAttemptAt": "2026-08-22T19:15:05.158Z",
             "slotsDone": {
               "t60": true,
               "t45": true,
@@ -1616,10 +1674,21 @@
               "tLive": true
             },
             "confidence": 0
+          },
+          "xoilac": {
+            "matchUrl": null,
+            "status": "MATCH_URL_SEARCHING",
+            "attempts": 0,
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-08-22T19:15:05.158Z",
+            "slotsDone": {
+              "tLive": true
+            },
+            "confidence": 0
           }
         }
       },
-      "updatedAt": "2026-08-22T19:15:00.952Z"
+      "updatedAt": "2026-08-22T19:26:15.768Z"
     },
     {
       "matchId": "espanyol_real_madrid_20260823",
@@ -1658,12 +1727,14 @@
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {
-        "t30": true
+        "t30": true,
+        "t15": true,
+        "t5": true
       },
       "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_SEARCHING",
+      "matchUrlStatus": "MATCH_URL_PENDING",
       "matchUrlAttempts": 3,
-      "lastMatchUrlAttemptAt": "2026-08-22T19:00:38.337Z",
+      "lastMatchUrlAttemptAt": "2026-08-22T19:15:05.159Z",
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -1691,7 +1762,7 @@
             "status": "MATCH_URL_FAILED",
             "attempts": 3,
             "liveAttempts": 0,
-            "lastAttemptAt": "2026-08-22T19:00:38.337Z",
+            "lastAttemptAt": "2026-08-22T19:15:05.159Z",
             "slotsDone": {
               "t60": true,
               "t45": true,
@@ -1704,7 +1775,7 @@
             "status": "MATCH_URL_FAILED",
             "attempts": 3,
             "liveAttempts": 0,
-            "lastAttemptAt": "2026-08-22T19:00:38.337Z",
+            "lastAttemptAt": "2026-08-22T19:15:05.159Z",
             "slotsDone": {
               "t60": true,
               "t45": true,
@@ -1717,17 +1788,28 @@
             "status": "MATCH_URL_FAILED",
             "attempts": 3,
             "liveAttempts": 0,
-            "lastAttemptAt": "2026-08-22T19:00:38.337Z",
+            "lastAttemptAt": "2026-08-22T19:15:05.159Z",
             "slotsDone": {
               "t60": true,
               "t45": true,
               "t30": true
             },
             "confidence": 0
+          },
+          "xoilac": {
+            "matchUrl": null,
+            "status": "MATCH_URL_PENDING",
+            "attempts": 1,
+            "liveAttempts": 0,
+            "lastAttemptAt": "2026-08-22T19:15:05.159Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "confidence": 0
           }
         }
       },
-      "updatedAt": "2026-08-22T19:15:00.952Z"
+      "updatedAt": "2026-08-22T19:26:15.768Z"
     },
     {
       "matchId": "internacional_atletico_mg_20260823",
@@ -1789,7 +1871,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.953Z"
+      "updatedAt": "2026-08-22T19:26:15.768Z"
     },
     {
       "matchId": "cruzeiro_flamengo_20260823",
@@ -1851,7 +1933,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.953Z"
+      "updatedAt": "2026-08-22T19:26:15.768Z"
     },
     {
       "matchId": "daejeon_hana_citizen_gangwon_fc_20260823",
@@ -1913,7 +1995,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.953Z"
+      "updatedAt": "2026-08-22T19:26:15.771Z"
     },
     {
       "matchId": "gwangju_fc_incheon_united_20260823",
@@ -1975,7 +2057,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.953Z"
+      "updatedAt": "2026-08-22T19:26:15.771Z"
     },
     {
       "matchId": "angers_lille_20260823",
@@ -2037,7 +2119,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.955Z"
+      "updatedAt": "2026-08-22T19:26:15.771Z"
     },
     {
       "matchId": "brighton_and_hove_albion_aston_villa_20260823",
@@ -2099,7 +2181,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.955Z"
+      "updatedAt": "2026-08-22T19:26:15.771Z"
     },
     {
       "matchId": "manchester_city_bournemouth_20260823",
@@ -2161,7 +2243,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.956Z"
+      "updatedAt": "2026-08-22T19:26:15.772Z"
     },
     {
       "matchId": "atletico_madrid_villarreal_20260823",
@@ -2223,7 +2305,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.956Z"
+      "updatedAt": "2026-08-22T19:26:15.772Z"
     },
     {
       "matchId": "le_havre_as_monaco_20260823",
@@ -2285,7 +2367,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.956Z"
+      "updatedAt": "2026-08-22T19:26:15.772Z"
     },
     {
       "matchId": "newcastle_united_liverpool_20260823",
@@ -2347,7 +2429,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.956Z"
+      "updatedAt": "2026-08-22T19:26:15.772Z"
     },
     {
       "matchId": "frosinone_juventus_20260823",
@@ -2409,7 +2491,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.956Z"
+      "updatedAt": "2026-08-22T19:26:15.772Z"
     },
     {
       "matchId": "venezia_lecce_20260823",
@@ -2471,7 +2553,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.957Z"
+      "updatedAt": "2026-08-22T19:26:15.776Z"
     },
     {
       "matchId": "getafe_racing_santander_20260824",
@@ -2533,7 +2615,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.957Z"
+      "updatedAt": "2026-08-22T19:26:15.776Z"
     },
     {
       "matchId": "rennes_paris_saint_germain_20260824",
@@ -2595,7 +2677,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.957Z"
+      "updatedAt": "2026-08-22T19:26:15.776Z"
     },
     {
       "matchId": "atalanta_sassuolo_20260824",
@@ -2657,7 +2739,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.957Z"
+      "updatedAt": "2026-08-22T19:26:15.776Z"
     },
     {
       "matchId": "torino_ac_milan_20260824",
@@ -2719,7 +2801,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.957Z"
+      "updatedAt": "2026-08-22T19:26:15.778Z"
     },
     {
       "matchId": "palmeiras_vasco_da_gama_20260824",
@@ -2781,7 +2863,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.958Z"
+      "updatedAt": "2026-08-22T19:26:15.779Z"
     },
     {
       "matchId": "bragantino_gremio_20260824",
@@ -2843,7 +2925,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.958Z"
+      "updatedAt": "2026-08-22T19:26:15.779Z"
     },
     {
       "matchId": "vitoria_bahia_20260824",
@@ -2905,7 +2987,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.958Z"
+      "updatedAt": "2026-08-22T19:26:15.779Z"
     },
     {
       "matchId": "elche_barcelona_20260824",
@@ -2967,7 +3049,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.958Z"
+      "updatedAt": "2026-08-22T19:26:15.779Z"
     },
     {
       "matchId": "santos_mirassol_20260824",
@@ -3029,7 +3111,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.959Z"
+      "updatedAt": "2026-08-22T19:26:15.779Z"
     },
     {
       "matchId": "chapecoense_af_sao_paulo_20260824",
@@ -3091,7 +3173,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.959Z"
+      "updatedAt": "2026-08-22T19:26:15.781Z"
     },
     {
       "matchId": "coritiba_corinthians_20260824",
@@ -3153,7 +3235,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.959Z"
+      "updatedAt": "2026-08-22T19:26:15.781Z"
     },
     {
       "matchId": "bologna_lazio_20260824",
@@ -3215,17 +3297,24 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-22T19:15:00.960Z"
+      "updatedAt": "2026-08-22T19:26:15.781Z"
     }
   ],
   "meta": {
-    "configOrigin": "expire",
-    "sources": [],
+    "configOrigin": "local+github",
+    "sources": [
+      "cakhia",
+      "xoilac",
+      "mitomtm",
+      "socolive",
+      "highlight",
+      "myanmartv"
+    ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 0,
+      "removedExpired": 2,
       "streamsAdded": 0,
-      "matchesAdded": 0
+      "matchesAdded": 2
     },
     "liveCount": 7,
     "scheduledCount": 24,
@@ -3233,8 +3322,8 @@
     "manualStreamCount": 0,
     "highlightCount": 7,
     "channelCount": 18,
-    "checksum": "23b1950e87d06a911de57f61c454335512c083fd7e593015777851123ef7792e",
-    "cachedAt": "2026-08-22T19:15:00.985Z",
+    "checksum": "77e722e39ed4293994a7b1291fb4e6108f2b9bb79782b3d47289fedcafeb855c",
+    "cachedAt": "2026-08-22T19:26:15.802Z",
     "feed": "matches"
   }
 }
