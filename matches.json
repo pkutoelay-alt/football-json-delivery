@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-24T00:45:21.900+06:30",
+  "generatedAt": "2026-08-24T00:45:43.442+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 23,
   "matches": [
@@ -260,7 +260,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T18:15:21.895Z"
+      "updatedAt": "2026-08-23T18:15:43.440Z"
     },
     {
       "matchId": "venezia_lecce_20260823",
@@ -518,7 +518,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T18:15:21.895Z"
+      "updatedAt": "2026-08-23T18:15:43.440Z"
     },
     {
       "matchId": "getafe_racing_santander_20260824",
@@ -771,7 +771,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T18:15:21.895Z"
+      "updatedAt": "2026-08-23T18:15:43.440Z"
     },
     {
       "matchId": "rennes_paris_saint_germain_20260824",
@@ -885,7 +885,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T18:15:21.895Z"
+      "updatedAt": "2026-08-23T18:15:43.440Z"
     },
     {
       "matchId": "atalanta_sassuolo_20260824",
@@ -905,13 +905,13 @@
       "fotmobMatchId": 5749641,
       "leagueId": 55,
       "leagueName": "Serie A",
-      "source": "fotmob",
+      "source": "xoilac",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "ITA Serie A",
@@ -927,26 +927,94 @@
         "mitomtm": "https://mitomtn.cc/truc-tiep/atalanta-vs-sassuolo-luc-0145-ngay-24-08-2026/",
         "socolive": "https://socoliveuu.tv/truc-tiep/atalanta-vs-sassuolo-luc-0145-ngay-24-08-2026/"
       },
-      "streams": [],
-      "streamAttempts": {},
+      "streams": [
+        {
+          "source": "xoilac",
+          "type": "m3u8",
+          "quality": "MAX",
+          "name": "Xoilac · MAX",
+          "url": "https://live2.edgeburstcdn.com/live/channel6.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "active": true,
+          "checkedAt": "2026-08-23T18:15:43.331Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
+        }
+      ],
+      "streamAttempts": {
+        "t30": true
+      },
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/atalanta-vs-sassuolo-luc-0145-ngay-24-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
       "lastMatchUrlAttemptAt": "2026-08-23T17:45:52.257Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "attempts": 0,
-      "validationStatus": null,
+      "streamUrl": "https://live2.edgeburstcdn.com/live/channel6.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://soco.textliveupdaterz.com/"
+      },
+      "streamStatus": "AVAILABLE",
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
+      "lastAttemptAt": "2026-08-23T18:15:43.414Z",
       "streamSearch": {
-        "started": false,
+        "started": true,
         "stopped": false,
         "stopTime": null,
         "slotsDone": {},
-        "sources": {}
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-23T18:15:09.870Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          },
+          "xoilac": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-08-23T18:15:43.414Z",
+            "updatedAt": "2026-08-23T18:15:43.414Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios"
+          },
+          "mitomtm": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-23T18:15:09.870Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-23T18:15:09.870Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          }
+        }
       },
       "matchUrlSearch": {
         "slotsDone": {
@@ -999,7 +1067,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T18:15:21.895Z"
+      "updatedAt": "2026-08-23T18:15:43.440Z"
     },
     {
       "matchId": "torino_ac_milan_20260824",
@@ -1113,7 +1181,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T18:15:21.896Z"
+      "updatedAt": "2026-08-23T18:15:43.440Z"
     },
     {
       "matchId": "palmeiras_vasco_da_gama_20260824",
@@ -1227,7 +1295,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T18:15:21.896Z"
+      "updatedAt": "2026-08-23T18:15:43.440Z"
     },
     {
       "matchId": "bragantino_gremio_20260824",
@@ -1336,7 +1404,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T18:15:21.897Z"
+      "updatedAt": "2026-08-23T18:15:43.441Z"
     },
     {
       "matchId": "vitoria_bahia_20260824",
@@ -1445,7 +1513,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T18:15:21.898Z"
+      "updatedAt": "2026-08-23T18:15:43.441Z"
     },
     {
       "matchId": "elche_barcelona_20260824",
@@ -1507,7 +1575,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T18:15:21.898Z"
+      "updatedAt": "2026-08-23T18:15:43.441Z"
     },
     {
       "matchId": "santos_mirassol_20260824",
@@ -1569,7 +1637,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T18:15:21.898Z"
+      "updatedAt": "2026-08-23T18:15:43.441Z"
     },
     {
       "matchId": "chapecoense_af_sao_paulo_20260824",
@@ -1631,7 +1699,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T18:15:21.898Z"
+      "updatedAt": "2026-08-23T18:15:43.441Z"
     },
     {
       "matchId": "coritiba_corinthians_20260824",
@@ -1693,7 +1761,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T18:15:21.898Z"
+      "updatedAt": "2026-08-23T18:15:43.441Z"
     },
     {
       "matchId": "bologna_lazio_20260824",
@@ -1755,7 +1823,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T18:15:21.898Z"
+      "updatedAt": "2026-08-23T18:15:43.441Z"
     },
     {
       "matchId": "osasuna_levante_20260825",
@@ -1817,7 +1885,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T18:15:21.898Z"
+      "updatedAt": "2026-08-23T18:15:43.441Z"
     },
     {
       "matchId": "as_roma_fiorentina_20260825",
@@ -1879,7 +1947,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T18:15:21.899Z"
+      "updatedAt": "2026-08-23T18:15:43.441Z"
     },
     {
       "matchId": "fulham_chelsea_20260825",
@@ -1941,7 +2009,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T18:15:21.899Z"
+      "updatedAt": "2026-08-23T18:15:43.441Z"
     },
     {
       "matchId": "malaga_deportivo_a_coruna_20260825",
@@ -2003,7 +2071,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T18:15:21.899Z"
+      "updatedAt": "2026-08-23T18:15:43.441Z"
     },
     {
       "matchId": "botafogo_rj_athletico_paranaense_20260825",
@@ -2065,7 +2133,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T18:15:21.899Z"
+      "updatedAt": "2026-08-23T18:15:43.442Z"
     },
     {
       "matchId": "fc_seoul_bucheon_fc_1995_20260825",
@@ -2127,7 +2195,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T18:15:21.899Z"
+      "updatedAt": "2026-08-23T18:15:43.442Z"
     },
     {
       "matchId": "gimcheon_sangmu_jeonbuk_hyundai_motors_20260825",
@@ -2189,7 +2257,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T18:15:21.899Z"
+      "updatedAt": "2026-08-23T18:15:43.442Z"
     },
     {
       "matchId": "jeju_united_pohang_steelers_20260825",
@@ -2251,7 +2319,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T18:15:21.899Z"
+      "updatedAt": "2026-08-23T18:15:43.442Z"
     },
     {
       "matchId": "sabah_fk_hapoel_beer_sheva_20260825",
@@ -2313,7 +2381,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T18:15:21.900Z"
+      "updatedAt": "2026-08-23T18:15:43.442Z"
     }
   ],
   "meta": {
@@ -2327,7 +2395,7 @@
     "adminApplied": true,
     "sync": {
       "removedExpired": 0,
-      "streamsAdded": 0,
+      "streamsAdded": 1,
       "matchesAdded": 0
     },
     "liveCount": 3,
@@ -2336,8 +2404,8 @@
     "manualStreamCount": 0,
     "highlightCount": 16,
     "channelCount": 18,
-    "checksum": "f5a43397fd30f262922ea0dff2665751e6e38241cf06f646dff7904ccfbce984",
-    "cachedAt": "2026-08-23T18:15:21.911Z",
+    "checksum": "22e2fbe8e16f1c038bd77176480ead4424b7ff9a2e749a3cb72fd8c06e7bf8df",
+    "cachedAt": "2026-08-23T18:15:43.458Z",
     "feed": "matches"
   }
 }
