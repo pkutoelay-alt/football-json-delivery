@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-23T23:30:27.040+06:30",
+  "generatedAt": "2026-08-23T23:30:32.151+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 16,
   "matches": [
@@ -233,7 +233,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T17:00:27.039Z"
+      "updatedAt": "2026-08-23T17:00:32.147Z"
     },
     {
       "matchId": "newcastle_united_liverpool_20260823",
@@ -364,7 +364,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T17:00:27.039Z"
+      "updatedAt": "2026-08-23T17:00:32.148Z"
     },
     {
       "matchId": "frosinone_juventus_20260823",
@@ -622,7 +622,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T17:00:27.039Z"
+      "updatedAt": "2026-08-23T17:00:32.148Z"
     },
     {
       "matchId": "venezia_lecce_20260823",
@@ -880,7 +880,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T17:00:27.039Z"
+      "updatedAt": "2026-08-23T17:00:32.148Z"
     },
     {
       "matchId": "getafe_racing_santander_20260824",
@@ -900,13 +900,13 @@
       "fotmobMatchId": 5868026,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": "fotmob",
+      "source": "xoilac",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "ESP LaLiga",
@@ -922,26 +922,94 @@
         "mitomtm": "https://mitomtn.cc/truc-tiep/getafe-vs-racing-santander-luc-0030-ngay-24-08-2026/",
         "socolive": "https://socoliveuu.tv/truc-tiep/getafe-vs-racing-santander-luc-0030-ngay-24-08-2026/"
       },
-      "streams": [],
-      "streamAttempts": {},
+      "streams": [
+        {
+          "source": "xoilac",
+          "type": "m3u8",
+          "quality": "TOM",
+          "name": "Xoilac · TOM",
+          "url": "https://live2.edgeburstcdn.com/live/channel4.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "active": true,
+          "checkedAt": "2026-08-23T17:00:32.035Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
+        }
+      ],
+      "streamAttempts": {
+        "t30": true
+      },
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/getafe-vs-racing-santander-luc-0030-ngay-24-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
       "lastMatchUrlAttemptAt": "2026-08-23T16:30:23.320Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "attempts": 0,
-      "validationStatus": null,
+      "streamUrl": "https://live2.edgeburstcdn.com/live/channel4.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://soco.textliveupdaterz.com/"
+      },
+      "streamStatus": "AVAILABLE",
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
+      "lastAttemptAt": "2026-08-23T17:00:32.132Z",
       "streamSearch": {
-        "started": false,
+        "started": true,
         "stopped": false,
         "stopTime": null,
         "slotsDone": {},
-        "sources": {}
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-23T17:00:06.173Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          },
+          "xoilac": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-08-23T17:00:32.132Z",
+            "updatedAt": "2026-08-23T17:00:32.132Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios"
+          },
+          "mitomtm": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-23T17:00:06.173Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-23T17:00:06.173Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          }
+        }
       },
       "matchUrlSearch": {
         "slotsDone": {
@@ -994,7 +1062,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T17:00:27.039Z"
+      "updatedAt": "2026-08-23T17:00:32.148Z"
     },
     {
       "matchId": "rennes_paris_saint_germain_20260824",
@@ -1056,7 +1124,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T17:00:27.040Z"
+      "updatedAt": "2026-08-23T17:00:32.148Z"
     },
     {
       "matchId": "atalanta_sassuolo_20260824",
@@ -1118,7 +1186,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T17:00:27.040Z"
+      "updatedAt": "2026-08-23T17:00:32.149Z"
     },
     {
       "matchId": "torino_ac_milan_20260824",
@@ -1180,7 +1248,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T17:00:27.040Z"
+      "updatedAt": "2026-08-23T17:00:32.149Z"
     },
     {
       "matchId": "palmeiras_vasco_da_gama_20260824",
@@ -1242,7 +1310,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T17:00:27.040Z"
+      "updatedAt": "2026-08-23T17:00:32.149Z"
     },
     {
       "matchId": "bragantino_gremio_20260824",
@@ -1304,7 +1372,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T17:00:27.040Z"
+      "updatedAt": "2026-08-23T17:00:32.151Z"
     },
     {
       "matchId": "vitoria_bahia_20260824",
@@ -1366,7 +1434,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T17:00:27.040Z"
+      "updatedAt": "2026-08-23T17:00:32.151Z"
     },
     {
       "matchId": "elche_barcelona_20260824",
@@ -1428,7 +1496,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T17:00:27.040Z"
+      "updatedAt": "2026-08-23T17:00:32.151Z"
     },
     {
       "matchId": "santos_mirassol_20260824",
@@ -1490,7 +1558,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T17:00:27.040Z"
+      "updatedAt": "2026-08-23T17:00:32.151Z"
     },
     {
       "matchId": "chapecoense_af_sao_paulo_20260824",
@@ -1552,7 +1620,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T17:00:27.040Z"
+      "updatedAt": "2026-08-23T17:00:32.151Z"
     },
     {
       "matchId": "coritiba_corinthians_20260824",
@@ -1614,7 +1682,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T17:00:27.040Z"
+      "updatedAt": "2026-08-23T17:00:32.151Z"
     },
     {
       "matchId": "bologna_lazio_20260824",
@@ -1676,7 +1744,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T17:00:27.040Z"
+      "updatedAt": "2026-08-23T17:00:32.151Z"
     }
   ],
   "meta": {
@@ -1690,7 +1758,7 @@
     "adminApplied": true,
     "sync": {
       "removedExpired": 0,
-      "streamsAdded": 0,
+      "streamsAdded": 1,
       "matchesAdded": 0
     },
     "liveCount": 3,
@@ -1699,8 +1767,8 @@
     "manualStreamCount": 0,
     "highlightCount": 16,
     "channelCount": 18,
-    "checksum": "f2b5d47bb82bfd95dc27934ea5f0fc67a49350ba03d12d23f484f43fc246c416",
-    "cachedAt": "2026-08-23T17:00:27.053Z",
+    "checksum": "fac2fd6940cec3e446082e83648046c147b5b8d9278b91152ef8688cc2127729",
+    "cachedAt": "2026-08-23T17:00:32.168Z",
     "feed": "matches"
   }
 }
