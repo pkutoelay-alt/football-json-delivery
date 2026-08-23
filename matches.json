@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-23T21:00:12.469+06:30",
+  "generatedAt": "2026-08-23T21:15:14.338+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 20,
   "matches": [
@@ -133,7 +133,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T14:30:12.466Z"
+      "updatedAt": "2026-08-23T14:45:14.337Z"
     },
     {
       "matchId": "brighton_and_hove_albion_aston_villa_20260823",
@@ -264,7 +264,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T14:30:12.466Z"
+      "updatedAt": "2026-08-23T14:45:14.337Z"
     },
     {
       "matchId": "manchester_city_bournemouth_20260823",
@@ -395,7 +395,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T14:30:12.466Z"
+      "updatedAt": "2026-08-23T14:45:14.337Z"
     },
     {
       "matchId": "atletico_madrid_villarreal_20260823",
@@ -516,7 +516,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T14:30:12.466Z"
+      "updatedAt": "2026-08-23T14:45:14.337Z"
     },
     {
       "matchId": "le_havre_as_monaco_20260823",
@@ -536,13 +536,13 @@
       "fotmobMatchId": 5802902,
       "leagueId": 53,
       "leagueName": "Ligue 1",
-      "source": "fotmob",
+      "source": "cakhia",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "FRA Ligue 1",
@@ -557,31 +557,90 @@
         "mitomtm": "https://mitomtn.cc/truc-tiep/le-havre-fc-vs-as-monaco-luc-2215-ngay-23-08-2026/",
         "socolive": "https://socoliveuu.tv/truc-tiep/le-havre-fc-vs-as-monaco-luc-2215-ngay-23-08-2026/"
       },
-      "streams": [],
-      "streamAttempts": {},
+      "streams": [
+        {
+          "source": "cakhia",
+          "type": "m3u8",
+          "quality": "BRADY",
+          "name": "Cakhia · BRADY",
+          "url": "https://live2.edgeburstcdn.com/live/channel15.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "active": true,
+          "checkedAt": "2026-08-23T14:45:13.861Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
+        }
+      ],
+      "streamAttempts": {
+        "t30": true
+      },
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/le-havre-fc-vs-as-monaco-luc-2215-ngay-23-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
-      "matchUrlAttempts": 2,
-      "lastMatchUrlAttemptAt": "2026-08-23T14:30:12.413Z",
+      "matchUrlAttempts": 3,
+      "lastMatchUrlAttemptAt": "2026-08-23T14:45:10.202Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "attempts": 0,
-      "validationStatus": null,
+      "streamUrl": "https://live2.edgeburstcdn.com/live/channel15.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://soco.textliveupdaterz.com/"
+      },
+      "streamStatus": "AVAILABLE",
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
+      "lastAttemptAt": "2026-08-23T14:45:14.322Z",
       "streamSearch": {
-        "started": false,
+        "started": true,
         "stopped": false,
         "stopTime": null,
         "slotsDone": {},
-        "sources": {}
+        "sources": {
+          "cakhia": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-08-23T14:45:14.322Z",
+            "updatedAt": "2026-08-23T14:45:14.322Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios"
+          },
+          "mitomtm": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-23T14:45:10.203Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-23T14:45:10.203Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          }
+        }
       },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
-          "t45": true
+          "t45": true,
+          "t30": true
         },
         "sources": {
           "cakhia": {
@@ -597,13 +656,14 @@
           },
           "xoilac": {
             "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 2,
+            "status": "MATCH_URL_FAILED",
+            "attempts": 3,
             "liveAttempts": 0,
-            "lastAttemptAt": "2026-08-23T14:30:12.413Z",
+            "lastAttemptAt": "2026-08-23T14:45:10.202Z",
             "slotsDone": {
               "t60": true,
-              "t45": true
+              "t45": true,
+              "t30": true
             },
             "confidence": 0
           },
@@ -631,7 +691,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T14:30:12.466Z"
+      "updatedAt": "2026-08-23T14:45:14.337Z"
     },
     {
       "matchId": "newcastle_united_liverpool_20260823",
@@ -740,7 +800,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-23T14:30:12.466Z"
+      "updatedAt": "2026-08-23T14:45:14.337Z"
     },
     {
       "matchId": "frosinone_juventus_20260823",
@@ -802,7 +862,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T14:30:12.467Z"
+      "updatedAt": "2026-08-23T14:45:14.338Z"
     },
     {
       "matchId": "venezia_lecce_20260823",
@@ -864,7 +924,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T14:30:12.467Z"
+      "updatedAt": "2026-08-23T14:45:14.338Z"
     },
     {
       "matchId": "getafe_racing_santander_20260824",
@@ -926,7 +986,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T14:30:12.467Z"
+      "updatedAt": "2026-08-23T14:45:14.338Z"
     },
     {
       "matchId": "rennes_paris_saint_germain_20260824",
@@ -988,7 +1048,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T14:30:12.467Z"
+      "updatedAt": "2026-08-23T14:45:14.338Z"
     },
     {
       "matchId": "atalanta_sassuolo_20260824",
@@ -1050,7 +1110,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T14:30:12.467Z"
+      "updatedAt": "2026-08-23T14:45:14.338Z"
     },
     {
       "matchId": "torino_ac_milan_20260824",
@@ -1112,7 +1172,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T14:30:12.467Z"
+      "updatedAt": "2026-08-23T14:45:14.338Z"
     },
     {
       "matchId": "palmeiras_vasco_da_gama_20260824",
@@ -1174,7 +1234,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T14:30:12.467Z"
+      "updatedAt": "2026-08-23T14:45:14.338Z"
     },
     {
       "matchId": "bragantino_gremio_20260824",
@@ -1236,7 +1296,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T14:30:12.468Z"
+      "updatedAt": "2026-08-23T14:45:14.338Z"
     },
     {
       "matchId": "vitoria_bahia_20260824",
@@ -1298,7 +1358,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T14:30:12.468Z"
+      "updatedAt": "2026-08-23T14:45:14.338Z"
     },
     {
       "matchId": "elche_barcelona_20260824",
@@ -1360,7 +1420,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T14:30:12.468Z"
+      "updatedAt": "2026-08-23T14:45:14.338Z"
     },
     {
       "matchId": "santos_mirassol_20260824",
@@ -1422,7 +1482,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T14:30:12.468Z"
+      "updatedAt": "2026-08-23T14:45:14.338Z"
     },
     {
       "matchId": "chapecoense_af_sao_paulo_20260824",
@@ -1484,7 +1544,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T14:30:12.468Z"
+      "updatedAt": "2026-08-23T14:45:14.338Z"
     },
     {
       "matchId": "coritiba_corinthians_20260824",
@@ -1546,7 +1606,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T14:30:12.468Z"
+      "updatedAt": "2026-08-23T14:45:14.338Z"
     },
     {
       "matchId": "bologna_lazio_20260824",
@@ -1608,7 +1668,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-23T14:30:12.468Z"
+      "updatedAt": "2026-08-23T14:45:14.338Z"
     }
   ],
   "meta": {
@@ -1617,14 +1677,12 @@
       "cakhia",
       "xoilac",
       "mitomtm",
-      "socolive",
-      "highlight",
-      "myanmartv"
+      "socolive"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 15,
-      "streamsAdded": 0,
+      "removedExpired": 0,
+      "streamsAdded": 1,
       "matchesAdded": 0
     },
     "liveCount": 0,
@@ -1633,8 +1691,8 @@
     "manualStreamCount": 0,
     "highlightCount": 16,
     "channelCount": 18,
-    "checksum": "fd2ee9c4fa1dc4d5753482b6cd91322e3a929e9f10a073f7296bfbe37b928dcd",
-    "cachedAt": "2026-08-23T14:30:12.482Z",
+    "checksum": "1d79fc18928d6e99e5830674ea7df96e193405743bdd6c49e315447b1cad2617",
+    "cachedAt": "2026-08-23T14:45:14.352Z",
     "feed": "matches"
   }
 }
