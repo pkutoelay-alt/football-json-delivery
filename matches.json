@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-24T22:15:28.569+06:30",
+  "generatedAt": "2026-08-24T22:30:53.747+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 10,
   "matches": [
@@ -22,13 +22,13 @@
       "fotmobMatchId": 5749642,
       "leagueId": 55,
       "leagueName": "Serie A",
-      "source": "fotmob",
+      "source": "mitomtm",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "ITA Serie A",
@@ -43,31 +43,90 @@
         "mitomtm": "https://mitomzd.cc/truc-tiep/bologna-vs-lazio-luc-2330-ngay-24-08-2026/",
         "socolive": "https://socolivejj.tv/truc-tiep/bologna-vs-lazio-luc-2330-ngay-24-08-2026/"
       },
-      "streams": [],
-      "streamAttempts": {},
+      "streams": [
+        {
+          "source": "mitomtm",
+          "type": "m3u8",
+          "quality": "ROY",
+          "name": "Mitomtm · ROY",
+          "url": "https://player2.originpullstream.com/live/channel1.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "active": true,
+          "checkedAt": "2026-08-24T16:00:53.171Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
+        }
+      ],
+      "streamAttempts": {
+        "t30": true
+      },
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/bologna-vs-lazio-luc-2330-ngay-24-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
-      "matchUrlAttempts": 2,
-      "lastMatchUrlAttemptAt": "2026-08-24T15:45:28.506Z",
+      "matchUrlAttempts": 3,
+      "lastMatchUrlAttemptAt": "2026-08-24T16:00:48.761Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "attempts": 0,
-      "validationStatus": null,
+      "streamUrl": "https://player2.originpullstream.com/live/channel1.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://soco.textliveupdaterz.com/"
+      },
+      "streamStatus": "AVAILABLE",
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
+      "lastAttemptAt": "2026-08-24T16:00:53.733Z",
       "streamSearch": {
-        "started": false,
+        "started": true,
         "stopped": false,
         "stopTime": null,
         "slotsDone": {},
-        "sources": {}
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-24T16:00:48.762Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          },
+          "mitomtm": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-08-24T16:00:53.733Z",
+            "updatedAt": "2026-08-24T16:00:53.733Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios"
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-24T16:00:48.762Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          }
+        }
       },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
-          "t45": true
+          "t45": true,
+          "t30": true
         },
         "sources": {
           "cakhia": {
@@ -83,13 +142,14 @@
           },
           "xoilac": {
             "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 2,
+            "status": "MATCH_URL_FAILED",
+            "attempts": 3,
             "liveAttempts": 0,
-            "lastAttemptAt": "2026-08-24T15:45:28.506Z",
+            "lastAttemptAt": "2026-08-24T16:00:48.761Z",
             "slotsDone": {
               "t60": true,
-              "t45": true
+              "t45": true,
+              "t30": true
             },
             "confidence": 0
           },
@@ -117,7 +177,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-24T15:45:28.568Z"
+      "updatedAt": "2026-08-24T16:00:53.745Z"
     },
     {
       "matchId": "osasuna_levante_20260825",
@@ -179,7 +239,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-24T15:45:28.568Z"
+      "updatedAt": "2026-08-24T16:00:53.746Z"
     },
     {
       "matchId": "as_roma_fiorentina_20260825",
@@ -241,7 +301,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-24T15:45:28.568Z"
+      "updatedAt": "2026-08-24T16:00:53.746Z"
     },
     {
       "matchId": "fulham_chelsea_20260825",
@@ -303,7 +363,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-24T15:45:28.568Z"
+      "updatedAt": "2026-08-24T16:00:53.746Z"
     },
     {
       "matchId": "malaga_deportivo_a_coruna_20260825",
@@ -365,7 +425,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-24T15:45:28.568Z"
+      "updatedAt": "2026-08-24T16:00:53.746Z"
     },
     {
       "matchId": "botafogo_rj_athletico_paranaense_20260825",
@@ -427,7 +487,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-24T15:45:28.568Z"
+      "updatedAt": "2026-08-24T16:00:53.746Z"
     },
     {
       "matchId": "fc_seoul_bucheon_fc_1995_20260825",
@@ -489,7 +549,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-24T15:45:28.568Z"
+      "updatedAt": "2026-08-24T16:00:53.747Z"
     },
     {
       "matchId": "gimcheon_sangmu_jeonbuk_hyundai_motors_20260825",
@@ -551,7 +611,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-24T15:45:28.568Z"
+      "updatedAt": "2026-08-24T16:00:53.747Z"
     },
     {
       "matchId": "jeju_united_pohang_steelers_20260825",
@@ -613,7 +673,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-24T15:45:28.568Z"
+      "updatedAt": "2026-08-24T16:00:53.747Z"
     },
     {
       "matchId": "sabah_fk_hapoel_beer_sheva_20260825",
@@ -675,7 +735,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-24T15:45:28.569Z"
+      "updatedAt": "2026-08-24T16:00:53.747Z"
     }
   ],
   "meta": {
@@ -684,15 +744,13 @@
       "cakhia",
       "xoilac",
       "mitomtm",
-      "socolive",
-      "highlight",
-      "myanmartv"
+      "socolive"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 16,
-      "streamsAdded": 0,
-      "matchesAdded": 5
+      "removedExpired": 0,
+      "streamsAdded": 1,
+      "matchesAdded": 0
     },
     "liveCount": 0,
     "scheduledCount": 9,
@@ -700,8 +758,8 @@
     "manualStreamCount": 0,
     "highlightCount": 16,
     "channelCount": 18,
-    "checksum": "c0158189b29acb056134a15c4e9833e12f05027aa6b47273491e6cee87a10a20",
-    "cachedAt": "2026-08-24T15:45:28.575Z",
+    "checksum": "a6db255f2ca4aa4150b4a7183c696fe1e30e7ac21e7891d44fecaa5fda55b030",
+    "cachedAt": "2026-08-24T16:00:53.755Z",
     "feed": "matches"
   }
 }
