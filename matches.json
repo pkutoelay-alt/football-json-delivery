@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-25T22:30:28.274+06:30",
+  "generatedAt": "2026-08-25T22:45:32.444+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 8,
   "matches": [
@@ -22,13 +22,13 @@
       "fotmobMatchId": 5987809,
       "leagueId": 937348,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": "cakhia",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "INT Champions League Qualification",
@@ -43,31 +43,90 @@
         "mitomtm": "https://mitomzd.cc/truc-tiep/sabah-fk-vs-hapoel-beer-sheva-luc-2345-ngay-25-08-2026/",
         "socolive": "https://socolivejj.tv/truc-tiep/sabah-fk-vs-hapoel-beer-sheva-luc-2345-ngay-25-08-2026/"
       },
-      "streams": [],
-      "streamAttempts": {},
+      "streams": [
+        {
+          "source": "cakhia",
+          "type": "m3u8",
+          "quality": "BRADY",
+          "name": "Cakhia · BRADY",
+          "url": "https://player2.originpullstream.com/live/channel15.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "active": true,
+          "checkedAt": "2026-08-25T16:15:31.922Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
+        }
+      ],
+      "streamAttempts": {
+        "t30": true
+      },
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/sabah-fk-vs-hapoel-beer-sheva-luc-2345-ngay-25-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
-      "matchUrlAttempts": 2,
-      "lastMatchUrlAttemptAt": "2026-08-25T16:00:28.237Z",
+      "matchUrlAttempts": 3,
+      "lastMatchUrlAttemptAt": "2026-08-25T16:15:27.650Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "attempts": 0,
-      "validationStatus": null,
+      "streamUrl": "https://player2.originpullstream.com/live/channel15.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://soco.textliveupdaterz.com/"
+      },
+      "streamStatus": "AVAILABLE",
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
+      "lastAttemptAt": "2026-08-25T16:15:32.436Z",
       "streamSearch": {
-        "started": false,
+        "started": true,
         "stopped": false,
         "stopTime": null,
         "slotsDone": {},
-        "sources": {}
+        "sources": {
+          "cakhia": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-08-25T16:15:32.436Z",
+            "updatedAt": "2026-08-25T16:15:32.436Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios"
+          },
+          "mitomtm": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-25T16:15:27.652Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-25T16:15:27.652Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          }
+        }
       },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
-          "t45": true
+          "t45": true,
+          "t30": true
         },
         "sources": {
           "cakhia": {
@@ -83,13 +142,14 @@
           },
           "xoilac": {
             "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 2,
+            "status": "MATCH_URL_FAILED",
+            "attempts": 3,
             "liveAttempts": 0,
-            "lastAttemptAt": "2026-08-25T16:00:28.237Z",
+            "lastAttemptAt": "2026-08-25T16:15:27.650Z",
             "slotsDone": {
               "t60": true,
-              "t45": true
+              "t45": true,
+              "t30": true
             },
             "confidence": 0
           },
@@ -117,7 +177,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-25T16:00:28.274Z"
+      "updatedAt": "2026-08-25T16:15:32.443Z"
     },
     {
       "matchId": "bod_glimt_nec_nijmegen_20260826",
@@ -179,7 +239,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-25T16:00:28.274Z"
+      "updatedAt": "2026-08-25T16:15:32.443Z"
     },
     {
       "matchId": "lask_celtic_20260826",
@@ -241,7 +301,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-25T16:00:28.274Z"
+      "updatedAt": "2026-08-25T16:15:32.443Z"
     },
     {
       "matchId": "valencia_real_betis_20260826",
@@ -303,7 +363,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-25T16:00:28.274Z"
+      "updatedAt": "2026-08-25T16:15:32.443Z"
     },
     {
       "matchId": "daejeon_hana_citizen_ulsan_hd_fc_20260826",
@@ -365,7 +425,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-25T16:00:28.274Z"
+      "updatedAt": "2026-08-25T16:15:32.443Z"
     },
     {
       "matchId": "fc_anyang_incheon_united_20260826",
@@ -427,7 +487,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-25T16:00:28.274Z"
+      "updatedAt": "2026-08-25T16:15:32.443Z"
     },
     {
       "matchId": "gangwon_fc_gwangju_fc_20260826",
@@ -489,7 +549,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-25T16:00:28.274Z"
+      "updatedAt": "2026-08-25T16:15:32.444Z"
     },
     {
       "matchId": "vietnam_thailand_20260826",
@@ -551,7 +611,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-25T16:00:28.274Z"
+      "updatedAt": "2026-08-25T16:15:32.444Z"
     }
   ],
   "meta": {
@@ -560,14 +620,12 @@
       "cakhia",
       "xoilac",
       "mitomtm",
-      "socolive",
-      "highlight",
-      "myanmartv"
+      "socolive"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 13,
-      "streamsAdded": 0,
+      "removedExpired": 0,
+      "streamsAdded": 1,
       "matchesAdded": 0
     },
     "liveCount": 0,
@@ -576,8 +634,8 @@
     "manualStreamCount": 0,
     "highlightCount": 16,
     "channelCount": 18,
-    "checksum": "85e1f27428528b105179a72c2bf6fe5a33f8b44003085bada08eec8654efcb43",
-    "cachedAt": "2026-08-25T16:00:28.279Z",
+    "checksum": "12c23a5e62367cb7363eebb2df6b567973db58364076073e9cc4025a4f94c662",
+    "cachedAt": "2026-08-25T16:15:32.449Z",
     "feed": "matches"
   }
 }
