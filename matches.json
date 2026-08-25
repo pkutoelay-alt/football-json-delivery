@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-25T16:30:41.431+06:30",
+  "generatedAt": "2026-08-25T16:30:48.461+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 11,
   "matches": [
@@ -57,9 +57,7 @@
             "Referer": "https://soco.textliveupdaterz.com/"
           },
           "active": true,
-          "checkedAt": "2026-08-25T10:00:41.030Z",
-          "validationStatus": "AVAILABLE",
-          "validationReason": null
+          "checkedAt": "2026-08-25T10:00:41.030Z"
         }
       ],
       "streamAttempts": {
@@ -159,7 +157,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-25T10:00:41.429Z"
+      "updatedAt": "2026-08-25T10:00:48.460Z"
     },
     {
       "matchId": "gimcheon_sangmu_jeonbuk_hyundai_motors_20260825",
@@ -179,13 +177,13 @@
       "fotmobMatchId": 5140006,
       "leagueId": 919356,
       "leagueName": "K League 1 (KOR D1)",
-      "source": "fotmob",
+      "source": "socolive",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "KOR K-League 1",
@@ -198,66 +196,106 @@
       "sourcePages": {
         "socolive": "https://socolivejj.tv/truc-tiep/gimcheon-sangmu-vs-jeonbuk-hyundai-luc-1730-ngay-25-08-2026/"
       },
-      "streams": [],
-      "streamAttempts": {},
+      "streams": [
+        {
+          "source": "socolive",
+          "type": "m3u8",
+          "quality": "MAX",
+          "name": "Socolive · MAX",
+          "url": "https://player2.originpullstream.com/live/channel6.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "active": true,
+          "checkedAt": "2026-08-25T10:00:40.956Z"
+        }
+      ],
+      "streamAttempts": {
+        "t30": true
+      },
       "matchUrl": "https://socolivejj.tv/truc-tiep/gimcheon-sangmu-vs-jeonbuk-hyundai-luc-1730-ngay-25-08-2026/",
       "matchUrlStatus": "MATCH_URL_FOUND",
-      "matchUrlAttempts": 2,
-      "lastMatchUrlAttemptAt": "2026-08-25T09:45:34.713Z",
+      "matchUrlAttempts": 3,
+      "lastMatchUrlAttemptAt": "2026-08-25T10:00:37.223Z",
       "matchUrlSource": "socolive",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "attempts": 0,
-      "validationStatus": null,
+      "streamUrl": "https://player2.originpullstream.com/live/channel6.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://soco.textliveupdaterz.com/"
+      },
+      "streamStatus": "AVAILABLE",
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
+      "lastAttemptAt": "2026-08-25T10:00:41.454Z",
       "streamSearch": {
-        "started": false,
+        "started": true,
         "stopped": false,
         "stopTime": null,
         "slotsDone": {},
-        "sources": {}
+        "sources": {
+          "socolive": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-08-25T10:00:41.454Z",
+            "updatedAt": "2026-08-25T10:00:41.454Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios"
+          }
+        }
       },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
-          "t45": true
+          "t45": true,
+          "t30": true
         },
         "sources": {
           "cakhia": {
             "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 2,
+            "status": "MATCH_URL_FAILED",
+            "attempts": 3,
             "liveAttempts": 0,
-            "lastAttemptAt": "2026-08-25T09:45:34.713Z",
+            "lastAttemptAt": "2026-08-25T10:00:37.223Z",
             "slotsDone": {
               "t60": true,
-              "t45": true
+              "t45": true,
+              "t30": true
             },
             "confidence": 0
           },
           "xoilac": {
             "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 2,
+            "status": "MATCH_URL_FAILED",
+            "attempts": 3,
             "liveAttempts": 0,
-            "lastAttemptAt": "2026-08-25T09:45:34.713Z",
+            "lastAttemptAt": "2026-08-25T10:00:37.223Z",
             "slotsDone": {
               "t60": true,
-              "t45": true
+              "t45": true,
+              "t30": true
             },
             "confidence": 0
           },
           "mitomtm": {
             "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 2,
+            "status": "MATCH_URL_FAILED",
+            "attempts": 3,
             "liveAttempts": 0,
-            "lastAttemptAt": "2026-08-25T09:45:34.713Z",
+            "lastAttemptAt": "2026-08-25T10:00:37.223Z",
             "slotsDone": {
               "t60": true,
-              "t45": true
+              "t45": true,
+              "t30": true
             },
             "confidence": 0
           },
@@ -274,7 +312,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-25T10:00:41.429Z"
+      "updatedAt": "2026-08-25T10:00:48.460Z"
     },
     {
       "matchId": "jeju_united_pohang_steelers_20260825",
@@ -294,13 +332,13 @@
       "fotmobMatchId": 5140007,
       "leagueId": 919356,
       "leagueName": "K League 1 (KOR D1)",
-      "source": "fotmob",
+      "source": "mitomtm",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "KOR K-League 1",
@@ -315,31 +353,90 @@
         "mitomtm": "https://mitomzd.cc/truc-tiep/jeju-sk-fc-vs-pohang-steelers-luc-1730-ngay-25-08-2026/",
         "socolive": "https://socolivejj.tv/truc-tiep/jeju-sk-fc-vs-pohang-steelers-luc-1730-ngay-25-08-2026/"
       },
-      "streams": [],
-      "streamAttempts": {},
+      "streams": [
+        {
+          "source": "mitomtm",
+          "type": "m3u8",
+          "quality": "BRADY",
+          "name": "Mitomtm · BRADY",
+          "url": "https://player2.originpullstream.com/live/channel15.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "active": true,
+          "checkedAt": "2026-08-25T10:00:48.358Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
+        }
+      ],
+      "streamAttempts": {
+        "t30": true
+      },
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/jeju-sk-fc-vs-pohang-steelers-luc-1730-ngay-25-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
-      "matchUrlAttempts": 2,
-      "lastMatchUrlAttemptAt": "2026-08-25T09:45:34.715Z",
+      "matchUrlAttempts": 3,
+      "lastMatchUrlAttemptAt": "2026-08-25T10:00:37.225Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "attempts": 0,
-      "validationStatus": null,
+      "streamUrl": "https://player2.originpullstream.com/live/channel15.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://soco.textliveupdaterz.com/"
+      },
+      "streamStatus": "AVAILABLE",
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
+      "lastAttemptAt": "2026-08-25T10:00:48.450Z",
       "streamSearch": {
-        "started": false,
+        "started": true,
         "stopped": false,
         "stopTime": null,
         "slotsDone": {},
-        "sources": {}
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-25T10:00:37.226Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          },
+          "mitomtm": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-08-25T10:00:48.450Z",
+            "updatedAt": "2026-08-25T10:00:48.450Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios"
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-08-25T10:00:37.226Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          }
+        }
       },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
-          "t45": true
+          "t45": true,
+          "t30": true
         },
         "sources": {
           "cakhia": {
@@ -355,13 +452,14 @@
           },
           "xoilac": {
             "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 2,
+            "status": "MATCH_URL_FAILED",
+            "attempts": 3,
             "liveAttempts": 0,
-            "lastAttemptAt": "2026-08-25T09:45:34.715Z",
+            "lastAttemptAt": "2026-08-25T10:00:37.225Z",
             "slotsDone": {
               "t60": true,
-              "t45": true
+              "t45": true,
+              "t30": true
             },
             "confidence": 0
           },
@@ -389,7 +487,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-25T10:00:41.429Z"
+      "updatedAt": "2026-08-25T10:00:48.460Z"
     },
     {
       "matchId": "sabah_fk_hapoel_beer_sheva_20260825",
@@ -451,7 +549,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-25T10:00:41.430Z"
+      "updatedAt": "2026-08-25T10:00:48.460Z"
     },
     {
       "matchId": "bod_glimt_nec_nijmegen_20260826",
@@ -513,7 +611,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-25T10:00:41.430Z"
+      "updatedAt": "2026-08-25T10:00:48.461Z"
     },
     {
       "matchId": "lask_celtic_20260826",
@@ -575,7 +673,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-25T10:00:41.430Z"
+      "updatedAt": "2026-08-25T10:00:48.461Z"
     },
     {
       "matchId": "valencia_real_betis_20260826",
@@ -637,7 +735,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-25T10:00:41.430Z"
+      "updatedAt": "2026-08-25T10:00:48.461Z"
     },
     {
       "matchId": "daejeon_hana_citizen_ulsan_hd_fc_20260826",
@@ -699,7 +797,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-25T10:00:41.430Z"
+      "updatedAt": "2026-08-25T10:00:48.461Z"
     },
     {
       "matchId": "fc_anyang_incheon_united_20260826",
@@ -761,7 +859,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-25T10:00:41.430Z"
+      "updatedAt": "2026-08-25T10:00:48.461Z"
     },
     {
       "matchId": "gangwon_fc_gwangju_fc_20260826",
@@ -823,7 +921,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-25T10:00:41.431Z"
+      "updatedAt": "2026-08-25T10:00:48.461Z"
     },
     {
       "matchId": "vietnam_thailand_20260826",
@@ -885,7 +983,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-25T10:00:41.431Z"
+      "updatedAt": "2026-08-25T10:00:48.461Z"
     }
   ],
   "meta": {
@@ -908,8 +1006,8 @@
     "manualStreamCount": 0,
     "highlightCount": 16,
     "channelCount": 18,
-    "checksum": "5011330aa8af77cb6c2d91746cae011983a8fd1ab9257f4f1b02f740c035b43b",
-    "cachedAt": "2026-08-25T10:00:41.441Z",
+    "checksum": "f3b5c72960132e295ff0cb76468d77ea289c4afb2fa02f3eaa4fb01053c27151",
+    "cachedAt": "2026-08-25T10:00:48.471Z",
     "feed": "matches"
   }
 }
