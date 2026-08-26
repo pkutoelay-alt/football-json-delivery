@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T16:45:23.404+06:30",
+  "generatedAt": "2026-08-26T16:45:28.686+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 16,
   "matches": [
@@ -219,7 +219,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-26T10:15:23.402Z"
+      "updatedAt": "2026-08-26T10:15:28.684Z"
     },
     {
       "matchId": "fc_anyang_incheon_united_20260826",
@@ -436,7 +436,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-26T10:15:23.402Z"
+      "updatedAt": "2026-08-26T10:15:28.684Z"
     },
     {
       "matchId": "gangwon_fc_gwangju_fc_20260826",
@@ -456,13 +456,13 @@
       "fotmobMatchId": 5140011,
       "leagueId": 919356,
       "leagueName": "K League 1 (KOR D1)",
-      "source": "fotmob",
+      "source": "mitomtm",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "KOR K-League 1",
@@ -477,22 +477,46 @@
         "mitomtm": "https://mitomzd.cc/truc-tiep/gangwon-fc-vs-gwangju-fc-luc-1730-ngay-26-08-2026/",
         "socolive": "https://socolivejj.tv/truc-tiep/gangwon-fc-vs-gwangju-fc-luc-1730-ngay-26-08-2026/"
       },
-      "streams": [],
+      "streams": [
+        {
+          "source": "mitomtm",
+          "type": "m3u8",
+          "quality": "MAX",
+          "name": "Mitomtm · MAX",
+          "url": "https://player2.originpullstream.com/live/channel6.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.textliveupdaterz.com/"
+          },
+          "active": true,
+          "checkedAt": "2026-08-26T10:15:28.585Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
+        }
+      ],
       "streamAttempts": {
-        "t30": true
+        "t30": true,
+        "t15": true
       },
       "matchUrl": "https://cakhiazvm.tv/truc-tiep/gangwon-fc-vs-gwangju-fc-luc-1730-ngay-26-08-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 3,
-      "lastMatchUrlAttemptAt": "2026-08-26T10:00:29.626Z",
+      "lastMatchUrlAttemptAt": "2026-08-26T10:15:03.779Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "SEARCHING",
-      "attempts": 1,
-      "validationStatus": "VALIDATING",
-      "validationReason": "NOT_FOUND",
-      "lastAttemptAt": "2026-08-26T10:01:41.591Z",
+      "streamUrl": "https://player2.originpullstream.com/live/channel6.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://soco.textliveupdaterz.com/"
+      },
+      "streamStatus": "AVAILABLE",
+      "attempts": 2,
+      "validationStatus": "AVAILABLE",
+      "validationReason": null,
+      "lastAttemptAt": "2026-08-26T10:15:28.672Z",
       "streamSearch": {
         "started": true,
         "stopped": false,
@@ -507,23 +531,24 @@
             "postKickoffAttempts": 0,
             "lastError": "NOT_FOUND",
             "lastAttemptAt": "2026-08-26T10:01:16.905Z",
-            "updatedAt": "2026-08-26T10:01:16.905Z",
+            "updatedAt": "2026-08-26T10:15:03.780Z",
             "slotsDone": {
               "t30": true
             },
             "extractionMethod": null
           },
           "mitomtm": {
-            "status": "SEARCHING",
-            "attempts": 1,
+            "status": "AVAILABLE",
+            "attempts": 2,
             "postKickoffAttempts": 0,
-            "lastError": "NOT_FOUND",
-            "lastAttemptAt": "2026-08-26T10:01:23.023Z",
-            "updatedAt": "2026-08-26T10:01:23.023Z",
+            "lastError": null,
+            "lastAttemptAt": "2026-08-26T10:15:28.672Z",
+            "updatedAt": "2026-08-26T10:15:28.672Z",
             "slotsDone": {
-              "t30": true
+              "t30": true,
+              "t15": true
             },
-            "extractionMethod": null
+            "extractionMethod": "axios"
           },
           "socolive": {
             "status": "SEARCHING",
@@ -531,7 +556,7 @@
             "postKickoffAttempts": 0,
             "lastError": "NOT_FOUND",
             "lastAttemptAt": "2026-08-26T10:01:41.591Z",
-            "updatedAt": "2026-08-26T10:01:41.591Z",
+            "updatedAt": "2026-08-26T10:15:03.780Z",
             "slotsDone": {
               "t30": true
             },
@@ -562,7 +587,7 @@
             "status": "MATCH_URL_FAILED",
             "attempts": 3,
             "liveAttempts": 0,
-            "lastAttemptAt": "2026-08-26T10:00:29.626Z",
+            "lastAttemptAt": "2026-08-26T10:15:03.779Z",
             "slotsDone": {
               "t60": true,
               "t45": true,
@@ -594,7 +619,7 @@
           }
         }
       },
-      "updatedAt": "2026-08-26T10:15:23.402Z"
+      "updatedAt": "2026-08-26T10:15:28.684Z"
     },
     {
       "matchId": "vietnam_thailand_20260826",
@@ -656,7 +681,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-26T10:15:23.403Z"
+      "updatedAt": "2026-08-26T10:15:28.684Z"
     },
     {
       "matchId": "aek_athens_levski_sofia_20260827",
@@ -718,7 +743,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-26T10:15:23.403Z"
+      "updatedAt": "2026-08-26T10:15:28.685Z"
     },
     {
       "matchId": "olympique_lyonnais_fenerbahce_20260827",
@@ -780,7 +805,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-26T10:15:23.403Z"
+      "updatedAt": "2026-08-26T10:15:28.685Z"
     },
     {
       "matchId": "nk_celje_slovan_bratislava_20260827",
@@ -842,7 +867,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-26T10:15:23.403Z"
+      "updatedAt": "2026-08-26T10:15:28.685Z"
     },
     {
       "matchId": "viking_dinamo_zagreb_20260827",
@@ -904,7 +929,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-26T10:15:23.403Z"
+      "updatedAt": "2026-08-26T10:15:28.685Z"
     },
     {
       "matchId": "real_madrid_real_sociedad_20260827",
@@ -966,7 +991,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-26T10:15:23.403Z"
+      "updatedAt": "2026-08-26T10:15:28.685Z"
     },
     {
       "matchId": "ararat_armenia_universitatea_craiova_20260827",
@@ -1028,7 +1053,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-26T10:15:23.403Z"
+      "updatedAt": "2026-08-26T10:15:28.685Z"
     },
     {
       "matchId": "iberia_1999_jagiellonia_bia_ystok_20260827",
@@ -1090,7 +1115,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-26T10:15:23.403Z"
+      "updatedAt": "2026-08-26T10:15:28.686Z"
     },
     {
       "matchId": "fk_kauno_zalgiris_besiktas_20260827",
@@ -1152,7 +1177,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-26T10:15:23.403Z"
+      "updatedAt": "2026-08-26T10:15:28.686Z"
     },
     {
       "matchId": "lillestr_m_egnatia_20260827",
@@ -1214,7 +1239,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-26T10:15:23.403Z"
+      "updatedAt": "2026-08-26T10:15:28.686Z"
     },
     {
       "matchId": "omonia_nicosia_st_truiden_20260827",
@@ -1276,7 +1301,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-26T10:15:23.403Z"
+      "updatedAt": "2026-08-26T10:15:28.686Z"
     },
     {
       "matchId": "salzburg_mjallby_20260827",
@@ -1338,7 +1363,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-26T10:15:23.403Z"
+      "updatedAt": "2026-08-26T10:15:28.686Z"
     },
     {
       "matchId": "viktoria_plzen_fk_crvena_zvezda_20260827",
@@ -1400,7 +1425,7 @@
         "slotsDone": {},
         "sources": {}
       },
-      "updatedAt": "2026-08-26T10:15:23.404Z"
+      "updatedAt": "2026-08-26T10:15:28.686Z"
     }
   ],
   "meta": {
@@ -1414,7 +1439,7 @@
     "adminApplied": true,
     "sync": {
       "removedExpired": 0,
-      "streamsAdded": 0,
+      "streamsAdded": 1,
       "matchesAdded": 0
     },
     "liveCount": 0,
@@ -1423,8 +1448,8 @@
     "manualStreamCount": 0,
     "highlightCount": 16,
     "channelCount": 18,
-    "checksum": "3442f04b07ce971d967dc43300f0b0a8fcb8b101aa8c40df96ca2cc276c4df29",
-    "cachedAt": "2026-08-26T10:15:23.412Z",
+    "checksum": "f98dc189175adfc5588063ec28096a641376822b508ddce9ee9d4dc5e98674dd",
+    "cachedAt": "2026-08-26T10:15:28.700Z",
     "feed": "matches"
   }
 }
