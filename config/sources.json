@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T00:00:00.000Z",
+  "updatedAt": "2026-09-05T15:22:05.531Z",
   "sources": [
     {
       "name": "fotmob",
@@ -57,6 +57,9 @@
       },
       "selectors": {
         "matchCard": [
+          ".grid-matches__item",
+          ".main-grid-match",
+          ".match-football-item",
           ".match-item",
           ".match-card",
           ".fixture-item",
@@ -65,6 +68,8 @@
           "a.match"
         ],
         "league": [
+          "span.text-ellipsis[data-attr]",
+          ".gmd-match-league",
           ".league-name",
           ".competition",
           ".tour-title",
@@ -194,6 +199,9 @@
       },
       "selectors": {
         "matchCard": [
+          ".grid-matches__item",
+          ".main-grid-match",
+          ".match-football-item",
           ".match",
           ".match-item",
           ".fixture-item",
@@ -201,6 +209,8 @@
           ".list-match li"
         ],
         "league": [
+          "span.text-ellipsis[data-attr]",
+          ".gmd-match-league",
           ".league-name",
           ".tour-name",
           ".competition"
@@ -223,7 +233,8 @@
         "matchLink": [
           "a",
           "a[href*='/live']",
-          "a[href*='/watch']"
+          "a[href*='/watch']",
+          "a[href*='/truc-tiep']"
         ],
         "qualityButton": [
           ".server-item",
@@ -318,6 +329,9 @@
       },
       "selectors": {
         "matchCard": [
+          ".grid-matches__item",
+          ".main-grid-match",
+          ".match-football-item",
           ".match-item",
           ".match-card",
           ".fixture-item",
@@ -326,6 +340,8 @@
           "a.match"
         ],
         "league": [
+          "span.text-ellipsis[data-attr]",
+          ".gmd-match-league",
           ".league-name",
           ".competition",
           ".tour-title",
@@ -445,6 +461,9 @@
       },
       "selectors": {
         "matchCard": [
+          ".grid-matches__item",
+          ".main-grid-match",
+          ".match-football-item",
           ".match-item",
           ".match-card",
           ".event-item",
@@ -452,6 +471,8 @@
           ".list-game .item"
         ],
         "league": [
+          "span.text-ellipsis[data-attr]",
+          ".gmd-match-league",
           ".league",
           ".league-name",
           ".competition-name",
@@ -528,7 +549,7 @@
       "notes": "https://socoliveza.tv/",
       "playbackHeaders": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-        "Referer": "https://soco.textliveupdaterz.com/"
+        "Referer": "https://socoliveza.tv/"
       }
     },
     {
@@ -582,7 +603,7 @@
       "parser": "socolive",
       "feed": "highlight2",
       "domains": [
-        "https://socolivezaa.tv/"
+        "https://socoliveza.tv/"
       ],
       "paths": {
         "list": "/video-highlight/",
