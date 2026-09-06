@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-06T22:04:53.346+06:30",
+  "generatedAt": "2026-09-06T22:04:59.652+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 24,
   "matches": [
@@ -217,7 +217,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.339Z"
+      "updatedAt": "2026-09-06T15:34:59.649Z"
     },
     {
       "matchId": "valencia_barcelona_20260906",
@@ -458,7 +458,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.339Z"
+      "updatedAt": "2026-09-06T15:34:59.650Z"
     },
     {
       "matchId": "santa_clara_rio_ave_20260906",
@@ -704,7 +704,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.339Z"
+      "updatedAt": "2026-09-06T15:34:59.650Z"
     },
     {
       "matchId": "leixoes_amarante_fc_20260906",
@@ -910,7 +910,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.340Z"
+      "updatedAt": "2026-09-06T15:34:59.650Z"
     },
     {
       "matchId": "angers_rennes_20260906",
@@ -1156,7 +1156,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.340Z"
+      "updatedAt": "2026-09-06T15:34:59.650Z"
     },
     {
       "matchId": "arsenal_chelsea_20260906",
@@ -1235,13 +1235,13 @@
       "fotmobMatchId": 5795435,
       "leagueId": 47,
       "leagueName": "English Premier League (EPL)",
-      "source": "fotmob",
+      "source": "cakhia",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "ENG Premier League",
@@ -1257,25 +1257,49 @@
         "socolive": "https://socoliveza.tv/truc-tiep/arsenal-vs-chelsea-luc-2230-ngay-06-09-2026/",
         "phut": "https://90phutzba.tv/truc-tiep/arsenal-vs-chelsea-luc-2230-ngay-06-09-2026/"
       },
-      "streams": [],
+      "streams": [
+        {
+          "source": "cakhia",
+          "type": "m3u8",
+          "quality": "HD ROY",
+          "name": "Cakhia · HD ROY",
+          "url": "https://live2.domainkqt.cc/live/channel1.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://ck.hexvaridstreamnode.com/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://ck.hexvaridstreamnode.com/"
+          },
+          "active": true,
+          "checkedAt": "2026-09-06T15:34:59.622Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
+        }
+      ],
       "streamAttempts": {
         "t30": true,
         "t15": true,
         "t5": true,
-        "t0": true
+        "t0": true,
+        "tP5": true
       },
       "matchUrl": "https://cakhiazaa.tv/truc-tiep/arsenal-vs-chelsea-luc-2230-ngay-06-09-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
       "lastMatchUrlAttemptAt": "2026-09-06T15:34:44.013Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "SEARCHING",
+      "streamUrl": "https://live2.domainkqt.cc/live/channel1.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://ck.hexvaridstreamnode.com/"
+      },
+      "streamStatus": "AVAILABLE",
       "attempts": 2,
-      "validationStatus": "HTTP_403",
+      "validationStatus": "AVAILABLE",
       "validationReason": "HTTP_403",
-      "lastAttemptAt": "2026-09-06T15:31:12.843Z",
+      "lastAttemptAt": "2026-09-06T15:34:59.624Z",
       "streamSearch": {
         "started": true,
         "stopped": false,
@@ -1287,18 +1311,19 @@
         },
         "sources": {
           "cakhia": {
-            "status": "SEARCHING",
-            "attempts": 3,
-            "postKickoffAttempts": 1,
-            "lastError": "HTTP_403",
-            "lastAttemptAt": "2026-09-06T15:30:48.837Z",
-            "updatedAt": "2026-09-06T15:30:48.837Z",
+            "status": "AVAILABLE",
+            "attempts": 4,
+            "postKickoffAttempts": 2,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-06T15:34:59.624Z",
+            "updatedAt": "2026-09-06T15:34:59.624Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
-              "t0": true
+              "t0": true,
+              "tP5": true
             },
-            "extractionMethod": null,
+            "extractionMethod": "axios",
             "matchUrl": null,
             "liveAttempts": 0,
             "confidence": 0,
@@ -1310,7 +1335,7 @@
             "postKickoffAttempts": 1,
             "lastError": "HTTP_403",
             "lastAttemptAt": "2026-09-06T15:31:01.758Z",
-            "updatedAt": "2026-09-06T15:31:01.758Z",
+            "updatedAt": "2026-09-06T15:34:56.024Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -1328,7 +1353,7 @@
             "postKickoffAttempts": 1,
             "lastError": "HTTP_403",
             "lastAttemptAt": "2026-09-06T15:31:12.843Z",
-            "updatedAt": "2026-09-06T15:31:12.843Z",
+            "updatedAt": "2026-09-06T15:34:56.024Z",
             "slotsDone": {
               "t30": true,
               "t15": true,
@@ -1339,6 +1364,16 @@
             "liveAttempts": 0,
             "confidence": 0,
             "manual": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-09-06T15:34:56.024Z",
+            "slotsDone": {},
+            "extractionMethod": null
           }
         }
       },
@@ -1393,14 +1428,15 @@
             "slotsDone": {
               "tLive": true
             },
-            "confidence": 100
+            "confidence": 100,
+            "manual": false
           }
         },
         "started": false,
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.340Z"
+      "updatedAt": "2026-09-06T15:34:59.650Z"
     },
     {
       "matchId": "eintracht_frankfurt_fc_augsburg_20260906",
@@ -1644,7 +1680,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.340Z"
+      "updatedAt": "2026-09-06T15:34:59.651Z"
     },
     {
       "matchId": "bologna_sassuolo_20260906",
@@ -1877,7 +1913,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.340Z"
+      "updatedAt": "2026-09-06T15:34:59.651Z"
     },
     {
       "matchId": "alaves_osasuna_20260906",
@@ -2056,7 +2092,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.341Z"
+      "updatedAt": "2026-09-06T15:34:59.651Z"
     },
     {
       "matchId": "malaga_levante_20260906",
@@ -2235,7 +2271,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.341Z"
+      "updatedAt": "2026-09-06T15:34:59.651Z"
     },
     {
       "matchId": "vitoria_de_guimaraes_casa_pia_ac_20260906",
@@ -2359,7 +2395,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.344Z"
+      "updatedAt": "2026-09-06T15:34:59.651Z"
     },
     {
       "matchId": "uniao_de_leiria_portimonense_20260906",
@@ -2483,7 +2519,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.344Z"
+      "updatedAt": "2026-09-06T15:34:59.651Z"
     },
     {
       "matchId": "olympique_marseille_paris_fc_20260907",
@@ -2577,7 +2613,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.344Z"
+      "updatedAt": "2026-09-06T15:34:59.651Z"
     },
     {
       "matchId": "juventus_ac_milan_20260907",
@@ -2701,7 +2737,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.344Z"
+      "updatedAt": "2026-09-06T15:34:59.651Z"
     },
     {
       "matchId": "espanyol_sevilla_20260907",
@@ -2825,7 +2861,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.344Z"
+      "updatedAt": "2026-09-06T15:34:59.651Z"
     },
     {
       "matchId": "cruzeiro_athletico_paranaense_20260907",
@@ -2949,7 +2985,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.344Z"
+      "updatedAt": "2026-09-06T15:34:59.651Z"
     },
     {
       "matchId": "internacional_santos_20260907",
@@ -3073,7 +3109,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.345Z"
+      "updatedAt": "2026-09-06T15:34:59.651Z"
     },
     {
       "matchId": "remo_flamengo_20260907",
@@ -3157,7 +3193,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.345Z"
+      "updatedAt": "2026-09-06T15:34:59.652Z"
     },
     {
       "matchId": "gil_vicente_academico_viseu_20260907",
@@ -3281,7 +3317,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.345Z"
+      "updatedAt": "2026-09-06T15:34:59.652Z"
     },
     {
       "matchId": "botafogo_palmeiras_20260907",
@@ -3405,7 +3441,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.345Z"
+      "updatedAt": "2026-09-06T15:34:59.652Z"
     },
     {
       "matchId": "corinthians_chapecoense_20260907",
@@ -3529,7 +3565,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.345Z"
+      "updatedAt": "2026-09-06T15:34:59.652Z"
     },
     {
       "matchId": "cagliari_lecce_20260907",
@@ -3653,7 +3689,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.345Z"
+      "updatedAt": "2026-09-06T15:34:59.652Z"
     },
     {
       "matchId": "getafe_celta_vigo_20260907",
@@ -3777,7 +3813,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.346Z"
+      "updatedAt": "2026-09-06T15:34:59.652Z"
     },
     {
       "matchId": "lusitania_lourosa_avs_futebol_sad_20260907",
@@ -3850,7 +3886,7 @@
         "stopped": false,
         "stopTime": null
       },
-      "updatedAt": "2026-09-06T15:34:53.346Z"
+      "updatedAt": "2026-09-06T15:34:59.652Z"
     }
   ],
   "meta": {
@@ -3864,7 +3900,7 @@
     "adminApplied": true,
     "sync": {
       "removedExpired": 0,
-      "streamsAdded": 0,
+      "streamsAdded": 1,
       "matchesAdded": 0
     },
     "liveCount": 2,
@@ -3873,8 +3909,8 @@
     "manualStreamCount": 0,
     "highlightCount": 8,
     "channelCount": 18,
-    "checksum": "4a14674197c586d55dbfdf6b7003855bbf9e2063ae34d9f3830b13fc77e5be05",
-    "cachedAt": "2026-09-06T15:34:53.366Z",
+    "checksum": "541317a32fdb8b0fba816200a312e04d2684294715200c03643bb02957e1d125",
+    "cachedAt": "2026-09-06T15:34:59.674Z",
     "feed": "matches"
   }
 }
