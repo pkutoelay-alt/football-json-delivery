@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-08T16:45:41.029+06:30",
+  "generatedAt": "2026-09-08T17:00:14.938+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 25,
   "matches": [
@@ -18,7 +18,7 @@
       "time": "5:00 PM",
       "kickoff": "2026-09-08T17:00:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "PREPARING_STREAM",
+      "status": "LIVE",
       "h2h": {
         "summary": {
           "homeWins": 2,
@@ -175,7 +175,9 @@
       ],
       "streamAttempts": {
         "t30": true,
-        "t15": true
+        "t15": true,
+        "t5": true,
+        "t0": true
       },
       "matchUrl": "https://cakhiazaa.tv/truc-tiep/incheon-united-vs-bucheon-1995-luc-1730-ngay-08-09-2026/",
       "matchUrlStatus": "MATCH_URL_FOUND",
@@ -191,7 +193,7 @@
       "attempts": 2,
       "validationStatus": null,
       "validationReason": null,
-      "lastAttemptAt": "2026-09-08T10:15:17.395Z",
+      "lastAttemptAt": "2026-09-08T10:30:14.920Z",
       "streamSearch": {
         "started": true,
         "stopped": false,
@@ -202,12 +204,12 @@
         },
         "sources": {
           "cakhia": {
-            "status": "AVAILABLE",
+            "status": "SEARCHING",
             "attempts": 2,
             "postKickoffAttempts": 0,
             "lastError": null,
             "lastAttemptAt": "2026-09-08T10:15:08.278Z",
-            "updatedAt": "2026-09-08T10:15:08.278Z",
+            "updatedAt": "2026-09-08T10:30:10.786Z",
             "slotsDone": {
               "t30": true,
               "t15": true
@@ -216,24 +218,25 @@
           },
           "xoilac": {
             "status": "AVAILABLE",
-            "attempts": 2,
-            "postKickoffAttempts": 0,
+            "attempts": 3,
+            "postKickoffAttempts": 1,
             "lastError": null,
-            "lastAttemptAt": "2026-09-08T10:15:11.103Z",
-            "updatedAt": "2026-09-08T10:15:11.103Z",
+            "lastAttemptAt": "2026-09-08T10:30:14.920Z",
+            "updatedAt": "2026-09-08T10:30:14.920Z",
             "slotsDone": {
               "t30": true,
-              "t15": true
+              "t15": true,
+              "t0": true
             },
             "extractionMethod": "axios"
           },
           "phut": {
-            "status": "AVAILABLE",
+            "status": "SEARCHING",
             "attempts": 2,
             "postKickoffAttempts": 0,
             "lastError": null,
             "lastAttemptAt": "2026-09-08T10:15:14.391Z",
-            "updatedAt": "2026-09-08T10:15:14.391Z",
+            "updatedAt": "2026-09-08T10:30:10.786Z",
             "slotsDone": {
               "t30": true,
               "t15": true
@@ -241,12 +244,12 @@
             "extractionMethod": "axios"
           },
           "socolive": {
-            "status": "AVAILABLE",
+            "status": "SEARCHING",
             "attempts": 2,
             "postKickoffAttempts": 0,
             "lastError": null,
             "lastAttemptAt": "2026-09-08T10:15:17.395Z",
-            "updatedAt": "2026-09-08T10:15:17.395Z",
+            "updatedAt": "2026-09-08T10:30:10.786Z",
             "slotsDone": {
               "t30": true,
               "t15": true
@@ -306,7 +309,7 @@
           }
         }
       },
-      "updatedAt": "2026-09-08T10:15:41.027Z"
+      "updatedAt": "2026-09-08T10:30:14.933Z"
     },
     {
       "matchId": "ulsan_hd_fc_fc_seoul_20260908",
@@ -322,7 +325,7 @@
       "time": "5:00 PM",
       "kickoff": "2026-09-08T17:00:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "PREPARING_STREAM",
+      "status": "LIVE",
       "h2h": {
         "summary": {
           "homeWins": 1,
@@ -390,235 +393,28 @@
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": true,
-      "streamCount": 4,
-      "originalNames": {
-        "fotmob": {
-          "league": "KOR K-League 1",
-          "country": "KOR",
-          "leagueId": 919356,
-          "homeTeam": "Ulsan HD FC",
-          "awayTeam": "FC Seoul"
-        }
-      },
-      "sourcePages": {
-        "cakhia": "https://cakhiazaa.tv/truc-tiep/ulsan-hyundai-vs-seoul-fc-luc-1730-ngay-08-09-2026/",
-        "xoilac": "https://xoilacxbg.tv/truc-tiep/ulsan-hyundai-vs-seoul-fc-luc-1730-ngay-08-09-2026/",
-        "phut": "https://90phutzag.tv/truc-tiep/ulsan-hyundai-vs-seoul-fc-luc-1730-ngay-08-09-2026/",
-        "socolive": "https://socolivezg.tv/truc-tiep/ulsan-hyundai-vs-seoul-fc-luc-1730-ngay-08-09-2026/"
-      },
-      "streams": [
-        {
-          "source": "cakhia",
-          "type": "m3u8",
-          "quality": "ROY",
-          "name": "Cakhia · ROY",
-          "url": "https://live2.felnorastreamvault.com/live/channel1.m3u8",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-            "Referer": "https://ck.domainkqt.cc/"
-          },
-          "streamHeaders": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-            "Referer": "https://ck.domainkqt.cc/"
-          },
-          "active": true,
-          "checkedAt": "2026-09-08T10:15:20.986Z",
-          "validationStatus": "AVAILABLE",
-          "validationReason": null
-        },
-        {
-          "source": "xoilac",
-          "type": "m3u8",
-          "quality": "ROY",
-          "name": "Xoilac · ROY",
-          "url": "https://live2.felnorastreamvault.com/live/channel1.m3u8",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-            "Referer": "https://xl365.domainkqt.cc/"
-          },
-          "streamHeaders": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-            "Referer": "https://xl365.domainkqt.cc/"
-          },
-          "active": true,
-          "checkedAt": "2026-09-08T10:15:22.644Z",
-          "validationStatus": "AVAILABLE",
-          "validationReason": null
-        },
-        {
-          "source": "phut",
-          "type": "m3u8",
-          "quality": "ROY",
-          "name": "Phut · ROY",
-          "url": "https://live2.felnorastreamvault.com/live/channel1.m3u8",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-            "Referer": "https://91p.domainkqt.cc/"
-          },
-          "streamHeaders": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-            "Referer": "https://91p.domainkqt.cc/"
-          },
-          "active": true,
-          "checkedAt": "2026-09-08T10:15:27.281Z",
-          "validationStatus": "AVAILABLE",
-          "validationReason": null
-        },
-        {
-          "source": "socolive",
-          "type": "m3u8",
-          "quality": "ROY",
-          "name": "Socolive · ROY",
-          "url": "https://live2.felnorastreamvault.com/live/channel1.m3u8",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-            "Referer": "https://soco.domainkqt.cc/"
-          },
-          "streamHeaders": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-            "Referer": "https://soco.domainkqt.cc/"
-          },
-          "active": true,
-          "checkedAt": "2026-09-08T10:15:31.739Z",
-          "validationStatus": "AVAILABLE",
-          "validationReason": null
-        }
-      ],
-      "streamAttempts": {
-        "t30": true,
-        "t15": true
-      },
-      "matchUrl": "https://cakhiazaa.tv/truc-tiep/ulsan-hyundai-vs-seoul-fc-luc-1730-ngay-08-09-2026/",
-      "matchUrlStatus": "MATCH_URL_CONFIRMED",
-      "matchUrlAttempts": 1,
-      "lastMatchUrlAttemptAt": "2026-09-08T09:30:41.361Z",
-      "matchUrlSource": "cakhia",
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {},
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
       "streamUrl": "https://live2.felnorastreamvault.com/live/channel1.m3u8",
       "streamHeaders": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
         "Referer": "https://ck.domainkqt.cc/"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 2,
-      "validationStatus": "AVAILABLE",
+      "attempts": 0,
+      "validationStatus": null,
       "validationReason": null,
-      "lastAttemptAt": "2026-09-08T10:15:35.117Z",
-      "streamSearch": {
-        "started": true,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {
-          "t30": true,
-          "t15": true
-        },
-        "sources": {
-          "cakhia": {
-            "status": "AVAILABLE",
-            "attempts": 2,
-            "postKickoffAttempts": 0,
-            "lastError": null,
-            "lastAttemptAt": "2026-09-08T10:15:21.076Z",
-            "updatedAt": "2026-09-08T10:15:21.076Z",
-            "slotsDone": {
-              "t30": true,
-              "t15": true
-            },
-            "extractionMethod": "axios"
-          },
-          "xoilac": {
-            "status": "AVAILABLE",
-            "attempts": 2,
-            "postKickoffAttempts": 0,
-            "lastError": null,
-            "lastAttemptAt": "2026-09-08T10:15:25.472Z",
-            "updatedAt": "2026-09-08T10:15:25.472Z",
-            "slotsDone": {
-              "t30": true,
-              "t15": true
-            },
-            "extractionMethod": "axios"
-          },
-          "phut": {
-            "status": "AVAILABLE",
-            "attempts": 2,
-            "postKickoffAttempts": 0,
-            "lastError": null,
-            "lastAttemptAt": "2026-09-08T10:15:29.953Z",
-            "updatedAt": "2026-09-08T10:15:29.953Z",
-            "slotsDone": {
-              "t30": true,
-              "t15": true
-            },
-            "extractionMethod": "axios"
-          },
-          "socolive": {
-            "status": "AVAILABLE",
-            "attempts": 2,
-            "postKickoffAttempts": 0,
-            "lastError": null,
-            "lastAttemptAt": "2026-09-08T10:15:35.117Z",
-            "updatedAt": "2026-09-08T10:15:35.117Z",
-            "slotsDone": {
-              "t30": true,
-              "t15": true
-            },
-            "extractionMethod": "axios"
-          }
-        }
-      },
-      "matchUrlSearch": {
-        "slotsDone": {
-          "t60": true
-        },
-        "sources": {
-          "cakhia": {
-            "matchUrl": "https://cakhiazaa.tv/truc-tiep/ulsan-hyundai-vs-seoul-fc-luc-1730-ngay-08-09-2026/",
-            "status": "MATCH_URL_CONFIRMED",
-            "attempts": 1,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-09-08T09:30:16.637Z",
-            "slotsDone": {
-              "t60": true
-            },
-            "confidence": 100
-          },
-          "xoilac": {
-            "matchUrl": "https://xoilacxbg.tv/truc-tiep/ulsan-hyundai-vs-seoul-fc-luc-1730-ngay-08-09-2026/",
-            "status": "MATCH_URL_CONFIRMED",
-            "attempts": 1,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-09-08T09:30:25.095Z",
-            "slotsDone": {
-              "t60": true
-            },
-            "confidence": 100
-          },
-          "phut": {
-            "matchUrl": "https://90phutzag.tv/truc-tiep/ulsan-hyundai-vs-seoul-fc-luc-1730-ngay-08-09-2026/",
-            "status": "MATCH_URL_CONFIRMED",
-            "attempts": 1,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-09-08T09:30:33.642Z",
-            "slotsDone": {
-              "t60": true
-            },
-            "confidence": 100
-          },
-          "socolive": {
-            "matchUrl": "https://socolivezg.tv/truc-tiep/ulsan-hyundai-vs-seoul-fc-luc-1730-ngay-08-09-2026/",
-            "status": "MATCH_URL_CONFIRMED",
-            "attempts": 1,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-09-08T09:30:41.361Z",
-            "slotsDone": {
-              "t60": true
-            },
-            "confidence": 100
-          }
-        }
-      },
-      "updatedAt": "2026-09-08T10:15:41.027Z"
+      "lastAttemptAt": null,
+      "updatedAt": "2026-09-08T10:30:14.933Z"
     },
     {
       "matchId": "aek_athens_lask_20260908",
@@ -646,22 +442,14 @@
       "fotmobMatchId": 6106404,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Champions League",
-          "country": "INT",
-          "leagueId": 943230,
-          "homeTeam": "AEK Athens",
-          "awayTeam": "LASK"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -677,18 +465,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.027Z"
+      "updatedAt": "2026-09-08T10:30:14.933Z"
     },
     {
       "matchId": "club_brugge_aston_villa_20260908",
@@ -747,22 +524,14 @@
       "fotmobMatchId": 6106295,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Champions League",
-          "country": "INT",
-          "leagueId": 943230,
-          "homeTeam": "Club Brugge",
-          "awayTeam": "Aston Villa"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -778,18 +547,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.027Z"
+      "updatedAt": "2026-09-08T10:30:14.933Z"
     },
     {
       "matchId": "bournemouth_lincoln_20260909",
@@ -817,22 +575,14 @@
       "fotmobMatchId": 6099334,
       "leagueId": 938221,
       "leagueName": "EFL Cup (ENG LC)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ENG EFL Cup",
-          "country": "ENG",
-          "leagueId": 938221,
-          "homeTeam": "Bournemouth",
-          "awayTeam": "Lincoln"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -848,18 +598,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.028Z"
+      "updatedAt": "2026-09-08T10:30:14.934Z"
     },
     {
       "matchId": "crystal_palace_middlesbrough_20260909",
@@ -938,22 +677,14 @@
       "fotmobMatchId": 6099328,
       "leagueId": 938221,
       "leagueName": "EFL Cup (ENG LC)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ENG EFL Cup",
-          "country": "ENG",
-          "leagueId": 938221,
-          "homeTeam": "Crystal Palace",
-          "awayTeam": "Middlesbrough"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -969,18 +700,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.028Z"
+      "updatedAt": "2026-09-08T10:30:14.934Z"
     },
     {
       "matchId": "leyton_orient_bradford_20260909",
@@ -1059,22 +779,14 @@
       "fotmobMatchId": 6099339,
       "leagueId": 938221,
       "leagueName": "EFL Cup (ENG LC)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ENG EFL Cup",
-          "country": "ENG",
-          "leagueId": 938221,
-          "homeTeam": "Leyton Orient",
-          "awayTeam": "Bradford"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1090,18 +802,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.028Z"
+      "updatedAt": "2026-09-08T10:30:14.934Z"
     },
     {
       "matchId": "sunderland_hull_city_20260909",
@@ -1180,22 +881,14 @@
       "fotmobMatchId": 6099331,
       "leagueId": 938221,
       "leagueName": "EFL Cup (ENG LC)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ENG EFL Cup",
-          "country": "ENG",
-          "leagueId": 938221,
-          "homeTeam": "Sunderland",
-          "awayTeam": "Hull"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1211,18 +904,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.028Z"
+      "updatedAt": "2026-09-08T10:30:14.934Z"
     },
     {
       "matchId": "blackburn_sheff_utd_20260909",
@@ -1301,22 +983,14 @@
       "fotmobMatchId": 5836814,
       "leagueId": 938218,
       "leagueName": "English Championship (ENG LCH)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ENG Championship",
-          "country": "ENG",
-          "leagueId": 938218,
-          "homeTeam": "Blackburn",
-          "awayTeam": "Sheff Utd"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1332,18 +1006,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.028Z"
+      "updatedAt": "2026-09-08T10:30:14.934Z"
     },
     {
       "matchId": "cardiff_stoke_20260909",
@@ -1422,22 +1085,14 @@
       "fotmobMatchId": 5836817,
       "leagueId": 938218,
       "leagueName": "English Championship (ENG LCH)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ENG Championship",
-          "country": "ENG",
-          "leagueId": 938218,
-          "homeTeam": "Cardiff",
-          "awayTeam": "Stoke"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1453,18 +1108,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.028Z"
+      "updatedAt": "2026-09-08T10:30:14.935Z"
     },
     {
       "matchId": "southampton_swansea_20260909",
@@ -1543,22 +1187,14 @@
       "fotmobMatchId": 5836819,
       "leagueId": 938218,
       "leagueName": "English Championship (ENG LCH)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ENG Championship",
-          "country": "ENG",
-          "leagueId": 938218,
-          "homeTeam": "Southampton",
-          "awayTeam": "Swansea"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1574,18 +1210,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.028Z"
+      "updatedAt": "2026-09-08T10:30:14.935Z"
     },
     {
       "matchId": "watford_preston_20260909",
@@ -1664,22 +1289,14 @@
       "fotmobMatchId": 5836820,
       "leagueId": 938218,
       "leagueName": "English Championship (ENG LCH)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ENG Championship",
-          "country": "ENG",
-          "leagueId": 938218,
-          "homeTeam": "Watford",
-          "awayTeam": "Preston"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1695,18 +1312,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.028Z"
+      "updatedAt": "2026-09-08T10:30:14.935Z"
     },
     {
       "matchId": "wrexham_burnley_20260909",
@@ -1734,22 +1340,14 @@
       "fotmobMatchId": 5836825,
       "leagueId": 938218,
       "leagueName": "English Championship (ENG LCH)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ENG Championship",
-          "country": "ENG",
-          "leagueId": 938218,
-          "homeTeam": "Wrexham",
-          "awayTeam": "Burnley"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1765,18 +1363,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.028Z"
+      "updatedAt": "2026-09-08T10:30:14.935Z"
     },
     {
       "matchId": "borussia_dortmund_villarreal_20260909",
@@ -1835,22 +1422,14 @@
       "fotmobMatchId": 6106272,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Champions League",
-          "country": "INT",
-          "leagueId": 943230,
-          "homeTeam": "Dortmund",
-          "awayTeam": "Villarreal"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1866,18 +1445,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.028Z"
+      "updatedAt": "2026-09-08T10:30:14.935Z"
     },
     {
       "matchId": "fc_porto_manchester_city_20260909",
@@ -1946,22 +1514,14 @@
       "fotmobMatchId": 6106286,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Champions League",
-          "country": "INT",
-          "leagueId": 943230,
-          "homeTeam": "FC Porto",
-          "awayTeam": "Man City"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1977,18 +1537,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.028Z"
+      "updatedAt": "2026-09-08T10:30:14.936Z"
     },
     {
       "matchId": "lille_real_betis_20260909",
@@ -2027,22 +1576,14 @@
       "fotmobMatchId": 6106311,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Champions League",
-          "country": "INT",
-          "leagueId": 943230,
-          "homeTeam": "Lille",
-          "awayTeam": "Real Betis"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2058,18 +1599,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.029Z"
+      "updatedAt": "2026-09-08T10:30:14.936Z"
     },
     {
       "matchId": "real_madrid_inter_milan_20260909",
@@ -2148,22 +1678,14 @@
       "fotmobMatchId": 6106242,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Champions League",
-          "country": "INT",
-          "leagueId": 943230,
-          "homeTeam": "Real Madrid",
-          "awayTeam": "Inter"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2179,18 +1701,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.029Z"
+      "updatedAt": "2026-09-08T10:30:14.936Z"
     },
     {
       "matchId": "millwall_newcastle_united_20260909",
@@ -2218,22 +1729,14 @@
       "fotmobMatchId": 6099336,
       "leagueId": 938221,
       "leagueName": "EFL Cup (ENG LC)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ENG EFL Cup",
-          "country": "ENG",
-          "leagueId": 938221,
-          "homeTeam": "Millwall",
-          "awayTeam": "Newcastle"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2249,18 +1752,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.029Z"
+      "updatedAt": "2026-09-08T10:30:14.936Z"
     },
     {
       "matchId": "bolton_west_ham_united_20260909",
@@ -2319,22 +1811,14 @@
       "fotmobMatchId": 5836815,
       "leagueId": 938218,
       "leagueName": "English Championship (ENG LCH)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ENG Championship",
-          "country": "ENG",
-          "leagueId": 938218,
-          "homeTeam": "Bolton",
-          "awayTeam": "West Ham"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2350,18 +1834,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.029Z"
+      "updatedAt": "2026-09-08T10:30:14.936Z"
     },
     {
       "matchId": "daejeon_hana_citizen_fc_anyang_20260909",
@@ -2440,22 +1913,14 @@
       "fotmobMatchId": 5140026,
       "leagueId": 919356,
       "leagueName": "K League 1 (KOR D1)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "KOR K-League 1",
-          "country": "KOR",
-          "leagueId": 919356,
-          "homeTeam": "Daejeon Hana Citizen",
-          "awayTeam": "FC Anyang"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2471,18 +1936,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.029Z"
+      "updatedAt": "2026-09-08T10:30:14.937Z"
     },
     {
       "matchId": "gangwon_fc_jeonbuk_hyundai_motors_20260909",
@@ -2561,22 +2015,14 @@
       "fotmobMatchId": 5140027,
       "leagueId": 919356,
       "leagueName": "K League 1 (KOR D1)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "KOR K-League 1",
-          "country": "KOR",
-          "leagueId": 919356,
-          "homeTeam": "Gangwon FC",
-          "awayTeam": "Jeonbuk Hyundai Motors FC"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2592,18 +2038,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.029Z"
+      "updatedAt": "2026-09-08T10:30:14.937Z"
     },
     {
       "matchId": "gwangju_fc_jeju_united_20260909",
@@ -2682,22 +2117,14 @@
       "fotmobMatchId": 5140028,
       "leagueId": 919356,
       "leagueName": "K League 1 (KOR D1)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "KOR K-League 1",
-          "country": "KOR",
-          "leagueId": 919356,
-          "homeTeam": "Gwangju FC",
-          "awayTeam": "Jeju SK"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2713,18 +2140,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.029Z"
+      "updatedAt": "2026-09-08T10:30:14.937Z"
     },
     {
       "matchId": "pohang_steelers_gimcheon_sangmu_20260909",
@@ -2803,22 +2219,14 @@
       "fotmobMatchId": 5140029,
       "leagueId": 919356,
       "leagueName": "K League 1 (KOR D1)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "KOR K-League 1",
-          "country": "KOR",
-          "leagueId": 919356,
-          "homeTeam": "Pohang Steelers",
-          "awayTeam": "Gimcheon Sangmu"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2834,18 +2242,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.029Z"
+      "updatedAt": "2026-09-08T10:30:14.937Z"
     },
     {
       "matchId": "barcelona_feyenoord_20260909",
@@ -2873,22 +2270,14 @@
       "fotmobMatchId": 6106264,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Champions League",
-          "country": "INT",
-          "leagueId": 943230,
-          "homeTeam": "Barcelona",
-          "awayTeam": "Feyenoord"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2904,18 +2293,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.029Z"
+      "updatedAt": "2026-09-08T10:30:14.937Z"
     },
     {
       "matchId": "vfb_stuttgart_viking_20260909",
@@ -2943,22 +2321,14 @@
       "fotmobMatchId": 6106400,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Champions League",
-          "country": "INT",
-          "leagueId": 943230,
-          "homeTeam": "VfB Stuttgart",
-          "awayTeam": "Viking"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2974,18 +2344,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-08T10:15:41.029Z"
+      "updatedAt": "2026-09-08T10:30:14.937Z"
     }
   ],
   "meta": {
@@ -2994,24 +2353,22 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive",
-      "highlight",
-      "myanmartv"
+      "socolive"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 4,
-      "streamsAdded": 4,
+      "removedExpired": 0,
+      "streamsAdded": 0,
       "matchesAdded": 0
     },
-    "liveCount": 0,
+    "liveCount": 2,
     "scheduledCount": 23,
     "endedCount": 0,
     "manualStreamCount": 0,
     "highlightCount": 12,
     "channelCount": 18,
-    "checksum": "fc1904b1a42dbd3a82e3cc2ad180170fc522aaa9ec1b22f4ca5b02ac3ad8b83f",
-    "cachedAt": "2026-09-08T10:15:41.049Z",
+    "checksum": "e0646fd91c65dc5b543f09111a26a11dc45d7f1f286ad4b0fbd05956c1fe5c47",
+    "cachedAt": "2026-09-08T10:30:14.949Z",
     "feed": "admin-match"
   }
 }
