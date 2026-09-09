@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-10T00:19:33.390+06:30",
+  "generatedAt": "2026-09-10T00:30:05.607+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 18,
   "matches": [
@@ -30,7 +30,7 @@
       "fotmobMatchId": 6106264,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "xoilac",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -46,7 +46,6 @@
       },
       "streams": [
         {
-          "source": "xoilac",
           "type": "m3u8",
           "quality": "HD ROY",
           "name": "HD ROY",
@@ -63,7 +62,6 @@
           "checkedAt": null
         },
         {
-          "source": "cakhia",
           "type": "m3u8",
           "quality": "HD ROY",
           "name": "HD ROY",
@@ -80,7 +78,6 @@
           "checkedAt": null
         },
         {
-          "source": "phut",
           "type": "m3u8",
           "quality": "HD ROY",
           "name": "HD ROY",
@@ -97,7 +94,6 @@
           "checkedAt": null
         },
         {
-          "source": "socolive",
           "type": "m3u8",
           "quality": "HD ROY",
           "name": "HD ROY",
@@ -114,7 +110,6 @@
           "checkedAt": null
         },
         {
-          "source": "manual",
           "type": "m3u8",
           "quality": "ENG HD",
           "name": "ENG HD",
@@ -131,7 +126,6 @@
           "checkedAt": null
         },
         {
-          "source": "manual",
           "type": "m3u8",
           "quality": "ENG HD2",
           "name": "ENG HD2",
@@ -161,10 +155,10 @@
       },
       "streamStatus": "AVAILABLE",
       "attempts": 0,
-      "validationStatus": "AVAILABLE",
+      "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-09T17:49:33.382Z",
+      "updatedAt": "2026-09-09T18:00:05.599Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -243,7 +237,7 @@
       "fotmobMatchId": 6106400,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "manual",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -259,7 +253,6 @@
       },
       "streams": [
         {
-          "source": "manual",
           "type": "m3u8",
           "quality": "ENG HD",
           "name": "ENG HD",
@@ -289,10 +282,10 @@
       },
       "streamStatus": "AVAILABLE",
       "attempts": 0,
-      "validationStatus": "AVAILABLE",
+      "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-09T17:49:33.384Z",
+      "updatedAt": "2026-09-09T18:00:05.600Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -359,7 +352,7 @@
       "time": "1:30 AM",
       "kickoff": "2026-09-10T01:30:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "h2h": {
         "summary": {
           "homeWins": 3,
@@ -438,14 +431,16 @@
           "awayTeam": "Atlético Madrid"
         }
       },
-      "sourcePages": {},
+      "sourcePages": {
+        "cakhia": "https://cakhiazaa.tv/truc-tiep/liverpool-vs-atletico-madrid-luc-0200-ngay-10-09-2026/"
+      },
       "streams": [],
       "streamAttempts": {},
-      "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": null,
-      "matchUrlSource": null,
+      "matchUrl": "https://cakhiazaa.tv/truc-tiep/liverpool-vs-atletico-madrid-luc-0200-ngay-10-09-2026/",
+      "matchUrlStatus": "MATCH_URL_CONFIRMED",
+      "matchUrlAttempts": 1,
+      "lastMatchUrlAttemptAt": "2026-09-09T18:00:05.580Z",
+      "matchUrlSource": "cakhia",
       "streamUrl": null,
       "streamHeaders": null,
       "streamStatus": "PREPARING_STREAM",
@@ -461,10 +456,24 @@
         "sources": {}
       },
       "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
+        "slotsDone": {
+          "t60": true
+        },
+        "sources": {
+          "cakhia": {
+            "matchUrl": "https://cakhiazaa.tv/truc-tiep/liverpool-vs-atletico-madrid-luc-0200-ngay-10-09-2026/",
+            "status": "MATCH_URL_CONFIRMED",
+            "attempts": 1,
+            "liveAttempts": 0,
+            "lastAttemptAt": "2026-09-09T18:00:05.580Z",
+            "slotsDone": {
+              "t60": true
+            },
+            "confidence": 100
+          }
+        }
       },
-      "updatedAt": "2026-09-09T17:49:33.385Z"
+      "updatedAt": "2026-09-09T18:00:05.600Z"
     },
     {
       "matchId": "paris_saint_germain_slovan_bratislava_20260910",
@@ -480,7 +489,7 @@
       "time": "1:30 AM",
       "kickoff": "2026-09-10T01:30:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "h2h": {
         "summary": {
           "homeWins": 1,
@@ -513,22 +522,14 @@
       "fotmobMatchId": 6106237,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Champions League",
-          "country": "INT",
-          "leagueId": 943230,
-          "homeTeam": "Paris Saint-Germain",
-          "awayTeam": "Slovan Bratislava"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -544,18 +545,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-09T17:49:33.386Z"
+      "updatedAt": "2026-09-09T18:00:05.601Z"
     },
     {
       "matchId": "sporting_cp_galatasaray_20260910",
@@ -571,7 +561,7 @@
       "time": "1:30 AM",
       "kickoff": "2026-09-10T01:30:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "h2h": {
         "summary": {
           "homeWins": 0,
@@ -583,22 +573,14 @@
       "fotmobMatchId": 6106280,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Champions League",
-          "country": "INT",
-          "leagueId": 943230,
-          "homeTeam": "Sporting CP",
-          "awayTeam": "Galatasaray"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -614,18 +596,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-09T17:49:33.386Z"
+      "updatedAt": "2026-09-09T18:00:05.601Z"
     },
     {
       "matchId": "napoli_arsenal_20260910",
@@ -641,7 +612,7 @@
       "time": "1:30 AM",
       "kickoff": "2026-09-10T01:30:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "h2h": {
         "summary": {
           "homeWins": 1,
@@ -704,22 +675,14 @@
       "fotmobMatchId": 6106318,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Champions League",
-          "country": "INT",
-          "leagueId": 943230,
-          "homeTeam": "Napoli",
-          "awayTeam": "Arsenal"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -735,18 +698,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-09T17:49:33.386Z"
+      "updatedAt": "2026-09-09T18:00:05.601Z"
     },
     {
       "matchId": "chelsea_leeds_united_20260910",
@@ -762,7 +714,7 @@
       "time": "1:30 AM",
       "kickoff": "2026-09-10T01:30:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "h2h": {
         "summary": {
           "homeWins": 3,
@@ -825,22 +777,14 @@
       "fotmobMatchId": 6099342,
       "leagueId": 938221,
       "leagueName": "EFL Cup (ENG LC)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ENG EFL Cup",
-          "country": "ENG",
-          "leagueId": 938221,
-          "homeTeam": "Chelsea",
-          "awayTeam": "Leeds United"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -856,18 +800,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-09T17:49:33.386Z"
+      "updatedAt": "2026-09-09T18:00:05.604Z"
     },
     {
       "matchId": "moreirense_benfica_20260910",
@@ -946,22 +879,14 @@
       "fotmobMatchId": 5887604,
       "leagueId": 61,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "Liga Portugal",
-          "country": "POR",
-          "leagueId": 61,
-          "homeTeam": "Moreirense",
-          "awayTeam": "Benfica"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -977,18 +902,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-09T17:49:33.387Z"
+      "updatedAt": "2026-09-09T18:00:05.604Z"
     },
     {
       "matchId": "fenerbahce_as_roma_20260910",
@@ -1027,22 +941,14 @@
       "fotmobMatchId": 6106331,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Champions League",
-          "country": "INT",
-          "leagueId": 943230,
-          "homeTeam": "Fenerbahçe",
-          "awayTeam": "Roma"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1058,18 +964,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-09T17:49:33.387Z"
+      "updatedAt": "2026-09-09T18:00:05.604Z"
     },
     {
       "matchId": "psv_eindhoven_shakhtar_donetsk_20260910",
@@ -1108,22 +1003,14 @@
       "fotmobMatchId": 6106304,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Champions League",
-          "country": "INT",
-          "leagueId": 943230,
-          "homeTeam": "PSV Eindhoven",
-          "awayTeam": "Shakhtar Donetsk"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1139,18 +1026,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-09T17:49:33.387Z"
+      "updatedAt": "2026-09-09T18:00:05.604Z"
     },
     {
       "matchId": "derby_county_west_bromwich_albion_20260910",
@@ -1229,29 +1105,21 @@
       "fotmobMatchId": 5836823,
       "leagueId": 938218,
       "leagueName": "English Championship (ENG LCH)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ENG Championship",
-          "country": "ENG",
-          "leagueId": 938218,
-          "homeTeam": "Derby County",
-          "awayTeam": "West Bromwich Albion"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
       "matchUrl": null,
       "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 1,
-      "lastMatchUrlAttemptAt": "2026-09-09T17:45:25.995Z",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -1260,65 +1128,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {
-          "t60": true
-        },
-        "sources": {
-          "cakhia": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 1,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-09-09T17:45:07.150Z",
-            "slotsDone": {
-              "t60": true
-            },
-            "confidence": 0
-          },
-          "xoilac": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 1,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-09-09T17:45:14.306Z",
-            "slotsDone": {
-              "t60": true
-            },
-            "confidence": 0
-          },
-          "phut": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 1,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-09-09T17:45:19.963Z",
-            "slotsDone": {
-              "t60": true
-            },
-            "confidence": 0
-          },
-          "socolive": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 1,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-09-09T17:45:25.995Z",
-            "slotsDone": {
-              "t60": true
-            },
-            "confidence": 0
-          }
-        }
-      },
-      "updatedAt": "2026-09-09T17:49:33.387Z"
+      "updatedAt": "2026-09-09T18:00:05.605Z"
     },
     {
       "matchId": "norwich_city_birmingham_city_20260910",
@@ -1397,22 +1207,14 @@
       "fotmobMatchId": 5836824,
       "leagueId": 938218,
       "leagueName": "English Championship (ENG LCH)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ENG Championship",
-          "country": "ENG",
-          "leagueId": 938218,
-          "homeTeam": "Norwich City",
-          "awayTeam": "Birmingham City"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {
         "cakhia": "https://cakhiazaa.tv/truc-tiep/norwich-city-vs-birmingham-city-luc-0145-ngay-10-09-2026/",
         "xoilac": "https://xoilacxbh.tv/truc-tiep/norwich-city-vs-birmingham-city-luc-0145-ngay-10-09-2026/",
@@ -1433,13 +1235,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
+      "updatedAt": "2026-09-09T18:00:05.605Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -1490,8 +1286,7 @@
             "confidence": 100
           }
         }
-      },
-      "updatedAt": "2026-09-09T17:49:33.388Z"
+      }
     },
     {
       "matchId": "charlton_athletic_queens_park_rangers_20260910",
@@ -1507,7 +1302,7 @@
       "time": "1:30 AM",
       "kickoff": "2026-09-10T01:30:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "h2h": {
         "summary": {
           "homeWins": 1,
@@ -1570,22 +1365,14 @@
       "fotmobMatchId": 5836822,
       "leagueId": 938218,
       "leagueName": "English Championship (ENG LCH)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ENG Championship",
-          "country": "ENG",
-          "leagueId": 938218,
-          "homeTeam": "Charlton Athletic",
-          "awayTeam": "Queens Park Rangers"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1601,18 +1388,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-09T17:49:33.388Z"
+      "updatedAt": "2026-09-09T18:00:05.606Z"
     },
     {
       "matchId": "bayern_munich_bod_glimt_20260911",
@@ -1640,22 +1416,14 @@
       "fotmobMatchId": 6106240,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Champions League",
-          "country": "INT",
-          "leagueId": 943230,
-          "homeTeam": "Bayern München",
-          "awayTeam": "Bodø/Glimt"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1671,18 +1439,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-09T17:49:33.388Z"
+      "updatedAt": "2026-09-09T18:00:05.606Z"
     },
     {
       "matchId": "como_rb_leipzig_20260911",
@@ -1710,22 +1467,14 @@
       "fotmobMatchId": 6106411,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Champions League",
-          "country": "INT",
-          "leagueId": 943230,
-          "homeTeam": "Como",
-          "awayTeam": "RB Leipzig"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1741,18 +1490,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-09T17:49:33.389Z"
+      "updatedAt": "2026-09-09T18:00:05.606Z"
     },
     {
       "matchId": "manchester_united_sabah_fk_20260911",
@@ -1780,22 +1518,14 @@
       "fotmobMatchId": 6106293,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Champions League",
-          "country": "INT",
-          "leagueId": 943230,
-          "homeTeam": "Manchester United",
-          "awayTeam": "Sabah FK"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1811,18 +1541,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-09T17:49:33.389Z"
+      "updatedAt": "2026-09-09T18:00:05.606Z"
     },
     {
       "matchId": "slavia_prague_lens_20260911",
@@ -1850,22 +1569,14 @@
       "fotmobMatchId": 6106392,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Champions League",
-          "country": "INT",
-          "leagueId": 943230,
-          "homeTeam": "Slavia Prague",
-          "awayTeam": "Lens"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1881,18 +1592,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-09T17:49:33.389Z"
+      "updatedAt": "2026-09-09T18:00:05.607Z"
     },
     {
       "matchId": "estrela_da_amadora_braga_20260911",
@@ -1971,22 +1671,14 @@
       "fotmobMatchId": 5887600,
       "leagueId": 61,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "Liga Portugal",
-          "country": "POR",
-          "leagueId": 61,
-          "homeTeam": "Estrela da Amadora",
-          "awayTeam": "Braga"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2002,18 +1694,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-09T17:49:33.389Z"
+      "updatedAt": "2026-09-09T18:00:05.607Z"
     }
   ],
   "meta": {
@@ -2022,24 +1703,22 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive",
-      "highlight",
-      "myanmartv"
+      "socolive"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 6,
+      "removedExpired": 0,
       "streamsAdded": 0,
-      "matchesAdded": 6
+      "matchesAdded": 0
     },
     "liveCount": 2,
-    "scheduledCount": 14,
+    "scheduledCount": 8,
     "endedCount": 0,
-    "manualStreamCount": 3,
+    "manualStreamCount": 0,
     "highlightCount": 20,
     "channelCount": 18,
-    "checksum": "92e1e10575a7c57108d6ac5baeb022197cc5850f6e03d1d5bd9a25e4e1c890be",
-    "cachedAt": "2026-09-09T17:49:33.404Z",
+    "checksum": "7f0218d396c7cdcdd59cc076ebbcf5be3283aec774a0aedbda26b2d24e38519d",
+    "cachedAt": "2026-09-09T18:00:05.623Z",
     "feed": "admin-match"
   }
 }
