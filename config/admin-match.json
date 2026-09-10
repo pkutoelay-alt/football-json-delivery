@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-10T23:45:22.634+06:30",
+  "generatedAt": "2026-09-10T23:46:07.884+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 7,
   "matches": [
@@ -340,7 +340,7 @@
           }
         }
       },
-      "updatedAt": "2026-09-10T17:15:22.633Z"
+      "updatedAt": "2026-09-10T17:16:07.878Z"
     },
     {
       "matchId": "psv_eindhoven_shakhtar_donetsk_20260910",
@@ -379,14 +379,22 @@
       "fotmobMatchId": 6106304,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": null,
+      "source": "manual",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": true,
       "streamCount": 6,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Champions League",
+          "country": "INT",
+          "leagueId": 943230,
+          "homeTeam": "PSV Eindhoven",
+          "awayTeam": "Shakhtar Donetsk"
+        }
+      },
       "sourcePages": {
         "cakhia": "https://cakhiazab.tv/truc-tiep/psv-eindhoven-vs-shakhtar-donetsk-luc-2345-ngay-10-09-2026/",
         "xoilac": "https://xoilacxbh.tv/truc-tiep/psv-eindhoven-vs-shakhtar-donetsk-luc-2345-ngay-10-09-2026/",
@@ -443,6 +451,7 @@
           "checkedAt": null
         },
         {
+          "source": "manual",
           "type": "m3u8",
           "quality": "Soco HD",
           "name": "Soco HD",
@@ -456,9 +465,11 @@
             "Referer": "https://socolivezh.tv/truc-tiep/psv-eindhoven-vs-shakhtar-donetsk-luc-2345-ngay-10-09-2026/link/1"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-10T16:31:48.436Z",
+          "manualId": "22f887c9-687d-4b38-9566-2375ea2c2d5f"
         },
         {
+          "source": "manual",
           "type": "m3u8",
           "quality": "HD",
           "name": "HD",
@@ -472,9 +483,11 @@
             "Referer": "https://soco.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-10T16:32:54.192Z",
+          "manualId": "2b9e3127-e54b-4d57-8706-7efff67cf81e"
         },
         {
+          "source": "manual",
           "type": "m3u8",
           "quality": "ENG HD",
           "name": "ENG HD",
@@ -488,10 +501,20 @@
             "Referer": "https://socowatch.site/12951/0/soccer/1"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-10T16:37:26.093Z",
+          "manualId": "1afa574d-5857-47be-94ce-1df13746a595"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiazab.tv/truc-tiep/psv-eindhoven-vs-shakhtar-donetsk-luc-2345-ngay-10-09-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -503,11 +526,91 @@
         "Referer": "https://socolivezh.tv/truc-tiep/psv-eindhoven-vs-shakhtar-donetsk-luc-2345-ngay-10-09-2026/link/1"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
+      "attempts": 3,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-09-10T17:15:22.633Z",
+      "lastAttemptAt": "2026-09-10T17:16:07.788Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": true,
+        "stopTime": "2026-09-10T23:46:07.799+06:30",
+        "slotsDone": {
+          "t30": true,
+          "t20": true,
+          "t0": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-09-10T17:15:36.075Z",
+            "updatedAt": "2026-09-10T17:15:36.075Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null
+          },
+          "xoilac": {
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-09-10T17:15:46.142Z",
+            "updatedAt": "2026-09-10T17:15:46.142Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null
+          },
+          "phut": {
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-09-10T17:15:56.388Z",
+            "updatedAt": "2026-09-10T17:15:56.388Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null
+          },
+          "socolive": {
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-09-10T17:16:07.788Z",
+            "updatedAt": "2026-09-10T17:16:07.788Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null
+          },
+          "manual": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-09-10T16:45:03.496Z",
+            "slotsDone": {}
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -558,7 +661,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-09-10T17:16:07.883Z"
     },
     {
       "matchId": "bayern_munich_bod_glimt_20260911",
@@ -586,14 +690,22 @@
       "fotmobMatchId": 6106240,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Champions League",
+          "country": "INT",
+          "leagueId": 943230,
+          "homeTeam": "Bayern München",
+          "awayTeam": "Bodø/Glimt"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -609,7 +721,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-10T17:15:22.633Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-10T17:16:07.883Z"
     },
     {
       "matchId": "como_rb_leipzig_20260911",
@@ -637,14 +760,22 @@
       "fotmobMatchId": 6106411,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Champions League",
+          "country": "INT",
+          "leagueId": 943230,
+          "homeTeam": "Como",
+          "awayTeam": "RB Leipzig"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -660,7 +791,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-10T17:15:22.634Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-10T17:16:07.883Z"
     },
     {
       "matchId": "manchester_united_sabah_fk_20260911",
@@ -688,14 +830,22 @@
       "fotmobMatchId": 6106293,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Champions League",
+          "country": "INT",
+          "leagueId": 943230,
+          "homeTeam": "Manchester United",
+          "awayTeam": "Sabah FK"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -711,7 +861,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-10T17:15:22.634Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-10T17:16:07.883Z"
     },
     {
       "matchId": "slavia_prague_lens_20260911",
@@ -739,14 +900,22 @@
       "fotmobMatchId": 6106392,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Champions League",
+          "country": "INT",
+          "leagueId": 943230,
+          "homeTeam": "Slavia Prague",
+          "awayTeam": "Lens"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -762,7 +931,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-10T17:15:22.634Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-10T17:16:07.883Z"
     },
     {
       "matchId": "estrela_da_amadora_braga_20260911",
@@ -841,14 +1021,22 @@
       "fotmobMatchId": 5887600,
       "leagueId": 61,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "Liga Portugal",
+          "country": "POR",
+          "leagueId": 61,
+          "homeTeam": "Estrela da Amadora",
+          "awayTeam": "Braga"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -864,7 +1052,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-10T17:15:22.634Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-10T17:16:07.883Z"
     }
   ],
   "meta": {
@@ -873,22 +1072,24 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive"
+      "socolive",
+      "highlight",
+      "myanmartv"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 0,
-      "streamsAdded": 5,
-      "matchesAdded": 0
+      "removedExpired": 15,
+      "streamsAdded": 8,
+      "matchesAdded": 5
     },
     "liveCount": 2,
     "scheduledCount": 5,
     "endedCount": 0,
-    "manualStreamCount": 1,
+    "manualStreamCount": 4,
     "highlightCount": 27,
     "channelCount": 18,
-    "checksum": "b42a5d41feee0954c01983000bf7e47f1f22aeb18bce1a6859f7063a6df265b9",
-    "cachedAt": "2026-09-10T17:15:22.640Z",
+    "checksum": "d9128d8cd7651b5b8bc8bf6e19990875e2a8039332a7588f4367e071ee82920f",
+    "cachedAt": "2026-09-10T17:16:07.895Z",
     "feed": "admin-match"
   }
 }
