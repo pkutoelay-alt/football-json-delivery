@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-12T20:00:36.449+06:30",
+  "generatedAt": "2026-09-12T20:00:43.778+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 61,
   "matches": [
@@ -81,14 +81,22 @@
       "fotmobMatchId": 5868056,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": null,
+      "source": "xoilac",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": true,
-      "streamCount": 1,
-      "originalNames": {},
+      "streamCount": 2,
+      "originalNames": {
+        "fotmob": {
+          "league": "ESP LaLiga",
+          "country": "ESP",
+          "leagueId": 87,
+          "homeTeam": "Racing Santander",
+          "awayTeam": "Deportivo Alavés"
+        }
+      },
       "sourcePages": {
         "cakhia": "https://cakhiazab.tv/truc-tiep/racing-santander-vs-alaves-luc-1900-ngay-12-09-2026/",
         "xoilac": "https://xoilacxbh.tv/truc-tiep/racing-santander-vs-alaves-luc-1900-ngay-12-09-2026/",
@@ -111,9 +119,37 @@
           },
           "active": true,
           "checkedAt": null
+        },
+        {
+          "source": "xoilac",
+          "type": "m3u8",
+          "quality": "TOM",
+          "name": "TOM",
+          "url": "https://live2.felnorastreamvault.com/live/channel4.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://xl365.domainkqt.cc/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://xl365.domainkqt.cc/"
+          },
+          "active": true,
+          "checkedAt": "2026-09-12T13:30:43.020Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiazab.tv/truc-tiep/racing-santander-vs-alaves-luc-1900-ngay-12-09-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -122,14 +158,63 @@
       "streamUrl": "https://live2.felnorastreamvault.com/live/channel4.m3u8",
       "streamHeaders": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-        "Referer": "https://soco.domainkqt.cc/"
+        "Referer": "https://xl365.domainkqt.cc/"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.439Z",
+      "lastAttemptAt": "2026-09-12T13:30:43.739Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-09-12T13:30:39.825Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          },
+          "xoilac": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 1,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-12T13:30:43.739Z",
+            "updatedAt": "2026-09-12T13:30:43.739Z",
+            "slotsDone": {
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-09-12T13:30:39.825Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-09-12T13:30:39.825Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -180,7 +265,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-09-12T13:30:43.770Z"
     },
     {
       "matchId": "genoa_frosinone_20260912",
@@ -307,7 +393,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.439Z",
+      "updatedAt": "2026-09-12T13:30:43.771Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -450,7 +536,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.439Z"
+      "updatedAt": "2026-09-12T13:30:43.771Z"
     },
     {
       "matchId": "fc_augsburg_bayer_leverkusen_20260912",
@@ -577,7 +663,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.439Z",
+      "updatedAt": "2026-09-12T13:30:43.771Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -755,7 +841,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.440Z",
+      "updatedAt": "2026-09-12T13:30:43.772Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -908,7 +994,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.440Z"
+      "updatedAt": "2026-09-12T13:30:43.772Z"
     },
     {
       "matchId": "tsg_hoffenheim_vfb_stuttgart_20260912",
@@ -1035,7 +1121,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.440Z",
+      "updatedAt": "2026-09-12T13:30:43.772Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -1213,7 +1299,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.440Z",
+      "updatedAt": "2026-09-12T13:30:43.772Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -1371,7 +1457,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.440Z",
+      "updatedAt": "2026-09-12T13:30:43.772Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -1529,7 +1615,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.440Z",
+      "updatedAt": "2026-09-12T13:30:43.772Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -1687,7 +1773,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.440Z",
+      "updatedAt": "2026-09-12T13:30:43.773Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -1845,7 +1931,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.441Z",
+      "updatedAt": "2026-09-12T13:30:43.773Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -2003,7 +2089,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.441Z",
+      "updatedAt": "2026-09-12T13:30:43.773Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -2161,7 +2247,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.442Z",
+      "updatedAt": "2026-09-12T13:30:43.773Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -2319,7 +2405,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.442Z",
+      "updatedAt": "2026-09-12T13:30:43.773Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -2477,7 +2563,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.442Z",
+      "updatedAt": "2026-09-12T13:30:43.773Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -2579,7 +2665,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.442Z"
+      "updatedAt": "2026-09-12T13:30:43.774Z"
     },
     {
       "matchId": "southampton_bristol_city_20260912",
@@ -2686,7 +2772,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.442Z",
+      "updatedAt": "2026-09-12T13:30:43.774Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -2844,7 +2930,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.442Z",
+      "updatedAt": "2026-09-12T13:30:43.774Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -3002,7 +3088,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.442Z",
+      "updatedAt": "2026-09-12T13:30:43.774Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -3160,7 +3246,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.443Z",
+      "updatedAt": "2026-09-12T13:30:43.774Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -3283,7 +3369,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.443Z"
+      "updatedAt": "2026-09-12T13:30:43.774Z"
     },
     {
       "matchId": "strasbourg_as_monaco_20260912",
@@ -3385,7 +3471,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.443Z"
+      "updatedAt": "2026-09-12T13:30:43.774Z"
     },
     {
       "matchId": "lazio_ac_milan_20260912",
@@ -3487,7 +3573,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.443Z"
+      "updatedAt": "2026-09-12T13:30:43.774Z"
     },
     {
       "matchId": "tottenham_hotspur_everton_20260912",
@@ -3589,7 +3675,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.443Z"
+      "updatedAt": "2026-09-12T13:30:43.774Z"
     },
     {
       "matchId": "1_fc_koln_werder_bremen_20260912",
@@ -3691,7 +3777,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.443Z"
+      "updatedAt": "2026-09-12T13:30:43.774Z"
     },
     {
       "matchId": "athletic_bilbao_elche_20260912",
@@ -3793,7 +3879,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.443Z"
+      "updatedAt": "2026-09-12T13:30:43.774Z"
     },
     {
       "matchId": "casa_pia_ac_fc_porto_20260912",
@@ -3895,7 +3981,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.444Z"
+      "updatedAt": "2026-09-12T13:30:43.775Z"
     },
     {
       "matchId": "auxerre_nice_20260913",
@@ -3997,7 +4083,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.444Z"
+      "updatedAt": "2026-09-12T13:30:43.775Z"
     },
     {
       "matchId": "le_havre_angers_20260913",
@@ -4099,7 +4185,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.444Z"
+      "updatedAt": "2026-09-12T13:30:43.775Z"
     },
     {
       "matchId": "lorient_toulouse_20260913",
@@ -4201,7 +4287,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.444Z"
+      "updatedAt": "2026-09-12T13:30:43.775Z"
     },
     {
       "matchId": "paris_fc_olympique_lyonnais_20260913",
@@ -4283,7 +4369,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.444Z"
+      "updatedAt": "2026-09-12T13:30:43.775Z"
     },
     {
       "matchId": "atalanta_cagliari_20260913",
@@ -4385,7 +4471,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.444Z"
+      "updatedAt": "2026-09-12T13:30:43.776Z"
     },
     {
       "matchId": "sunderland_arsenal_20260913",
@@ -4487,7 +4573,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.445Z"
+      "updatedAt": "2026-09-12T13:30:43.776Z"
     },
     {
       "matchId": "real_madrid_rayo_vallecano_20260913",
@@ -4589,7 +4675,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.445Z"
+      "updatedAt": "2026-09-12T13:30:43.776Z"
     },
     {
       "matchId": "atletico_mg_fluminense_20260913",
@@ -4691,7 +4777,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.445Z"
+      "updatedAt": "2026-09-12T13:30:43.776Z"
     },
     {
       "matchId": "gremio_vasco_da_gama_20260913",
@@ -4793,7 +4879,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.445Z"
+      "updatedAt": "2026-09-12T13:30:43.776Z"
     },
     {
       "matchId": "academico_viseu_vitoria_de_guimaraes_20260913",
@@ -4844,7 +4930,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.445Z"
+      "updatedAt": "2026-09-12T13:30:43.776Z"
     },
     {
       "matchId": "chapecoense_internacional_20260913",
@@ -4946,7 +5032,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.445Z"
+      "updatedAt": "2026-09-12T13:30:43.776Z"
     },
     {
       "matchId": "palmeiras_sao_paulo_20260913",
@@ -5048,7 +5134,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.446Z"
+      "updatedAt": "2026-09-12T13:30:43.776Z"
     },
     {
       "matchId": "botafogo_rb_bragantino_20260913",
@@ -5150,7 +5236,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.446Z"
+      "updatedAt": "2026-09-12T13:30:43.776Z"
     },
     {
       "matchId": "santos_cruzeiro_20260913",
@@ -5252,7 +5338,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.446Z"
+      "updatedAt": "2026-09-12T13:30:43.776Z"
     },
     {
       "matchId": "gimcheon_sangmu_gangwon_fc_20260913",
@@ -5354,7 +5440,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.446Z"
+      "updatedAt": "2026-09-12T13:30:43.776Z"
     },
     {
       "matchId": "gwangju_fc_fc_anyang_20260913",
@@ -5456,7 +5542,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.446Z"
+      "updatedAt": "2026-09-12T13:30:43.776Z"
     },
     {
       "matchId": "avs_futebol_sad_farense_20260913",
@@ -5558,7 +5644,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.446Z"
+      "updatedAt": "2026-09-12T13:30:43.777Z"
     },
     {
       "matchId": "sheffield_united_wolverhampton_wanderers_20260913",
@@ -5660,7 +5746,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.446Z"
+      "updatedAt": "2026-09-12T13:30:43.777Z"
     },
     {
       "matchId": "celta_vigo_malaga_20260913",
@@ -5762,7 +5848,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.447Z"
+      "updatedAt": "2026-09-12T13:30:43.777Z"
     },
     {
       "matchId": "coventry_city_brighton_and_hove_albion_20260913",
@@ -5844,7 +5930,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.447Z"
+      "updatedAt": "2026-09-12T13:30:43.777Z"
     },
     {
       "matchId": "lille_troyes_20260913",
@@ -5946,7 +6032,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.447Z"
+      "updatedAt": "2026-09-12T13:30:43.777Z"
     },
     {
       "matchId": "lecce_monza_20260913",
@@ -6048,7 +6134,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.447Z"
+      "updatedAt": "2026-09-12T13:30:43.777Z"
     },
     {
       "matchId": "chaves_feirense_20260913",
@@ -6150,7 +6236,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.447Z"
+      "updatedAt": "2026-09-12T13:30:43.777Z"
     },
     {
       "matchId": "rb_leipzig_hamburger_sv_20260913",
@@ -6252,7 +6338,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.447Z"
+      "updatedAt": "2026-09-12T13:30:43.777Z"
     },
     {
       "matchId": "levante_barcelona_20260913",
@@ -6354,7 +6440,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.448Z"
+      "updatedAt": "2026-09-12T13:30:43.777Z"
     },
     {
       "matchId": "amarante_fc_uniao_de_leiria_20260913",
@@ -6405,7 +6491,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.448Z"
+      "updatedAt": "2026-09-12T13:30:43.777Z"
     },
     {
       "matchId": "le_mans_lens_20260913",
@@ -6507,7 +6593,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.448Z"
+      "updatedAt": "2026-09-12T13:30:43.777Z"
     },
     {
       "matchId": "manchester_united_manchester_city_20260913",
@@ -6609,7 +6695,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.448Z"
+      "updatedAt": "2026-09-12T13:30:43.778Z"
     },
     {
       "matchId": "elversberg_bayern_munich_20260913",
@@ -6660,7 +6746,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.448Z"
+      "updatedAt": "2026-09-12T13:30:43.778Z"
     },
     {
       "matchId": "napoli_bologna_20260913",
@@ -6762,7 +6848,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.448Z"
+      "updatedAt": "2026-09-12T13:30:43.778Z"
     },
     {
       "matchId": "getafe_deportivo_a_coruna_20260913",
@@ -6864,7 +6950,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.448Z"
+      "updatedAt": "2026-09-12T13:30:43.778Z"
     },
     {
       "matchId": "arouca_santa_clara_20260913",
@@ -6966,7 +7052,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.449Z"
+      "updatedAt": "2026-09-12T13:30:43.778Z"
     },
     {
       "matchId": "benfica_gil_vicente_20260913",
@@ -7068,7 +7154,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-12T13:30:36.449Z"
+      "updatedAt": "2026-09-12T13:30:43.778Z"
     }
   ],
   "meta": {
@@ -7081,9 +7167,9 @@
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 1,
-      "streamsAdded": 0,
-      "matchesAdded": 1
+      "removedExpired": 0,
+      "streamsAdded": 1,
+      "matchesAdded": 0
     },
     "liveCount": 8,
     "scheduledCount": 39,
@@ -7091,8 +7177,8 @@
     "manualStreamCount": 0,
     "highlightCount": 36,
     "channelCount": 18,
-    "checksum": "b451ffb09e885cd1776bfd46b7f991ec5e2ffdf36f558d42c69913e825a207a8",
-    "cachedAt": "2026-09-12T13:30:36.477Z",
+    "checksum": "5b548a4dc6ad2f4e286b2e3a87a3beaf6de6a59ceff89cb8dc399efa16884b07",
+    "cachedAt": "2026-09-12T13:30:43.809Z",
     "feed": "admin-match"
   }
 }
