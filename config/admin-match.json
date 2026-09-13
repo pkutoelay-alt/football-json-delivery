@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-13T20:30:01.595+06:30",
+  "generatedAt": "2026-09-13T20:31:27.095+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 24,
   "matches": [
@@ -109,6 +109,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
+      "updatedAt": "2026-09-13T14:01:27.077Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -159,8 +160,7 @@
             "confidence": 100
           }
         }
-      },
-      "updatedAt": "2026-09-13T14:00:01.556Z"
+      }
     },
     {
       "matchId": "lille_troyes_20260913",
@@ -239,14 +239,22 @@
       "fotmobMatchId": 5802932,
       "leagueId": 53,
       "leagueName": "Ligue 1",
-      "source": null,
+      "source": "cakhia",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": true,
-      "streamCount": 1,
-      "originalNames": {},
+      "streamCount": 2,
+      "originalNames": {
+        "fotmob": {
+          "league": "FRA Ligue 1",
+          "country": "FRA",
+          "leagueId": 53,
+          "homeTeam": "Lille",
+          "awayTeam": "Troyes"
+        }
+      },
       "sourcePages": {
         "cakhia": "https://cakhiazab.tv/truc-tiep/losc-lille-vs-troyes-luc-2000-ngay-13-09-2026/",
         "xoilac": "https://xoilacxbh.tv/truc-tiep/losc-lille-vs-troyes-luc-2000-ngay-13-09-2026/",
@@ -269,9 +277,37 @@
           },
           "active": true,
           "checkedAt": null
+        },
+        {
+          "source": "cakhia",
+          "type": "m3u8",
+          "quality": "MAX",
+          "name": "MAX",
+          "url": "https://live2.felnorastreamvault.com/live/channel6.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://ck.domainkqt.cc/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://ck.domainkqt.cc/"
+          },
+          "active": true,
+          "checkedAt": "2026-09-13T14:01:26.833Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiazab.tv/truc-tiep/losc-lille-vs-troyes-luc-2000-ngay-13-09-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -280,13 +316,63 @@
       "streamUrl": "https://live2.felnorastreamvault.com/live/channel6.m3u8",
       "streamHeaders": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-        "Referer": "https://soco.domainkqt.cc/"
+        "Referer": "https://ck.domainkqt.cc/"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
+      "lastAttemptAt": "2026-09-13T14:01:26.992Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {
+          "cakhia": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 1,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-13T14:01:26.992Z",
+            "updatedAt": "2026-09-13T14:01:26.992Z",
+            "slotsDone": {
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-09-13T14:00:25.842Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-09-13T14:00:25.842Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-09-13T14:00:25.842Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -338,7 +424,7 @@
           }
         }
       },
-      "updatedAt": "2026-09-13T14:00:01.557Z"
+      "updatedAt": "2026-09-13T14:01:27.079Z"
     },
     {
       "matchId": "lecce_monza_20260913",
@@ -465,6 +551,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
+      "updatedAt": "2026-09-13T14:01:27.080Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -515,8 +602,7 @@
             "confidence": 100
           }
         }
-      },
-      "updatedAt": "2026-09-13T14:00:01.557Z"
+      }
     },
     {
       "matchId": "chaves_feirense_20260913",
@@ -618,7 +704,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-13T14:00:01.559Z"
+      "updatedAt": "2026-09-13T14:01:27.080Z"
     },
     {
       "matchId": "rb_leipzig_hamburger_sv_20260913",
@@ -745,6 +831,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
+      "updatedAt": "2026-09-13T14:01:27.081Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -795,8 +882,7 @@
             "confidence": 100
           }
         }
-      },
-      "updatedAt": "2026-09-13T14:00:01.559Z"
+      }
     },
     {
       "matchId": "levante_barcelona_20260913",
@@ -903,6 +989,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
+      "updatedAt": "2026-09-13T14:01:27.081Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -953,8 +1040,7 @@
             "confidence": 100
           }
         }
-      },
-      "updatedAt": "2026-09-13T14:00:01.562Z"
+      }
     },
     {
       "matchId": "amarante_fc_uniao_de_leiria_20260913",
@@ -1005,7 +1091,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-13T14:00:01.562Z"
+      "updatedAt": "2026-09-13T14:01:27.082Z"
     },
     {
       "matchId": "le_mans_lens_20260913",
@@ -1107,7 +1193,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-13T14:00:01.563Z"
+      "updatedAt": "2026-09-13T14:01:27.082Z"
     },
     {
       "matchId": "manchester_united_manchester_city_20260913",
@@ -1209,7 +1295,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-13T14:00:01.563Z"
+      "updatedAt": "2026-09-13T14:01:27.082Z"
     },
     {
       "matchId": "elversberg_bayern_munich_20260913",
@@ -1260,7 +1346,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-13T14:00:01.563Z"
+      "updatedAt": "2026-09-13T14:01:27.083Z"
     },
     {
       "matchId": "napoli_bologna_20260913",
@@ -1362,7 +1448,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-13T14:00:01.565Z"
+      "updatedAt": "2026-09-13T14:01:27.083Z"
     },
     {
       "matchId": "getafe_deportivo_a_coruna_20260913",
@@ -1464,7 +1550,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-13T14:00:01.566Z"
+      "updatedAt": "2026-09-13T14:01:27.084Z"
     },
     {
       "matchId": "arouca_santa_clara_20260913",
@@ -1566,7 +1652,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-13T14:00:01.571Z"
+      "updatedAt": "2026-09-13T14:01:27.084Z"
     },
     {
       "matchId": "benfica_gil_vicente_20260913",
@@ -1668,7 +1754,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-13T14:00:01.575Z"
+      "updatedAt": "2026-09-13T14:01:27.084Z"
     },
     {
       "matchId": "brest_paris_saint_germain_20260914",
@@ -1770,7 +1856,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-13T14:00:01.580Z"
+      "updatedAt": "2026-09-13T14:01:27.085Z"
     },
     {
       "matchId": "sassuolo_juventus_20260914",
@@ -1872,7 +1958,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-13T14:00:01.580Z"
+      "updatedAt": "2026-09-13T14:01:27.086Z"
     },
     {
       "matchId": "real_sociedad_atletico_madrid_20260914",
@@ -1974,7 +2060,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-13T14:00:01.586Z"
+      "updatedAt": "2026-09-13T14:01:27.086Z"
     },
     {
       "matchId": "mirassol_vitoria_20260914",
@@ -2076,7 +2162,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-13T14:00:01.587Z"
+      "updatedAt": "2026-09-13T14:01:27.087Z"
     },
     {
       "matchId": "famalicao_sporting_cp_20260914",
@@ -2178,7 +2264,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-13T14:00:01.587Z"
+      "updatedAt": "2026-09-13T14:01:27.087Z"
     },
     {
       "matchId": "flamengo_corinthians_20260914",
@@ -2280,7 +2366,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-13T14:00:01.588Z"
+      "updatedAt": "2026-09-13T14:01:27.087Z"
     },
     {
       "matchId": "como_parma_20260914",
@@ -2382,7 +2468,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-13T14:00:01.591Z"
+      "updatedAt": "2026-09-13T14:01:27.088Z"
     },
     {
       "matchId": "torino_as_roma_20260914",
@@ -2484,7 +2570,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-13T14:00:01.592Z"
+      "updatedAt": "2026-09-13T14:01:27.092Z"
     },
     {
       "matchId": "fc_porto_b_vizela_20260914",
@@ -2586,7 +2672,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-13T14:00:01.594Z"
+      "updatedAt": "2026-09-13T14:01:27.094Z"
     },
     {
       "matchId": "sporting_cp_b_lusitania_lourosa_20260914",
@@ -2678,16 +2764,21 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-13T14:00:01.595Z"
+      "updatedAt": "2026-09-13T14:01:27.095Z"
     }
   ],
   "meta": {
-    "configOrigin": "expire",
-    "sources": [],
+    "configOrigin": "local+github",
+    "sources": [
+      "cakhia",
+      "xoilac",
+      "phut",
+      "socolive"
+    ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 1,
-      "streamsAdded": 0,
+      "removedExpired": 0,
+      "streamsAdded": 1,
       "matchesAdded": 0
     },
     "liveCount": 5,
@@ -2696,8 +2787,8 @@
     "manualStreamCount": 0,
     "highlightCount": 28,
     "channelCount": 18,
-    "checksum": "c7fea0e660ada4a5aa80d6a41a5241d96f8741fc0ad2ff1cfa62f1daaad868d1",
-    "cachedAt": "2026-09-13T14:00:01.769Z",
+    "checksum": "640deee37707d4f82c97e1c5e91e636c65bf58a03811af9ce16eeda6d4deff1a",
+    "cachedAt": "2026-09-13T14:01:27.137Z",
     "feed": "admin-match"
   }
 }
