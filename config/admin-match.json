@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-15T02:00:52.371+06:30",
+  "generatedAt": "2026-09-15T02:00:55.117+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 21,
   "matches": [
@@ -81,14 +81,22 @@
       "fotmobMatchId": 5887634,
       "leagueId": 61,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": true,
       "streamCount": 5,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "Liga Portugal",
+          "country": "POR",
+          "leagueId": 61,
+          "homeTeam": "Rio Ave",
+          "awayTeam": "Estrela da Amadora"
+        }
+      },
       "sourcePages": {
         "cakhia": "https://cakhiazab.tv/truc-tiep/rio-ave-vs-estrela-amadora-luc-0045-ngay-15-09-2026/",
         "xoilac": "https://xoilacxbh.tv/truc-tiep/rio-ave-vs-estrela-amadora-luc-0045-ngay-15-09-2026/",
@@ -113,6 +121,7 @@
           "checkedAt": null
         },
         {
+          "source": "cakhia",
           "type": "m3u8",
           "quality": "TOM",
           "name": "TOM",
@@ -126,9 +135,10 @@
             "Referer": "https://ck.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T17:16:33.145Z"
         },
         {
+          "source": "xoilac",
           "type": "m3u8",
           "quality": "TOM",
           "name": "TOM",
@@ -142,9 +152,10 @@
             "Referer": "https://xl365.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T17:16:40.526Z"
         },
         {
+          "source": "phut",
           "type": "m3u8",
           "quality": "TOM",
           "name": "TOM",
@@ -158,9 +169,10 @@
             "Referer": "https://91p.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T17:16:42.317Z"
         },
         {
+          "source": "socolive",
           "type": "m3u8",
           "quality": "TOM",
           "name": "TOM",
@@ -174,10 +186,19 @@
             "Referer": "https://soco.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T17:16:51.924Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiazab.tv/truc-tiep/rio-ave-vs-estrela-amadora-luc-0045-ngay-15-09-2026/",
       "matchUrlStatus": "MATCH_URL_FOUND",
       "matchUrlAttempts": 1,
@@ -189,11 +210,82 @@
         "Referer": "https://soco.domainkqt.cc/"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
+      "attempts": 3,
       "validationStatus": null,
       "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.369Z",
+      "lastAttemptAt": "2026-09-14T18:15:37.163Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true,
+          "t0": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "AVAILABLE",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T18:15:30.174Z",
+            "updatedAt": "2026-09-14T18:15:30.174Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          },
+          "xoilac": {
+            "status": "AVAILABLE",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T18:15:26.839Z",
+            "updatedAt": "2026-09-14T18:15:26.839Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          },
+          "phut": {
+            "status": "AVAILABLE",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T18:15:33.712Z",
+            "updatedAt": "2026-09-14T18:15:33.712Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          },
+          "socolive": {
+            "status": "AVAILABLE",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T18:15:37.163Z",
+            "updatedAt": "2026-09-14T18:15:37.163Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -244,7 +336,8 @@
             "confidence": 89
           }
         }
-      }
+      },
+      "updatedAt": "2026-09-14T19:30:55.114Z"
     },
     {
       "matchId": "inter_milan_udinese_20260915",
@@ -323,14 +416,22 @@
       "fotmobMatchId": 5749673,
       "leagueId": 55,
       "leagueName": "Serie A",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": true,
       "streamCount": 5,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "ITA Serie A",
+          "country": "ITA",
+          "leagueId": 55,
+          "homeTeam": "Inter",
+          "awayTeam": "Udinese"
+        }
+      },
       "sourcePages": {
         "cakhia": "https://cakhiazab.tv/truc-tiep/inter-milan-vs-udinese-luc-0145-ngay-15-09-2026/",
         "xoilac": "https://xoilacxbh.tv/truc-tiep/inter-milan-vs-udinese-luc-0145-ngay-15-09-2026/",
@@ -355,6 +456,7 @@
           "checkedAt": null
         },
         {
+          "source": "cakhia",
           "type": "m3u8",
           "quality": "MAX",
           "name": "MAX",
@@ -368,9 +470,10 @@
             "Referer": "https://ck.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T18:15:40.649Z"
         },
         {
+          "source": "xoilac",
           "type": "m3u8",
           "quality": "MAX",
           "name": "MAX",
@@ -384,9 +487,10 @@
             "Referer": "https://xl365.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T18:15:42.642Z"
         },
         {
+          "source": "phut",
           "type": "m3u8",
           "quality": "MAX",
           "name": "MAX",
@@ -400,9 +504,10 @@
             "Referer": "https://91p.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T18:15:53.449Z"
         },
         {
+          "source": "socolive",
           "type": "m3u8",
           "quality": "MAX",
           "name": "MAX",
@@ -416,10 +521,19 @@
             "Referer": "https://soco.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T18:15:53.209Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiazab.tv/truc-tiep/inter-milan-vs-udinese-luc-0145-ngay-15-09-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -431,11 +545,82 @@
         "Referer": "https://soco.domainkqt.cc/"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
+      "attempts": 3,
       "validationStatus": null,
       "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.369Z",
+      "lastAttemptAt": "2026-09-14T19:15:26.045Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true,
+          "t0": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "AVAILABLE",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T19:15:20.104Z",
+            "updatedAt": "2026-09-14T19:15:20.104Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          },
+          "xoilac": {
+            "status": "AVAILABLE",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T19:15:15.198Z",
+            "updatedAt": "2026-09-14T19:15:15.198Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          },
+          "phut": {
+            "status": "AVAILABLE",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T19:15:22.942Z",
+            "updatedAt": "2026-09-14T19:15:22.942Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          },
+          "socolive": {
+            "status": "AVAILABLE",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T19:15:26.045Z",
+            "updatedAt": "2026-09-14T19:15:26.045Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -486,7 +671,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-09-14T19:30:55.115Z"
     },
     {
       "matchId": "leeds_united_newcastle_united_20260915",
@@ -565,14 +751,22 @@
       "fotmobMatchId": 5795450,
       "leagueId": 47,
       "leagueName": "English Premier League (EPL)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": true,
       "streamCount": 5,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "ENG Premier League",
+          "country": "ENG",
+          "leagueId": 47,
+          "homeTeam": "Leeds United",
+          "awayTeam": "Newcastle United"
+        }
+      },
       "sourcePages": {
         "cakhia": "https://cakhiazab.tv/truc-tiep/leeds-united-vs-newcastle-united-luc-0200-ngay-15-09-2026/",
         "xoilac": "https://xoilacxbh.tv/truc-tiep/leeds-united-vs-newcastle-united-luc-0200-ngay-15-09-2026/",
@@ -597,6 +791,7 @@
           "checkedAt": null
         },
         {
+          "source": "cakhia",
           "type": "m3u8",
           "quality": "ROY",
           "name": "ROY",
@@ -610,9 +805,10 @@
             "Referer": "https://ck.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T18:30:28.606Z"
         },
         {
+          "source": "xoilac",
           "type": "m3u8",
           "quality": "ROY",
           "name": "ROY",
@@ -626,9 +822,10 @@
             "Referer": "https://xl365.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T18:30:31.989Z"
         },
         {
+          "source": "phut",
           "type": "m3u8",
           "quality": "ROY",
           "name": "ROY",
@@ -642,9 +839,10 @@
             "Referer": "https://91p.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T18:30:36.119Z"
         },
         {
+          "source": "socolive",
           "type": "m3u8",
           "quality": "ROY",
           "name": "ROY",
@@ -658,10 +856,19 @@
             "Referer": "https://soco.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T18:30:39.648Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiazab.tv/truc-tiep/leeds-united-vs-newcastle-united-luc-0200-ngay-15-09-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -673,11 +880,82 @@
         "Referer": "https://soco.domainkqt.cc/"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
+      "attempts": 3,
       "validationStatus": null,
       "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.369Z",
+      "lastAttemptAt": "2026-09-14T19:30:28.624Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true,
+          "t0": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "AVAILABLE",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T19:30:20.297Z",
+            "updatedAt": "2026-09-14T19:30:20.297Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          },
+          "xoilac": {
+            "status": "AVAILABLE",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T19:30:23.153Z",
+            "updatedAt": "2026-09-14T19:30:23.153Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          },
+          "phut": {
+            "status": "AVAILABLE",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T19:30:26.103Z",
+            "updatedAt": "2026-09-14T19:30:26.103Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          },
+          "socolive": {
+            "status": "AVAILABLE",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T19:30:28.624Z",
+            "updatedAt": "2026-09-14T19:30:28.624Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -728,7 +1006,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-09-14T19:30:55.115Z"
     },
     {
       "matchId": "villarreal_real_betis_20260915",
@@ -807,14 +1086,22 @@
       "fotmobMatchId": 5868060,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": true,
       "streamCount": 5,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "ESP LaLiga",
+          "country": "ESP",
+          "leagueId": 87,
+          "homeTeam": "Villarreal",
+          "awayTeam": "Real Betis"
+        }
+      },
       "sourcePages": {
         "cakhia": "https://cakhiazab.tv/truc-tiep/villarreal-vs-real-betis-luc-0200-ngay-15-09-2026/",
         "xoilac": "https://xoilacxbh.tv/truc-tiep/villarreal-vs-real-betis-luc-0200-ngay-15-09-2026/",
@@ -839,6 +1126,7 @@
           "checkedAt": null
         },
         {
+          "source": "cakhia",
           "type": "m3u8",
           "quality": "BRADY",
           "name": "BRADY",
@@ -852,9 +1140,10 @@
             "Referer": "https://ck.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T18:30:43.990Z"
         },
         {
+          "source": "xoilac",
           "type": "m3u8",
           "quality": "BRADY",
           "name": "BRADY",
@@ -868,9 +1157,10 @@
             "Referer": "https://xl365.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T18:30:51.809Z"
         },
         {
+          "source": "phut",
           "type": "m3u8",
           "quality": "BRADY",
           "name": "BRADY",
@@ -884,9 +1174,10 @@
             "Referer": "https://91p.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T18:30:53.431Z"
         },
         {
+          "source": "socolive",
           "type": "m3u8",
           "quality": "BRADY",
           "name": "BRADY",
@@ -900,10 +1191,19 @@
             "Referer": "https://soco.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T18:31:00.835Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiazab.tv/truc-tiep/villarreal-vs-real-betis-luc-0200-ngay-15-09-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -915,11 +1215,82 @@
         "Referer": "https://soco.domainkqt.cc/"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
+      "attempts": 3,
       "validationStatus": null,
       "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.369Z",
+      "lastAttemptAt": "2026-09-14T19:30:40.999Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true,
+          "t0": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "AVAILABLE",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T19:30:30.303Z",
+            "updatedAt": "2026-09-14T19:30:30.303Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          },
+          "xoilac": {
+            "status": "AVAILABLE",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T19:30:35.433Z",
+            "updatedAt": "2026-09-14T19:30:35.433Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          },
+          "phut": {
+            "status": "AVAILABLE",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T19:30:38.186Z",
+            "updatedAt": "2026-09-14T19:30:38.186Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          },
+          "socolive": {
+            "status": "AVAILABLE",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T19:30:40.999Z",
+            "updatedAt": "2026-09-14T19:30:40.999Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -970,7 +1341,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-09-14T19:30:55.115Z"
     },
     {
       "matchId": "moreirense_maritimo_20260915",
@@ -1305,7 +1677,7 @@
           }
         }
       },
-      "updatedAt": "2026-09-14T19:30:52.369Z"
+      "updatedAt": "2026-09-14T19:30:55.115Z"
     },
     {
       "matchId": "braga_estoril_20260915",
@@ -1384,21 +1756,33 @@
       "fotmobMatchId": 5887629,
       "leagueId": 61,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "Liga Portugal",
+          "country": "POR",
+          "leagueId": 61,
+          "homeTeam": "Braga",
+          "awayTeam": "Estoril"
+        }
+      },
       "sourcePages": {},
       "streams": [],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true
+      },
       "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": null,
+      "matchUrlStatus": "MATCH_URL_SEARCHING",
+      "matchUrlAttempts": 4,
+      "lastMatchUrlAttemptAt": "2026-09-14T19:30:16.539Z",
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -1407,7 +1791,75 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.370Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {
+          "t60": true,
+          "t50": true,
+          "t30": true
+        },
+        "sources": {
+          "cakhia": {
+            "matchUrl": null,
+            "status": "MATCH_URL_FAILED",
+            "attempts": 4,
+            "liveAttempts": 0,
+            "lastAttemptAt": "2026-09-14T19:30:09.705Z",
+            "slotsDone": {
+              "t60": true,
+              "t50": true,
+              "t30": true
+            },
+            "confidence": 0
+          },
+          "xoilac": {
+            "matchUrl": null,
+            "status": "MATCH_URL_FAILED",
+            "attempts": 4,
+            "liveAttempts": 0,
+            "lastAttemptAt": "2026-09-14T19:30:12.188Z",
+            "slotsDone": {
+              "t60": true,
+              "t50": true,
+              "t30": true
+            },
+            "confidence": 0
+          },
+          "phut": {
+            "matchUrl": null,
+            "status": "MATCH_URL_FAILED",
+            "attempts": 4,
+            "liveAttempts": 0,
+            "lastAttemptAt": "2026-09-14T19:30:14.296Z",
+            "slotsDone": {
+              "t60": true,
+              "t50": true,
+              "t30": true
+            },
+            "confidence": 0
+          },
+          "socolive": {
+            "matchUrl": null,
+            "status": "MATCH_URL_FAILED",
+            "attempts": 4,
+            "liveAttempts": 0,
+            "lastAttemptAt": "2026-09-14T19:30:16.539Z",
+            "slotsDone": {
+              "t60": true,
+              "t50": true,
+              "t30": true
+            },
+            "confidence": 0
+          }
+        }
+      },
+      "updatedAt": "2026-09-14T19:30:55.115Z"
     },
     {
       "matchId": "bahia_remo_20260915",
@@ -1486,14 +1938,22 @@
       "fotmobMatchId": 5103632,
       "leagueId": 268,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "BRA Série A",
+          "country": "BRA",
+          "leagueId": 268,
+          "homeTeam": "Bahia",
+          "awayTeam": "Remo"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1509,7 +1969,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.370Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-14T19:30:55.115Z"
     },
     {
       "matchId": "rayo_vallecano_espanyol_20260915",
@@ -1588,14 +2059,22 @@
       "fotmobMatchId": 5868069,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "ESP LaLiga",
+          "country": "ESP",
+          "leagueId": 87,
+          "homeTeam": "Rayo Vallecano",
+          "awayTeam": "Espanyol"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1611,7 +2090,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.370Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-14T19:30:55.116Z"
     },
     {
       "matchId": "alaves_valencia_20260916",
@@ -1690,14 +2180,22 @@
       "fotmobMatchId": 5868061,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "ESP LaLiga",
+          "country": "ESP",
+          "leagueId": 87,
+          "homeTeam": "Deportivo Alavés",
+          "awayTeam": "Valencia"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1713,7 +2211,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.370Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-14T19:30:55.116Z"
     },
     {
       "matchId": "peterborough_united_barnsley_20260916",
@@ -1792,14 +2301,22 @@
       "fotmobMatchId": 6099341,
       "leagueId": 938221,
       "leagueName": "EFL Cup (ENG LC)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "ENG EFL Cup",
+          "country": "ENG",
+          "leagueId": 938221,
+          "homeTeam": "Peterborough United",
+          "awayTeam": "Barnsley"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1815,7 +2332,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.370Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-14T19:30:55.116Z"
     },
     {
       "matchId": "west_ham_united_fulham_20260916",
@@ -1894,14 +2422,22 @@
       "fotmobMatchId": 6099343,
       "leagueId": 938221,
       "leagueName": "EFL Cup (ENG LC)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "ENG EFL Cup",
+          "country": "ENG",
+          "leagueId": 938221,
+          "homeTeam": "West Ham United",
+          "awayTeam": "Fulham"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1917,7 +2453,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.370Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-14T19:30:55.116Z"
     },
     {
       "matchId": "bristol_city_lincoln_city_20260916",
@@ -1956,14 +2503,22 @@
       "fotmobMatchId": 5836816,
       "leagueId": 938218,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "ENG Championship",
+          "country": "ENG",
+          "leagueId": 938218,
+          "homeTeam": "Bristol City",
+          "awayTeam": "Lincoln City"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1979,7 +2534,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.370Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-14T19:30:55.116Z"
     },
     {
       "matchId": "middlesbrough_millwall_20260916",
@@ -2058,14 +2624,22 @@
       "fotmobMatchId": 5836818,
       "leagueId": 938218,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "ENG Championship",
+          "country": "ENG",
+          "leagueId": 938218,
+          "homeTeam": "Middlesbrough",
+          "awayTeam": "Millwall"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2081,7 +2655,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.370Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-14T19:30:55.116Z"
     },
     {
       "matchId": "ipswich_town_arsenal_20260916",
@@ -2150,14 +2735,22 @@
       "fotmobMatchId": 6099332,
       "leagueId": 938221,
       "leagueName": "EFL Cup (ENG LC)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "ENG EFL Cup",
+          "country": "ENG",
+          "leagueId": 938221,
+          "homeTeam": "Ipswich Town",
+          "awayTeam": "Arsenal"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2173,7 +2766,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.370Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-14T19:30:55.116Z"
     },
     {
       "matchId": "liverpool_tottenham_hotspur_20260916",
@@ -2252,14 +2856,22 @@
       "fotmobMatchId": 6099335,
       "leagueId": 938221,
       "leagueName": "EFL Cup (ENG LC)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "ENG EFL Cup",
+          "country": "ENG",
+          "leagueId": 938221,
+          "homeTeam": "Liverpool",
+          "awayTeam": "Tottenham Hotspur"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2275,7 +2887,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.370Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-14T19:30:55.116Z"
     },
     {
       "matchId": "reading_brentford_20260916",
@@ -2354,14 +2977,22 @@
       "fotmobMatchId": 6099340,
       "leagueId": 938221,
       "leagueName": "EFL Cup (ENG LC)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "ENG EFL Cup",
+          "country": "ENG",
+          "leagueId": 938221,
+          "homeTeam": "Reading",
+          "awayTeam": "Brentford"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2377,7 +3008,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.370Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-14T19:30:55.116Z"
     },
     {
       "matchId": "elche_real_madrid_20260916",
@@ -2456,14 +3098,22 @@
       "fotmobMatchId": 5868065,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "ESP LaLiga",
+          "country": "ESP",
+          "leagueId": 87,
+          "homeTeam": "Elche",
+          "awayTeam": "Real Madrid"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2479,7 +3129,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.371Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-14T19:30:55.116Z"
     },
     {
       "matchId": "ararat_armenia_sparta_prague_20260916",
@@ -2528,14 +3189,22 @@
       "fotmobMatchId": 6112383,
       "leagueId": 943229,
       "leagueName": "UEFA Europa League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League",
+          "country": "INT",
+          "leagueId": 943229,
+          "homeTeam": "Ararat Armenia",
+          "awayTeam": "Sparta Prague"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2551,7 +3220,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.371Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-14T19:30:55.116Z"
     },
     {
       "matchId": "omonia_nicosia_celta_vigo_20260916",
@@ -2579,14 +3259,22 @@
       "fotmobMatchId": 6112344,
       "leagueId": 943229,
       "leagueName": "UEFA Europa League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League",
+          "country": "INT",
+          "leagueId": 943229,
+          "homeTeam": "Omonia Nicosia",
+          "awayTeam": "Celta Vigo"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2602,7 +3290,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.371Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-14T19:30:55.116Z"
     },
     {
       "matchId": "atletico_madrid_osasuna_20260916",
@@ -2681,14 +3380,22 @@
       "fotmobMatchId": 5868062,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "ESP LaLiga",
+          "country": "ESP",
+          "leagueId": 87,
+          "homeTeam": "Atlético Madrid",
+          "awayTeam": "Osasuna"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2704,7 +3411,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.371Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-14T19:30:55.117Z"
     },
     {
       "matchId": "deportivo_a_coruna_sevilla_20260916",
@@ -2783,14 +3501,22 @@
       "fotmobMatchId": 5868064,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "ESP LaLiga",
+          "country": "ESP",
+          "leagueId": 87,
+          "homeTeam": "Deportivo A Coruña",
+          "awayTeam": "Sevilla"
+        }
+      },
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -2806,7 +3532,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T19:30:52.371Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-14T19:30:55.117Z"
     }
   ],
   "meta": {
@@ -2815,13 +3552,15 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive"
+      "socolive",
+      "highlight",
+      "myanmartv"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 0,
-      "streamsAdded": 4,
-      "matchesAdded": 0
+      "removedExpired": 4,
+      "streamsAdded": 20,
+      "matchesAdded": 4
     },
     "liveCount": 5,
     "scheduledCount": 15,
@@ -2829,8 +3568,8 @@
     "manualStreamCount": 0,
     "highlightCount": 16,
     "channelCount": 18,
-    "checksum": "0f13ce41db7a7c7233b2b8c3ea9a90a693d237229d33e983220711b26941f471",
-    "cachedAt": "2026-09-14T19:30:52.382Z",
+    "checksum": "e4bce6fb7dc06b47aea5d78defe4b0faa530963aadc0181107d253e3b9d8a13c",
+    "cachedAt": "2026-09-14T19:30:55.130Z",
     "feed": "admin-match"
   }
 }
