@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-15T00:30:33.906+06:30",
+  "generatedAt": "2026-09-15T00:30:42.539+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 25,
   "matches": [
@@ -193,7 +193,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.902Z",
+      "updatedAt": "2026-09-14T18:00:42.527Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -435,7 +435,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.903Z",
+      "updatedAt": "2026-09-14T18:00:42.527Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -593,7 +593,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.903Z",
+      "updatedAt": "2026-09-14T18:00:42.527Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -741,7 +741,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.903Z",
+      "updatedAt": "2026-09-14T18:00:42.527Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -871,14 +871,22 @@
       "fotmobMatchId": 5887634,
       "leagueId": 61,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": true,
       "streamCount": 5,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "Liga Portugal",
+          "country": "POR",
+          "leagueId": 61,
+          "homeTeam": "Rio Ave",
+          "awayTeam": "Estrela da Amadora"
+        }
+      },
       "sourcePages": {
         "cakhia": "https://cakhiazab.tv/truc-tiep/rio-ave-vs-estrela-amadora-luc-0045-ngay-15-09-2026/",
         "xoilac": "https://xoilacxbh.tv/truc-tiep/rio-ave-vs-estrela-amadora-luc-0045-ngay-15-09-2026/",
@@ -903,6 +911,7 @@
           "checkedAt": null
         },
         {
+          "source": "cakhia",
           "type": "m3u8",
           "quality": "TOM",
           "name": "TOM",
@@ -916,9 +925,10 @@
             "Referer": "https://ck.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T17:16:33.145Z"
         },
         {
+          "source": "xoilac",
           "type": "m3u8",
           "quality": "TOM",
           "name": "TOM",
@@ -932,9 +942,10 @@
             "Referer": "https://xl365.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T17:16:40.526Z"
         },
         {
+          "source": "phut",
           "type": "m3u8",
           "quality": "TOM",
           "name": "TOM",
@@ -948,9 +959,10 @@
             "Referer": "https://91p.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T17:16:42.317Z"
         },
         {
+          "source": "socolive",
           "type": "m3u8",
           "quality": "TOM",
           "name": "TOM",
@@ -964,10 +976,19 @@
             "Referer": "https://soco.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T17:16:51.924Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiazab.tv/truc-tiep/rio-ave-vs-estrela-amadora-luc-0045-ngay-15-09-2026/",
       "matchUrlStatus": "MATCH_URL_FOUND",
       "matchUrlAttempts": 1,
@@ -979,11 +1000,79 @@
         "Referer": "https://soco.domainkqt.cc/"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
+      "attempts": 2,
       "validationStatus": null,
       "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.903Z",
+      "lastAttemptAt": "2026-09-14T18:00:42.510Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true,
+          "t0": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T17:45:30.046Z",
+            "updatedAt": "2026-09-14T18:00:37.957Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": "axios"
+          },
+          "xoilac": {
+            "status": "AVAILABLE",
+            "attempts": 4,
+            "postKickoffAttempts": 2,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T18:00:42.510Z",
+            "updatedAt": "2026-09-14T18:00:42.510Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T17:45:33.367Z",
+            "updatedAt": "2026-09-14T18:00:37.957Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": "axios"
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T17:45:35.949Z",
+            "updatedAt": "2026-09-14T18:00:37.957Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": "axios"
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -1034,7 +1123,8 @@
             "confidence": 89
           }
         }
-      }
+      },
+      "updatedAt": "2026-09-14T18:00:42.530Z"
     },
     {
       "matchId": "inter_milan_udinese_20260915",
@@ -1141,7 +1231,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.903Z",
+      "updatedAt": "2026-09-14T18:00:42.531Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -1299,7 +1389,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.903Z",
+      "updatedAt": "2026-09-14T18:00:42.531Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -1429,22 +1519,14 @@
       "fotmobMatchId": 5868060,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ESP LaLiga",
-          "country": "ESP",
-          "leagueId": 87,
-          "homeTeam": "Villarreal",
-          "awayTeam": "Real Betis"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {
         "cakhia": "https://cakhiazab.tv/truc-tiep/villarreal-vs-real-betis-luc-0200-ngay-15-09-2026/",
         "xoilac": "https://xoilacxbh.tv/truc-tiep/villarreal-vs-real-betis-luc-0200-ngay-15-09-2026/",
@@ -1465,13 +1547,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
+      "updatedAt": "2026-09-14T18:00:42.531Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -1522,8 +1598,7 @@
             "confidence": 100
           }
         }
-      },
-      "updatedAt": "2026-09-14T18:00:33.903Z"
+      }
     },
     {
       "matchId": "moreirense_maritimo_20260915",
@@ -1625,7 +1700,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.903Z"
+      "updatedAt": "2026-09-14T18:00:42.531Z"
     },
     {
       "matchId": "braga_estoril_20260915",
@@ -1727,7 +1802,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.903Z"
+      "updatedAt": "2026-09-14T18:00:42.531Z"
     },
     {
       "matchId": "bahia_remo_20260915",
@@ -1829,7 +1904,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.904Z"
+      "updatedAt": "2026-09-14T18:00:42.531Z"
     },
     {
       "matchId": "rayo_vallecano_espanyol_20260915",
@@ -1931,7 +2006,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.904Z"
+      "updatedAt": "2026-09-14T18:00:42.534Z"
     },
     {
       "matchId": "alaves_valencia_20260916",
@@ -2033,7 +2108,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.904Z"
+      "updatedAt": "2026-09-14T18:00:42.534Z"
     },
     {
       "matchId": "peterborough_united_barnsley_20260916",
@@ -2135,7 +2210,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.904Z"
+      "updatedAt": "2026-09-14T18:00:42.534Z"
     },
     {
       "matchId": "west_ham_united_fulham_20260916",
@@ -2237,7 +2312,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.904Z"
+      "updatedAt": "2026-09-14T18:00:42.534Z"
     },
     {
       "matchId": "bristol_city_lincoln_city_20260916",
@@ -2299,7 +2374,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.904Z"
+      "updatedAt": "2026-09-14T18:00:42.535Z"
     },
     {
       "matchId": "middlesbrough_millwall_20260916",
@@ -2401,7 +2476,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.904Z"
+      "updatedAt": "2026-09-14T18:00:42.535Z"
     },
     {
       "matchId": "ipswich_town_arsenal_20260916",
@@ -2493,7 +2568,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.904Z"
+      "updatedAt": "2026-09-14T18:00:42.535Z"
     },
     {
       "matchId": "liverpool_tottenham_hotspur_20260916",
@@ -2595,7 +2670,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.904Z"
+      "updatedAt": "2026-09-14T18:00:42.535Z"
     },
     {
       "matchId": "reading_brentford_20260916",
@@ -2697,7 +2772,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.904Z"
+      "updatedAt": "2026-09-14T18:00:42.535Z"
     },
     {
       "matchId": "elche_real_madrid_20260916",
@@ -2799,7 +2874,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.904Z"
+      "updatedAt": "2026-09-14T18:00:42.538Z"
     },
     {
       "matchId": "ararat_armenia_sparta_prague_20260916",
@@ -2871,7 +2946,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.904Z"
+      "updatedAt": "2026-09-14T18:00:42.538Z"
     },
     {
       "matchId": "omonia_nicosia_celta_vigo_20260916",
@@ -2922,7 +2997,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.905Z"
+      "updatedAt": "2026-09-14T18:00:42.538Z"
     },
     {
       "matchId": "atletico_madrid_osasuna_20260916",
@@ -3024,7 +3099,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.905Z"
+      "updatedAt": "2026-09-14T18:00:42.538Z"
     },
     {
       "matchId": "deportivo_a_coruna_sevilla_20260916",
@@ -3126,7 +3201,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T18:00:33.905Z"
+      "updatedAt": "2026-09-14T18:00:42.538Z"
     }
   ],
   "meta": {
@@ -3140,7 +3215,7 @@
     "adminApplied": true,
     "sync": {
       "removedExpired": 0,
-      "streamsAdded": 0,
+      "streamsAdded": 4,
       "matchesAdded": 0
     },
     "liveCount": 5,
@@ -3149,8 +3224,8 @@
     "manualStreamCount": 0,
     "highlightCount": 16,
     "channelCount": 18,
-    "checksum": "825849fcd881a7a7dd896c866bb25241cd08161598ac63545eeada1e09156e7e",
-    "cachedAt": "2026-09-14T18:00:33.917Z",
+    "checksum": "3ccedabf4aa3e3bcb80c88fab29484243da09c39fab43cf3b9039f578fd73886",
+    "cachedAt": "2026-09-14T18:00:42.553Z",
     "feed": "admin-match"
   }
 }
