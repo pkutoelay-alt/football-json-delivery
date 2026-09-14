@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-14T23:15:22.186+06:30",
+  "generatedAt": "2026-09-14T23:15:29.714+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 12,
   "matches": [
@@ -81,14 +81,22 @@
       "fotmobMatchId": 5749671,
       "leagueId": 55,
       "leagueName": "Serie A",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": true,
       "streamCount": 5,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "ITA Serie A",
+          "country": "ITA",
+          "leagueId": 55,
+          "homeTeam": "Como",
+          "awayTeam": "Parma"
+        }
+      },
       "sourcePages": {
         "cakhia": "https://cakhiazab.tv/truc-tiep/como-vs-parma-luc-2330-ngay-14-09-2026/",
         "xoilac": "https://xoilacxbh.tv/truc-tiep/como-vs-parma-luc-2330-ngay-14-09-2026/",
@@ -113,6 +121,7 @@
           "checkedAt": null
         },
         {
+          "source": "cakhia",
           "type": "m3u8",
           "quality": "ASTRA",
           "name": "ASTRA",
@@ -126,9 +135,10 @@
             "Referer": "https://ck.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T16:00:40.990Z"
         },
         {
+          "source": "xoilac",
           "type": "m3u8",
           "quality": "ASTRA",
           "name": "ASTRA",
@@ -142,9 +152,10 @@
             "Referer": "https://xl365.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T16:00:40.993Z"
         },
         {
+          "source": "phut",
           "type": "m3u8",
           "quality": "ASTRA",
           "name": "ASTRA",
@@ -158,9 +169,10 @@
             "Referer": "https://91p.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T16:00:52.274Z"
         },
         {
+          "source": "socolive",
           "type": "m3u8",
           "quality": "ASTRA",
           "name": "ASTRA",
@@ -174,10 +186,19 @@
             "Referer": "https://soco.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-14T16:00:54.534Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiazab.tv/truc-tiep/como-vs-parma-luc-2330-ngay-14-09-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -189,11 +210,79 @@
         "Referer": "https://soco.domainkqt.cc/"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
+      "attempts": 2,
       "validationStatus": null,
       "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T16:45:22.185Z",
+      "lastAttemptAt": "2026-09-14T16:45:29.703Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true,
+          "t0": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "AVAILABLE",
+            "attempts": 4,
+            "postKickoffAttempts": 2,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T16:45:29.703Z",
+            "updatedAt": "2026-09-14T16:45:29.703Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios"
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T16:30:08.546Z",
+            "updatedAt": "2026-09-14T16:45:25.028Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": "axios"
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T16:30:20.888Z",
+            "updatedAt": "2026-09-14T16:45:25.028Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": "axios"
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-14T16:30:23.743Z",
+            "updatedAt": "2026-09-14T16:45:25.028Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": "axios"
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -244,7 +333,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-09-14T16:45:29.712Z"
     },
     {
       "matchId": "torino_as_roma_20260914",
@@ -435,7 +525,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T16:45:22.185Z",
+      "updatedAt": "2026-09-14T16:45:29.713Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -593,7 +683,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T16:45:22.185Z",
+      "updatedAt": "2026-09-14T16:45:29.713Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -741,7 +831,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T16:45:22.185Z",
+      "updatedAt": "2026-09-14T16:45:29.713Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -871,22 +961,14 @@
       "fotmobMatchId": 5887634,
       "leagueId": 61,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "Liga Portugal",
-          "country": "POR",
-          "leagueId": 61,
-          "homeTeam": "Rio Ave",
-          "awayTeam": "Estrela da Amadora"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {
         "cakhia": "https://cakhiazab.tv/truc-tiep/rio-ave-vs-estrela-amadora-luc-0045-ngay-15-09-2026/",
         "xoilac": "https://xoilacxbh.tv/truc-tiep/rio-ave-vs-estrela-amadora-luc-0045-ngay-15-09-2026/",
@@ -907,13 +989,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
+      "updatedAt": "2026-09-14T16:45:29.713Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -964,8 +1040,7 @@
             "confidence": 89
           }
         }
-      },
-      "updatedAt": "2026-09-14T16:45:22.186Z"
+      }
     },
     {
       "matchId": "inter_milan_udinese_20260915",
@@ -1067,7 +1142,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T16:45:22.186Z"
+      "updatedAt": "2026-09-14T16:45:29.714Z"
     },
     {
       "matchId": "leeds_united_newcastle_united_20260915",
@@ -1169,7 +1244,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T16:45:22.186Z"
+      "updatedAt": "2026-09-14T16:45:29.714Z"
     },
     {
       "matchId": "villarreal_real_betis_20260915",
@@ -1271,7 +1346,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T16:45:22.186Z"
+      "updatedAt": "2026-09-14T16:45:29.714Z"
     },
     {
       "matchId": "moreirense_maritimo_20260915",
@@ -1373,7 +1448,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T16:45:22.186Z"
+      "updatedAt": "2026-09-14T16:45:29.714Z"
     },
     {
       "matchId": "braga_estoril_20260915",
@@ -1475,7 +1550,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T16:45:22.186Z"
+      "updatedAt": "2026-09-14T16:45:29.714Z"
     },
     {
       "matchId": "bahia_remo_20260915",
@@ -1577,7 +1652,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T16:45:22.186Z"
+      "updatedAt": "2026-09-14T16:45:29.714Z"
     },
     {
       "matchId": "rayo_vallecano_espanyol_20260915",
@@ -1679,7 +1754,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-14T16:45:22.186Z"
+      "updatedAt": "2026-09-14T16:45:29.714Z"
     }
   ],
   "meta": {
@@ -1693,7 +1768,7 @@
     "adminApplied": true,
     "sync": {
       "removedExpired": 0,
-      "streamsAdded": 0,
+      "streamsAdded": 4,
       "matchesAdded": 0
     },
     "liveCount": 2,
@@ -1702,8 +1777,8 @@
     "manualStreamCount": 0,
     "highlightCount": 24,
     "channelCount": 18,
-    "checksum": "03cff13df198c85b089e78e762bbff41105de99ac62580fe5f1f99e5c9a9624d",
-    "cachedAt": "2026-09-14T16:45:22.197Z",
+    "checksum": "4835673a9357c88f666199059cb945c1493245a62dbef07535933503ca9cd17d",
+    "cachedAt": "2026-09-14T16:45:29.725Z",
     "feed": "admin-match"
   }
 }
