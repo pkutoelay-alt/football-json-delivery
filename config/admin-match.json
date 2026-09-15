@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-15T23:30:20.889+06:30",
+  "generatedAt": "2026-09-15T23:30:27.073+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 14,
   "matches": [
@@ -81,14 +81,22 @@
       "fotmobMatchId": 5868069,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": true,
       "streamCount": 5,
-      "originalNames": {},
+      "originalNames": {
+        "fotmob": {
+          "league": "ESP LaLiga",
+          "country": "ESP",
+          "leagueId": 87,
+          "homeTeam": "Rayo Vallecano",
+          "awayTeam": "Espanyol"
+        }
+      },
       "sourcePages": {
         "cakhia": "https://cakhiazac.tv/truc-tiep/rayo-vallecano-vs-espanyol-luc-0000-ngay-16-09-2026/",
         "xoilac": "https://xoilacxba.tv/truc-tiep/rayo-vallecano-vs-espanyol-luc-0000-ngay-16-09-2026/",
@@ -113,6 +121,7 @@
           "checkedAt": null
         },
         {
+          "source": "cakhia",
           "type": "m3u8",
           "quality": "BRADY",
           "name": "BRADY",
@@ -126,9 +135,10 @@
             "Referer": "https://ck.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-15T16:30:11.508Z"
         },
         {
+          "source": "xoilac",
           "type": "m3u8",
           "quality": "BRADY",
           "name": "BRADY",
@@ -142,9 +152,10 @@
             "Referer": "https://xl365.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-15T16:30:11.511Z"
         },
         {
+          "source": "phut",
           "type": "m3u8",
           "quality": "BRADY",
           "name": "BRADY",
@@ -158,9 +169,10 @@
             "Referer": "https://91p.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-15T16:30:19.647Z"
         },
         {
+          "source": "socolive",
           "type": "m3u8",
           "quality": "BRADY",
           "name": "BRADY",
@@ -174,10 +186,17 @@
             "Referer": "https://soco.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-15T16:30:22.200Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true
+      },
       "matchUrl": "https://cakhiazac.tv/truc-tiep/rayo-vallecano-vs-espanyol-luc-0000-ngay-16-09-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -189,11 +208,74 @@
         "Referer": "https://soco.domainkqt.cc/"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
+      "attempts": 2,
       "validationStatus": null,
       "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-09-15T17:00:20.887Z",
+      "lastAttemptAt": "2026-09-15T17:00:27.061Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "AVAILABLE",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-15T17:00:27.061Z",
+            "updatedAt": "2026-09-15T17:00:27.061Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": "axios"
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-15T16:45:08.458Z",
+            "updatedAt": "2026-09-15T17:00:23.428Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "axios"
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-15T16:45:15.699Z",
+            "updatedAt": "2026-09-15T17:00:23.428Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "axios"
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-15T16:45:18.359Z",
+            "updatedAt": "2026-09-15T17:00:23.428Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "axios"
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -244,7 +326,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-09-15T17:00:27.070Z"
     },
     {
       "matchId": "alaves_valencia_20260916",
@@ -323,22 +406,14 @@
       "fotmobMatchId": 5868061,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ESP LaLiga",
-          "country": "ESP",
-          "leagueId": 87,
-          "homeTeam": "Deportivo Alavés",
-          "awayTeam": "Valencia"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {
         "cakhia": "https://cakhiazac.tv/truc-tiep/alaves-vs-valencia-cf-luc-0100-ngay-16-09-2026/",
         "xoilac": "https://xoilacxba.tv/truc-tiep/alaves-vs-valencia-cf-luc-0100-ngay-16-09-2026/",
@@ -359,13 +434,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
+      "updatedAt": "2026-09-15T17:00:27.071Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -416,8 +485,7 @@
             "confidence": 100
           }
         }
-      },
-      "updatedAt": "2026-09-15T17:00:20.888Z"
+      }
     },
     {
       "matchId": "peterborough_united_barnsley_20260916",
@@ -519,7 +587,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-15T17:00:20.888Z"
+      "updatedAt": "2026-09-15T17:00:27.071Z"
     },
     {
       "matchId": "west_ham_united_fulham_20260916",
@@ -621,7 +689,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-15T17:00:20.888Z"
+      "updatedAt": "2026-09-15T17:00:27.071Z"
     },
     {
       "matchId": "bristol_city_lincoln_city_20260916",
@@ -683,7 +751,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-15T17:00:20.888Z"
+      "updatedAt": "2026-09-15T17:00:27.071Z"
     },
     {
       "matchId": "middlesbrough_millwall_20260916",
@@ -785,7 +853,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-15T17:00:20.888Z"
+      "updatedAt": "2026-09-15T17:00:27.072Z"
     },
     {
       "matchId": "ipswich_town_arsenal_20260916",
@@ -877,7 +945,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-15T17:00:20.888Z"
+      "updatedAt": "2026-09-15T17:00:27.072Z"
     },
     {
       "matchId": "liverpool_tottenham_hotspur_20260916",
@@ -979,7 +1047,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-15T17:00:20.888Z"
+      "updatedAt": "2026-09-15T17:00:27.072Z"
     },
     {
       "matchId": "reading_brentford_20260916",
@@ -1081,7 +1149,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-15T17:00:20.888Z"
+      "updatedAt": "2026-09-15T17:00:27.072Z"
     },
     {
       "matchId": "elche_real_madrid_20260916",
@@ -1183,7 +1251,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-15T17:00:20.889Z"
+      "updatedAt": "2026-09-15T17:00:27.072Z"
     },
     {
       "matchId": "ararat_armenia_sparta_prague_20260916",
@@ -1255,7 +1323,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-15T17:00:20.889Z"
+      "updatedAt": "2026-09-15T17:00:27.072Z"
     },
     {
       "matchId": "omonia_nicosia_celta_vigo_20260916",
@@ -1306,7 +1374,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-15T17:00:20.889Z"
+      "updatedAt": "2026-09-15T17:00:27.073Z"
     },
     {
       "matchId": "atletico_madrid_osasuna_20260916",
@@ -1408,7 +1476,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-15T17:00:20.889Z"
+      "updatedAt": "2026-09-15T17:00:27.073Z"
     },
     {
       "matchId": "deportivo_a_coruna_sevilla_20260916",
@@ -1510,7 +1578,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-15T17:00:20.889Z"
+      "updatedAt": "2026-09-15T17:00:27.073Z"
     }
   ],
   "meta": {
@@ -1524,7 +1592,7 @@
     "adminApplied": true,
     "sync": {
       "removedExpired": 0,
-      "streamsAdded": 0,
+      "streamsAdded": 4,
       "matchesAdded": 0
     },
     "liveCount": 1,
@@ -1533,8 +1601,8 @@
     "manualStreamCount": 0,
     "highlightCount": 16,
     "channelCount": 18,
-    "checksum": "a1f6d97608395b0b45948a01620e84a60a36d4aa7d9cc7cb310eef0183e99859",
-    "cachedAt": "2026-09-15T17:00:20.896Z",
+    "checksum": "19587d0ef04753ed1a4d8493af3788a8faaac5459d1397f497991c112085765f",
+    "cachedAt": "2026-09-15T17:00:27.083Z",
     "feed": "admin-match"
   }
 }
