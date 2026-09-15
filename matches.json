@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-15T23:30:07.899+06:30",
+  "generatedAt": "2026-09-16T00:00:15.125+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 14,
   "matches": [
@@ -243,12 +243,30 @@
       "leagueName": "La Liga",
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "streams": []
+      "hasStreams": true,
+      "streamCount": 1,
+      "streamUrl": "https://live2.zundrixmediapipeline.com/live/channel4.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://ck.domainkqt.cc/"
+      },
+      "streamStatus": "AVAILABLE",
+      "streams": [
+        {
+          "type": "m3u8",
+          "name": "TOM",
+          "url": "https://live2.zundrixmediapipeline.com/live/channel4.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://ck.domainkqt.cc/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://ck.domainkqt.cc/"
+          },
+          "active": true
+        }
+      ]
     },
     {
       "matchId": "peterborough_united_barnsley_20260916",
@@ -264,7 +282,7 @@
       "time": "1:00 AM",
       "kickoff": "2026-09-16T01:00:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "h2h": {
         "summary": {
           "homeWins": 0,
@@ -1155,8 +1173,8 @@
   "meta": {
     "feed": "matches",
     "liveCount": 1,
-    "scheduledCount": 12,
+    "scheduledCount": 11,
     "endedCount": 0,
-    "checksum": "b5fe7bfbb9c8de2812ae993dcab8b8f46a29a43ddd624bb79699fdf7b484fea0"
+    "checksum": "39d3cadd8bac280f149fb642ad1dd6b1b17a55c3965c226a91a9b313def33f23"
   }
 }
