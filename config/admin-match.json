@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-17T04:15:06.782+06:30",
+  "generatedAt": "2026-09-17T04:30:11.041+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 13,
   "matches": [
@@ -81,13 +81,13 @@
       "fotmobMatchId": 5103565,
       "leagueId": 268,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": "fotmob",
+      "source": "xoilac",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "BRA Série A",
@@ -103,26 +103,94 @@
         "phut": "https://90phutzab.tv/truc-tiep/botafogo-rj-vs-gremio-rs-luc-0530-ngay-17-09-2026/",
         "socolive": "https://socolivezb.tv/truc-tiep/botafogo-rj-vs-gremio-rs-luc-0530-ngay-17-09-2026/"
       },
-      "streams": [],
-      "streamAttempts": {},
+      "streams": [
+        {
+          "source": "xoilac",
+          "type": "m3u8",
+          "quality": "JOHAN",
+          "name": "JOHAN",
+          "url": "https://live2.zundrixmediapipeline.com/live/channel12.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://xl365.domainkqt.cc/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://xl365.domainkqt.cc/"
+          },
+          "active": true,
+          "checkedAt": "2026-09-16T22:00:10.567Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
+        }
+      ],
+      "streamAttempts": {
+        "t30": true
+      },
       "matchUrl": "https://cakhiazac.tv/truc-tiep/botafogo-rj-vs-gremio-rs-luc-0530-ngay-17-09-2026/",
       "matchUrlStatus": "MATCH_URL_FOUND",
       "matchUrlAttempts": 1,
       "lastMatchUrlAttemptAt": "2026-09-16T21:30:20.199Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
-      "attempts": 0,
-      "validationStatus": null,
+      "streamUrl": "https://live2.zundrixmediapipeline.com/live/channel12.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://xl365.domainkqt.cc/"
+      },
+      "streamStatus": "AVAILABLE",
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
+      "lastAttemptAt": "2026-09-16T22:00:11.028Z",
       "streamSearch": {
-        "started": false,
+        "started": true,
         "stopped": false,
         "stopTime": null,
         "slotsDone": {},
-        "sources": {}
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-09-16T22:00:06.642Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          },
+          "xoilac": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-16T22:00:11.028Z",
+            "updatedAt": "2026-09-16T22:00:11.028Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios"
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-09-16T22:00:06.643Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-09-16T22:00:06.643Z",
+            "slotsDone": {},
+            "extractionMethod": null
+          }
+        }
       },
       "matchUrlSearch": {
         "slotsDone": {
@@ -175,7 +243,7 @@
           }
         }
       },
-      "updatedAt": "2026-09-16T21:45:06.781Z"
+      "updatedAt": "2026-09-16T22:00:11.038Z"
     },
     {
       "matchId": "levski_sofia_salzburg_20260917",
@@ -203,22 +271,14 @@
       "fotmobMatchId": 6112379,
       "leagueId": 943229,
       "leagueName": "UEFA Europa League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Europa League",
-          "country": "INT",
-          "leagueId": 943229,
-          "homeTeam": "Levski Sofia",
-          "awayTeam": "Salzburg"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -234,18 +294,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-16T21:45:06.781Z"
+      "updatedAt": "2026-09-16T22:00:11.039Z"
     },
     {
       "matchId": "ofi_crete_tsg_hoffenheim_20260917",
@@ -273,22 +322,14 @@
       "fotmobMatchId": 6112373,
       "leagueId": 943229,
       "leagueName": "UEFA Europa League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Europa League",
-          "country": "INT",
-          "leagueId": 943229,
-          "homeTeam": "OFI Crete",
-          "awayTeam": "Hoffenheim"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -304,18 +345,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-16T21:45:06.781Z"
+      "updatedAt": "2026-09-16T22:00:11.039Z"
     },
     {
       "matchId": "real_betis_getafe_20260917",
@@ -394,22 +424,14 @@
       "fotmobMatchId": 5868063,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ESP LaLiga",
-          "country": "ESP",
-          "leagueId": 87,
-          "homeTeam": "Real Betis",
-          "awayTeam": "Getafe"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -425,18 +447,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-16T21:45:06.781Z"
+      "updatedAt": "2026-09-16T22:00:11.039Z"
     },
     {
       "matchId": "manchester_city_norwich_city_20260918",
@@ -515,22 +526,14 @@
       "fotmobMatchId": 6099330,
       "leagueId": 938221,
       "leagueName": "EFL Cup (ENG LC)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ENG EFL Cup",
-          "country": "ENG",
-          "leagueId": 938221,
-          "homeTeam": "Manchester City",
-          "awayTeam": "Norwich City"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -546,18 +549,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-16T21:45:06.781Z"
+      "updatedAt": "2026-09-16T22:00:11.039Z"
     },
     {
       "matchId": "besiktas_olympique_marseille_20260918",
@@ -585,22 +577,14 @@
       "fotmobMatchId": 6112354,
       "leagueId": 943229,
       "leagueName": "UEFA Europa League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Europa League",
-          "country": "INT",
-          "leagueId": 943229,
-          "homeTeam": "Beşiktaş",
-          "awayTeam": "Marseille"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -616,18 +600,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-16T21:45:06.781Z"
+      "updatedAt": "2026-09-16T22:00:11.040Z"
     },
     {
       "matchId": "celtic_ferencvaros_20260918",
@@ -686,22 +659,14 @@
       "fotmobMatchId": 6112299,
       "leagueId": 943229,
       "leagueName": "UEFA Europa League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Europa League",
-          "country": "INT",
-          "leagueId": 943229,
-          "homeTeam": "Celtic",
-          "awayTeam": "Ferencváros"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -717,18 +682,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-16T21:45:06.781Z"
+      "updatedAt": "2026-09-16T22:00:11.040Z"
     },
     {
       "matchId": "crystal_palace_lech_poznan_20260918",
@@ -756,22 +710,14 @@
       "fotmobMatchId": 6112324,
       "leagueId": 943229,
       "leagueName": "UEFA Europa League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Europa League",
-          "country": "INT",
-          "leagueId": 943229,
-          "homeTeam": "Crystal Palace",
-          "awayTeam": "Lech Poznań"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -787,18 +733,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-16T21:45:06.782Z"
+      "updatedAt": "2026-09-16T22:00:11.040Z"
     },
     {
       "matchId": "juventus_nec_nijmegen_20260918",
@@ -826,22 +761,14 @@
       "fotmobMatchId": 6112253,
       "leagueId": 943229,
       "leagueName": "UEFA Europa League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Europa League",
-          "country": "INT",
-          "leagueId": 943229,
-          "homeTeam": "Juventus",
-          "awayTeam": "NEC Nijmegen"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -857,18 +784,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-16T21:45:06.782Z"
+      "updatedAt": "2026-09-16T22:00:11.040Z"
     },
     {
       "matchId": "lillestr_m_torreense_20260918",
@@ -896,22 +812,14 @@
       "fotmobMatchId": 6112377,
       "leagueId": 943229,
       "leagueName": "UEFA Europa League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Europa League",
-          "country": "INT",
-          "leagueId": 943229,
-          "homeTeam": "Lillestrøm",
-          "awayTeam": "Torreense"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -927,18 +835,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-16T21:45:06.782Z"
+      "updatedAt": "2026-09-16T22:00:11.040Z"
     },
     {
       "matchId": "real_sociedad_bournemouth_20260918",
@@ -987,22 +884,14 @@
       "fotmobMatchId": 6112272,
       "leagueId": 943229,
       "leagueName": "UEFA Europa League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Europa League",
-          "country": "INT",
-          "leagueId": 943229,
-          "homeTeam": "Real Sociedad",
-          "awayTeam": "AFC Bournemouth"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1018,18 +907,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-16T21:45:06.782Z"
+      "updatedAt": "2026-09-16T22:00:11.040Z"
     },
     {
       "matchId": "viktoria_plzen_union_st_gilloise_20260918",
@@ -1057,22 +935,14 @@
       "fotmobMatchId": 6112283,
       "leagueId": 943229,
       "leagueName": "UEFA Europa League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "INT Europa League",
-          "country": "INT",
-          "leagueId": 943229,
-          "homeTeam": "Viktoria Plzeň",
-          "awayTeam": "Union St.Gilloise"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1088,18 +958,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-16T21:45:06.782Z"
+      "updatedAt": "2026-09-16T22:00:11.041Z"
     },
     {
       "matchId": "malaga_villarreal_20260918",
@@ -1178,22 +1037,14 @@
       "fotmobMatchId": 5868068,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
       "streamCount": 0,
-      "originalNames": {
-        "fotmob": {
-          "league": "ESP LaLiga",
-          "country": "ESP",
-          "leagueId": 87,
-          "homeTeam": "Málaga",
-          "awayTeam": "Villarreal"
-        }
-      },
+      "originalNames": {},
       "sourcePages": {},
       "streams": [],
       "streamAttempts": {},
@@ -1209,18 +1060,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-16T21:45:06.782Z"
+      "updatedAt": "2026-09-16T22:00:11.041Z"
     }
   ],
   "meta": {
@@ -1229,15 +1069,13 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive",
-      "highlight",
-      "myanmartv"
+      "socolive"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 18,
-      "streamsAdded": 0,
-      "matchesAdded": 5
+      "removedExpired": 0,
+      "streamsAdded": 1,
+      "matchesAdded": 0
     },
     "liveCount": 0,
     "scheduledCount": 12,
@@ -1245,8 +1083,8 @@
     "manualStreamCount": 0,
     "highlightCount": 3,
     "channelCount": 18,
-    "checksum": "c49ed2f8efdfd7e9cfc9cbb3bb51d3cb9c870de6cc01cda61f2798af0dbce6eb",
-    "cachedAt": "2026-09-16T21:45:06.790Z",
+    "checksum": "0f05c4e49a4dc906ce80a0f2ec2d92b4cf4bfced754d25b59716aaa797f862fb",
+    "cachedAt": "2026-09-16T22:00:11.050Z",
     "feed": "admin-match"
   }
 }
