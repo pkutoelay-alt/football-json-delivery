@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-21T03:30:04.798+06:30",
+  "generatedAt": "2026-09-21T03:30:13.359+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 5,
   "matches": [
@@ -138,7 +138,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-20T21:00:04.797Z",
+      "updatedAt": "2026-09-20T21:00:13.357Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -268,13 +268,13 @@
       "fotmobMatchId": 5103634,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": "fotmob",
+      "source": "cakhia",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "BRA Série A",
@@ -290,7 +290,27 @@
         "phut": "https://90phutzba.tv/truc-tiep/flamengo-rj-vs-rb-bragantino-luc-0430-ngay-21-09-2026/",
         "socolive": "https://socoliveza.tv/truc-tiep/flamengo-rj-vs-rb-bragantino-luc-0430-ngay-21-09-2026/"
       },
-      "streams": [],
+      "streams": [
+        {
+          "source": "cakhia",
+          "type": "m3u8",
+          "quality": "POLO",
+          "name": "POLO",
+          "url": "https://live2.zundrixmediapipeline.com/live/channel10.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://xl365.domainkqt.cc/"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://xl365.domainkqt.cc/"
+          },
+          "active": true,
+          "checkedAt": "2026-09-20T21:00:13.347Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
+        }
+      ],
       "streamAttempts": {
         "t30": true
       },
@@ -299,13 +319,16 @@
       "matchUrlAttempts": 1,
       "lastMatchUrlAttemptAt": "2026-09-20T20:30:21.234Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "SEARCHING",
-      "attempts": 0,
-      "validationStatus": "VALIDATING",
+      "streamUrl": "https://live2.zundrixmediapipeline.com/live/channel10.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://xl365.domainkqt.cc/"
+      },
+      "streamStatus": "AVAILABLE",
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
+      "lastAttemptAt": "2026-09-20T21:00:13.348Z",
       "streamSearch": {
         "started": true,
         "stopped": false,
@@ -313,15 +336,17 @@
         "slotsDone": {},
         "sources": {
           "cakhia": {
-            "status": "SEARCHING",
-            "attempts": 0,
+            "status": "AVAILABLE",
+            "attempts": 1,
             "postKickoffAttempts": 0,
             "lastError": null,
-            "lastAttemptAt": null,
-            "updatedAt": "2026-09-20T21:00:04.779Z",
-            "slotsDone": {},
-            "extractionMethod": null,
-            "extractPassComplete": false
+            "lastAttemptAt": "2026-09-20T21:00:13.348Z",
+            "updatedAt": "2026-09-20T21:00:13.348Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
           },
           "xoilac": {
             "status": "SEARCHING",
@@ -409,7 +434,7 @@
           }
         }
       },
-      "updatedAt": "2026-09-20T21:00:04.797Z"
+      "updatedAt": "2026-09-20T21:00:13.358Z"
     },
     {
       "matchId": "athletico_paranaense_bahia_20260921",
@@ -519,7 +544,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-20T21:00:04.798Z"
+      "updatedAt": "2026-09-20T21:00:13.358Z"
     },
     {
       "matchId": "new_caledonia_solomon_islands_20260921",
@@ -609,7 +634,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-20T21:00:04.798Z"
+      "updatedAt": "2026-09-20T21:00:13.358Z"
     },
     {
       "matchId": "fiji_vanuatu_20260921",
@@ -671,7 +696,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-20T21:00:04.798Z"
+      "updatedAt": "2026-09-20T21:00:13.359Z"
     }
   ],
   "meta": {
@@ -684,8 +709,8 @@
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 3,
-      "streamsAdded": 0,
+      "removedExpired": 0,
+      "streamsAdded": 1,
       "matchesAdded": 0
     },
     "liveCount": 1,
@@ -694,8 +719,8 @@
     "manualStreamCount": 0,
     "highlightCount": 0,
     "channelCount": 18,
-    "checksum": "b8152a16a75c2d5a51bfcb4ecf8e06e2a3d1bb1b77fb852e7f1ff74755bc446e",
-    "cachedAt": "2026-09-20T21:00:04.803Z",
+    "checksum": "52c791ae01b95b25b1c69a535a908695adb886971e663ce4cc5c303795e5e4dd",
+    "cachedAt": "2026-09-20T21:00:13.366Z",
     "feed": "admin-match"
   }
 }
