@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-21T00:45:54.555+06:30",
+  "generatedAt": "2026-09-21T00:45:57.518+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 15,
   "matches": [
@@ -112,7 +112,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-20T18:15:54.552Z"
+      "updatedAt": "2026-09-20T18:15:57.516Z"
     },
     {
       "matchId": "villarreal_levante_20260920",
@@ -248,7 +248,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-20T18:15:54.552Z",
+      "updatedAt": "2026-09-20T18:15:57.516Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -435,7 +435,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-20T18:15:54.552Z",
+      "updatedAt": "2026-09-20T18:15:57.517Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -596,7 +596,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-20T18:15:54.553Z"
+      "updatedAt": "2026-09-20T18:15:57.517Z"
     },
     {
       "matchId": "paderborn_tsg_hoffenheim_20260921",
@@ -665,7 +665,7 @@
       "fotmobMatchId": 5881175,
       "leagueId": 54,
       "leagueName": "Bundesliga",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -715,10 +715,19 @@
             "Referer": "https://xl365.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-20T17:27:09.076Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiazaa.tv/truc-tiep/paderborn-07-vs-tsg-hoffenheim-luc-0030-ngay-21-09-2026/",
       "matchUrlStatus": "MATCH_URL_FOUND",
       "matchUrlAttempts": 1,
@@ -730,11 +739,81 @@
         "Referer": "https://xl365.domainkqt.cc/"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-09-20T18:15:54.553Z",
+      "attempts": 3,
+      "validationStatus": "HTTP_403",
+      "validationReason": "HTTP_403",
+      "lastAttemptAt": "2026-09-20T18:00:59.906Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": true,
+        "stopTime": "2026-09-21T00:45:57.491+06:30",
+        "slotsDone": {
+          "t5": true,
+          "t0": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "FAILED",
+            "attempts": 4,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-20T18:00:47.891Z",
+            "updatedAt": "2026-09-20T18:15:04.038Z",
+            "slotsDone": {
+              "t5": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "xoilac": {
+            "status": "FAILED",
+            "attempts": 4,
+            "postKickoffAttempts": 3,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-09-20T18:00:51.463Z",
+            "updatedAt": "2026-09-20T18:00:51.463Z",
+            "slotsDone": {
+              "t5": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "FAILED",
+            "attempts": 4,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-20T18:00:55.659Z",
+            "updatedAt": "2026-09-20T18:15:04.038Z",
+            "slotsDone": {
+              "t5": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "socolive": {
+            "status": "FAILED",
+            "attempts": 4,
+            "postKickoffAttempts": 3,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-09-20T18:00:59.906Z",
+            "updatedAt": "2026-09-20T18:00:59.906Z",
+            "slotsDone": {
+              "t5": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t30": true
@@ -785,7 +864,8 @@
             "confidence": 89
           }
         }
-      }
+      },
+      "updatedAt": "2026-09-20T18:15:57.517Z"
     },
     {
       "matchId": "olympique_marseille_paris_saint_germain_20260921",
@@ -902,10 +982,14 @@
             "Referer": "https://ck.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-09-20T18:15:15.895Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true
+      },
       "matchUrl": "https://cakhiazaa.tv/truc-tiep/marseille-vs-psg-luc-0145-ngay-21-09-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -917,11 +1001,72 @@
         "Referer": "https://ck.domainkqt.cc/"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-09-20T18:15:54.553Z",
+      "lastAttemptAt": "2026-09-20T18:15:31.670Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-09-20T18:15:15.896Z",
+            "updatedAt": "2026-09-20T18:15:15.896Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-09-20T18:15:22.316Z",
+            "updatedAt": "2026-09-20T18:15:22.316Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-09-20T18:15:27.429Z",
+            "updatedAt": "2026-09-20T18:15:27.429Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-09-20T18:15:31.670Z",
+            "updatedAt": "2026-09-20T18:15:31.670Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -972,7 +1117,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-09-20T18:15:57.517Z"
     },
     {
       "matchId": "ac_milan_lecce_20260921",
@@ -1116,7 +1262,9 @@
         "started": true,
         "stopped": false,
         "stopTime": null,
-        "slotsDone": {},
+        "slotsDone": {
+          "t30": true
+        },
         "sources": {
           "cakhia": {
             "status": "AVAILABLE",
@@ -1223,7 +1371,7 @@
           }
         }
       },
-      "updatedAt": "2026-09-20T18:15:54.554Z"
+      "updatedAt": "2026-09-20T18:15:57.517Z"
     },
     {
       "matchId": "valencia_real_sociedad_20260921",
@@ -1302,7 +1450,7 @@
       "fotmobMatchId": 5868079,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1338,7 +1486,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-20T18:15:54.554Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -1389,7 +1543,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-09-20T18:15:57.517Z"
     },
     {
       "matchId": "corinthians_fluminense_20260921",
@@ -1468,7 +1623,7 @@
       "fotmobMatchId": 5103637,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1504,7 +1659,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-20T18:15:54.554Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -1555,7 +1716,8 @@
             "confidence": 84
           }
         }
-      }
+      },
+      "updatedAt": "2026-09-20T18:15:57.518Z"
     },
     {
       "matchId": "vitoria_cruzeiro_20260921",
@@ -1634,7 +1796,7 @@
       "fotmobMatchId": 5103642,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1670,7 +1832,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-20T18:15:54.554Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -1721,7 +1889,8 @@
             "confidence": 89
           }
         }
-      }
+      },
+      "updatedAt": "2026-09-20T18:15:57.518Z"
     },
     {
       "matchId": "fc_porto_benfica_20260921",
@@ -1800,7 +1969,7 @@
       "fotmobMatchId": 5887641,
       "leagueId": 61,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1831,7 +2000,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-20T18:15:54.554Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-20T18:15:57.518Z"
     },
     {
       "matchId": "flamengo_rb_bragantino_20260921",
@@ -1910,7 +2090,7 @@
       "fotmobMatchId": 5103634,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1941,7 +2121,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-20T18:15:54.555Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-20T18:15:57.518Z"
     },
     {
       "matchId": "athletico_paranaense_bahia_20260921",
@@ -2020,7 +2211,7 @@
       "fotmobMatchId": 5103641,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2051,7 +2242,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-20T18:15:54.555Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-20T18:15:57.518Z"
     },
     {
       "matchId": "new_caledonia_solomon_islands_20260921",
@@ -2110,7 +2312,7 @@
       "fotmobMatchId": 6280189,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2141,7 +2343,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-20T18:15:54.555Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-20T18:15:57.518Z"
     },
     {
       "matchId": "fiji_vanuatu_20260921",
@@ -2203,7 +2416,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-20T18:15:54.555Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-20T18:15:57.518Z"
     }
   ],
   "meta": {
@@ -2212,13 +2436,15 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive"
+      "socolive",
+      "highlight",
+      "myanmartv"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 0,
+      "removedExpired": 2,
       "streamsAdded": 1,
-      "matchesAdded": 0
+      "matchesAdded": 2
     },
     "liveCount": 5,
     "scheduledCount": 5,
@@ -2226,8 +2452,8 @@
     "manualStreamCount": 0,
     "highlightCount": 0,
     "channelCount": 18,
-    "checksum": "82c90b11a6792b924a875f5b55bd6ac29ebd641e45fa7c0af3a2c85da7bd98b2",
-    "cachedAt": "2026-09-20T18:15:54.566Z",
+    "checksum": "f91f7b5fa571cd609efdc4dd5e5a9d82301056f73e16e47bcde69a52fe3b5454",
+    "cachedAt": "2026-09-20T18:15:57.527Z",
     "feed": "admin-match"
   }
 }
