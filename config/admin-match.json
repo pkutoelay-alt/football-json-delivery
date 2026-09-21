@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-21T09:15:51.928+06:30",
+  "generatedAt": "2026-09-21T09:30:15.115+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 2,
   "matches": [
@@ -18,7 +18,7 @@
       "time": "10:30 AM",
       "kickoff": "2026-09-21T10:30:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "h2h": {
         "summary": {
           "homeWins": 3,
@@ -82,8 +82,8 @@
       "streamAttempts": {},
       "matchUrl": null,
       "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": null,
+      "matchUrlAttempts": 1,
+      "lastMatchUrlAttemptAt": "2026-09-21T03:00:15.108Z",
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -100,10 +100,24 @@
         "sources": {}
       },
       "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
+        "slotsDone": {
+          "t60": true
+        },
+        "sources": {
+          "cakhia": {
+            "matchUrl": null,
+            "status": "MATCH_URL_PENDING",
+            "attempts": 1,
+            "liveAttempts": 0,
+            "lastAttemptAt": "2026-09-21T03:00:15.108Z",
+            "slotsDone": {
+              "t60": true
+            },
+            "confidence": 0
+          }
+        }
       },
-      "updatedAt": "2026-09-21T02:45:51.927Z"
+      "updatedAt": "2026-09-21T03:00:15.114Z"
     },
     {
       "matchId": "fiji_vanuatu_20260921",
@@ -165,44 +179,31 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-21T02:45:51.927Z"
+      "updatedAt": "2026-09-21T03:00:15.115Z"
     }
   ],
   "meta": {
-    "configOrigin": "local",
+    "configOrigin": "local+github",
     "sources": [
       "cakhia",
       "xoilac",
       "phut",
-      "socolive",
-      "highlight",
-      "myanmartv"
+      "socolive"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 11,
+      "removedExpired": 0,
       "streamsAdded": 0,
-      "matchesAdded": 2
+      "matchesAdded": 0
     },
     "liveCount": 0,
-    "scheduledCount": 2,
+    "scheduledCount": 1,
     "endedCount": 0,
     "manualStreamCount": 0,
     "highlightCount": 0,
     "channelCount": 18,
-    "checksum": "30ac59a3ef9a8a8a8ce89f17926b6c49dda0b23b91029e51c4487b422530ae28",
-    "cachedAt": "2026-09-21T02:45:51.930Z",
+    "checksum": "6af6d958d702c68d254eb4e900b788d3c7dceac5aab7ca86bd83838feafdb613",
+    "cachedAt": "2026-09-21T03:00:15.122Z",
     "feed": "admin-match"
   }
 }
