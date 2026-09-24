@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-24T23:00:07.355+06:30",
+  "generatedAt": "2026-09-24T23:00:16.015+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 4,
   "matches": [
@@ -79,11 +79,13 @@
       },
       "sourcePages": {},
       "streams": [],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true
+      },
       "matchUrl": null,
       "matchUrlStatus": "MATCH_URL_PENDING",
       "matchUrlAttempts": 3,
-      "lastMatchUrlAttemptAt": "2026-09-24T16:30:07.346Z",
+      "lastMatchUrlAttemptAt": "2026-09-24T16:30:15.978Z",
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -93,7 +95,7 @@
       "validationReason": null,
       "lastAttemptAt": null,
       "streamSearch": {
-        "started": false,
+        "started": true,
         "stopped": false,
         "stopTime": null,
         "slotsDone": {},
@@ -122,42 +124,45 @@
           "xoilac": {
             "matchUrl": null,
             "status": "MATCH_URL_PENDING",
-            "attempts": 2,
+            "attempts": 3,
             "liveAttempts": 0,
-            "lastAttemptAt": "2026-09-24T16:15:12.293Z",
+            "lastAttemptAt": "2026-09-24T16:30:11.912Z",
             "slotsDone": {
               "t60": true,
-              "t50": true
+              "t50": true,
+              "t30": true
             },
             "confidence": 0
           },
           "phut": {
             "matchUrl": null,
             "status": "MATCH_URL_PENDING",
-            "attempts": 2,
+            "attempts": 3,
             "liveAttempts": 0,
-            "lastAttemptAt": "2026-09-24T16:15:13.702Z",
+            "lastAttemptAt": "2026-09-24T16:30:13.357Z",
             "slotsDone": {
               "t60": true,
-              "t50": true
+              "t50": true,
+              "t30": true
             },
             "confidence": 0
           },
           "socolive": {
             "matchUrl": null,
             "status": "MATCH_URL_PENDING",
-            "attempts": 2,
+            "attempts": 3,
             "liveAttempts": 0,
-            "lastAttemptAt": "2026-09-24T16:15:15.065Z",
+            "lastAttemptAt": "2026-09-24T16:30:15.978Z",
             "slotsDone": {
               "t60": true,
-              "t50": true
+              "t50": true,
+              "t30": true
             },
             "confidence": 0
           }
         }
       },
-      "updatedAt": "2026-09-24T16:30:07.354Z"
+      "updatedAt": "2026-09-24T16:30:16.015Z"
     },
     {
       "matchId": "sportfreunde_siegen_borussia_monchengladbach_20260924",
@@ -185,7 +190,7 @@
       "fotmobMatchId": 6306838,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -203,20 +208,100 @@
       },
       "sourcePages": {},
       "streams": [],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true
+      },
       "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": null,
+      "matchUrlStatus": "MATCH_URL_SEARCHING",
+      "matchUrlAttempts": 4,
+      "lastMatchUrlAttemptAt": "2026-09-24T16:30:15.977Z",
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
+      "streamStatus": "SEARCHING",
       "attempts": 0,
-      "validationStatus": null,
+      "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-24T16:30:07.354Z"
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {
+          "t60": true,
+          "t50": true,
+          "t30": true,
+          "tLive": true
+        },
+        "sources": {
+          "cakhia": {
+            "matchUrl": null,
+            "status": "MATCH_URL_SEARCHING",
+            "attempts": 4,
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-09-24T16:30:07.345Z",
+            "slotsDone": {
+              "t60": true,
+              "t50": true,
+              "t30": true,
+              "tLive": true
+            },
+            "confidence": 0
+          },
+          "xoilac": {
+            "matchUrl": null,
+            "status": "MATCH_URL_SEARCHING",
+            "attempts": 4,
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-09-24T16:30:11.912Z",
+            "slotsDone": {
+              "t60": true,
+              "t50": true,
+              "t30": true,
+              "tLive": true
+            },
+            "confidence": 0
+          },
+          "phut": {
+            "matchUrl": null,
+            "status": "MATCH_URL_SEARCHING",
+            "attempts": 4,
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-09-24T16:30:13.356Z",
+            "slotsDone": {
+              "t60": true,
+              "t50": true,
+              "t30": true,
+              "tLive": true
+            },
+            "confidence": 0
+          },
+          "socolive": {
+            "matchUrl": null,
+            "status": "MATCH_URL_SEARCHING",
+            "attempts": 4,
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-09-24T16:30:15.977Z",
+            "slotsDone": {
+              "t60": true,
+              "t50": true,
+              "t30": true,
+              "tLive": true
+            },
+            "confidence": 0
+          }
+        }
+      },
+      "updatedAt": "2026-09-24T16:30:16.015Z"
     },
     {
       "matchId": "australia_brazil_20260925",
@@ -275,7 +360,7 @@
       "fotmobMatchId": 5924776,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -306,7 +391,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-24T16:30:07.354Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-24T16:30:16.015Z"
     },
     {
       "matchId": "india_panama_20260925",
@@ -334,7 +430,7 @@
       "fotmobMatchId": 6280205,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -365,7 +461,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-24T16:30:07.355Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-24T16:30:16.015Z"
     }
   ],
   "meta": {
@@ -374,11 +481,13 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive"
+      "socolive",
+      "highlight",
+      "myanmartv"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 0,
+      "removedExpired": 5,
       "streamsAdded": 0,
       "matchesAdded": 0
     },
@@ -388,8 +497,8 @@
     "manualStreamCount": 0,
     "highlightCount": 0,
     "channelCount": 18,
-    "checksum": "b94c6416053d276c6b9189ad2a9a6c2788538bb228e56df79546bf79d5b301ee",
-    "cachedAt": "2026-09-24T16:30:07.359Z",
+    "checksum": "15f9bb9f61b283f33d70c6785bb0adb8b98b7881805f50e3f6197037826368ef",
+    "cachedAt": "2026-09-24T16:30:16.022Z",
     "feed": "admin-match"
   }
 }
