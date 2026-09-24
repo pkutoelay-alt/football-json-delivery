@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-24T19:30:06.771+06:30",
+  "generatedAt": "2026-09-24T19:30:10.855+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 6,
   "matches": [
@@ -71,7 +71,7 @@
       "fotmobMatchId": 6280196,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -89,20 +89,11 @@
       },
       "sourcePages": {},
       "streams": [],
-      "streamAttempts": {
-        "t30": true,
-        "t20": true,
-        "t15": true,
-        "t10": true,
-        "t5": true,
-        "t0": true,
-        "tP5": true,
-        "tP10": true
-      },
+      "streamAttempts": {},
       "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_SEARCHING",
-      "matchUrlAttempts": 4,
-      "lastMatchUrlAttemptAt": "2026-09-24T13:00:06.759Z",
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -111,65 +102,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": true,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {
-          "tLive": true
-        },
-        "sources": {
-          "cakhia": {
-            "matchUrl": null,
-            "status": "MATCH_URL_FAILED",
-            "attempts": 4,
-            "liveAttempts": 4,
-            "lastAttemptAt": "2026-09-24T13:00:06.759Z",
-            "slotsDone": {
-              "tLive": true
-            },
-            "confidence": 0
-          },
-          "xoilac": {
-            "matchUrl": null,
-            "status": "MATCH_URL_SEARCHING",
-            "attempts": 3,
-            "liveAttempts": 3,
-            "lastAttemptAt": "2026-09-24T12:45:13.600Z",
-            "slotsDone": {
-              "tLive": true
-            },
-            "confidence": 0
-          },
-          "phut": {
-            "matchUrl": null,
-            "status": "MATCH_URL_SEARCHING",
-            "attempts": 3,
-            "liveAttempts": 3,
-            "lastAttemptAt": "2026-09-24T12:45:15.173Z",
-            "slotsDone": {
-              "tLive": true
-            },
-            "confidence": 0
-          },
-          "socolive": {
-            "matchUrl": null,
-            "status": "MATCH_URL_SEARCHING",
-            "attempts": 3,
-            "liveAttempts": 3,
-            "lastAttemptAt": "2026-09-24T12:45:16.612Z",
-            "slotsDone": {
-              "tLive": true
-            },
-            "confidence": 0
-          }
-        }
-      },
-      "updatedAt": "2026-09-24T13:00:06.769Z"
+      "updatedAt": "2026-09-24T13:00:10.853Z"
     },
     {
       "matchId": "uzbekistan_iran_20260924",
@@ -248,7 +181,7 @@
       "fotmobMatchId": 6280204,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -264,14 +197,16 @@
           "awayTeam": "Iran"
         }
       },
-      "sourcePages": {},
+      "sourcePages": {
+        "cakhia": "https://cakhiazaa.tv/truc-tiep/uzbekistan-vs-iran-luc-2100-ngay-24-09-2026/"
+      },
       "streams": [],
       "streamAttempts": {},
-      "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": null,
-      "matchUrlSource": null,
+      "matchUrl": "https://cakhiazaa.tv/truc-tiep/uzbekistan-vs-iran-luc-2100-ngay-24-09-2026/",
+      "matchUrlStatus": "MATCH_URL_CONFIRMED",
+      "matchUrlAttempts": 1,
+      "lastMatchUrlAttemptAt": "2026-09-24T13:00:10.846Z",
+      "matchUrlSource": "cakhia",
       "streamUrl": null,
       "streamHeaders": null,
       "streamStatus": "PREPARING_STREAM",
@@ -279,7 +214,32 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-24T13:00:06.769Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {
+          "t60": true
+        },
+        "sources": {
+          "cakhia": {
+            "matchUrl": "https://cakhiazaa.tv/truc-tiep/uzbekistan-vs-iran-luc-2100-ngay-24-09-2026/",
+            "status": "MATCH_URL_CONFIRMED",
+            "attempts": 1,
+            "liveAttempts": 0,
+            "lastAttemptAt": "2026-09-24T13:00:10.846Z",
+            "slotsDone": {
+              "t60": true
+            },
+            "confidence": 100
+          }
+        }
+      },
+      "updatedAt": "2026-09-24T13:00:10.854Z"
     },
     {
       "matchId": "oberhausen_schalke_04_20260924",
@@ -369,7 +329,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-24T13:00:06.770Z"
+      "updatedAt": "2026-09-24T13:00:10.854Z"
     },
     {
       "matchId": "sportfreunde_siegen_borussia_monchengladbach_20260924",
@@ -428,7 +388,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-24T13:00:06.770Z"
+      "updatedAt": "2026-09-24T13:00:10.854Z"
     },
     {
       "matchId": "australia_brazil_20260925",
@@ -518,7 +478,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-24T13:00:06.770Z"
+      "updatedAt": "2026-09-24T13:00:10.854Z"
     },
     {
       "matchId": "india_panama_20260925",
@@ -577,7 +537,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-24T13:00:06.770Z"
+      "updatedAt": "2026-09-24T13:00:10.855Z"
     }
   ],
   "meta": {
@@ -590,7 +550,7 @@
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 1,
+      "removedExpired": 0,
       "streamsAdded": 0,
       "matchesAdded": 0
     },
@@ -600,8 +560,8 @@
     "manualStreamCount": 0,
     "highlightCount": 0,
     "channelCount": 18,
-    "checksum": "1969f2a97557928031673cf472b4a463c0014a1f0b5bce80a4ab86a6062ce14a",
-    "cachedAt": "2026-09-24T13:00:06.776Z",
+    "checksum": "c802e681560b520ff29aa38aff5e75f3b48f6c3e5d287ec627b21390e7f010d6",
+    "cachedAt": "2026-09-24T13:00:10.859Z",
     "feed": "admin-match"
   }
 }
