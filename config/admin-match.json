@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-24T20:15:00.412+06:30",
+  "generatedAt": "2026-09-24T20:15:08.319+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 5,
   "matches": [
@@ -81,7 +81,7 @@
       "fotmobMatchId": 6280204,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -124,7 +124,11 @@
           "checkedAt": null
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true
+      },
       "matchUrl": "https://cakhiazaa.tv/truc-tiep/uzbekistan-vs-iran-luc-2100-ngay-24-09-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -138,9 +142,61 @@
       },
       "streamStatus": "AVAILABLE",
       "attempts": 0,
-      "validationStatus": null,
+      "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-09-24T13:45:08.289Z",
+            "slotsDone": {},
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-09-24T13:45:08.290Z",
+            "slotsDone": {},
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-09-24T13:45:08.290Z",
+            "slotsDone": {},
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-09-24T13:45:08.290Z",
+            "slotsDone": {},
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -192,7 +248,7 @@
           }
         }
       },
-      "updatedAt": "2026-09-24T13:45:00.405Z"
+      "updatedAt": "2026-09-24T13:45:08.318Z"
     },
     {
       "matchId": "oberhausen_schalke_04_20260924",
@@ -282,7 +338,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-24T13:45:00.406Z"
+      "updatedAt": "2026-09-24T13:45:08.318Z"
     },
     {
       "matchId": "sportfreunde_siegen_borussia_monchengladbach_20260924",
@@ -341,7 +397,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-24T13:45:00.406Z"
+      "updatedAt": "2026-09-24T13:45:08.319Z"
     },
     {
       "matchId": "australia_brazil_20260925",
@@ -431,7 +487,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-24T13:45:00.409Z"
+      "updatedAt": "2026-09-24T13:45:08.319Z"
     },
     {
       "matchId": "india_panama_20260925",
@@ -490,15 +546,20 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-24T13:45:00.409Z"
+      "updatedAt": "2026-09-24T13:45:08.319Z"
     }
   ],
   "meta": {
-    "configOrigin": "expire",
-    "sources": [],
+    "configOrigin": "local+github",
+    "sources": [
+      "cakhia",
+      "xoilac",
+      "phut",
+      "socolive"
+    ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 1,
+      "removedExpired": 0,
       "streamsAdded": 0,
       "matchesAdded": 0
     },
@@ -508,8 +569,8 @@
     "manualStreamCount": 0,
     "highlightCount": 0,
     "channelCount": 18,
-    "checksum": "f59e8c5de5cbbc05c5d234a797ac9c88c4794a68ba33bfd0b2298439084b7f99",
-    "cachedAt": "2026-09-24T13:45:00.421Z",
+    "checksum": "289a3b30eaf8f9657134c34b1de5d8b29aa1354153b767edfad3b3f26e4876d4",
+    "cachedAt": "2026-09-24T13:45:08.329Z",
     "feed": "admin-match"
   }
 }
