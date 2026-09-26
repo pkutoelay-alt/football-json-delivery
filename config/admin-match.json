@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-27T04:45:05.491+06:30",
+  "generatedAt": "2026-09-27T04:45:12.237+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 23,
   "matches": [
@@ -18,7 +18,7 @@
       "time": "3:00 AM",
       "kickoff": "2026-09-27T03:00:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "LIVE",
+      "status": "END",
       "h2h": {
         "summary": {
           "homeWins": 1,
@@ -51,7 +51,7 @@
       "fotmobMatchId": 5991873,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -72,7 +72,16 @@
         "socolive": "https://socoliveza.tv/truc-tiep/usa-vs-peru-luc-0330-ngay-27-09-2026/"
       },
       "streams": [],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiazaa.tv/truc-tiep/usa-vs-peru-luc-0330-ngay-27-09-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 4,
@@ -81,11 +90,51 @@
       "streamUrl": null,
       "streamHeaders": null,
       "streamStatus": "SEARCHING",
-      "attempts": 0,
-      "validationStatus": "VALIDATING",
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.486Z",
+      "attempts": 3,
+      "validationStatus": "HTTP_403",
+      "validationReason": "HTTP_403",
+      "lastAttemptAt": "2026-09-26T21:15:13.178Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": true,
+        "stopTime": "2026-09-27T03:45:15.860+06:30",
+        "slotsDone": {
+          "t30": true,
+          "t20": true,
+          "t0": true
+        },
+        "sources": {
+          "socolive": {
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-09-26T21:00:17.603Z",
+            "updatedAt": "2026-09-26T21:00:17.603Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "cakhia": {
+            "status": "FAILED",
+            "attempts": 3,
+            "postKickoffAttempts": 3,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-09-26T21:15:13.178Z",
+            "updatedAt": "2026-09-26T21:15:13.178Z",
+            "slotsDone": {
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -150,7 +199,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-09-26T22:15:12.233Z"
     },
     {
       "matchId": "canada_chile_20260927",
@@ -211,7 +261,7 @@
       "matchUrl": null,
       "matchUrlStatus": "MATCH_URL_PENDING",
       "matchUrlAttempts": 2,
-      "lastMatchUrlAttemptAt": "2026-09-26T22:15:05.462Z",
+      "lastMatchUrlAttemptAt": "2026-09-26T22:15:12.162Z",
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -248,39 +298,42 @@
           "xoilac": {
             "matchUrl": null,
             "status": "MATCH_URL_PENDING",
-            "attempts": 1,
+            "attempts": 2,
             "liveAttempts": 0,
-            "lastAttemptAt": "2026-09-26T22:00:15.595Z",
+            "lastAttemptAt": "2026-09-26T22:15:10.553Z",
             "slotsDone": {
-              "t60": true
+              "t60": true,
+              "t50": true
             },
             "confidence": 0
           },
           "phut": {
             "matchUrl": null,
             "status": "MATCH_URL_PENDING",
-            "attempts": 1,
+            "attempts": 2,
             "liveAttempts": 0,
-            "lastAttemptAt": "2026-09-26T22:00:19.052Z",
+            "lastAttemptAt": "2026-09-26T22:15:11.391Z",
             "slotsDone": {
-              "t60": true
+              "t60": true,
+              "t50": true
             },
             "confidence": 0
           },
           "socolive": {
             "matchUrl": null,
             "status": "MATCH_URL_PENDING",
-            "attempts": 1,
+            "attempts": 2,
             "liveAttempts": 0,
-            "lastAttemptAt": "2026-09-26T22:00:22.517Z",
+            "lastAttemptAt": "2026-09-26T22:15:12.162Z",
             "slotsDone": {
-              "t60": true
+              "t60": true,
+              "t50": true
             },
             "confidence": 0
           }
         }
       },
-      "updatedAt": "2026-09-26T22:15:05.487Z"
+      "updatedAt": "2026-09-26T22:15:12.233Z"
     },
     {
       "matchId": "mexico_colombia_20260927",
@@ -349,7 +402,7 @@
       "fotmobMatchId": 6210558,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -380,7 +433,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.487Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.234Z"
     },
     {
       "matchId": "cook_islands_tahiti_20260927",
@@ -408,7 +472,7 @@
       "fotmobMatchId": 6280206,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -439,7 +503,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.487Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.234Z"
     },
     {
       "matchId": "vanuatu_new_caledonia_20260927",
@@ -478,7 +553,7 @@
       "fotmobMatchId": 6280207,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -509,7 +584,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.487Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.234Z"
     },
     {
       "matchId": "fiji_papua_new_guinea_20260927",
@@ -568,7 +654,7 @@
       "fotmobMatchId": 6280208,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -599,7 +685,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.487Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.234Z"
     },
     {
       "matchId": "gangwon_fc_incheon_united_20260927",
@@ -678,7 +775,7 @@
       "fotmobMatchId": 5139990,
       "leagueId": 919356,
       "leagueName": "K League 1 (KOR D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -709,7 +806,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.487Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.234Z"
     },
     {
       "matchId": "ternana_femminile_w_como_women_w_20260927",
@@ -768,7 +876,7 @@
       "fotmobMatchId": 5977771,
       "leagueId": 942146,
       "leagueName": "Serie A",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -799,7 +907,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.487Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.234Z"
     },
     {
       "matchId": "inter_w_fiorentina_w_20260927",
@@ -878,7 +997,7 @@
       "fotmobMatchId": 5977767,
       "leagueId": 942146,
       "leagueName": "Serie A",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -909,7 +1028,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.489Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.234Z"
     },
     {
       "matchId": "china_new_zealand_20260927",
@@ -988,7 +1118,7 @@
       "fotmobMatchId": 6280212,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1019,7 +1149,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.489Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.234Z"
     },
     {
       "matchId": "seychelles_sri_lanka_20260927",
@@ -1047,7 +1188,7 @@
       "fotmobMatchId": 6280209,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1078,7 +1219,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.489Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.235Z"
     },
     {
       "matchId": "cska_moscow_nizhny_novgorod_20260927",
@@ -1157,7 +1309,7 @@
       "fotmobMatchId": 6315917,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1188,7 +1340,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.489Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.235Z"
     },
     {
       "matchId": "shanghai_shenhua_zenit_st_petersburg_20260927",
@@ -1227,7 +1390,7 @@
       "fotmobMatchId": 6000975,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1258,7 +1421,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.489Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.236Z"
     },
     {
       "matchId": "lazio_arezzo_20260927",
@@ -1286,7 +1460,7 @@
       "fotmobMatchId": 6315916,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1317,7 +1491,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.489Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.236Z"
     },
     {
       "matchId": "sassuolo_w_roma_w_20260927",
@@ -1396,7 +1581,7 @@
       "fotmobMatchId": 5977770,
       "leagueId": 942146,
       "leagueName": "Serie A",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1427,7 +1612,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.489Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.236Z"
     },
     {
       "matchId": "malta_liechtenstein_20260927",
@@ -1476,7 +1672,7 @@
       "fotmobMatchId": 6140729,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1507,7 +1703,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.490Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.236Z"
     },
     {
       "matchId": "jordan_syria_20260927",
@@ -1556,7 +1763,7 @@
       "fotmobMatchId": 6280210,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1587,7 +1794,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.490Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.236Z"
     },
     {
       "matchId": "bolivia_paraguay_20260928",
@@ -1666,7 +1884,7 @@
       "fotmobMatchId": 6280211,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1697,7 +1915,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.490Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.236Z"
     },
     {
       "matchId": "turkmenistan_palestine_20260928",
@@ -1725,7 +1954,7 @@
       "fotmobMatchId": 6280213,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1756,7 +1985,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.490Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.236Z"
     },
     {
       "matchId": "japan_venezuela_20260928",
@@ -1825,7 +2065,7 @@
       "fotmobMatchId": 6315013,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1856,7 +2096,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.490Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.236Z"
     },
     {
       "matchId": "south_korea_uruguay_20260928",
@@ -1935,7 +2186,7 @@
       "fotmobMatchId": 6210557,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1966,7 +2217,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.490Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.236Z"
     },
     {
       "matchId": "tajikistan_palestine_20260928",
@@ -1994,7 +2256,7 @@
       "fotmobMatchId": 6309723,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2025,7 +2287,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.490Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.236Z"
     },
     {
       "matchId": "kyrgyzstan_maldives_20260928",
@@ -2053,7 +2326,7 @@
       "fotmobMatchId": 6299699,
       "leagueId": 914609,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2084,7 +2357,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-09-26T22:15:05.491Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-09-26T22:15:12.236Z"
     }
   ],
   "meta": {
@@ -2093,7 +2377,9 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive"
+      "socolive",
+      "highlight",
+      "myanmartv"
     ],
     "adminApplied": true,
     "sync": {
@@ -2101,14 +2387,14 @@
       "streamsAdded": 0,
       "matchesAdded": 0
     },
-    "liveCount": 1,
+    "liveCount": 0,
     "scheduledCount": 21,
-    "endedCount": 0,
+    "endedCount": 1,
     "manualStreamCount": 0,
     "highlightCount": 0,
     "channelCount": 18,
-    "checksum": "06365d6c1213fb2a06c1c96db59ef49c7f17a3aff29053807cc454b5699717f1",
-    "cachedAt": "2026-09-26T22:15:05.507Z",
+    "checksum": "f3dda153e94242e7222f0cbec42d6461b2e50ceb6a60769ef036e110903addd1",
+    "cachedAt": "2026-09-26T22:15:12.249Z",
     "feed": "admin-match"
   }
 }
