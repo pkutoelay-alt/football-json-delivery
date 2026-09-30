@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-01T05:49:34.515+06:30",
+  "generatedAt": "2026-10-01T06:00:14.567+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 11,
   "matches": [
@@ -18,7 +18,7 @@
       "time": "6:00 AM",
       "kickoff": "2026-10-01T06:00:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "PREPARING_STREAM",
+      "status": "LIVE",
       "h2h": {
         "summary": {
           "homeWins": 0,
@@ -30,7 +30,7 @@
       "fotmobMatchId": 6000976,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": "fotmob",
+      "source": "manual",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -90,22 +90,25 @@
       "streamAttempts": {
         "t30": true,
         "t20": true,
-        "t15": true
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true
       },
       "matchUrl": "https://socolivezp.tv/truc-tiep/dc-united-vs-paderborn-07-luc-0630-ngay-01-10-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 4,
-      "lastMatchUrlAttemptAt": "2026-09-30T23:13:26.709Z",
+      "lastMatchUrlAttemptAt": "2026-09-30T23:30:14.520Z",
       "matchUrlSource": "socolive",
       "streamUrl": "https://live1.quickscoreboardz.com/live/channel12/playlist.m3u8?wsSecret=a02462f3192965238528913337f6ac99&wsABSTime=1790853297",
       "streamHeaders": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
         "Referer": "https://soco.domainkqt.cc/"
       },
-      "streamStatus": "SEARCHING",
+      "streamStatus": "AVAILABLE",
       "attempts": 2,
-      "validationStatus": "HTTP_403",
-      "validationReason": "HTTP_403",
+      "validationStatus": "AVAILABLE",
+      "validationReason": null,
       "lastAttemptAt": "2026-09-30T23:15:06.957Z",
       "streamSearch": {
         "started": true,
@@ -121,12 +124,21 @@
             "postKickoffAttempts": 0,
             "lastError": "HTTP_403",
             "lastAttemptAt": "2026-09-30T23:15:06.957Z",
-            "updatedAt": "2026-09-30T23:15:06.957Z",
+            "updatedAt": "2026-09-30T23:30:14.551Z",
             "slotsDone": {
               "t20": true
             },
             "extractionMethod": null,
             "extractPassComplete": false
+          },
+          "manual": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-09-30T23:30:14.551Z",
+            "slotsDone": {}
           }
         }
       },
@@ -134,45 +146,49 @@
         "slotsDone": {
           "t60": true,
           "t50": true,
-          "t30": true
+          "t30": true,
+          "tLive": true
         },
         "sources": {
           "cakhia": {
             "matchUrl": null,
-            "status": "MATCH_URL_FAILED",
+            "status": "MATCH_URL_SEARCHING",
             "attempts": 4,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-09-30T23:13:22.189Z",
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-09-30T23:30:08.512Z",
             "slotsDone": {
               "t60": true,
               "t50": true,
-              "t30": true
+              "t30": true,
+              "tLive": true
             },
             "confidence": 0
           },
           "xoilac": {
             "matchUrl": null,
-            "status": "MATCH_URL_FAILED",
+            "status": "MATCH_URL_SEARCHING",
             "attempts": 4,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-09-30T23:13:25.642Z",
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-09-30T23:30:12.608Z",
             "slotsDone": {
               "t60": true,
               "t50": true,
-              "t30": true
+              "t30": true,
+              "tLive": true
             },
             "confidence": 0
           },
           "phut": {
             "matchUrl": null,
-            "status": "MATCH_URL_FAILED",
+            "status": "MATCH_URL_SEARCHING",
             "attempts": 4,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-09-30T23:13:26.709Z",
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-09-30T23:30:14.520Z",
             "slotsDone": {
               "t60": true,
               "t50": true,
-              "t30": true
+              "t30": true,
+              "tLive": true
             },
             "confidence": 0
           },
@@ -192,7 +208,7 @@
           }
         }
       },
-      "updatedAt": "2026-09-30T23:19:34.513Z"
+      "updatedAt": "2026-09-30T23:30:14.564Z"
     },
     {
       "matchId": "vfb_stuttgart_greuther_furth_20261001",
@@ -271,7 +287,7 @@
       "fotmobMatchId": 6278622,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -302,18 +318,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-30T23:19:34.513Z"
+      "updatedAt": "2026-09-30T23:30:14.565Z"
     },
     {
       "matchId": "real_betis_ad_ceuta_fc_20261002",
@@ -341,7 +346,7 @@
       "fotmobMatchId": 6366622,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -372,18 +377,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-30T23:19:34.514Z"
+      "updatedAt": "2026-09-30T23:30:14.565Z"
     },
     {
       "matchId": "ac_horsens_vejle_boldklub_20261002",
@@ -462,7 +456,7 @@
       "fotmobMatchId": 6352627,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -493,18 +487,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-30T23:19:34.514Z"
+      "updatedAt": "2026-09-30T23:30:14.566Z"
     },
     {
       "matchId": "agf_vendsyssel_ff_20261002",
@@ -583,7 +566,7 @@
       "fotmobMatchId": 6352628,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -614,18 +597,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-30T23:19:34.514Z"
+      "updatedAt": "2026-09-30T23:30:14.566Z"
     },
     {
       "matchId": "kolding_if_ob_20261002",
@@ -704,7 +676,7 @@
       "fotmobMatchId": 6359535,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -735,18 +707,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-30T23:19:34.514Z"
+      "updatedAt": "2026-09-30T23:30:14.566Z"
     },
     {
       "matchId": "fc_augsburg_hertha_bsc_20261002",
@@ -825,7 +786,7 @@
       "fotmobMatchId": 6345049,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -856,18 +817,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-30T23:19:34.514Z"
+      "updatedAt": "2026-09-30T23:30:14.566Z"
     },
     {
       "matchId": "esbjerg_fb_silkeborg_20261002",
@@ -946,7 +896,7 @@
       "fotmobMatchId": 6352630,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -977,18 +927,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-30T23:19:34.514Z"
+      "updatedAt": "2026-09-30T23:30:14.566Z"
     },
     {
       "matchId": "randers_fc_aab_20261002",
@@ -1067,7 +1006,7 @@
       "fotmobMatchId": 6352645,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1098,18 +1037,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-30T23:19:34.514Z"
+      "updatedAt": "2026-09-30T23:30:14.567Z"
     },
     {
       "matchId": "eintracht_frankfurt_eintracht_braunschweig_20261002",
@@ -1188,7 +1116,7 @@
       "fotmobMatchId": 6299425,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1219,18 +1147,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-30T23:19:34.514Z"
+      "updatedAt": "2026-09-30T23:30:14.567Z"
     },
     {
       "matchId": "br_ndby_if_sirius_20261002",
@@ -1258,7 +1175,7 @@
       "fotmobMatchId": 6352629,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1289,18 +1206,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-09-30T23:19:34.515Z"
+      "updatedAt": "2026-09-30T23:30:14.567Z"
     }
   ],
   "meta": {
@@ -1309,9 +1215,7 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive",
-      "highlight",
-      "myanmartv"
+      "socolive"
     ],
     "adminApplied": true,
     "sync": {
@@ -1319,16 +1223,14 @@
       "streamsAdded": 0,
       "matchesAdded": 0
     },
-    "liveCount": 0,
+    "liveCount": 1,
     "scheduledCount": 10,
     "endedCount": 0,
     "manualStreamCount": 2,
     "highlightCount": 0,
     "channelCount": 18,
-    "checksum": "6c6eec1f0464ec26f8e7c6bc1ee389a985ce50ffe27662de1b31195611bb7201",
-    "cachedAt": "2026-09-30T23:19:34.523Z",
-    "reason": "manual_stream_update",
-    "republishedAt": "2026-09-30T23:19:34.497Z",
+    "checksum": "fbe73086c252206ddf1f8dc56f143699a1acd1da690711696527a07dd654fa6d",
+    "cachedAt": "2026-09-30T23:30:14.574Z",
     "feed": "admin-match"
   }
 }
