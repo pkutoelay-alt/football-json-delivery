@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-03T20:00:58.865+06:30",
+  "generatedAt": "2026-10-03T20:01:01.099+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 16,
   "matches": [
@@ -72,7 +72,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-03T13:30:58.864Z"
+      "updatedAt": "2026-10-03T13:31:01.096Z"
     },
     {
       "matchId": "holstein_kiel_viborg_20261003",
@@ -131,7 +131,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-03T13:30:58.864Z"
+      "updatedAt": "2026-10-03T13:31:01.096Z"
     },
     {
       "matchId": "lazio_juve_stabia_20261003",
@@ -159,9 +159,9 @@
       "fotmobMatchId": 6367371,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
-      "statusLocked": false,
+      "statusLocked": true,
       "pinned": false,
       "featured": false,
       "hasStreams": true,
@@ -177,7 +177,9 @@
       },
       "sourcePages": {
         "xoilac": "https://xoilacxcw.tv/truc-tiep/lazio-vs-juve-stabia-luc-2000-ngay-03-10-2026/",
-        "socolive": "https://socolivezzff.cc/truc-tiep/lazio-vs-juve-stabia-luc-2000-ngay-03-10-2026/"
+        "socolive": "https://socolivezzff.cc/truc-tiep/lazio-vs-juve-stabia-luc-2000-ngay-03-10-2026/",
+        "cakhia": "https://cakhiazav.tv/truc-tiep/lazio-vs-juve-stabia-luc-2000-ngay-03-10-2026/",
+        "phut": "https://90phutzzt.tv/truc-tiep/lazio-vs-juve-stabia-luc-2000-ngay-03-10-2026/"
       },
       "streams": [
         {
@@ -200,11 +202,20 @@
           "checkedAt": null
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://xoilacxcw.tv/truc-tiep/lazio-vs-juve-stabia-luc-2000-ngay-03-10-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": "2026-10-03T12:29:25.017Z",
+      "matchUrlAttempts": 1,
+      "lastMatchUrlAttemptAt": "2026-10-03T13:01:14.193Z",
       "matchUrlSource": "xoilac",
       "streamUrl": "https://live2.zundrixmediapipeline.com/live/channel4.m3u8",
       "streamHeaders": {
@@ -213,13 +224,80 @@
         "Origin": "https://ck.domainkqt.cc"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-10-03T13:30:58.864Z",
+      "attempts": 2,
+      "validationStatus": "HTTP_403",
+      "validationReason": "HTTP_403",
+      "lastAttemptAt": "2026-10-03T13:16:21.827Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t0": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 2,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-03T13:16:12.601Z",
+            "updatedAt": "2026-10-03T13:31:01.060Z",
+            "slotsDone": {
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 2,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-03T13:16:15.476Z",
+            "updatedAt": "2026-10-03T13:31:01.061Z",
+            "slotsDone": {
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 2,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-03T13:16:18.758Z",
+            "updatedAt": "2026-10-03T13:31:01.061Z",
+            "slotsDone": {
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 2,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-03T13:16:21.827Z",
+            "updatedAt": "2026-10-03T13:31:01.061Z",
+            "slotsDone": {
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
-        "slotsDone": {},
+        "slotsDone": {
+          "tLive": true
+        },
         "sources": {
           "xoilac": {
             "matchUrl": "https://xoilacxcw.tv/truc-tiep/lazio-vs-juve-stabia-luc-2000-ngay-03-10-2026/",
@@ -240,9 +318,32 @@
             "slotsDone": {},
             "confidence": 100,
             "manual": true
+          },
+          "cakhia": {
+            "matchUrl": "https://cakhiazav.tv/truc-tiep/lazio-vs-juve-stabia-luc-2000-ngay-03-10-2026/",
+            "status": "MATCH_URL_CONFIRMED",
+            "attempts": 1,
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-10-03T13:00:22.719Z",
+            "slotsDone": {
+              "tLive": true
+            },
+            "confidence": 100
+          },
+          "phut": {
+            "matchUrl": "https://90phutzzt.tv/truc-tiep/lazio-vs-juve-stabia-luc-2000-ngay-03-10-2026/",
+            "status": "MATCH_URL_CONFIRMED",
+            "attempts": 1,
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-10-03T13:01:14.193Z",
+            "slotsDone": {
+              "tLive": true
+            },
+            "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-10-03T13:31:01.096Z"
     },
     {
       "matchId": "rosenborg_ostersunds_fk_20261003",
@@ -322,7 +423,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-03T13:30:58.864Z"
+      "updatedAt": "2026-10-03T13:31:01.096Z"
     },
     {
       "matchId": "sandefjord_fredrikstad_20261003",
@@ -461,7 +562,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-03T13:30:58.864Z",
+      "updatedAt": "2026-10-03T13:31:01.097Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -599,7 +700,7 @@
       "validationStatus": "AVAILABLE",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-03T13:30:58.865Z",
+      "updatedAt": "2026-10-03T13:31:01.097Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -683,7 +784,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-03T13:30:58.865Z"
+      "updatedAt": "2026-10-03T13:31:01.097Z"
     },
     {
       "matchId": "turan_tovuz_fenerbahce_20261003",
@@ -742,7 +843,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-03T13:30:58.865Z"
+      "updatedAt": "2026-10-03T13:31:01.098Z"
     },
     {
       "matchId": "atletico_mg_rb_bragantino_20261004",
@@ -852,7 +953,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-03T13:30:58.865Z"
+      "updatedAt": "2026-10-03T13:31:01.098Z"
     },
     {
       "matchId": "farense_chaves_20261004",
@@ -962,7 +1063,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-03T13:30:58.865Z"
+      "updatedAt": "2026-10-03T13:31:01.098Z"
     },
     {
       "matchId": "dinamo_moscow_rodina_20261004",
@@ -1032,7 +1133,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-03T13:30:58.865Z"
+      "updatedAt": "2026-10-03T13:31:01.098Z"
     },
     {
       "matchId": "cska_moscow_arsenal_tula_20261004",
@@ -1142,7 +1243,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-03T13:30:58.865Z"
+      "updatedAt": "2026-10-03T13:31:01.098Z"
     },
     {
       "matchId": "hamburger_sv_fc_k_benhavn_20261004",
@@ -1222,7 +1323,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-03T13:30:58.865Z"
+      "updatedAt": "2026-10-03T13:31:01.098Z"
     },
     {
       "matchId": "molde_kristiansund_20261004",
@@ -1332,7 +1433,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-03T13:30:58.865Z"
+      "updatedAt": "2026-10-03T13:31:01.098Z"
     },
     {
       "matchId": "zenit_st_petersburg_bate_borisov_20261004",
@@ -1412,7 +1513,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-03T13:30:58.865Z"
+      "updatedAt": "2026-10-03T13:31:01.099Z"
     },
     {
       "matchId": "arka_gdynia_ifk_goteborg_20261003",
@@ -1471,7 +1572,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-03T13:30:58.865Z"
+      "updatedAt": "2026-10-03T13:31:01.099Z"
     }
   ],
   "meta": {
@@ -1484,9 +1585,9 @@
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 1,
+      "removedExpired": 0,
       "streamsAdded": 0,
-      "matchesAdded": 1
+      "matchesAdded": 0
     },
     "liveCount": 6,
     "scheduledCount": 10,
@@ -1494,8 +1595,8 @@
     "manualStreamCount": 1,
     "highlightCount": 0,
     "channelCount": 18,
-    "checksum": "91902c2e8ebc5270aad56dee67d4b8e622ae9daac005f8e429e441e093802f01",
-    "cachedAt": "2026-10-03T13:30:58.871Z",
+    "checksum": "ead1f0a062fb20386da277670be1e16bb1af4ae4a86e185578a48635e436cbec",
+    "cachedAt": "2026-10-03T13:31:01.106Z",
     "feed": "admin-match"
   }
 }
