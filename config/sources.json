@@ -25,7 +25,7 @@
       "priority": 450,
       "extractionMethod": "axios-first",
       "domains": [
-        "https://cakhiazav.tv"
+        "https://cakhiapp.io"
       ],
       "mirrorDomains": [],
       "paths": {
@@ -158,10 +158,10 @@
           ".play-button"
         ]
       },
-      "notes": "https://cakhiazav.tv/",
+      "notes": "https://cakhiapp.io/ (cakhiazaa.tv redirects here)",
       "playbackHeaders": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-        "Referer": "https://cakhiazav.tv/"
+        "Referer": "https://cakhiapp.io/"
       }
     },
     {
@@ -172,11 +172,9 @@
       "extractionMethod": "axios-first",
       "parser": "xoilac",
       "domains": [
-        "https://xoilactb.cc/"
+        "https://xoilacxyc.io"
       ],
-      "mirrorDomains": [
-        "https://xoilactb.cc/"
-      ],
+      "mirrorDomains": [],
       "paths": {
         "home": "/",
         "schedule": "/sport/football/filter/today",
@@ -284,10 +282,10 @@
           ".btn-play"
         ]
       },
-      "notes": "https://xoilactb.cc/",
+      "notes": "https://xoilacxyc.io/ (xoilacxbg.tv redirects here)",
       "playbackHeaders": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-        "Referer": "https://xoilactb.cc/"
+        "Referer": "https://xoilacxyc.io/"
       }
     },
     {
@@ -297,7 +295,7 @@
       "priority": 350,
       "extractionMethod": "axios-first",
       "domains": [
-        "https://90phutzzt.tv"
+        "https://90phutgg.io"
       ],
       "mirrorDomains": [],
       "paths": {
@@ -421,10 +419,10 @@
           ".play-button"
         ]
       },
-      "notes": "https://90phutzzt.tv/ (replaces dead mitomzd.cc)",
+      "notes": "https://90phutgg.io/ (90phutzba.tv redirects here)",
       "playbackHeaders": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-        "Referer": "https://90phutzzt.tv/"
+        "Referer": "https://90phutgg.io/"
       }
     },
     {
@@ -435,7 +433,7 @@
       "extractionMethod": "axios-first",
       "parser": "socolive",
       "domains": [
-        "https://socolivezs.tv"
+        "https://socoliveza.tv"
       ],
       "mirrorDomains": [],
       "paths": {
@@ -545,10 +543,10 @@
           ".btn-play"
         ]
       },
-      "notes": "https://socolivezs.tv/",
+      "notes": "https://socoliveza.tv/",
       "playbackHeaders": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-        "Referer": "https://socolivezs.tv/"
+        "Referer": "https://socoliveza.tv/"
       }
     },
     {
@@ -558,7 +556,8 @@
       "parser": "hoofoot",
       "feed": "highlight1",
       "domains": [
-        "https://hoofoot.com/"
+        "https://hoofoot.com/",
+        "https://hoofoot.net/"
       ],
       "paths": {
         "list": "/"
@@ -593,7 +592,7 @@
       "recentDays": 7,
       "retentionDays": 7,
       "maxItems": 8,
-      "notes": "Hoofoot. GitHub highlight1.json only."
+      "notes": "Hoofoot gallery when DNS works. If hoofoot.com is dead, highlight1 falls back to Socolive /video-highlight/ so GitHub is not stuck on old rows."
     },
     {
       "name": "highlight2",
@@ -602,7 +601,7 @@
       "parser": "socolive",
       "feed": "highlight2",
       "domains": [
-        "https://socolivezs.tv/"
+        "https://socoliveza.tv/"
       ],
       "paths": {
         "list": "/video-highlight/",
