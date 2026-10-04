@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T21:31:28.589+06:30",
+  "generatedAt": "2026-10-04T21:31:31.146+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 3,
   "matches": [
@@ -18,7 +18,7 @@
       "time": "8:00 PM",
       "kickoff": "2026-10-04T20:00:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "LIVE",
+      "status": "END",
       "h2h": {
         "summary": {
           "homeWins": 1,
@@ -51,9 +51,9 @@
       "fotmobMatchId": 6055121,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
-      "statusLocked": false,
+      "statusLocked": true,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
@@ -69,11 +69,20 @@
       },
       "sourcePages": {},
       "streams": [],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": null,
+      "matchUrlStatus": "MATCH_URL_SEARCHING",
+      "matchUrlAttempts": 4,
+      "lastMatchUrlAttemptAt": "2026-10-04T14:15:07.300Z",
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -82,7 +91,80 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-04T15:01:28.589Z"
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {
+          "t60": true,
+          "t50": true,
+          "t30": true,
+          "tLive": true
+        },
+        "sources": {
+          "cakhia": {
+            "matchUrl": null,
+            "status": "MATCH_URL_FAILED",
+            "attempts": 4,
+            "liveAttempts": 4,
+            "lastAttemptAt": "2026-10-04T14:15:04.504Z",
+            "slotsDone": {
+              "t60": true,
+              "t50": true,
+              "t30": true,
+              "tLive": true
+            },
+            "confidence": 0
+          },
+          "xoilac": {
+            "matchUrl": null,
+            "status": "MATCH_URL_FAILED",
+            "attempts": 4,
+            "liveAttempts": 4,
+            "lastAttemptAt": "2026-10-04T14:15:05.618Z",
+            "slotsDone": {
+              "t60": true,
+              "t50": true,
+              "t30": true,
+              "tLive": true
+            },
+            "confidence": 0
+          },
+          "phut": {
+            "matchUrl": null,
+            "status": "MATCH_URL_FAILED",
+            "attempts": 4,
+            "liveAttempts": 4,
+            "lastAttemptAt": "2026-10-04T14:15:06.446Z",
+            "slotsDone": {
+              "t60": true,
+              "t50": true,
+              "t30": true,
+              "tLive": true
+            },
+            "confidence": 0
+          },
+          "socolive": {
+            "matchUrl": null,
+            "status": "MATCH_URL_FAILED",
+            "attempts": 4,
+            "liveAttempts": 4,
+            "lastAttemptAt": "2026-10-04T14:15:07.300Z",
+            "slotsDone": {
+              "t60": true,
+              "t50": true,
+              "t30": true,
+              "tLive": true
+            },
+            "confidence": 0
+          }
+        }
+      },
+      "updatedAt": "2026-10-04T15:01:31.145Z"
     },
     {
       "matchId": "molde_kristiansund_20261004",
@@ -203,7 +285,9 @@
         "started": true,
         "stopped": false,
         "stopTime": null,
-        "slotsDone": {},
+        "slotsDone": {
+          "t30": true
+        },
         "sources": {
           "cakhia": {
             "status": "SEARCHING",
@@ -310,7 +394,7 @@
           }
         }
       },
-      "updatedAt": "2026-10-04T15:01:28.589Z"
+      "updatedAt": "2026-10-04T15:01:31.146Z"
     },
     {
       "matchId": "zenit_st_petersburg_bate_borisov_20261004",
@@ -359,7 +443,7 @@
       "fotmobMatchId": 6370244,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -395,7 +479,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-04T15:01:28.589Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -446,7 +536,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-10-04T15:01:31.146Z"
     }
   ],
   "meta": {
@@ -455,22 +546,24 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive"
+      "socolive",
+      "highlight",
+      "myanmartv"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 0,
+      "removedExpired": 4,
       "streamsAdded": 0,
       "matchesAdded": 0
     },
-    "liveCount": 1,
+    "liveCount": 0,
     "scheduledCount": 0,
-    "endedCount": 0,
+    "endedCount": 1,
     "manualStreamCount": 0,
     "highlightCount": 12,
     "channelCount": 18,
-    "checksum": "7e8bf2cd9a9b0966d5c3f3c569814ceff675855813fd45b66e1367f75575f7a7",
-    "cachedAt": "2026-10-04T15:01:28.603Z",
+    "checksum": "93c39b357a1cbfdf0092f2a8dc84b28e114f052c72ec85215281f82b4f816050",
+    "cachedAt": "2026-10-04T15:01:31.159Z",
     "feed": "admin-match"
   }
 }
