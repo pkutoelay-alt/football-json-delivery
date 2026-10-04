@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T20:45:07.329+06:30",
+  "generatedAt": "2026-10-04T21:15:05.409+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 3,
   "matches": [
@@ -51,7 +51,7 @@
       "fotmobMatchId": 6055121,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -69,20 +69,11 @@
       },
       "sourcePages": {},
       "streams": [],
-      "streamAttempts": {
-        "t30": true,
-        "t20": true,
-        "t15": true,
-        "t10": true,
-        "t5": true,
-        "t0": true,
-        "tP5": true,
-        "tP10": true
-      },
+      "streamAttempts": {},
       "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_SEARCHING",
-      "matchUrlAttempts": 4,
-      "lastMatchUrlAttemptAt": "2026-10-04T14:15:07.300Z",
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -91,80 +82,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": true,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {
-          "t60": true,
-          "t50": true,
-          "t30": true,
-          "tLive": true
-        },
-        "sources": {
-          "cakhia": {
-            "matchUrl": null,
-            "status": "MATCH_URL_FAILED",
-            "attempts": 4,
-            "liveAttempts": 4,
-            "lastAttemptAt": "2026-10-04T14:15:04.504Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true,
-              "tLive": true
-            },
-            "confidence": 0
-          },
-          "xoilac": {
-            "matchUrl": null,
-            "status": "MATCH_URL_FAILED",
-            "attempts": 4,
-            "liveAttempts": 4,
-            "lastAttemptAt": "2026-10-04T14:15:05.618Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true,
-              "tLive": true
-            },
-            "confidence": 0
-          },
-          "phut": {
-            "matchUrl": null,
-            "status": "MATCH_URL_FAILED",
-            "attempts": 4,
-            "liveAttempts": 4,
-            "lastAttemptAt": "2026-10-04T14:15:06.446Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true,
-              "tLive": true
-            },
-            "confidence": 0
-          },
-          "socolive": {
-            "matchUrl": null,
-            "status": "MATCH_URL_FAILED",
-            "attempts": 4,
-            "liveAttempts": 4,
-            "lastAttemptAt": "2026-10-04T14:15:07.300Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true,
-              "tLive": true
-            },
-            "confidence": 0
-          }
-        }
-      },
-      "updatedAt": "2026-10-04T14:15:07.328Z"
+      "updatedAt": "2026-10-04T14:45:05.407Z"
     },
     {
       "matchId": "molde_kristiansund_20261004",
@@ -180,7 +98,7 @@
       "time": "10:00 PM",
       "kickoff": "2026-10-04T22:00:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "h2h": {
         "summary": {
           "homeWins": 1,
@@ -259,14 +177,16 @@
           "awayTeam": "Kristiansund"
         }
       },
-      "sourcePages": {},
+      "sourcePages": {
+        "cakhia": "https://cakhiapp.io/truc-tiep/molde-vs-kristiansund-bk-luc-2230-ngay-04-10-2026/"
+      },
       "streams": [],
       "streamAttempts": {},
-      "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": null,
-      "matchUrlSource": null,
+      "matchUrl": "https://cakhiapp.io/truc-tiep/molde-vs-kristiansund-bk-luc-2230-ngay-04-10-2026/",
+      "matchUrlStatus": "MATCH_URL_CONFIRMED",
+      "matchUrlAttempts": 1,
+      "lastMatchUrlAttemptAt": "2026-10-04T14:45:05.398Z",
+      "matchUrlSource": "cakhia",
       "streamUrl": null,
       "streamHeaders": null,
       "streamStatus": "PREPARING_STREAM",
@@ -282,10 +202,24 @@
         "sources": {}
       },
       "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
+        "slotsDone": {
+          "t50": true
+        },
+        "sources": {
+          "cakhia": {
+            "matchUrl": "https://cakhiapp.io/truc-tiep/molde-vs-kristiansund-bk-luc-2230-ngay-04-10-2026/",
+            "status": "MATCH_URL_CONFIRMED",
+            "attempts": 1,
+            "liveAttempts": 0,
+            "lastAttemptAt": "2026-10-04T14:45:05.398Z",
+            "slotsDone": {
+              "t50": true
+            },
+            "confidence": 100
+          }
+        }
       },
-      "updatedAt": "2026-10-04T14:15:07.329Z"
+      "updatedAt": "2026-10-04T14:45:05.408Z"
     },
     {
       "matchId": "zenit_st_petersburg_bate_borisov_20261004",
@@ -334,7 +268,7 @@
       "fotmobMatchId": 6370244,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -365,18 +299,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-04T14:15:07.329Z"
+      "updatedAt": "2026-10-04T14:45:05.409Z"
     }
   ],
   "meta": {
@@ -385,24 +308,22 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive",
-      "highlight",
-      "myanmartv"
+      "socolive"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 4,
+      "removedExpired": 0,
       "streamsAdded": 0,
       "matchesAdded": 0
     },
     "liveCount": 1,
-    "scheduledCount": 2,
+    "scheduledCount": 1,
     "endedCount": 0,
     "manualStreamCount": 0,
     "highlightCount": 12,
     "channelCount": 18,
-    "checksum": "f37b751035dca405a761a583f354cee7a5715d2daff8da478287cdeba7ff439a",
-    "cachedAt": "2026-10-04T14:15:07.342Z",
+    "checksum": "ac03399840118b89526b53d2d0e70013ab8ab820cfcaadbde9fa64ff885fe9a4",
+    "cachedAt": "2026-10-04T14:45:05.428Z",
     "feed": "admin-match"
   }
 }
