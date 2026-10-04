@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T22:17:04.731+06:30",
+  "generatedAt": "2026-10-04T22:17:07.277+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 2,
   "matches": [
@@ -284,7 +284,7 @@
           }
         }
       },
-      "updatedAt": "2026-10-04T15:47:04.731Z"
+      "updatedAt": "2026-10-04T15:47:07.276Z"
     },
     {
       "matchId": "zenit_st_petersburg_bate_borisov_20261004",
@@ -333,7 +333,7 @@
       "fotmobMatchId": 6370244,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -356,7 +356,11 @@
         "socolive": "https://socolivezzkk.cc/truc-tiep/zenit-st-petersburg-vs-bate-borisov-luc-2300-ngay-04-10-2026/"
       },
       "streams": [],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true
+      },
       "matchUrl": "https://cakhiapp.io/truc-tiep/zenit-st-petersburg-vs-bate-borisov-luc-2300-ngay-04-10-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -365,11 +369,77 @@
       "streamUrl": null,
       "streamHeaders": null,
       "streamStatus": "SEARCHING",
-      "attempts": 0,
-      "validationStatus": "VALIDATING",
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-10-04T15:47:04.731Z",
+      "attempts": 2,
+      "validationStatus": "HTTP_403",
+      "validationReason": "HTTP_403",
+      "lastAttemptAt": "2026-10-04T15:46:08.028Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-04T15:45:23.321Z",
+            "updatedAt": "2026-10-04T15:45:23.321Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-04T15:45:39.399Z",
+            "updatedAt": "2026-10-04T15:45:39.399Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-04T15:45:52.836Z",
+            "updatedAt": "2026-10-04T15:45:52.836Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-04T15:46:08.028Z",
+            "updatedAt": "2026-10-04T15:46:08.028Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -420,7 +490,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-10-04T15:47:07.276Z"
     }
   ],
   "meta": {
@@ -429,11 +500,13 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive"
+      "socolive",
+      "highlight",
+      "myanmartv"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 0,
+      "removedExpired": 5,
       "streamsAdded": 0,
       "matchesAdded": 0
     },
@@ -443,8 +516,8 @@
     "manualStreamCount": 1,
     "highlightCount": 12,
     "channelCount": 18,
-    "checksum": "a1eb666242b99362cf30194ef4f78091864c8401b9d969adcf6fdf400203ed2e",
-    "cachedAt": "2026-10-04T15:47:04.745Z",
+    "checksum": "72f820bc95e025dad648043b1c2a70ca9ba9c9d076af34b9c06e2378565459db",
+    "cachedAt": "2026-10-04T15:47:07.293Z",
     "feed": "admin-match"
   }
 }
