@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T18:30:19.162+06:30",
+  "generatedAt": "2026-10-04T18:30:21.343+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 4,
   "matches": [
@@ -99,7 +99,14 @@
       },
       "sourcePages": {},
       "streams": [],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true
+      },
       "matchUrl": null,
       "matchUrlStatus": "MATCH_URL_SEARCHING",
       "matchUrlAttempts": 1,
@@ -107,11 +114,18 @@
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
+      "streamStatus": "SEARCHING",
       "attempts": 0,
-      "validationStatus": null,
+      "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "tLive": true
@@ -163,7 +177,7 @@
           }
         }
       },
-      "updatedAt": "2026-10-04T12:00:19.161Z"
+      "updatedAt": "2026-10-04T12:00:21.342Z"
     },
     {
       "matchId": "hamburger_sv_fc_k_benhavn_20261004",
@@ -212,7 +226,7 @@
       "fotmobMatchId": 6055121,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -243,7 +257,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-04T12:00:19.161Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-04T12:00:21.343Z"
     },
     {
       "matchId": "molde_kristiansund_20261004",
@@ -322,7 +347,7 @@
       "fotmobMatchId": 6367380,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -353,7 +378,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-04T12:00:19.161Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-04T12:00:21.343Z"
     },
     {
       "matchId": "zenit_st_petersburg_bate_borisov_20261004",
@@ -402,7 +438,7 @@
       "fotmobMatchId": 6370244,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -433,7 +469,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-04T12:00:19.162Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-04T12:00:21.343Z"
     }
   ],
   "meta": {
@@ -442,11 +489,13 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive"
+      "socolive",
+      "highlight",
+      "myanmartv"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 0,
+      "removedExpired": 3,
       "streamsAdded": 0,
       "matchesAdded": 0
     },
@@ -456,8 +505,8 @@
     "manualStreamCount": 0,
     "highlightCount": 12,
     "channelCount": 18,
-    "checksum": "492a48962e2c28055a3c8aabe91b172a739c9b2afdb830ed7b5fa92881ef851e",
-    "cachedAt": "2026-10-04T12:00:19.174Z",
+    "checksum": "781337a7a5f3a1c57291483f71d5930858c068da56d811ec0b6af273f024f824",
+    "cachedAt": "2026-10-04T12:00:21.358Z",
     "feed": "admin-match"
   }
 }
