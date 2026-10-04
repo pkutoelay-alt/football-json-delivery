@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T23:01:04.588+06:30",
+  "generatedAt": "2026-10-04T23:01:07.102+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 2,
   "matches": [
@@ -119,10 +119,20 @@
             "Referer": "https://ck.domainkqt.cc/"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-10-04T15:20:30.044Z",
+          "manualId": "9342d39a-2c4a-4b33-808a-09a488124c09"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiapp.io/truc-tiep/molde-vs-kristiansund-bk-luc-2230-ngay-04-10-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -134,11 +144,95 @@
         "Referer": "https://ck.domainkqt.cc/"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
+      "attempts": 3,
       "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-10-04T16:31:04.587Z",
+      "lastAttemptAt": "2026-10-04T16:02:13.515Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": true,
+        "stopTime": "2026-10-04T22:32:15.807+06:30",
+        "slotsDone": {
+          "t30": true,
+          "t20": true,
+          "t0": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-04T16:01:27.487Z",
+            "updatedAt": "2026-10-04T16:01:27.487Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "xoilac": {
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-04T16:01:43.745Z",
+            "updatedAt": "2026-10-04T16:01:43.745Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-04T16:01:57.706Z",
+            "updatedAt": "2026-10-04T16:01:57.706Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-04T16:02:13.515Z",
+            "updatedAt": "2026-10-04T16:02:13.515Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "manual": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-10-04T15:30:03.514Z",
+            "slotsDone": {}
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t50": true
@@ -189,7 +283,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-10-04T16:31:07.101Z"
     },
     {
       "matchId": "zenit_st_petersburg_bate_borisov_20261004",
@@ -285,8 +380,8 @@
       "lastAttemptAt": "2026-10-04T16:31:04.581Z",
       "streamSearch": {
         "started": true,
-        "stopped": false,
-        "stopTime": null,
+        "stopped": true,
+        "stopTime": "2026-10-04T23:01:07.074+06:30",
         "slotsDone": {
           "t30": true,
           "t20": true,
@@ -410,7 +505,7 @@
           }
         }
       },
-      "updatedAt": "2026-10-04T16:31:04.588Z"
+      "updatedAt": "2026-10-04T16:31:07.101Z"
     }
   ],
   "meta": {
@@ -419,11 +514,13 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive"
+      "socolive",
+      "highlight",
+      "myanmartv"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 0,
+      "removedExpired": 5,
       "streamsAdded": 0,
       "matchesAdded": 0
     },
@@ -433,8 +530,8 @@
     "manualStreamCount": 1,
     "highlightCount": 12,
     "channelCount": 18,
-    "checksum": "6829ae7992426888cbf1e528aa8ace18f810aee729ca05ae40dbb2b453c1e91e",
-    "cachedAt": "2026-10-04T16:31:04.600Z",
+    "checksum": "dbcaac1fb6f8a1cf2e30ae41b71fae956158a22980bf5274924b12d4ddc7a1b4",
+    "cachedAt": "2026-10-04T16:31:07.116Z",
     "feed": "admin-match"
   }
 }
