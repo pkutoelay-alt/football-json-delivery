@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T22:02:13.564+06:30",
+  "generatedAt": "2026-10-04T22:02:15.860+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 2,
   "matches": [
@@ -152,7 +152,8 @@
         "stopTime": null,
         "slotsDone": {
           "t30": true,
-          "t20": true
+          "t20": true,
+          "t0": true
         },
         "sources": {
           "cakhia": {
@@ -277,7 +278,7 @@
           }
         }
       },
-      "updatedAt": "2026-10-04T15:32:13.563Z"
+      "updatedAt": "2026-10-04T15:32:15.859Z"
     },
     {
       "matchId": "zenit_st_petersburg_bate_borisov_20261004",
@@ -326,7 +327,7 @@
       "fotmobMatchId": 6370244,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -349,7 +350,9 @@
         "socolive": "https://socolivezzkk.cc/truc-tiep/zenit-st-petersburg-vs-bate-borisov-luc-2300-ngay-04-10-2026/"
       },
       "streams": [],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true
+      },
       "matchUrl": "https://cakhiapp.io/truc-tiep/zenit-st-petersburg-vs-bate-borisov-luc-2300-ngay-04-10-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -358,11 +361,72 @@
       "streamUrl": null,
       "streamHeaders": null,
       "streamStatus": "SEARCHING",
-      "attempts": 0,
-      "validationStatus": "VALIDATING",
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-10-04T15:32:13.563Z",
+      "attempts": 1,
+      "validationStatus": "HTTP_403",
+      "validationReason": "HTTP_403",
+      "lastAttemptAt": "2026-10-04T15:31:15.400Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-04T15:30:26.651Z",
+            "updatedAt": "2026-10-04T15:30:26.651Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-04T15:30:42.176Z",
+            "updatedAt": "2026-10-04T15:30:42.176Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-04T15:30:57.585Z",
+            "updatedAt": "2026-10-04T15:30:57.585Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-04T15:31:15.400Z",
+            "updatedAt": "2026-10-04T15:31:15.400Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -413,7 +477,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-10-04T15:32:15.860Z"
     }
   ],
   "meta": {
@@ -422,11 +487,13 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive"
+      "socolive",
+      "highlight",
+      "myanmartv"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 0,
+      "removedExpired": 5,
       "streamsAdded": 0,
       "matchesAdded": 0
     },
@@ -436,8 +503,8 @@
     "manualStreamCount": 1,
     "highlightCount": 12,
     "channelCount": 18,
-    "checksum": "8da91f5edb47e1e89aac1dc8910c8e58266fbd52488fe5b7faf9c83d28228099",
-    "cachedAt": "2026-10-04T15:32:13.576Z",
+    "checksum": "99951b449a7ab2d67c4c668cd044ecae5dffff88893007633a4cbf2be8183c71",
+    "cachedAt": "2026-10-04T15:32:15.875Z",
     "feed": "admin-match"
   }
 }
