@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T19:00:19.242+06:30",
+  "generatedAt": "2026-10-04T19:00:21.340+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 4,
   "matches": [
@@ -18,7 +18,7 @@
       "time": "6:30 PM",
       "kickoff": "2026-10-04T18:30:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "LIVE",
+      "status": "END",
       "h2h": {
         "summary": {
           "homeWins": 2,
@@ -81,9 +81,9 @@
       "fotmobMatchId": 6367378,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
-      "statusLocked": false,
+      "statusLocked": true,
       "pinned": false,
       "featured": false,
       "hasStreams": false,
@@ -99,11 +99,20 @@
       },
       "sourcePages": {},
       "streams": [],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": null,
+      "matchUrlStatus": "MATCH_URL_SEARCHING",
+      "matchUrlAttempts": 3,
+      "lastMatchUrlAttemptAt": "2026-10-04T12:30:19.232Z",
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -112,7 +121,65 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-04T12:30:19.241Z"
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {
+          "tLive": true
+        },
+        "sources": {
+          "cakhia": {
+            "matchUrl": null,
+            "status": "MATCH_URL_SEARCHING",
+            "attempts": 3,
+            "liveAttempts": 3,
+            "lastAttemptAt": "2026-10-04T12:30:05.269Z",
+            "slotsDone": {
+              "tLive": true
+            },
+            "confidence": 0
+          },
+          "xoilac": {
+            "matchUrl": null,
+            "status": "MATCH_URL_SEARCHING",
+            "attempts": 3,
+            "liveAttempts": 3,
+            "lastAttemptAt": "2026-10-04T12:30:12.658Z",
+            "slotsDone": {
+              "tLive": true
+            },
+            "confidence": 0
+          },
+          "phut": {
+            "matchUrl": null,
+            "status": "MATCH_URL_SEARCHING",
+            "attempts": 3,
+            "liveAttempts": 3,
+            "lastAttemptAt": "2026-10-04T12:30:15.940Z",
+            "slotsDone": {
+              "tLive": true
+            },
+            "confidence": 0
+          },
+          "socolive": {
+            "matchUrl": null,
+            "status": "MATCH_URL_SEARCHING",
+            "attempts": 3,
+            "liveAttempts": 3,
+            "lastAttemptAt": "2026-10-04T12:30:19.232Z",
+            "slotsDone": {
+              "tLive": true
+            },
+            "confidence": 0
+          }
+        }
+      },
+      "updatedAt": "2026-10-04T12:30:21.336Z"
     },
     {
       "matchId": "hamburger_sv_fc_k_benhavn_20261004",
@@ -250,7 +317,7 @@
           }
         }
       },
-      "updatedAt": "2026-10-04T12:30:19.242Z"
+      "updatedAt": "2026-10-04T12:30:21.337Z"
     },
     {
       "matchId": "molde_kristiansund_20261004",
@@ -329,7 +396,7 @@
       "fotmobMatchId": 6367380,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -360,7 +427,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-04T12:30:19.242Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-04T12:30:21.337Z"
     },
     {
       "matchId": "zenit_st_petersburg_bate_borisov_20261004",
@@ -409,7 +487,7 @@
       "fotmobMatchId": 6370244,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -440,7 +518,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-04T12:30:19.242Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-04T12:30:21.337Z"
     }
   ],
   "meta": {
@@ -449,22 +538,24 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive"
+      "socolive",
+      "highlight",
+      "myanmartv"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 0,
+      "removedExpired": 3,
       "streamsAdded": 0,
       "matchesAdded": 0
     },
-    "liveCount": 1,
+    "liveCount": 0,
     "scheduledCount": 2,
-    "endedCount": 0,
+    "endedCount": 1,
     "manualStreamCount": 0,
     "highlightCount": 12,
     "channelCount": 18,
-    "checksum": "b42edbbf070445434b6cf3f2b2b77fb08f53e52249cc0558f1e38b7f33ce50ba",
-    "cachedAt": "2026-10-04T12:30:19.253Z",
+    "checksum": "6a0fa4f08ff034467268331b91d3875b5e163b6529aee9f32745309fcc785522",
+    "cachedAt": "2026-10-04T12:30:21.355Z",
     "feed": "admin-match"
   }
 }
