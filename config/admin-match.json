@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T22:32:13.523+06:30",
+  "generatedAt": "2026-10-04T22:32:15.832+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 2,
   "matches": [
@@ -150,8 +150,8 @@
       "lastAttemptAt": "2026-10-04T16:02:13.515Z",
       "streamSearch": {
         "started": true,
-        "stopped": false,
-        "stopTime": null,
+        "stopped": true,
+        "stopTime": "2026-10-04T22:32:15.807+06:30",
         "slotsDone": {
           "t30": true,
           "t20": true,
@@ -284,7 +284,7 @@
           }
         }
       },
-      "updatedAt": "2026-10-04T16:02:13.522Z"
+      "updatedAt": "2026-10-04T16:02:15.832Z"
     },
     {
       "matchId": "zenit_st_petersburg_bate_borisov_20261004",
@@ -333,7 +333,7 @@
       "fotmobMatchId": 6370244,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -356,7 +356,14 @@
         "socolive": "https://socolivezzkk.cc/truc-tiep/zenit-st-petersburg-vs-bate-borisov-luc-2300-ngay-04-10-2026/"
       },
       "streams": [],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true
+      },
       "matchUrl": "https://cakhiapp.io/truc-tiep/zenit-st-petersburg-vs-bate-borisov-luc-2300-ngay-04-10-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -365,11 +372,82 @@
       "streamUrl": null,
       "streamHeaders": null,
       "streamStatus": "SEARCHING",
-      "attempts": 0,
-      "validationStatus": "VALIDATING",
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-10-04T16:02:13.523Z",
+      "attempts": 1,
+      "validationStatus": "HTTP_403",
+      "validationReason": "HTTP_403",
+      "lastAttemptAt": "2026-10-04T16:01:13.448Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true,
+          "t0": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-04T16:00:25.501Z",
+            "updatedAt": "2026-10-04T16:00:25.501Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-04T16:00:42.330Z",
+            "updatedAt": "2026-10-04T16:00:42.330Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-04T16:00:57.567Z",
+            "updatedAt": "2026-10-04T16:00:57.567Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-04T16:01:13.448Z",
+            "updatedAt": "2026-10-04T16:01:13.448Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -420,7 +498,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-10-04T16:02:15.832Z"
     }
   ],
   "meta": {
@@ -429,11 +508,13 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive"
+      "socolive",
+      "highlight",
+      "myanmartv"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 0,
+      "removedExpired": 5,
       "streamsAdded": 0,
       "matchesAdded": 0
     },
@@ -443,8 +524,8 @@
     "manualStreamCount": 1,
     "highlightCount": 12,
     "channelCount": 18,
-    "checksum": "f64c26ee12c730bf4da94fabd3fe1e0d4ba5e2900534ead8b5746be067c5ff89",
-    "cachedAt": "2026-10-04T16:02:13.535Z",
+    "checksum": "7b08fdf7aa9d2e4729a17fecedb4440453a0970cfb09cb8449fdbdc65751bd48",
+    "cachedAt": "2026-10-04T16:02:15.846Z",
     "feed": "admin-match"
   }
 }
