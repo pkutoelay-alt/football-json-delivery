@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-06T16:15:02.984+06:30",
+  "generatedAt": "2026-10-06T16:30:05.901+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 1,
   "matches": [
@@ -18,7 +18,7 @@
       "time": "5:30 PM",
       "kickoff": "2026-10-06T17:30:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "h2h": {
         "summary": {
           "homeWins": 2,
@@ -102,8 +102,8 @@
       "streamAttempts": {},
       "matchUrl": null,
       "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": null,
+      "matchUrlAttempts": 1,
+      "lastMatchUrlAttemptAt": "2026-10-06T10:00:05.894Z",
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -120,10 +120,24 @@
         "sources": {}
       },
       "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
+        "slotsDone": {
+          "t60": true
+        },
+        "sources": {
+          "cakhia": {
+            "matchUrl": null,
+            "status": "MATCH_URL_PENDING",
+            "attempts": 1,
+            "liveAttempts": 0,
+            "lastAttemptAt": "2026-10-06T10:00:05.894Z",
+            "slotsDone": {
+              "t60": true
+            },
+            "confidence": 0
+          }
+        }
       },
-      "updatedAt": "2026-10-06T09:45:02.984Z"
+      "updatedAt": "2026-10-06T10:00:05.901Z"
     }
   ],
   "meta": {
@@ -132,24 +146,22 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive",
-      "highlight",
-      "myanmartv"
+      "socolive"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 4,
+      "removedExpired": 0,
       "streamsAdded": 0,
-      "matchesAdded": 4
+      "matchesAdded": 0
     },
     "liveCount": 0,
-    "scheduledCount": 1,
+    "scheduledCount": 0,
     "endedCount": 0,
     "manualStreamCount": 0,
     "highlightCount": 29,
     "channelCount": 18,
-    "checksum": "e64a71adc4075afef241c3012a8834cbe98241cb49dc32f1faf77bcdf857ae5a",
-    "cachedAt": "2026-10-06T09:45:03.008Z",
+    "checksum": "715dbfd9f061574183bbf1ad51e111fd33106a82fd85fa4fd32d845529d4c989",
+    "cachedAt": "2026-10-06T10:00:05.923Z",
     "feed": "admin-match"
   }
 }
