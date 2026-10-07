@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-08T05:30:21.415+06:30",
+  "generatedAt": "2026-10-08T05:30:39.465+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 14,
   "matches": [
@@ -81,7 +81,7 @@
       "fotmobMatchId": 5103648,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -121,10 +121,19 @@
             "Origin": "https://ck.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-10-07T22:00:39.091Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiazaq.tv/truc-tiep/rb-bragantino-vs-mirassol-sp-luc-0530-ngay-08-10-2026/",
       "matchUrlStatus": "MATCH_URL_FOUND",
       "matchUrlAttempts": 1,
@@ -137,11 +146,86 @@
         "Origin": "https://ck.domainkqt.cc"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:00:21.412Z",
+      "attempts": 3,
+      "validationStatus": "HTTP_403",
+      "validationReason": "HTTP_403",
+      "lastAttemptAt": "2026-10-07T23:00:39.354Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true,
+          "t0": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-07T23:00:39.354Z",
+            "updatedAt": "2026-10-07T23:00:39.354Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 4,
+            "postKickoffAttempts": 2,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-07T22:45:43.029Z",
+            "updatedAt": "2026-10-07T23:00:09.852Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 4,
+            "postKickoffAttempts": 2,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-07T22:45:57.039Z",
+            "updatedAt": "2026-10-07T23:00:09.852Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 4,
+            "postKickoffAttempts": 2,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-07T22:46:12.482Z",
+            "updatedAt": "2026-10-07T23:00:09.852Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -192,7 +276,8 @@
             "confidence": 89
           }
         }
-      }
+      },
+      "updatedAt": "2026-10-07T23:00:39.443Z"
     },
     {
       "matchId": "internacional_corinthians_20261008",
@@ -331,7 +416,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:00:21.413Z",
+      "updatedAt": "2026-10-07T23:00:39.463Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -452,7 +537,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:00:21.414Z"
+      "updatedAt": "2026-10-07T23:00:39.463Z"
     },
     {
       "matchId": "vitoria_chapecoense_20261008",
@@ -591,7 +676,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:00:21.414Z",
+      "updatedAt": "2026-10-07T23:00:39.463Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -721,7 +806,7 @@
       "fotmobMatchId": 5103645,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -744,9 +829,7 @@
         "socolive": "https://socolivezf.tv/truc-tiep/botafogo-rj-vs-vasco-da-gama-luc-0630-ngay-08-10-2026/"
       },
       "streams": [],
-      "streamAttempts": {
-        "t30": true
-      },
+      "streamAttempts": {},
       "matchUrl": "https://cakhiazaq.tv/truc-tiep/botafogo-rj-vs-vasco-da-gama-luc-0630-ngay-08-10-2026/",
       "matchUrlStatus": "MATCH_URL_FOUND",
       "matchUrlAttempts": 1,
@@ -759,58 +842,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": true,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {
-          "cakhia": {
-            "status": "SEARCHING",
-            "attempts": 0,
-            "postKickoffAttempts": 0,
-            "lastError": null,
-            "lastAttemptAt": null,
-            "updatedAt": "2026-10-07T23:00:09.856Z",
-            "slotsDone": {},
-            "extractionMethod": null,
-            "extractPassComplete": false
-          },
-          "xoilac": {
-            "status": "SEARCHING",
-            "attempts": 0,
-            "postKickoffAttempts": 0,
-            "lastError": null,
-            "lastAttemptAt": null,
-            "updatedAt": "2026-10-07T23:00:09.856Z",
-            "slotsDone": {},
-            "extractionMethod": null,
-            "extractPassComplete": false
-          },
-          "phut": {
-            "status": "SEARCHING",
-            "attempts": 0,
-            "postKickoffAttempts": 0,
-            "lastError": null,
-            "lastAttemptAt": null,
-            "updatedAt": "2026-10-07T23:00:09.856Z",
-            "slotsDone": {},
-            "extractionMethod": null,
-            "extractPassComplete": false
-          },
-          "socolive": {
-            "status": "SEARCHING",
-            "attempts": 0,
-            "postKickoffAttempts": 0,
-            "lastError": null,
-            "lastAttemptAt": null,
-            "updatedAt": "2026-10-07T23:00:09.856Z",
-            "slotsDone": {},
-            "extractionMethod": null,
-            "extractPassComplete": false
-          }
-        }
-      },
+      "updatedAt": "2026-10-07T23:00:39.464Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -861,8 +893,7 @@
             "confidence": 89
           }
         }
-      },
-      "updatedAt": "2026-10-07T23:00:21.414Z"
+      }
     },
     {
       "matchId": "cruzeiro_sao_paulo_20261008",
@@ -972,7 +1003,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:00:21.414Z"
+      "updatedAt": "2026-10-07T23:00:39.464Z"
     },
     {
       "matchId": "santos_flamengo_20261009",
@@ -1082,7 +1113,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:00:21.414Z"
+      "updatedAt": "2026-10-07T23:00:39.464Z"
     },
     {
       "matchId": "athletico_paranaense_atletico_mg_20261009",
@@ -1192,7 +1223,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:00:21.414Z"
+      "updatedAt": "2026-10-07T23:00:39.464Z"
     },
     {
       "matchId": "fluminense_coritiba_20261009",
@@ -1302,7 +1333,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:00:21.415Z"
+      "updatedAt": "2026-10-07T23:00:39.464Z"
     },
     {
       "matchId": "palmeiras_bahia_20261009",
@@ -1412,7 +1443,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:00:21.415Z"
+      "updatedAt": "2026-10-07T23:00:39.464Z"
     },
     {
       "matchId": "daejeon_hana_citizen_jeonbuk_hyundai_motors_20261009",
@@ -1522,7 +1553,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:00:21.415Z"
+      "updatedAt": "2026-10-07T23:00:39.464Z"
     },
     {
       "matchId": "gangwon_fc_bucheon_fc_1995_20261009",
@@ -1632,7 +1663,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:00:21.415Z"
+      "updatedAt": "2026-10-07T23:00:39.464Z"
     },
     {
       "matchId": "incheon_united_pohang_steelers_20261009",
@@ -1742,7 +1773,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:00:21.415Z"
+      "updatedAt": "2026-10-07T23:00:39.464Z"
     },
     {
       "matchId": "penafiel_avs_futebol_sad_20261009",
@@ -1852,7 +1883,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:00:21.415Z"
+      "updatedAt": "2026-10-07T23:00:39.465Z"
     }
   ],
   "meta": {
@@ -1875,8 +1906,8 @@
     "manualStreamCount": 0,
     "highlightCount": 40,
     "channelCount": 18,
-    "checksum": "b4489fe404953d08eb9a903af809bf9831dcfc65ed838644f36ac5171cae3920",
-    "cachedAt": "2026-10-07T23:00:21.443Z",
+    "checksum": "d0ac28e0b9e494ce5d966b9324bb7e960f0c9d9bec5655e16367f7de36a63ff4",
+    "cachedAt": "2026-10-07T23:00:39.519Z",
     "feed": "admin-match"
   }
 }
