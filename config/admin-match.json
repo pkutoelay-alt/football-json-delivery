@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-08T06:00:46.072+06:30",
+  "generatedAt": "2026-10-08T06:01:01.783+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 14,
   "matches": [
@@ -141,7 +141,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:30:46.069Z",
+      "updatedAt": "2026-10-07T23:31:01.777Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -331,7 +331,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:30:46.070Z",
+      "updatedAt": "2026-10-07T23:31:01.780Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -452,7 +452,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:30:46.070Z"
+      "updatedAt": "2026-10-07T23:31:01.781Z"
     },
     {
       "matchId": "vitoria_chapecoense_20261008",
@@ -531,7 +531,7 @@
       "fotmobMatchId": 5103652,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -571,10 +571,19 @@
             "Origin": "https://ck.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-10-07T22:32:43.001Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiazaq.tv/truc-tiep/vitoria-ba-vs-chapecoense-sc-luc-0600-ngay-08-10-2026/",
       "matchUrlStatus": "MATCH_URL_FOUND",
       "matchUrlAttempts": 1,
@@ -587,11 +596,85 @@
         "Origin": "https://ck.domainkqt.cc"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:30:46.070Z",
+      "attempts": 3,
+      "validationStatus": "HTTP_403",
+      "validationReason": "HTTP_403",
+      "lastAttemptAt": "2026-10-07T23:31:01.591Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-07T23:31:01.591Z",
+            "updatedAt": "2026-10-07T23:31:01.591Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 4,
+            "postKickoffAttempts": 2,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-07T23:15:41.630Z",
+            "updatedAt": "2026-10-07T23:30:43.260Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 4,
+            "postKickoffAttempts": 2,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-07T23:15:55.568Z",
+            "updatedAt": "2026-10-07T23:30:43.260Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 4,
+            "postKickoffAttempts": 2,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-07T23:16:07.558Z",
+            "updatedAt": "2026-10-07T23:30:43.260Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -642,7 +725,8 @@
             "confidence": 89
           }
         }
-      }
+      },
+      "updatedAt": "2026-10-07T23:31:01.781Z"
     },
     {
       "matchId": "botafogo_vasco_da_gama_20261008",
@@ -721,7 +805,7 @@
       "fotmobMatchId": 5103645,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": "fotmob",
+      "source": "cakhia",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -761,17 +845,10 @@
             "Origin": "https://ck.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": "2026-10-07T23:16:12.843Z"
+          "checkedAt": null
         }
       ],
-      "streamAttempts": {
-        "t30": true,
-        "t20": true,
-        "t15": true,
-        "t10": true,
-        "t5": true,
-        "t0": true
-      },
+      "streamAttempts": {},
       "matchUrl": "https://cakhiazaq.tv/truc-tiep/botafogo-rj-vs-vasco-da-gama-luc-0630-ngay-08-10-2026/",
       "matchUrlStatus": "MATCH_URL_FOUND",
       "matchUrlAttempts": 1,
@@ -784,77 +861,11 @@
         "Origin": "https://ck.domainkqt.cc"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 2,
-      "validationStatus": "HTTP_403",
-      "validationReason": "HTTP_403",
-      "lastAttemptAt": "2026-10-07T23:16:56.248Z",
-      "streamSearch": {
-        "started": true,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {
-          "t30": true,
-          "t20": true
-        },
-        "sources": {
-          "cakhia": {
-            "status": "SEARCHING",
-            "attempts": 2,
-            "postKickoffAttempts": 0,
-            "lastError": null,
-            "lastAttemptAt": "2026-10-07T23:16:12.845Z",
-            "updatedAt": "2026-10-07T23:30:43.261Z",
-            "slotsDone": {
-              "t30": true,
-              "t20": true
-            },
-            "extractionMethod": "axios",
-            "extractPassComplete": true
-          },
-          "xoilac": {
-            "status": "SEARCHING",
-            "attempts": 2,
-            "postKickoffAttempts": 0,
-            "lastError": "HTTP_403",
-            "lastAttemptAt": "2026-10-07T23:16:28.464Z",
-            "updatedAt": "2026-10-07T23:30:43.261Z",
-            "slotsDone": {
-              "t30": true,
-              "t20": true
-            },
-            "extractionMethod": null,
-            "extractPassComplete": false
-          },
-          "phut": {
-            "status": "SEARCHING",
-            "attempts": 2,
-            "postKickoffAttempts": 0,
-            "lastError": "HTTP_403",
-            "lastAttemptAt": "2026-10-07T23:16:42.095Z",
-            "updatedAt": "2026-10-07T23:30:43.261Z",
-            "slotsDone": {
-              "t30": true,
-              "t20": true
-            },
-            "extractionMethod": null,
-            "extractPassComplete": false
-          },
-          "socolive": {
-            "status": "SEARCHING",
-            "attempts": 2,
-            "postKickoffAttempts": 0,
-            "lastError": "HTTP_403",
-            "lastAttemptAt": "2026-10-07T23:16:56.248Z",
-            "updatedAt": "2026-10-07T23:30:43.261Z",
-            "slotsDone": {
-              "t30": true,
-              "t20": true
-            },
-            "extractionMethod": null,
-            "extractPassComplete": false
-          }
-        }
-      },
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "updatedAt": "2026-10-07T23:31:01.782Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -905,8 +916,7 @@
             "confidence": 89
           }
         }
-      },
-      "updatedAt": "2026-10-07T23:30:46.071Z"
+      }
     },
     {
       "matchId": "cruzeiro_sao_paulo_20261008",
@@ -1021,7 +1031,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:30:46.071Z",
+      "updatedAt": "2026-10-07T23:31:01.782Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -1182,7 +1192,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:30:46.072Z"
+      "updatedAt": "2026-10-07T23:31:01.782Z"
     },
     {
       "matchId": "athletico_paranaense_atletico_mg_20261009",
@@ -1292,7 +1302,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:30:46.072Z"
+      "updatedAt": "2026-10-07T23:31:01.782Z"
     },
     {
       "matchId": "fluminense_coritiba_20261009",
@@ -1402,7 +1412,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:30:46.072Z"
+      "updatedAt": "2026-10-07T23:31:01.782Z"
     },
     {
       "matchId": "palmeiras_bahia_20261009",
@@ -1512,7 +1522,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:30:46.072Z"
+      "updatedAt": "2026-10-07T23:31:01.782Z"
     },
     {
       "matchId": "daejeon_hana_citizen_jeonbuk_hyundai_motors_20261009",
@@ -1622,7 +1632,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:30:46.072Z"
+      "updatedAt": "2026-10-07T23:31:01.782Z"
     },
     {
       "matchId": "gangwon_fc_bucheon_fc_1995_20261009",
@@ -1732,7 +1742,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:30:46.072Z"
+      "updatedAt": "2026-10-07T23:31:01.783Z"
     },
     {
       "matchId": "incheon_united_pohang_steelers_20261009",
@@ -1842,7 +1852,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:30:46.072Z"
+      "updatedAt": "2026-10-07T23:31:01.783Z"
     },
     {
       "matchId": "penafiel_avs_futebol_sad_20261009",
@@ -1952,7 +1962,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-07T23:30:46.072Z"
+      "updatedAt": "2026-10-07T23:31:01.783Z"
     }
   ],
   "meta": {
@@ -1975,8 +1985,8 @@
     "manualStreamCount": 0,
     "highlightCount": 40,
     "channelCount": 18,
-    "checksum": "72e83ec6662f15747b164a0beeedbe913d9befe142bc12a6de496170ed8a29d1",
-    "cachedAt": "2026-10-07T23:30:46.100Z",
+    "checksum": "bde4a3d2b1a8850621cddca44bce74e5e49805ec4fefe6012ce52073cda1de74",
+    "cachedAt": "2026-10-07T23:31:01.914Z",
     "feed": "admin-match"
   }
 }
