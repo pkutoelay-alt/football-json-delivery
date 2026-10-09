@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-09T08:15:06.864+06:30",
+  "generatedAt": "2026-10-09T08:15:12.367+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 47,
   "matches": [
@@ -81,7 +81,7 @@
       "fotmobMatchId": 5103644,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": "xoilac",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -143,7 +143,16 @@
           "checkedAt": null
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://xoilacxbr.tv/truc-tiep/fluminense-rj-vs-coritiba-luc-0730-ngay-09-10-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -156,11 +165,70 @@
         "Origin": "https://xl365.domainkqt.cc"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.854Z",
+      "attempts": 3,
+      "validationStatus": "NOT_FOUND",
+      "validationReason": "NOT_FOUND",
+      "lastAttemptAt": "2026-10-09T01:31:13.760Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": true,
+        "stopTime": "2026-10-09T08:01:22.934+06:30",
+        "slotsDone": {},
+        "sources": {
+          "cakhia": {
+            "status": "FAILED",
+            "attempts": 3,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-10-09T01:30:30.767Z",
+            "updatedAt": "2026-10-09T01:30:30.767Z",
+            "slotsDone": {
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "xoilac": {
+            "status": "FAILED",
+            "attempts": 3,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-10-09T01:30:45.501Z",
+            "updatedAt": "2026-10-09T01:30:45.501Z",
+            "slotsDone": {
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "FAILED",
+            "attempts": 3,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-10-09T01:30:58.353Z",
+            "updatedAt": "2026-10-09T01:30:58.353Z",
+            "slotsDone": {
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "FAILED",
+            "attempts": 3,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-10-09T01:31:13.760Z",
+            "updatedAt": "2026-10-09T01:31:13.760Z",
+            "slotsDone": {
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "tLive": true
@@ -210,7 +278,8 @@
             "confidence": 89
           }
         }
-      }
+      },
+      "updatedAt": "2026-10-09T01:45:12.361Z"
     },
     {
       "matchId": "palmeiras_bahia_20261009",
@@ -342,7 +411,7 @@
       "matchUrl": "https://xoilacxbr.tv/truc-tiep/palmeiras-vs-bahia-ba-luc-0730-ngay-09-10-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 4,
-      "lastMatchUrlAttemptAt": "2026-10-09T01:45:06.809Z",
+      "lastMatchUrlAttemptAt": "2026-10-09T01:45:12.092Z",
       "matchUrlSource": "xoilac",
       "streamUrl": "https://live2.zundrixmediapipeline.com/live/channel18.m3u8",
       "streamHeaders": {
@@ -352,8 +421,8 @@
       },
       "streamStatus": "AVAILABLE",
       "attempts": 3,
-      "validationStatus": "AVAILABLE",
-      "validationReason": null,
+      "validationStatus": "FAILED",
+      "validationReason": "FAILED",
       "lastAttemptAt": "2026-10-09T01:31:18.075Z",
       "streamSearch": {
         "started": true,
@@ -362,12 +431,12 @@
         "slotsDone": {},
         "sources": {
           "xoilac": {
-            "status": "AVAILABLE",
+            "status": "FAILED",
             "attempts": 3,
             "postKickoffAttempts": 3,
             "lastError": null,
             "lastAttemptAt": "2026-10-09T01:31:18.075Z",
-            "updatedAt": "2026-10-09T01:31:18.075Z",
+            "updatedAt": "2026-10-09T01:45:12.186Z",
             "slotsDone": {
               "catchup": true
             },
@@ -404,10 +473,10 @@
           },
           "phut": {
             "matchUrl": null,
-            "status": "MATCH_URL_SEARCHING",
-            "attempts": 3,
-            "liveAttempts": 3,
-            "lastAttemptAt": "2026-10-09T01:30:11.286Z",
+            "status": "MATCH_URL_FAILED",
+            "attempts": 4,
+            "liveAttempts": 4,
+            "lastAttemptAt": "2026-10-09T01:45:10.876Z",
             "slotsDone": {
               "tLive": true
             },
@@ -415,10 +484,10 @@
           },
           "socolive": {
             "matchUrl": null,
-            "status": "MATCH_URL_SEARCHING",
-            "attempts": 3,
-            "liveAttempts": 3,
-            "lastAttemptAt": "2026-10-09T01:30:12.433Z",
+            "status": "MATCH_URL_FAILED",
+            "attempts": 4,
+            "liveAttempts": 4,
+            "lastAttemptAt": "2026-10-09T01:45:12.092Z",
             "slotsDone": {
               "tLive": true
             },
@@ -426,7 +495,7 @@
           }
         }
       },
-      "updatedAt": "2026-10-09T01:45:06.855Z"
+      "updatedAt": "2026-10-09T01:45:12.361Z"
     },
     {
       "matchId": "daejeon_hana_citizen_jeonbuk_hyundai_motors_20261009",
@@ -505,7 +574,7 @@
       "fotmobMatchId": 5140042,
       "leagueId": 919356,
       "leagueName": "K League 1 (KOR D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -536,7 +605,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.855Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.362Z"
     },
     {
       "matchId": "gangwon_fc_bucheon_fc_1995_20261009",
@@ -615,7 +695,7 @@
       "fotmobMatchId": 5140043,
       "leagueId": 919356,
       "leagueName": "K League 1 (KOR D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -646,7 +726,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.855Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.362Z"
     },
     {
       "matchId": "incheon_united_pohang_steelers_20261009",
@@ -725,7 +816,7 @@
       "fotmobMatchId": 5140044,
       "leagueId": 919356,
       "leagueName": "K League 1 (KOR D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -756,7 +847,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.855Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.363Z"
     },
     {
       "matchId": "penafiel_avs_futebol_sad_20261009",
@@ -835,7 +937,7 @@
       "fotmobMatchId": 5888077,
       "leagueId": 185,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -866,7 +968,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.855Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.363Z"
     },
     {
       "matchId": "moreirense_gil_vicente_20261010",
@@ -945,7 +1058,7 @@
       "fotmobMatchId": 5887651,
       "leagueId": 61,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -976,7 +1089,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.856Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.363Z"
     },
     {
       "matchId": "borussia_dortmund_werder_bremen_20261010",
@@ -1055,7 +1179,7 @@
       "fotmobMatchId": 5881180,
       "leagueId": 54,
       "leagueName": "Bundesliga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1086,7 +1210,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.856Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.363Z"
     },
     {
       "matchId": "lens_olympique_lyonnais_20261010",
@@ -1165,7 +1300,7 @@
       "fotmobMatchId": 5802947,
       "leagueId": 53,
       "leagueName": "Ligue 1",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1196,7 +1331,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.856Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.363Z"
     },
     {
       "matchId": "malaga_espanyol_20261010",
@@ -1275,7 +1421,7 @@
       "fotmobMatchId": 5868086,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1306,7 +1452,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.856Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.364Z"
     },
     {
       "matchId": "west_ham_united_queens_park_rangers_20261010",
@@ -1385,7 +1542,7 @@
       "fotmobMatchId": 5836861,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1416,7 +1573,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.856Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.364Z"
     },
     {
       "matchId": "braga_sporting_cp_20261010",
@@ -1495,7 +1663,7 @@
       "fotmobMatchId": 5887647,
       "leagueId": 61,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1526,7 +1694,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.856Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.364Z"
     },
     {
       "matchId": "fc_seoul_jeju_united_20261010",
@@ -1605,7 +1784,7 @@
       "fotmobMatchId": 5140045,
       "leagueId": 919356,
       "leagueName": "K League 1 (KOR D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1636,7 +1815,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.856Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.364Z"
     },
     {
       "matchId": "gimcheon_sangmu_fc_anyang_20261010",
@@ -1715,7 +1905,7 @@
       "fotmobMatchId": 5140046,
       "leagueId": 919356,
       "leagueName": "K League 1 (KOR D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1746,7 +1936,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.856Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.364Z"
     },
     {
       "matchId": "tondela_torreense_20261010",
@@ -1825,7 +2026,7 @@
       "fotmobMatchId": 5888078,
       "leagueId": 185,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1856,7 +2057,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.856Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.364Z"
     },
     {
       "matchId": "arsenal_leeds_united_20261010",
@@ -1935,7 +2147,7 @@
       "fotmobMatchId": 5795465,
       "leagueId": 47,
       "leagueName": "English Premier League (EPL)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1966,7 +2178,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.857Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.364Z"
     },
     {
       "matchId": "charlton_athletic_bristol_city_20261010",
@@ -2045,7 +2268,7 @@
       "fotmobMatchId": 5836852,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2076,7 +2299,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.857Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.365Z"
     },
     {
       "matchId": "swansea_city_norwich_city_20261010",
@@ -2155,7 +2389,7 @@
       "fotmobMatchId": 5836858,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2186,7 +2420,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.857Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.365Z"
     },
     {
       "matchId": "west_bromwich_albion_birmingham_city_20261010",
@@ -2265,7 +2510,7 @@
       "fotmobMatchId": 5836860,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2296,7 +2541,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.857Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.365Z"
     },
     {
       "matchId": "rayo_vallecano_athletic_bilbao_20261010",
@@ -2375,7 +2631,7 @@
       "fotmobMatchId": 5868088,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2406,7 +2662,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.857Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.365Z"
     },
     {
       "matchId": "genoa_fiorentina_20261010",
@@ -2485,7 +2752,7 @@
       "fotmobMatchId": 5749693,
       "leagueId": 55,
       "leagueName": "Serie A",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2516,7 +2783,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.859Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.365Z"
     },
     {
       "matchId": "amarante_fc_portimonense_20261010",
@@ -2544,7 +2822,7 @@
       "fotmobMatchId": 5888071,
       "leagueId": 185,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2575,7 +2853,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.859Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.365Z"
     },
     {
       "matchId": "fc_augsburg_bayern_munich_20261010",
@@ -2654,7 +2943,7 @@
       "fotmobMatchId": 5881179,
       "leagueId": 54,
       "leagueName": "Bundesliga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2685,7 +2974,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.859Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.365Z"
     },
     {
       "matchId": "tsg_hoffenheim_hamburger_sv_20261010",
@@ -2764,7 +3064,7 @@
       "fotmobMatchId": 5881183,
       "leagueId": 54,
       "leagueName": "Bundesliga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2795,7 +3095,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.859Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.365Z"
     },
     {
       "matchId": "mainz_05_bayer_leverkusen_20261010",
@@ -2874,7 +3185,7 @@
       "fotmobMatchId": 5881184,
       "leagueId": 54,
       "leagueName": "Bundesliga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2905,7 +3216,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.859Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.365Z"
     },
     {
       "matchId": "paderborn_vfb_stuttgart_20261010",
@@ -2964,7 +3286,7 @@
       "fotmobMatchId": 5881185,
       "leagueId": 54,
       "leagueName": "Bundesliga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2995,7 +3317,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.860Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.366Z"
     },
     {
       "matchId": "union_berlin_elversberg_20261010",
@@ -3023,7 +3356,7 @@
       "fotmobMatchId": 5881187,
       "leagueId": 54,
       "leagueName": "Bundesliga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -3054,7 +3387,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.860Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.366Z"
     },
     {
       "matchId": "aston_villa_brentford_20261010",
@@ -3133,7 +3477,7 @@
       "fotmobMatchId": 5795466,
       "leagueId": 47,
       "leagueName": "English Premier League (EPL)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -3164,7 +3508,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.860Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.366Z"
     },
     {
       "matchId": "chelsea_bournemouth_20261010",
@@ -3243,7 +3598,7 @@
       "fotmobMatchId": 5795467,
       "leagueId": 47,
       "leagueName": "English Premier League (EPL)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -3274,7 +3629,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.860Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.366Z"
     },
     {
       "matchId": "ipswich_town_fulham_20261010",
@@ -3353,7 +3719,7 @@
       "fotmobMatchId": 5795471,
       "leagueId": 47,
       "leagueName": "English Premier League (EPL)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -3384,7 +3750,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.860Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.366Z"
     },
     {
       "matchId": "sunderland_brighton_and_hove_albion_20261010",
@@ -3453,7 +3830,7 @@
       "fotmobMatchId": 5795474,
       "leagueId": 47,
       "leagueName": "English Premier League (EPL)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -3484,7 +3861,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.860Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.366Z"
     },
     {
       "matchId": "blackburn_rovers_cardiff_city_20261010",
@@ -3563,7 +3951,7 @@
       "fotmobMatchId": 5836850,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -3594,7 +3982,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.860Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.366Z"
     },
     {
       "matchId": "bolton_wanderers_stoke_city_20261010",
@@ -3673,7 +4072,7 @@
       "fotmobMatchId": 5836851,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -3704,7 +4103,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.861Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.366Z"
     },
     {
       "matchId": "derby_county_wrexham_20261010",
@@ -3753,7 +4163,7 @@
       "fotmobMatchId": 5836853,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -3784,7 +4194,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.861Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.366Z"
     },
     {
       "matchId": "middlesbrough_wolverhampton_wanderers_20261010",
@@ -3863,7 +4284,7 @@
       "fotmobMatchId": 5836854,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -3894,7 +4315,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.861Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.366Z"
     },
     {
       "matchId": "preston_north_end_millwall_20261010",
@@ -3973,7 +4405,7 @@
       "fotmobMatchId": 5836855,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -4004,7 +4436,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.861Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.366Z"
     },
     {
       "matchId": "sheffield_united_lincoln_city_20261010",
@@ -4063,7 +4506,7 @@
       "fotmobMatchId": 5836856,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -4094,7 +4537,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.862Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.367Z"
     },
     {
       "matchId": "watford_burnley_20261010",
@@ -4173,7 +4627,7 @@
       "fotmobMatchId": 5836859,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -4204,7 +4658,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.863Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.367Z"
     },
     {
       "matchId": "alaves_atletico_madrid_20261010",
@@ -4283,7 +4748,7 @@
       "fotmobMatchId": 5868081,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -4314,7 +4779,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.863Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.367Z"
     },
     {
       "matchId": "casa_pia_ac_santa_clara_20261010",
@@ -4393,7 +4869,7 @@
       "fotmobMatchId": 5887648,
       "leagueId": 61,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -4424,7 +4900,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.863Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.367Z"
     },
     {
       "matchId": "leixoes_fc_porto_b_20261010",
@@ -4503,7 +4990,7 @@
       "fotmobMatchId": 5888076,
       "leagueId": 185,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -4534,7 +5021,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.863Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.367Z"
     },
     {
       "matchId": "lille_le_havre_20261010",
@@ -4613,7 +5111,7 @@
       "fotmobMatchId": 5802948,
       "leagueId": 53,
       "leagueName": "Ligue 1",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -4644,7 +5142,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.863Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.367Z"
     },
     {
       "matchId": "inter_milan_parma_20261010",
@@ -4723,7 +5232,7 @@
       "fotmobMatchId": 5749694,
       "leagueId": 55,
       "leagueName": "Serie A",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -4754,7 +5263,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.863Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.367Z"
     },
     {
       "matchId": "manchester_united_tottenham_hotspur_20261010",
@@ -4833,7 +5353,7 @@
       "fotmobMatchId": 5795473,
       "leagueId": 47,
       "leagueName": "English Premier League (EPL)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -4864,7 +5384,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.863Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.367Z"
     },
     {
       "matchId": "rb_leipzig_eintracht_frankfurt_20261010",
@@ -4943,7 +5474,7 @@
       "fotmobMatchId": 5881186,
       "leagueId": 54,
       "leagueName": "Bundesliga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -4974,7 +5505,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.863Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.367Z"
     },
     {
       "matchId": "barcelona_getafe_20261010",
@@ -5053,7 +5595,7 @@
       "fotmobMatchId": 5868084,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -5084,7 +5626,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.864Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.367Z"
     },
     {
       "matchId": "maritimo_fc_porto_20261010",
@@ -5163,7 +5716,7 @@
       "fotmobMatchId": 5887650,
       "leagueId": 61,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -5194,7 +5747,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-09T01:45:06.864Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-10-09T01:45:12.367Z"
     }
   ],
   "meta": {
@@ -5203,13 +5767,15 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive"
+      "socolive",
+      "highlight",
+      "myanmartv"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 0,
+      "removedExpired": 22,
       "streamsAdded": 0,
-      "matchesAdded": 0
+      "matchesAdded": 19
     },
     "liveCount": 2,
     "scheduledCount": 45,
@@ -5217,8 +5783,8 @@
     "manualStreamCount": 0,
     "highlightCount": 8,
     "channelCount": 18,
-    "checksum": "567e3cd7cc8c372ccae9bf3a1fce25903597ebe0b3ba2ce00fea30076e3e2077",
-    "cachedAt": "2026-10-09T01:45:06.889Z",
+    "checksum": "757be399d380c20dc2dc7ccb048bce01c6ca324ac4383b89245659643828f5cb",
+    "cachedAt": "2026-10-09T01:45:12.389Z",
     "feed": "admin-match"
   }
 }
