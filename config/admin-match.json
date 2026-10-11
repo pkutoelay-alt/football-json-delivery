@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T18:46:16.559+06:30",
+  "generatedAt": "2026-10-11T18:46:29.084+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 30,
   "matches": [
@@ -167,7 +167,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.555Z",
+      "updatedAt": "2026-10-11T12:16:29.078Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -348,7 +348,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.556Z",
+      "updatedAt": "2026-10-11T12:16:29.079Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -452,7 +452,7 @@
       "fotmobMatchId": 5868083,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -470,7 +470,9 @@
       },
       "sourcePages": {
         "cakhia": "https://cakhiazaq.tv/truc-tiep/elche-cf-vs-rc-celta-luc-1900-ngay-11-10-2026/",
-        "socolive": "https://socolivezr.tv/truc-tiep/elche-cf-vs-rc-celta-luc-1900-ngay-11-10-2026/"
+        "socolive": "https://socolivezr.tv/truc-tiep/elche-cf-vs-rc-celta-luc-1900-ngay-11-10-2026/",
+        "xoilac": "https://xoilacxbr.tv/truc-tiep/elche-cf-vs-rc-celta-luc-1900-ngay-11-10-2026/",
+        "phut": "https://90phutzas.tv/truc-tiep/elche-cf-vs-rc-celta-luc-1900-ngay-11-10-2026/"
       },
       "streams": [
         {
@@ -490,7 +492,7 @@
             "Origin": "https://ck.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-10-11T11:32:12.417Z"
         },
         {
           "source": "xoilac",
@@ -509,14 +511,23 @@
             "Origin": "https://xl365.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-10-11T11:32:18.468Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiazaq.tv/truc-tiep/elche-cf-vs-rc-celta-luc-1900-ngay-11-10-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": "2026-10-11T06:30:08.410Z",
+      "matchUrlAttempts": 1,
+      "lastMatchUrlAttemptAt": "2026-10-11T11:00:31.558Z",
       "matchUrlSource": "cakhia",
       "streamUrl": "https://live2.jorvakstreamcache.com/live/channel2.m3u8",
       "streamHeaders": {
@@ -525,13 +536,87 @@
         "Origin": "https://ck.domainkqt.cc"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.556Z",
+      "attempts": 2,
+      "validationStatus": "VALIDATING",
+      "validationReason": "NOT_FOUND",
+      "lastAttemptAt": "2026-10-11T12:16:29.039Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true,
+          "t0": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 4,
+            "postKickoffAttempts": 2,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-10-11T12:16:29.039Z",
+            "updatedAt": "2026-10-11T12:16:29.039Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-10-11T12:02:13.413Z",
+            "updatedAt": "2026-10-11T12:15:41.259Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-10-11T12:02:25.798Z",
+            "updatedAt": "2026-10-11T12:15:41.259Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-10-11T12:02:39.669Z",
+            "updatedAt": "2026-10-11T12:15:41.259Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
-        "slotsDone": {},
+        "slotsDone": {
+          "t60": true
+        },
         "sources": {
           "cakhia": {
             "matchUrl": "https://cakhiazaq.tv/truc-tiep/elche-cf-vs-rc-celta-luc-1900-ngay-11-10-2026/",
@@ -552,9 +637,32 @@
             "slotsDone": {},
             "confidence": 100,
             "manual": true
+          },
+          "xoilac": {
+            "matchUrl": "https://xoilacxbr.tv/truc-tiep/elche-cf-vs-rc-celta-luc-1900-ngay-11-10-2026/",
+            "status": "MATCH_URL_CONFIRMED",
+            "attempts": 1,
+            "liveAttempts": 0,
+            "lastAttemptAt": "2026-10-11T11:00:23.732Z",
+            "slotsDone": {
+              "t60": true
+            },
+            "confidence": 100
+          },
+          "phut": {
+            "matchUrl": "https://90phutzas.tv/truc-tiep/elche-cf-vs-rc-celta-luc-1900-ngay-11-10-2026/",
+            "status": "MATCH_URL_CONFIRMED",
+            "attempts": 1,
+            "liveAttempts": 0,
+            "lastAttemptAt": "2026-10-11T11:00:31.558Z",
+            "slotsDone": {
+              "t60": true
+            },
+            "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-10-11T12:16:29.080Z"
     },
     {
       "matchId": "crystal_palace_nottingham_forest_20261011",
@@ -667,7 +775,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.556Z",
+      "updatedAt": "2026-10-11T12:16:29.081Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -805,7 +913,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.556Z",
+      "updatedAt": "2026-10-11T12:16:29.081Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -943,7 +1051,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.556Z",
+      "updatedAt": "2026-10-11T12:16:29.081Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1081,7 +1189,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.557Z",
+      "updatedAt": "2026-10-11T12:16:29.081Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1219,7 +1327,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.557Z",
+      "updatedAt": "2026-10-11T12:16:29.081Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1354,7 +1462,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.557Z"
+      "updatedAt": "2026-10-11T12:16:29.081Z"
     },
     {
       "matchId": "1_fc_koln_borussia_monchengladbach_20261011",
@@ -1466,7 +1574,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.557Z",
+      "updatedAt": "2026-10-11T12:16:29.081Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1593,7 +1701,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.557Z",
+      "updatedAt": "2026-10-11T12:16:29.081Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1718,7 +1826,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.557Z"
+      "updatedAt": "2026-10-11T12:16:29.082Z"
     },
     {
       "matchId": "rennes_auxerre_20261011",
@@ -1828,7 +1936,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.557Z"
+      "updatedAt": "2026-10-11T12:16:29.082Z"
     },
     {
       "matchId": "liverpool_manchester_city_20261011",
@@ -1940,7 +2048,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.557Z",
+      "updatedAt": "2026-10-11T12:16:29.082Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -2067,7 +2175,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.557Z",
+      "updatedAt": "2026-10-11T12:16:29.082Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -2194,7 +2302,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.558Z",
+      "updatedAt": "2026-10-11T12:16:29.082Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -2321,7 +2429,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.558Z",
+      "updatedAt": "2026-10-11T12:16:29.082Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -2446,7 +2554,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.558Z"
+      "updatedAt": "2026-10-11T12:16:29.082Z"
     },
     {
       "matchId": "uniao_de_leiria_academica_20261011",
@@ -2556,7 +2664,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.558Z"
+      "updatedAt": "2026-10-11T12:16:29.082Z"
     },
     {
       "matchId": "troyes_olympique_marseille_20261012",
@@ -2666,7 +2774,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.558Z"
+      "updatedAt": "2026-10-11T12:16:29.083Z"
     },
     {
       "matchId": "cagliari_juventus_20261012",
@@ -2776,7 +2884,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.558Z"
+      "updatedAt": "2026-10-11T12:16:29.083Z"
     },
     {
       "matchId": "racing_santander_valencia_20261012",
@@ -2876,7 +2984,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.558Z"
+      "updatedAt": "2026-10-11T12:16:29.083Z"
     },
     {
       "matchId": "atletico_mg_santos_20261012",
@@ -2986,7 +3094,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.558Z"
+      "updatedAt": "2026-10-11T12:16:29.083Z"
     },
     {
       "matchId": "arouca_estrela_da_amadora_20261012",
@@ -3096,7 +3204,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.558Z"
+      "updatedAt": "2026-10-11T12:16:29.083Z"
     },
     {
       "matchId": "flamengo_fluminense_20261012",
@@ -3206,7 +3314,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.559Z"
+      "updatedAt": "2026-10-11T12:16:29.083Z"
     },
     {
       "matchId": "palmeiras_corinthians_20261012",
@@ -3316,7 +3424,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.559Z"
+      "updatedAt": "2026-10-11T12:16:29.083Z"
     },
     {
       "matchId": "gremio_internacional_20261012",
@@ -3426,7 +3534,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.559Z"
+      "updatedAt": "2026-10-11T12:16:29.084Z"
     },
     {
       "matchId": "bahia_mirassol_20261012",
@@ -3516,7 +3624,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.559Z"
+      "updatedAt": "2026-10-11T12:16:29.084Z"
     },
     {
       "matchId": "atalanta_venezia_20261012",
@@ -3626,7 +3734,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.559Z"
+      "updatedAt": "2026-10-11T12:16:29.084Z"
     },
     {
       "matchId": "benfica_b_felgueiras_1932_20261012",
@@ -3726,7 +3834,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T12:16:16.559Z"
+      "updatedAt": "2026-10-11T12:16:29.084Z"
     }
   ],
   "meta": {
@@ -3739,9 +3847,9 @@
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 1,
-      "streamsAdded": 2,
-      "matchesAdded": 1
+      "removedExpired": 0,
+      "streamsAdded": 0,
+      "matchesAdded": 0
     },
     "liveCount": 3,
     "scheduledCount": 21,
@@ -3749,8 +3857,8 @@
     "manualStreamCount": 0,
     "highlightCount": 18,
     "channelCount": 18,
-    "checksum": "2d654bc5de7d55b896256750e88c01714085be63194b2daa37c384ba2f830f15",
-    "cachedAt": "2026-10-11T12:16:16.573Z",
+    "checksum": "45e763d99940d6d6b1af96f5c46dff1859f65a515a03bb68869319e943685d57",
+    "cachedAt": "2026-10-11T12:16:29.106Z",
     "feed": "admin-match"
   }
 }
