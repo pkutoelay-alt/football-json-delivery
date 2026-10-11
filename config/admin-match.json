@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T19:30:15.466+06:30",
+  "generatedAt": "2026-10-11T19:30:18.571+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 28,
   "matches": [
@@ -160,7 +160,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.462Z",
+      "updatedAt": "2026-10-11T13:00:18.566Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -386,7 +386,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.462Z",
+      "updatedAt": "2026-10-11T13:00:18.566Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -612,7 +612,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.463Z",
+      "updatedAt": "2026-10-11T13:00:18.566Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -742,7 +742,7 @@
       "fotmobMatchId": 5802951,
       "leagueId": 53,
       "leagueName": "Ligue 1",
-      "source": "xoilac",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -760,6 +760,7 @@
       },
       "sourcePages": {
         "socolive": "https://socolivezr.tv/truc-tiep/ogc-nice-vs-strasbourg-luc-2000-ngay-11-10-2026/",
+        "cakhia": "https://cakhiazaq.tv/truc-tiep/ogc-nice-vs-strasbourg-luc-2000-ngay-11-10-2026/",
         "xoilac": "https://xoilacxbr.tv/truc-tiep/ogc-nice-vs-strasbourg-luc-2000-ngay-11-10-2026/",
         "phut": "https://90phutzas.tv/truc-tiep/ogc-nice-vs-strasbourg-luc-2000-ngay-11-10-2026/"
       },
@@ -781,7 +782,7 @@
             "Origin": "https://xl365.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-10-11T12:34:50.617Z"
         },
         {
           "source": "phut",
@@ -800,14 +801,19 @@
             "Origin": "https://91p.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-10-11T12:34:56.432Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true
+      },
       "matchUrl": "https://socolivezr.tv/truc-tiep/ogc-nice-vs-strasbourg-luc-2000-ngay-11-10-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 4,
-      "lastMatchUrlAttemptAt": "2026-10-11T12:45:11.641Z",
+      "lastMatchUrlAttemptAt": "2026-10-11T13:00:18.545Z",
       "matchUrlSource": "socolive",
       "streamUrl": "https://live2.jorvakstreamcache.com/live/channel11.m3u8",
       "streamHeaders": {
@@ -816,16 +822,68 @@
         "Origin": "https://xl365.domainkqt.cc"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.463Z",
+      "attempts": 2,
+      "validationStatus": "VALIDATING",
+      "validationReason": "NOT_FOUND",
+      "lastAttemptAt": "2026-10-11T12:49:06.338Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true
+        },
+        "sources": {
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-10-11T12:48:41.181Z",
+            "updatedAt": "2026-10-11T12:48:41.181Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-10-11T12:48:52.783Z",
+            "updatedAt": "2026-10-11T12:48:52.783Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-10-11T12:49:06.338Z",
+            "updatedAt": "2026-10-11T12:49:06.338Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
           "t50": true,
-          "t30": true
+          "t30": true,
+          "tLive": true
         },
         "sources": {
           "socolive": {
@@ -839,17 +897,18 @@
             "manual": true
           },
           "cakhia": {
-            "matchUrl": null,
-            "status": "MATCH_URL_FAILED",
+            "matchUrl": "https://cakhiazaq.tv/truc-tiep/ogc-nice-vs-strasbourg-luc-2000-ngay-11-10-2026/",
+            "status": "MATCH_URL_CONFIRMED",
             "attempts": 4,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-10-11T12:45:11.641Z",
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-10-11T13:00:18.545Z",
             "slotsDone": {
               "t60": true,
               "t50": true,
-              "t30": true
+              "t30": true,
+              "tLive": true
             },
-            "confidence": 0
+            "confidence": 100
           },
           "xoilac": {
             "matchUrl": "https://xoilacxbr.tv/truc-tiep/ogc-nice-vs-strasbourg-luc-2000-ngay-11-10-2026/",
@@ -875,7 +934,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-10-11T13:00:18.566Z"
     },
     {
       "matchId": "lazio_monza_20261011",
@@ -1032,7 +1092,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.464Z",
+      "updatedAt": "2026-10-11T13:00:18.567Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -1244,7 +1304,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.464Z",
+      "updatedAt": "2026-10-11T13:00:18.567Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -1409,7 +1469,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.464Z"
+      "updatedAt": "2026-10-11T13:00:18.567Z"
     },
     {
       "matchId": "1_fc_koln_borussia_monchengladbach_20261011",
@@ -1522,7 +1582,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.464Z",
+      "updatedAt": "2026-10-11T13:00:18.567Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -1687,7 +1747,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.464Z",
+      "updatedAt": "2026-10-11T13:00:18.568Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1822,7 +1882,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.464Z"
+      "updatedAt": "2026-10-11T13:00:18.568Z"
     },
     {
       "matchId": "rennes_auxerre_20261011",
@@ -1932,7 +1992,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.464Z"
+      "updatedAt": "2026-10-11T13:00:18.568Z"
     },
     {
       "matchId": "liverpool_manchester_city_20261011",
@@ -2044,7 +2104,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.464Z",
+      "updatedAt": "2026-10-11T13:00:18.568Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -2171,7 +2231,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.465Z",
+      "updatedAt": "2026-10-11T13:00:18.568Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -2298,7 +2358,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.465Z",
+      "updatedAt": "2026-10-11T13:00:18.568Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -2426,7 +2486,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.465Z",
+      "updatedAt": "2026-10-11T13:00:18.569Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -2563,7 +2623,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.465Z",
+      "updatedAt": "2026-10-11T13:00:18.569Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -2688,7 +2748,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.465Z"
+      "updatedAt": "2026-10-11T13:00:18.569Z"
     },
     {
       "matchId": "troyes_olympique_marseille_20261012",
@@ -2798,7 +2858,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.465Z"
+      "updatedAt": "2026-10-11T13:00:18.569Z"
     },
     {
       "matchId": "cagliari_juventus_20261012",
@@ -2908,7 +2968,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.465Z"
+      "updatedAt": "2026-10-11T13:00:18.569Z"
     },
     {
       "matchId": "racing_santander_valencia_20261012",
@@ -3008,7 +3068,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.465Z"
+      "updatedAt": "2026-10-11T13:00:18.570Z"
     },
     {
       "matchId": "atletico_mg_santos_20261012",
@@ -3118,7 +3178,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.465Z"
+      "updatedAt": "2026-10-11T13:00:18.570Z"
     },
     {
       "matchId": "arouca_estrela_da_amadora_20261012",
@@ -3228,7 +3288,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.465Z"
+      "updatedAt": "2026-10-11T13:00:18.570Z"
     },
     {
       "matchId": "flamengo_fluminense_20261012",
@@ -3338,7 +3398,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.465Z"
+      "updatedAt": "2026-10-11T13:00:18.570Z"
     },
     {
       "matchId": "palmeiras_corinthians_20261012",
@@ -3448,7 +3508,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.466Z"
+      "updatedAt": "2026-10-11T13:00:18.570Z"
     },
     {
       "matchId": "gremio_internacional_20261012",
@@ -3558,7 +3618,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.466Z"
+      "updatedAt": "2026-10-11T13:00:18.571Z"
     },
     {
       "matchId": "bahia_mirassol_20261012",
@@ -3648,7 +3708,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.466Z"
+      "updatedAt": "2026-10-11T13:00:18.571Z"
     },
     {
       "matchId": "atalanta_venezia_20261012",
@@ -3758,7 +3818,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.466Z"
+      "updatedAt": "2026-10-11T13:00:18.571Z"
     },
     {
       "matchId": "benfica_b_felgueiras_1932_20261012",
@@ -3858,7 +3918,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T13:00:15.466Z"
+      "updatedAt": "2026-10-11T13:00:18.571Z"
     }
   ],
   "meta": {
@@ -3871,9 +3931,9 @@
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 2,
+      "removedExpired": 0,
       "streamsAdded": 0,
-      "matchesAdded": 1
+      "matchesAdded": 0
     },
     "liveCount": 7,
     "scheduledCount": 20,
@@ -3881,8 +3941,8 @@
     "manualStreamCount": 0,
     "highlightCount": 18,
     "channelCount": 18,
-    "checksum": "d493dcd1256527e98a5d2f07a02c5c50fa6437e2742905c284bdf45e3b123c6a",
-    "cachedAt": "2026-10-11T13:00:15.485Z",
+    "checksum": "9a7c273bfe24e94e83ab903420039874a87f934410f5b6f3ad8a22ca205423c2",
+    "cachedAt": "2026-10-11T13:00:18.587Z",
     "feed": "admin-match"
   }
 }
