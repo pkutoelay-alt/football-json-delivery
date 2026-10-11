@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-12T01:15:07.036+06:30",
+  "generatedAt": "2026-10-12T01:15:14.445+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 22,
   "matches": [
@@ -160,7 +160,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.030Z",
+      "updatedAt": "2026-10-11T18:45:14.440Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -348,7 +348,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.031Z",
+      "updatedAt": "2026-10-11T18:45:14.441Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -484,7 +484,7 @@
       "fotmobMatchId": 5802954,
       "leagueId": 53,
       "leagueName": "Ligue 1",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -502,6 +502,7 @@
       },
       "sourcePages": {
         "cakhia": "https://cakhiazaq.tv/truc-tiep/troyes-vs-marseille-luc-0145-ngay-12-10-2026/",
+        "xoilac": "https://xoilacxbk.tv/truc-tiep/troyes-vs-marseille-luc-0145-ngay-12-10-2026/",
         "phut": "https://90phutzas.tv/truc-tiep/troyes-vs-marseille-luc-0145-ngay-12-10-2026/",
         "socolive": "https://socolivezr.tv/truc-tiep/troyes-vs-marseille-luc-0145-ngay-12-10-2026/"
       },
@@ -523,7 +524,7 @@
             "Origin": "https://ck.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-10-11T18:15:24.097Z"
         },
         {
           "source": "phut",
@@ -542,14 +543,18 @@
             "Origin": "https://91p.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-10-11T18:15:45.333Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true
+      },
       "matchUrl": "https://cakhiazaq.tv/truc-tiep/troyes-vs-marseille-luc-0145-ngay-12-10-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 4,
-      "lastMatchUrlAttemptAt": "2026-10-11T18:30:13.176Z",
+      "lastMatchUrlAttemptAt": "2026-10-11T18:45:14.419Z",
       "matchUrlSource": "cakhia",
       "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-6.m3u8?auth_key=3000001791742545-0-0-e4b7001b719804bd376e4e11bbdcf002",
       "streamHeaders": {
@@ -558,16 +563,69 @@
         "Origin": "https://91p.domainkqt.cc"
       },
       "streamStatus": "BLOCKED",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.031Z",
+      "attempts": 2,
+      "validationStatus": "VALIDATING",
+      "validationReason": "NOT_FOUND",
+      "lastAttemptAt": "2026-10-11T18:31:13.470Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-10-11T18:30:46.661Z",
+            "updatedAt": "2026-10-11T18:30:46.661Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-10-11T18:30:58.602Z",
+            "updatedAt": "2026-10-11T18:30:58.602Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-10-11T18:31:13.470Z",
+            "updatedAt": "2026-10-11T18:31:13.470Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
           "t50": true,
-          "t30": true
+          "t30": true,
+          "tLive": true
         },
         "sources": {
           "cakhia": {
@@ -582,17 +640,18 @@
             "confidence": 100
           },
           "xoilac": {
-            "matchUrl": null,
-            "status": "MATCH_URL_FAILED",
+            "matchUrl": "https://xoilacxbk.tv/truc-tiep/troyes-vs-marseille-luc-0145-ngay-12-10-2026/",
+            "status": "MATCH_URL_CONFIRMED",
             "attempts": 4,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-10-11T18:30:13.176Z",
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-10-11T18:45:14.419Z",
             "slotsDone": {
               "t60": true,
               "t50": true,
-              "t30": true
+              "t30": true,
+              "tLive": true
             },
-            "confidence": 0
+            "confidence": 100
           },
           "phut": {
             "matchUrl": "https://90phutzas.tv/truc-tiep/troyes-vs-marseille-luc-0145-ngay-12-10-2026/",
@@ -617,7 +676,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-10-11T18:45:14.441Z"
     },
     {
       "matchId": "cagliari_juventus_20261012",
@@ -775,7 +835,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.031Z",
+      "updatedAt": "2026-10-11T18:45:14.442Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -973,7 +1033,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.032Z",
+      "updatedAt": "2026-10-11T18:45:14.442Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -1107,7 +1167,7 @@
       "fotmobMatchId": 5103659,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1125,13 +1185,11 @@
       },
       "sourcePages": {},
       "streams": [],
-      "streamAttempts": {
-        "t30": true
-      },
+      "streamAttempts": {},
       "matchUrl": null,
       "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 4,
-      "lastMatchUrlAttemptAt": "2026-10-11T18:45:07.009Z",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -1140,75 +1198,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": true,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {
-          "t60": true,
-          "t50": true,
-          "t30": true
-        },
-        "sources": {
-          "cakhia": {
-            "matchUrl": null,
-            "status": "MATCH_URL_FAILED",
-            "attempts": 4,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-10-11T18:45:07.009Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true
-            },
-            "confidence": 0
-          },
-          "xoilac": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 3,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-10-11T18:30:17.633Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true
-            },
-            "confidence": 0
-          },
-          "phut": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 3,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-10-11T18:30:21.185Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true
-            },
-            "confidence": 0
-          },
-          "socolive": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 3,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-10-11T18:30:24.047Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true
-            },
-            "confidence": 0
-          }
-        }
-      },
-      "updatedAt": "2026-10-11T18:45:07.032Z"
+      "updatedAt": "2026-10-11T18:45:14.443Z"
     },
     {
       "matchId": "arouca_estrela_da_amadora_20261012",
@@ -1322,7 +1312,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.033Z",
+      "updatedAt": "2026-10-11T18:45:14.443Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -1483,7 +1473,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.033Z"
+      "updatedAt": "2026-10-11T18:45:14.443Z"
     },
     {
       "matchId": "palmeiras_corinthians_20261012",
@@ -1593,7 +1583,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.033Z"
+      "updatedAt": "2026-10-11T18:45:14.443Z"
     },
     {
       "matchId": "gremio_internacional_20261012",
@@ -1703,7 +1693,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.033Z"
+      "updatedAt": "2026-10-11T18:45:14.444Z"
     },
     {
       "matchId": "bahia_mirassol_20261012",
@@ -1793,7 +1783,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.033Z"
+      "updatedAt": "2026-10-11T18:45:14.444Z"
     },
     {
       "matchId": "atalanta_venezia_20261012",
@@ -1903,7 +1893,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.034Z"
+      "updatedAt": "2026-10-11T18:45:14.444Z"
     },
     {
       "matchId": "benfica_b_felgueiras_1932_20261012",
@@ -2003,7 +1993,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.034Z"
+      "updatedAt": "2026-10-11T18:45:14.444Z"
     },
     {
       "matchId": "torino_udinese_20261013",
@@ -2113,7 +2103,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.034Z"
+      "updatedAt": "2026-10-11T18:45:14.444Z"
     },
     {
       "matchId": "coventry_city_newcastle_united_20261013",
@@ -2172,7 +2162,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.034Z"
+      "updatedAt": "2026-10-11T18:45:14.444Z"
     },
     {
       "matchId": "levante_sevilla_20261013",
@@ -2282,7 +2272,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.034Z"
+      "updatedAt": "2026-10-11T18:45:14.445Z"
     },
     {
       "matchId": "coritiba_botafogo_20261013",
@@ -2392,7 +2382,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.035Z"
+      "updatedAt": "2026-10-11T18:45:14.445Z"
     },
     {
       "matchId": "famalicao_alverca_20261013",
@@ -2482,7 +2472,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.035Z"
+      "updatedAt": "2026-10-11T18:45:14.445Z"
     },
     {
       "matchId": "chapecoense_athletico_paranaense_20261013",
@@ -2592,7 +2582,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.035Z"
+      "updatedAt": "2026-10-11T18:45:14.445Z"
     },
     {
       "matchId": "rb_bragantino_cruzeiro_20261013",
@@ -2702,7 +2692,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.035Z"
+      "updatedAt": "2026-10-11T18:45:14.445Z"
     },
     {
       "matchId": "lens_sporting_cp_20261013",
@@ -2761,7 +2751,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.035Z"
+      "updatedAt": "2026-10-11T18:45:14.445Z"
     },
     {
       "matchId": "sabah_fk_slavia_prague_20261013",
@@ -2820,7 +2810,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-11T18:45:07.035Z"
+      "updatedAt": "2026-10-11T18:45:14.445Z"
     }
   ],
   "meta": {
@@ -2843,8 +2833,8 @@
     "manualStreamCount": 0,
     "highlightCount": 18,
     "channelCount": 18,
-    "checksum": "81e96bfdee58c5f4635e2d788148a8f2fe321088d9dc3b16d4e39b42207e3eeb",
-    "cachedAt": "2026-10-11T18:45:07.049Z",
+    "checksum": "f212ef3d0bd8f90d7528c133a8dcb7aa62902dac36964e5440f935980932d57b",
+    "cachedAt": "2026-10-11T18:45:14.459Z",
     "feed": "admin-match"
   }
 }
