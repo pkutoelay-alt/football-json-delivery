@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T05:15:08.899+06:30",
+  "generatedAt": "2026-10-13T05:30:10.162+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 21,
   "matches": [
@@ -81,7 +81,7 @@
       "fotmobMatchId": 5103663,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -99,20 +99,11 @@
       },
       "sourcePages": {},
       "streams": [],
-      "streamAttempts": {
-        "t30": true,
-        "t20": true,
-        "t15": true,
-        "t10": true,
-        "t5": true,
-        "t0": true,
-        "tP5": true,
-        "tP10": true
-      },
+      "streamAttempts": {},
       "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_SEARCHING",
-      "matchUrlAttempts": 4,
-      "lastMatchUrlAttemptAt": "2026-10-12T22:45:08.772Z",
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -121,80 +112,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": true,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {
-          "t60": true,
-          "t50": true,
-          "t30": true,
-          "tLive": true
-        },
-        "sources": {
-          "cakhia": {
-            "matchUrl": null,
-            "status": "MATCH_URL_SEARCHING",
-            "attempts": 4,
-            "liveAttempts": 2,
-            "lastAttemptAt": "2026-10-12T22:45:05.021Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true,
-              "tLive": true
-            },
-            "confidence": 0
-          },
-          "xoilac": {
-            "matchUrl": null,
-            "status": "MATCH_URL_SEARCHING",
-            "attempts": 4,
-            "liveAttempts": 2,
-            "lastAttemptAt": "2026-10-12T22:45:06.383Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true,
-              "tLive": true
-            },
-            "confidence": 0
-          },
-          "phut": {
-            "matchUrl": null,
-            "status": "MATCH_URL_SEARCHING",
-            "attempts": 4,
-            "liveAttempts": 2,
-            "lastAttemptAt": "2026-10-12T22:45:07.380Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true,
-              "tLive": true
-            },
-            "confidence": 0
-          },
-          "socolive": {
-            "matchUrl": null,
-            "status": "MATCH_URL_SEARCHING",
-            "attempts": 4,
-            "liveAttempts": 2,
-            "lastAttemptAt": "2026-10-12T22:45:08.772Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true,
-              "tLive": true
-            },
-            "confidence": 0
-          }
-        }
-      },
-      "updatedAt": "2026-10-12T22:45:08.897Z"
+      "updatedAt": "2026-10-12T23:00:10.156Z"
     },
     {
       "matchId": "rb_bragantino_cruzeiro_20261013",
@@ -210,7 +128,7 @@
       "time": "6:30 AM",
       "kickoff": "2026-10-13T06:30:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "Scheduled",
+      "status": "PREPARING_STREAM",
       "h2h": {
         "summary": {
           "homeWins": 1,
@@ -289,14 +207,16 @@
           "awayTeam": "Cruzeiro"
         }
       },
-      "sourcePages": {},
+      "sourcePages": {
+        "cakhia": "https://cakhiazae.tv/truc-tiep/rb-bragantino-vs-cruzeiro-luc-0700-ngay-13-10-2026/"
+      },
       "streams": [],
       "streamAttempts": {},
-      "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": null,
-      "matchUrlSource": null,
+      "matchUrl": "https://cakhiazae.tv/truc-tiep/rb-bragantino-vs-cruzeiro-luc-0700-ngay-13-10-2026/",
+      "matchUrlStatus": "MATCH_URL_CONFIRMED",
+      "matchUrlAttempts": 1,
+      "lastMatchUrlAttemptAt": "2026-10-12T23:00:10.134Z",
+      "matchUrlSource": "cakhia",
       "streamUrl": null,
       "streamHeaders": null,
       "streamStatus": "PREPARING_STREAM",
@@ -312,10 +232,24 @@
         "sources": {}
       },
       "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
+        "slotsDone": {
+          "t60": true
+        },
+        "sources": {
+          "cakhia": {
+            "matchUrl": "https://cakhiazae.tv/truc-tiep/rb-bragantino-vs-cruzeiro-luc-0700-ngay-13-10-2026/",
+            "status": "MATCH_URL_CONFIRMED",
+            "attempts": 1,
+            "liveAttempts": 0,
+            "lastAttemptAt": "2026-10-12T23:00:10.134Z",
+            "slotsDone": {
+              "t60": true
+            },
+            "confidence": 100
+          }
+        }
       },
-      "updatedAt": "2026-10-12T22:45:08.897Z"
+      "updatedAt": "2026-10-12T23:00:10.157Z"
     },
     {
       "matchId": "lens_sporting_cp_20261013",
@@ -343,7 +277,7 @@
       "fotmobMatchId": 6106414,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -374,18 +308,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-12T22:45:08.897Z"
+      "updatedAt": "2026-10-12T23:00:10.157Z"
     },
     {
       "matchId": "sabah_fk_slavia_prague_20261013",
@@ -413,7 +336,7 @@
       "fotmobMatchId": 6106424,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -444,18 +367,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-12T22:45:08.897Z"
+      "updatedAt": "2026-10-12T23:00:10.157Z"
     },
     {
       "matchId": "bristol_city_blackburn_rovers_20261014",
@@ -534,7 +446,7 @@
       "fotmobMatchId": 5836863,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -565,18 +477,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-12T22:45:08.897Z"
+      "updatedAt": "2026-10-12T23:00:10.157Z"
     },
     {
       "matchId": "burnley_charlton_athletic_20261014",
@@ -655,7 +556,7 @@
       "fotmobMatchId": 5836864,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -686,18 +587,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-12T22:45:08.897Z"
+      "updatedAt": "2026-10-12T23:00:10.158Z"
     },
     {
       "matchId": "cardiff_city_watford_20261014",
@@ -776,7 +666,7 @@
       "fotmobMatchId": 5836865,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -807,18 +697,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-12T22:45:08.898Z"
+      "updatedAt": "2026-10-12T23:00:10.158Z"
     },
     {
       "matchId": "millwall_swansea_city_20261014",
@@ -897,7 +776,7 @@
       "fotmobMatchId": 5836866,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -928,18 +807,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-12T22:45:08.898Z"
+      "updatedAt": "2026-10-12T23:00:10.158Z"
     },
     {
       "matchId": "wolverhampton_wanderers_bolton_wanderers_20261014",
@@ -1018,7 +886,7 @@
       "fotmobMatchId": 5836868,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1049,18 +917,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-12T22:45:08.898Z"
+      "updatedAt": "2026-10-12T23:00:10.158Z"
     },
     {
       "matchId": "wrexham_west_bromwich_albion_20261014",
@@ -1109,7 +966,7 @@
       "fotmobMatchId": 5836869,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1140,18 +997,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-12T22:45:08.898Z"
+      "updatedAt": "2026-10-12T23:00:10.158Z"
     },
     {
       "matchId": "arsenal_lille_20261014",
@@ -1179,7 +1025,7 @@
       "fotmobMatchId": 6106260,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1210,18 +1056,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-12T22:45:08.898Z"
+      "updatedAt": "2026-10-12T23:00:10.159Z"
     },
     {
       "matchId": "atletico_madrid_manchester_united_20261014",
@@ -1290,7 +1125,7 @@
       "fotmobMatchId": 6106267,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1321,18 +1156,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-12T22:45:08.898Z"
+      "updatedAt": "2026-10-12T23:00:10.159Z"
     },
     {
       "matchId": "galatasaray_barcelona_20261014",
@@ -1381,7 +1205,7 @@
       "fotmobMatchId": 6106338,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1412,18 +1236,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-12T22:45:08.898Z"
+      "updatedAt": "2026-10-12T23:00:10.159Z"
     },
     {
       "matchId": "inter_milan_club_brugge_20261014",
@@ -1451,7 +1264,7 @@
       "fotmobMatchId": 6106251,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1482,18 +1295,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-12T22:45:08.898Z"
+      "updatedAt": "2026-10-12T23:00:10.159Z"
     },
     {
       "matchId": "rb_leipzig_psv_eindhoven_20261014",
@@ -1521,7 +1323,7 @@
       "fotmobMatchId": 6106323,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1552,18 +1354,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-12T22:45:08.898Z"
+      "updatedAt": "2026-10-12T23:00:10.159Z"
     },
     {
       "matchId": "viking_bayern_munich_20261014",
@@ -1591,7 +1382,7 @@
       "fotmobMatchId": 6106417,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1622,18 +1413,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-12T22:45:08.898Z"
+      "updatedAt": "2026-10-12T23:00:10.160Z"
     },
     {
       "matchId": "villarreal_napoli_20261014",
@@ -1712,7 +1492,7 @@
       "fotmobMatchId": 6106328,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1743,18 +1523,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-12T22:45:08.898Z"
+      "updatedAt": "2026-10-12T23:00:10.160Z"
     },
     {
       "matchId": "birmingham_city_preston_north_end_20261014",
@@ -1833,7 +1602,7 @@
       "fotmobMatchId": 5836862,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1864,18 +1633,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-12T22:45:08.899Z"
+      "updatedAt": "2026-10-12T23:00:10.160Z"
     },
     {
       "matchId": "stoke_city_middlesbrough_20261014",
@@ -1954,7 +1712,7 @@
       "fotmobMatchId": 5836867,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1985,18 +1743,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-12T22:45:08.899Z"
+      "updatedAt": "2026-10-12T23:00:10.160Z"
     },
     {
       "matchId": "feyenoord_como_20261014",
@@ -2024,7 +1771,7 @@
       "fotmobMatchId": 6106309,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2055,18 +1802,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-12T22:45:08.899Z"
+      "updatedAt": "2026-10-12T23:00:10.160Z"
     },
     {
       "matchId": "lask_liverpool_20261014",
@@ -2115,7 +1851,7 @@
       "fotmobMatchId": 6106405,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2146,18 +1882,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-12T22:45:08.899Z"
+      "updatedAt": "2026-10-12T23:00:10.162Z"
     }
   ],
   "meta": {
@@ -2166,24 +1891,22 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive",
-      "highlight",
-      "myanmartv"
+      "socolive"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 11,
+      "removedExpired": 0,
       "streamsAdded": 0,
-      "matchesAdded": 6
+      "matchesAdded": 0
     },
     "liveCount": 1,
-    "scheduledCount": 20,
+    "scheduledCount": 19,
     "endedCount": 0,
     "manualStreamCount": 0,
     "highlightCount": 18,
     "channelCount": 18,
-    "checksum": "01e6b3ebabd255dc80a13d7743e965a4b0a3ceb03e8a4059ab9339c52a137b36",
-    "cachedAt": "2026-10-12T22:45:08.916Z",
+    "checksum": "89a928e076e3ef13f64c5d3b2ee928d0e67a48acc1b0c2cab4e4a62418f54180",
+    "cachedAt": "2026-10-12T23:00:10.173Z",
     "feed": "admin-match"
   }
 }
