@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-18T18:01:59.600+06:30",
+  "generatedAt": "2026-10-18T18:02:05.557+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 24,
   "matches": [
@@ -185,7 +185,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.560Z",
+      "updatedAt": "2026-10-18T11:32:05.553Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -319,13 +319,13 @@
       "fotmobMatchId": 5868097,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": null,
+      "source": "cakhia",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "ESP LaLiga",
@@ -333,6 +333,12 @@
           "leagueId": 87,
           "homeTeam": "Osasuna",
           "awayTeam": "Racing Santander"
+        },
+        "cakhia": {
+          "league": "SPA D1",
+          "homeTeam": "Osasuna",
+          "awayTeam": "Racing Santander",
+          "url": "https://cakhiazar.tv/truc-tiep/osasuna-vs-racing-santander-luc-1900-ngay-18-10-2026/"
         }
       },
       "sourcePages": {
@@ -340,21 +346,91 @@
         "cakhia": "https://cakhiazar.tv/truc-tiep/osasuna-vs-racing-santander-luc-1900-ngay-18-10-2026/",
         "phut": "https://90phutzzu.tv/truc-tiep/osasuna-vs-racing-santander-luc-1900-ngay-18-10-2026/"
       },
-      "streams": [],
-      "streamAttempts": {},
+      "streams": [
+        {
+          "source": "cakhia",
+          "type": "m3u8",
+          "quality": "FABIO",
+          "name": "FABIO",
+          "url": "https://live2.jorvakstreamcache.com/live/channel2.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://ck.domainkqt.cc/",
+            "Origin": "https://ck.domainkqt.cc"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://ck.domainkqt.cc/",
+            "Origin": "https://ck.domainkqt.cc"
+          },
+          "active": true,
+          "checkedAt": "2026-10-18T11:32:05.519Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
+        }
+      ],
+      "streamAttempts": {
+        "t30": true
+      },
       "matchUrl": "https://xoilacxbt.tv/truc-tiep/osasuna-vs-racing-santander-luc-1900-ngay-18-10-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 3,
       "lastMatchUrlAttemptAt": "2026-10-18T11:31:09.423Z",
       "matchUrlSource": "xoilac",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "SEARCHING",
-      "attempts": 0,
-      "validationStatus": "VALIDATING",
+      "streamUrl": "https://live2.jorvakstreamcache.com/live/channel2.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://ck.domainkqt.cc/",
+        "Origin": "https://ck.domainkqt.cc"
+      },
+      "streamStatus": "AVAILABLE",
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.593Z",
+      "lastAttemptAt": "2026-10-18T11:32:05.519Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {
+          "cakhia": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-10-18T11:32:05.519Z",
+            "updatedAt": "2026-10-18T11:32:05.519Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-10-18T11:31:17.314Z",
+            "slotsDone": {},
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-10-18T11:31:17.314Z",
+            "slotsDone": {},
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -410,7 +486,8 @@
             "confidence": 0
           }
         }
-      }
+      },
+      "updatedAt": "2026-10-18T11:32:05.554Z"
     },
     {
       "matchId": "bournemouth_sunderland_20261018",
@@ -522,7 +599,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.594Z",
+      "updatedAt": "2026-10-18T11:32:05.554Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -650,7 +727,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.595Z",
+      "updatedAt": "2026-10-18T11:32:05.555Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -787,7 +864,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.595Z",
+      "updatedAt": "2026-10-18T11:32:05.555Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -914,7 +991,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.595Z",
+      "updatedAt": "2026-10-18T11:32:05.555Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1041,7 +1118,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.595Z",
+      "updatedAt": "2026-10-18T11:32:05.555Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1168,7 +1245,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.595Z",
+      "updatedAt": "2026-10-18T11:32:05.555Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1295,7 +1372,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.595Z",
+      "updatedAt": "2026-10-18T11:32:05.555Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1422,7 +1499,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.597Z",
+      "updatedAt": "2026-10-18T11:32:05.555Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1549,7 +1626,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.597Z",
+      "updatedAt": "2026-10-18T11:32:05.556Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1646,7 +1723,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.597Z",
+      "updatedAt": "2026-10-18T11:32:05.556Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1773,7 +1850,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.597Z",
+      "updatedAt": "2026-10-18T11:32:05.556Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1900,7 +1977,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.597Z",
+      "updatedAt": "2026-10-18T11:32:05.556Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -2027,7 +2104,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.597Z",
+      "updatedAt": "2026-10-18T11:32:05.556Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -2154,7 +2231,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.597Z",
+      "updatedAt": "2026-10-18T11:32:05.556Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -2279,7 +2356,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.598Z"
+      "updatedAt": "2026-10-18T11:32:05.557Z"
     },
     {
       "matchId": "juventus_lazio_20261019",
@@ -2389,7 +2466,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.598Z"
+      "updatedAt": "2026-10-18T11:32:05.557Z"
     },
     {
       "matchId": "real_madrid_sevilla_20261019",
@@ -2499,7 +2576,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.598Z"
+      "updatedAt": "2026-10-18T11:32:05.557Z"
     },
     {
       "matchId": "fluminense_santos_20261019",
@@ -2609,7 +2686,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.598Z"
+      "updatedAt": "2026-10-18T11:32:05.557Z"
     },
     {
       "matchId": "gremio_cruzeiro_20261019",
@@ -2719,7 +2796,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.598Z"
+      "updatedAt": "2026-10-18T11:32:05.557Z"
     },
     {
       "matchId": "bahia_flamengo_20261019",
@@ -2829,7 +2906,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.598Z"
+      "updatedAt": "2026-10-18T11:32:05.557Z"
     },
     {
       "matchId": "remo_rb_bragantino_20261019",
@@ -2899,7 +2976,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.598Z"
+      "updatedAt": "2026-10-18T11:32:05.557Z"
     },
     {
       "matchId": "monza_cagliari_20261019",
@@ -2999,7 +3076,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-18T11:31:59.599Z"
+      "updatedAt": "2026-10-18T11:32:05.557Z"
     }
   ],
   "meta": {
@@ -3012,9 +3089,9 @@
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 1,
-      "streamsAdded": 2,
-      "matchesAdded": 1
+      "removedExpired": 0,
+      "streamsAdded": 1,
+      "matchesAdded": 0
     },
     "liveCount": 1,
     "scheduledCount": 22,
@@ -3022,8 +3099,8 @@
     "manualStreamCount": 0,
     "highlightCount": 33,
     "channelCount": 18,
-    "checksum": "742de15cc8db7a3571f50a7c1236de104787d36106ea0f15e11960df804beaae",
-    "cachedAt": "2026-10-18T11:31:59.636Z",
+    "checksum": "1ff8f17c4b97589a8c25b0f55e387c9f0618a6d0f3392d54e26a95b31edfa2e7",
+    "cachedAt": "2026-10-18T11:32:05.580Z",
     "feed": "admin-match"
   }
 }
