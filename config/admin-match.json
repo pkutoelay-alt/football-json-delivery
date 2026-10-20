@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T02:00:32.045+06:30",
+  "generatedAt": "2026-10-21T02:00:50.756+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 26,
   "matches": [
@@ -88,7 +88,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.041Z",
+      "updatedAt": "2026-10-20T19:30:50.748Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -187,13 +187,13 @@
       "fotmobMatchId": 6106287,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": true,
-      "streamCount": 1,
+      "streamCount": 2,
       "originalNames": {
         "fotmob": {
           "league": "INT Champions League",
@@ -213,6 +213,25 @@
           "type": "m3u8",
           "quality": "KEN",
           "name": "KEN",
+          "url": "https://live1.quickscoreboardz.com/live/channel18.m3u8?wsSecret=7483e8e2a48b66279658130c170cb67d&wsABSTime=1792567834",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://xlz.domainkqt.cc/",
+            "Origin": "https://xlz.domainkqt.cc"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://xlz.domainkqt.cc/",
+            "Origin": "https://xlz.domainkqt.cc"
+          },
+          "active": true,
+          "checkedAt": "2026-10-20T19:30:50.628Z"
+        },
+        {
+          "source": "cakhia",
+          "type": "m3u8",
+          "quality": "KEN",
+          "name": "KEN",
           "url": "https://live1.quickscoreboardz.com/live/channel18.m3u8?wsSecret=8a35152f4e32b2392358af42884a6e8d&wsABSTime=1792566947",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
@@ -225,27 +244,78 @@
             "Origin": "https://xlz.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-10-20T19:15:49.638Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiazar.tv/truc-tiep/fc-porto-vs-psv-eindhoven-luc-0200-ngay-21-10-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 4,
       "lastMatchUrlAttemptAt": "2026-10-20T19:30:18.026Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel18.m3u8?wsSecret=8a35152f4e32b2392358af42884a6e8d&wsABSTime=1792566947",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel18.m3u8?wsSecret=7483e8e2a48b66279658130c170cb67d&wsABSTime=1792567834",
       "streamHeaders": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
         "Referer": "https://xlz.domainkqt.cc/",
         "Origin": "https://xlz.domainkqt.cc"
       },
       "streamStatus": "BLOCKED",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.041Z",
+      "attempts": 3,
+      "validationStatus": "HTTP_403",
+      "validationReason": "HTTP_403",
+      "lastAttemptAt": "2026-10-20T19:30:50.628Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t0": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-20T19:30:50.628Z",
+            "updatedAt": "2026-10-20T19:30:50.628Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 4,
+            "postKickoffAttempts": 2,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-10-20T19:16:21.048Z",
+            "updatedAt": "2026-10-20T19:30:18.054Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -305,7 +375,8 @@
             "confidence": 0
           }
         }
-      }
+      },
+      "updatedAt": "2026-10-20T19:30:50.751Z"
     },
     {
       "matchId": "liverpool_villarreal_20261021",
@@ -432,7 +503,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.042Z",
+      "updatedAt": "2026-10-20T19:30:50.752Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -637,7 +708,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.042Z",
+      "updatedAt": "2026-10-20T19:30:50.753Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -884,7 +955,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.042Z",
+      "updatedAt": "2026-10-20T19:30:50.753Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -1041,7 +1112,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.042Z",
+      "updatedAt": "2026-10-20T19:30:50.753Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -1160,7 +1231,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.042Z"
+      "updatedAt": "2026-10-20T19:30:50.753Z"
     },
     {
       "matchId": "vfb_stuttgart_atletico_madrid_20261021",
@@ -1199,7 +1270,7 @@
       "fotmobMatchId": 6106397,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": "cakhia",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1237,19 +1308,10 @@
             "Origin": "https://xlz.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": "2026-10-20T18:35:24.256Z"
+          "checkedAt": null
         }
       ],
-      "streamAttempts": {
-        "t30": true,
-        "t20": true,
-        "t15": true,
-        "t10": true,
-        "t5": true,
-        "t0": true,
-        "tP5": true,
-        "tP10": true
-      },
+      "streamAttempts": {},
       "matchUrl": "https://cakhiazar.tv/truc-tiep/vfb-stuttgart-vs-atletico-madrid-luc-0200-ngay-21-10-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 4,
@@ -1262,53 +1324,11 @@
         "Origin": "https://xlz.domainkqt.cc"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 2,
-      "validationStatus": "VALIDATING",
+      "attempts": 0,
+      "validationStatus": null,
       "validationReason": null,
-      "lastAttemptAt": "2026-10-20T19:19:13.131Z",
-      "streamSearch": {
-        "started": true,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {
-          "t30": true,
-          "t0": true
-        },
-        "sources": {
-          "cakhia": {
-            "status": "SEARCHING",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-10-20T19:19:09.282Z",
-            "updatedAt": "2026-10-20T19:30:18.059Z",
-            "slotsDone": {
-              "t30": true,
-              "t20": true,
-              "t0": true,
-              "catchup": true
-            },
-            "extractionMethod": "axios",
-            "extractPassComplete": true
-          },
-          "phut": {
-            "status": "SEARCHING",
-            "attempts": 4,
-            "postKickoffAttempts": 2,
-            "lastError": null,
-            "lastAttemptAt": "2026-10-20T19:19:13.131Z",
-            "updatedAt": "2026-10-20T19:30:18.059Z",
-            "slotsDone": {
-              "t30": true,
-              "t20": true,
-              "t0": true,
-              "catchup": true
-            },
-            "extractionMethod": "axios",
-            "extractPassComplete": true
-          }
-        }
-      },
+      "lastAttemptAt": null,
+      "updatedAt": "2026-10-20T19:30:50.754Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -1368,8 +1388,7 @@
             "confidence": 0
           }
         }
-      },
-      "updatedAt": "2026-10-20T19:30:32.042Z"
+      }
     },
     {
       "matchId": "como_manchester_united_20261021",
@@ -1428,7 +1447,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.043Z"
+      "updatedAt": "2026-10-20T19:30:50.754Z"
     },
     {
       "matchId": "lille_galatasaray_20261021",
@@ -1487,7 +1506,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.043Z"
+      "updatedAt": "2026-10-20T19:30:50.754Z"
     },
     {
       "matchId": "levante_athletic_bilbao_20261022",
@@ -1597,7 +1616,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.043Z"
+      "updatedAt": "2026-10-20T19:30:50.754Z"
     },
     {
       "matchId": "aston_villa_viking_20261022",
@@ -1656,7 +1675,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.043Z"
+      "updatedAt": "2026-10-20T19:30:50.754Z"
     },
     {
       "matchId": "bayern_munich_arsenal_20261022",
@@ -1766,7 +1785,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.043Z"
+      "updatedAt": "2026-10-20T19:30:50.754Z"
     },
     {
       "matchId": "club_brugge_lens_20261022",
@@ -1825,7 +1844,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.043Z"
+      "updatedAt": "2026-10-20T19:30:50.754Z"
     },
     {
       "matchId": "inter_milan_shakhtar_donetsk_20261022",
@@ -1935,7 +1954,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.043Z"
+      "updatedAt": "2026-10-20T19:30:50.754Z"
     },
     {
       "matchId": "real_betis_feyenoord_20261022",
@@ -2005,7 +2024,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.043Z"
+      "updatedAt": "2026-10-20T19:30:50.754Z"
     },
     {
       "matchId": "real_madrid_rb_leipzig_20261022",
@@ -2105,7 +2124,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.043Z"
+      "updatedAt": "2026-10-20T19:30:50.754Z"
     },
     {
       "matchId": "sporting_cp_lask_20261022",
@@ -2195,7 +2214,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.043Z"
+      "updatedAt": "2026-10-20T19:30:50.755Z"
     },
     {
       "matchId": "ararat_armenia_az_alkmaar_20261022",
@@ -2254,7 +2273,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.043Z"
+      "updatedAt": "2026-10-20T19:30:50.755Z"
     },
     {
       "matchId": "dinamo_zagreb_nec_nijmegen_20261022",
@@ -2313,7 +2332,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.044Z"
+      "updatedAt": "2026-10-20T19:30:50.755Z"
     },
     {
       "matchId": "ferencvaros_torreense_20261022",
@@ -2372,7 +2391,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.044Z"
+      "updatedAt": "2026-10-20T19:30:50.755Z"
     },
     {
       "matchId": "juventus_rennes_20261022",
@@ -2431,7 +2450,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.045Z"
+      "updatedAt": "2026-10-20T19:30:50.755Z"
     },
     {
       "matchId": "lech_poznan_sunderland_20261022",
@@ -2490,7 +2509,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.045Z"
+      "updatedAt": "2026-10-20T19:30:50.755Z"
     },
     {
       "matchId": "ofi_crete_bayer_leverkusen_20261022",
@@ -2549,7 +2568,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.045Z"
+      "updatedAt": "2026-10-20T19:30:50.755Z"
     },
     {
       "matchId": "sturm_graz_olympique_marseille_20261022",
@@ -2608,7 +2627,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.045Z"
+      "updatedAt": "2026-10-20T19:30:50.755Z"
     },
     {
       "matchId": "union_st_gilloise_hapoel_beer_sheva_20261022",
@@ -2667,7 +2686,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-20T19:30:32.045Z"
+      "updatedAt": "2026-10-20T19:30:50.755Z"
     }
   ],
   "meta": {
@@ -2681,7 +2700,7 @@
     "adminApplied": true,
     "sync": {
       "removedExpired": 0,
-      "streamsAdded": 0,
+      "streamsAdded": 1,
       "matchesAdded": 0
     },
     "liveCount": 8,
@@ -2690,8 +2709,8 @@
     "manualStreamCount": 0,
     "highlightCount": 25,
     "channelCount": 18,
-    "checksum": "c24e39a256290186429ef92c4ccd0f3370f273e61f0c3871d2e2c9d3fb7fb60c",
-    "cachedAt": "2026-10-20T19:30:32.059Z",
+    "checksum": "0515f39ba4b9ac09ef00842857eae17a8dcc3e7254c7facdb6d9ba2b24437337",
+    "cachedAt": "2026-10-20T19:30:50.789Z",
     "feed": "admin-match"
   }
 }
