@@ -25,7 +25,7 @@
       "priority": 450,
       "extractionMethod": "axios-first",
       "domains": [
-        "https://cakhiazaz.tv/"
+        "https://cakhiapp.io"
       ],
       "mirrorDomains": [],
       "paths": {
@@ -158,10 +158,10 @@
           ".play-button"
         ]
       },
-      "notes": "https://cakhiazaz.tv/ (cakhiazaa.tv redirects here)",
+      "notes": "https://cakhiapp.io/ (cakhiazaa.tv redirects here)",
       "playbackHeaders": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-        "Referer": "https://cakhiazaz.tv/"
+        "Referer": "https://cakhiapp.io/"
       }
     },
     {
@@ -172,7 +172,7 @@
       "extractionMethod": "axios-first",
       "parser": "xoilac",
       "domains": [
-        "https://xoilacxbn.tv/"
+        "https://xoilacxyc.io"
       ],
       "mirrorDomains": [],
       "paths": {
@@ -282,10 +282,10 @@
           ".btn-play"
         ]
       },
-      "notes": "https://xoilacxbn.tv/ (xoilacxbg.tv redirects here)",
+      "notes": "https://xoilacxyc.io/ (xoilacxbg.tv redirects here)",
       "playbackHeaders": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-        "Referer": "https://xoilacxbn.tv/"
+        "Referer": "https://xoilacxyc.io/"
       }
     },
     {
@@ -295,7 +295,7 @@
       "priority": 350,
       "extractionMethod": "axios-first",
       "domains": [
-        "https://90phutzaf.tv/"
+        "https://90phutgg.io"
       ],
       "mirrorDomains": [],
       "paths": {
@@ -419,10 +419,10 @@
           ".play-button"
         ]
       },
-      "notes": "https://90phutzaf.tv/ (90phutzba.tv redirects here)",
+      "notes": "https://90phutgg.io/ (90phutzba.tv redirects here)",
       "playbackHeaders": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-        "Referer": "https://90phutzaf.tv/"
+        "Referer": "https://90phutgg.io/"
       }
     },
     {
@@ -433,7 +433,7 @@
       "extractionMethod": "axios-first",
       "parser": "socolive",
       "domains": [
-        "https://socolivezu.tv"
+        "https://socoliveza.tv"
       ],
       "mirrorDomains": [],
       "paths": {
@@ -543,10 +543,10 @@
           ".btn-play"
         ]
       },
-      "notes": "https://socolivezu.tv/",
+      "notes": "https://socoliveza.tv/",
       "playbackHeaders": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
-        "Referer": "https://socolivezu.tv/"
+        "Referer": "https://socoliveza.tv/"
       }
     },
     {
@@ -600,7 +600,7 @@
       "parser": "socolive",
       "feed": "highlight2",
       "domains": [
-        "https://socolivezu.tv/"
+        "https://socolivezq.tv/"
       ],
       "paths": {
         "list": "/video-highlight/",
@@ -649,18 +649,36 @@
       "retentionDays": 5,
       "maxPages": 10,
       "maxItems": 40,
-      "notes": "Socolive video-highlight last 5 days. Paginates list via axios. GitHub highlight2.json."
+      "notes": "Socolive video-highlight last 5 days. List host https://socolivezq.tv/. GitHub highlight2.json."
     },
     {
-      "name": "myanmartv",
+      "name": "results",
       "enabled": true,
-      "type": "channels",
+      "type": "results",
       "domains": [
-        "https://www.myanmartvchannels.com/"
+        "https://socolivezu.tv/kqbd/"
       ],
       "paths": {
-        "channels": "https://www.myanmartvchannels.com/tv-channels.html"
-      }
+        "page": "https://socolivezu.tv/kqbd/",
+        "api": "https://fb-api.apiscoreflow.com/football/match/recent/"
+      },
+      "selectors": {
+        "card": [
+          ".as-match"
+        ]
+      },
+      "attrs": {
+        "href": [
+          "href",
+          "data-href"
+        ],
+        "src": [
+          "src",
+          "data-src"
+        ]
+      },
+      "logoUrl": "https://imgts.sportpulseapiz.com/football/team/{id}/image/small",
+      "notes": "Football results. Website URL is the Referer. Scores load from paths.api. Card class, href, and image attributes are edited from the admin Feeds page."
     },
     {
       "name": "tips",
@@ -673,7 +691,7 @@
         "today": "https://www.predictz.com/predictions/",
         "tomorrow": "https://www.predictz.com/predictions/tomorrow/"
       },
-      "notes": "PredictZ today + tomorrow tips. Default TIPS_CRON 08:07 and 20:07 Yangon; queued if football scrape is busy."
+      "notes": "PredictZ today + tomorrow tips. Once daily at 14:00 Yangon, when the today table is published. A logo or Cloudflare page is not saved as today."
     }
   ]
 }
