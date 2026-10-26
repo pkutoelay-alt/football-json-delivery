@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T05:15:05.045+06:30",
+  "generatedAt": "2026-10-27T05:15:12.402+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 7,
   "matches": [
@@ -81,7 +81,7 @@
       "fotmobMatchId": 5103681,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -121,7 +121,7 @@
             "Origin": "https://xlz.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-10-26T22:00:32.052Z"
         },
         {
           "source": "xoilac",
@@ -140,10 +140,19 @@
             "Origin": "https://xl365.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-10-26T22:00:38.113Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiazbo.tv/truc-tiep/coritiba-vs-gremio-rs-luc-0530-ngay-27-10-2026/",
       "matchUrlStatus": "MATCH_URL_FOUND",
       "matchUrlAttempts": 1,
@@ -156,11 +165,82 @@
         "Origin": "https://xlz.domainkqt.cc"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-10-26T22:45:05.043Z",
+      "attempts": 1,
+      "validationStatus": "VALIDATING",
+      "validationReason": "NOT_FOUND",
+      "lastAttemptAt": "2026-10-26T22:30:57.121Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true,
+          "t0": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": null,
+            "lastAttemptAt": "2026-10-26T22:30:20.156Z",
+            "updatedAt": "2026-10-26T22:45:12.375Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-10-26T22:30:35.675Z",
+            "updatedAt": "2026-10-26T22:45:12.375Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": null,
+            "lastAttemptAt": "2026-10-26T22:30:41.490Z",
+            "updatedAt": "2026-10-26T22:45:12.375Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-10-26T22:30:57.121Z",
+            "updatedAt": "2026-10-26T22:45:12.375Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -211,7 +291,8 @@
             "confidence": 89
           }
         }
-      }
+      },
+      "updatedAt": "2026-10-26T22:45:12.400Z"
     },
     {
       "matchId": "flamengo_atletico_mg_20261027",
@@ -290,7 +371,7 @@
       "fotmobMatchId": 5103674,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -308,13 +389,11 @@
       },
       "sourcePages": {},
       "streams": [],
-      "streamAttempts": {
-        "t30": true
-      },
+      "streamAttempts": {},
       "matchUrl": null,
       "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 4,
-      "lastMatchUrlAttemptAt": "2026-10-26T22:45:05.030Z",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -323,75 +402,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": true,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {
-          "t60": true,
-          "t50": true,
-          "t30": true
-        },
-        "sources": {
-          "cakhia": {
-            "matchUrl": null,
-            "status": "MATCH_URL_FAILED",
-            "attempts": 4,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-10-26T22:45:05.030Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true
-            },
-            "confidence": 0
-          },
-          "xoilac": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 3,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-10-26T22:30:13.398Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true
-            },
-            "confidence": 0
-          },
-          "phut": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 3,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-10-26T22:30:14.570Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true
-            },
-            "confidence": 0
-          },
-          "socolive": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 3,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-10-26T22:30:15.361Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true
-            },
-            "confidence": 0
-          }
-        }
-      },
-      "updatedAt": "2026-10-26T22:45:05.044Z"
+      "updatedAt": "2026-10-26T22:45:12.401Z"
     },
     {
       "matchId": "sassuolo_lazio_20261028",
@@ -501,7 +512,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-26T22:45:05.044Z"
+      "updatedAt": "2026-10-26T22:45:12.401Z"
     },
     {
       "matchId": "bradford_city_peterborough_united_20261028",
@@ -611,7 +622,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-26T22:45:05.045Z"
+      "updatedAt": "2026-10-26T22:45:12.401Z"
     },
     {
       "matchId": "as_roma_cagliari_20261028",
@@ -721,7 +732,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-26T22:45:05.045Z"
+      "updatedAt": "2026-10-26T22:45:12.402Z"
     },
     {
       "matchId": "torino_como_20261028",
@@ -821,7 +832,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-26T22:45:05.045Z"
+      "updatedAt": "2026-10-26T22:45:12.402Z"
     },
     {
       "matchId": "fleetwood_town_arsenal_20261028",
@@ -880,7 +891,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-26T22:45:05.045Z"
+      "updatedAt": "2026-10-26T22:45:12.402Z"
     }
   ],
   "meta": {
@@ -893,7 +904,7 @@
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 1,
+      "removedExpired": 0,
       "streamsAdded": 0,
       "matchesAdded": 0
     },
@@ -903,8 +914,8 @@
     "manualStreamCount": 0,
     "highlightCount": 30,
     "channelCount": 0,
-    "checksum": "80458bf8c1c41b67a2561e7117f46fa3f5b547141851364c7807163827c95343",
-    "cachedAt": "2026-10-26T22:45:05.057Z",
+    "checksum": "b8f3c5507490a73abb05db33b9df214da69b6f17b427f0f2b5b323565a9daa9e",
+    "cachedAt": "2026-10-26T22:45:12.411Z",
     "feed": "admin-match"
   }
 }
