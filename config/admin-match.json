@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T04:00:01.170+06:30",
+  "generatedAt": "2026-10-27T04:00:11.067+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 9,
   "matches": [
@@ -179,6 +179,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
+      "updatedAt": "2026-10-26T21:30:11.065Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -229,8 +230,7 @@
             "confidence": 100
           }
         }
-      },
-      "updatedAt": "2026-10-26T21:30:01.161Z"
+      }
     },
     {
       "matchId": "torreense_amarante_fc_20261027",
@@ -258,7 +258,7 @@
       "fotmobMatchId": 5888088,
       "leagueId": 185,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -278,9 +278,9 @@
       "streams": [],
       "streamAttempts": {},
       "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": null,
+      "matchUrlStatus": "MATCH_URL_SEARCHING",
+      "matchUrlAttempts": 1,
+      "lastMatchUrlAttemptAt": "2026-10-26T21:30:11.048Z",
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -289,7 +289,25 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-26T21:30:01.162Z"
+      "matchUrlSearch": {
+        "slotsDone": {
+          "tLive": true
+        },
+        "sources": {
+          "cakhia": {
+            "matchUrl": null,
+            "status": "MATCH_URL_SEARCHING",
+            "attempts": 1,
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-10-26T21:30:11.048Z",
+            "slotsDone": {
+              "tLive": true
+            },
+            "confidence": 0
+          }
+        }
+      },
+      "updatedAt": "2026-10-26T21:30:11.066Z"
     },
     {
       "matchId": "coritiba_gremio_20261027",
@@ -399,7 +417,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-26T21:30:01.165Z"
+      "updatedAt": "2026-10-26T21:30:11.066Z"
     },
     {
       "matchId": "flamengo_atletico_mg_20261027",
@@ -509,7 +527,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-26T21:30:01.165Z"
+      "updatedAt": "2026-10-26T21:30:11.066Z"
     },
     {
       "matchId": "sassuolo_lazio_20261028",
@@ -619,7 +637,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-26T21:30:01.166Z"
+      "updatedAt": "2026-10-26T21:30:11.067Z"
     },
     {
       "matchId": "bradford_city_peterborough_united_20261028",
@@ -729,7 +747,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-26T21:30:01.166Z"
+      "updatedAt": "2026-10-26T21:30:11.067Z"
     },
     {
       "matchId": "as_roma_cagliari_20261028",
@@ -839,7 +857,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-26T21:30:01.169Z"
+      "updatedAt": "2026-10-26T21:30:11.067Z"
     },
     {
       "matchId": "torino_como_20261028",
@@ -939,7 +957,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-26T21:30:01.169Z"
+      "updatedAt": "2026-10-26T21:30:11.067Z"
     },
     {
       "matchId": "fleetwood_town_arsenal_20261028",
@@ -998,15 +1016,20 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-26T21:30:01.170Z"
+      "updatedAt": "2026-10-26T21:30:11.067Z"
     }
   ],
   "meta": {
-    "configOrigin": "expire",
-    "sources": [],
+    "configOrigin": "local+github",
+    "sources": [
+      "cakhia",
+      "xoilac",
+      "phut",
+      "socolive"
+    ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 1,
+      "removedExpired": 0,
       "streamsAdded": 0,
       "matchesAdded": 0
     },
@@ -1016,8 +1039,8 @@
     "manualStreamCount": 0,
     "highlightCount": 30,
     "channelCount": 0,
-    "checksum": "c43d94984d1525729c5c48c25c247f17c4adeed16d7700882c5890fabdffc4e0",
-    "cachedAt": "2026-10-26T21:30:01.194Z",
+    "checksum": "6788d44c0c4eff3bc82b424bba967486328ef0fd53365de9bfc187f69a3d23e5",
+    "cachedAt": "2026-10-26T21:30:11.079Z",
     "feed": "admin-match"
   }
 }
