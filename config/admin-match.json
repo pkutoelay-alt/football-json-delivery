@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T05:15:55.102+06:30",
+  "generatedAt": "2026-10-27T05:30:12.170+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 7,
   "matches": [
@@ -81,7 +81,7 @@
       "fotmobMatchId": 5103681,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": "phut",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -166,8 +166,8 @@
       },
       "streamStatus": "AVAILABLE",
       "attempts": 2,
-      "validationStatus": "AVAILABLE",
-      "validationReason": null,
+      "validationStatus": "VALIDATING",
+      "validationReason": "NOT_FOUND",
       "lastAttemptAt": "2026-10-26T22:45:52.520Z",
       "streamSearch": {
         "started": true,
@@ -180,12 +180,12 @@
         },
         "sources": {
           "cakhia": {
-            "status": "AVAILABLE",
+            "status": "SEARCHING",
             "attempts": 4,
             "postKickoffAttempts": 2,
             "lastError": null,
             "lastAttemptAt": "2026-10-26T22:45:17.416Z",
-            "updatedAt": "2026-10-26T22:45:17.416Z",
+            "updatedAt": "2026-10-26T23:00:12.147Z",
             "slotsDone": {
               "t30": true,
               "t20": true,
@@ -201,7 +201,7 @@
             "postKickoffAttempts": 2,
             "lastError": "NOT_FOUND",
             "lastAttemptAt": "2026-10-26T22:45:31.114Z",
-            "updatedAt": "2026-10-26T22:45:31.114Z",
+            "updatedAt": "2026-10-26T23:00:12.147Z",
             "slotsDone": {
               "t30": true,
               "t20": true,
@@ -212,12 +212,12 @@
             "extractPassComplete": false
           },
           "phut": {
-            "status": "AVAILABLE",
+            "status": "SEARCHING",
             "attempts": 4,
             "postKickoffAttempts": 2,
             "lastError": null,
             "lastAttemptAt": "2026-10-26T22:45:36.815Z",
-            "updatedAt": "2026-10-26T22:45:36.815Z",
+            "updatedAt": "2026-10-26T23:00:12.147Z",
             "slotsDone": {
               "t30": true,
               "t20": true,
@@ -233,7 +233,7 @@
             "postKickoffAttempts": 2,
             "lastError": "NOT_FOUND",
             "lastAttemptAt": "2026-10-26T22:45:52.520Z",
-            "updatedAt": "2026-10-26T22:45:52.520Z",
+            "updatedAt": "2026-10-26T23:00:12.147Z",
             "slotsDone": {
               "t30": true,
               "t20": true,
@@ -296,7 +296,7 @@
           }
         }
       },
-      "updatedAt": "2026-10-26T22:45:55.101Z"
+      "updatedAt": "2026-10-26T23:00:12.169Z"
     },
     {
       "matchId": "flamengo_atletico_mg_20261027",
@@ -312,7 +312,7 @@
       "time": "5:30 AM",
       "kickoff": "2026-10-27T05:30:00.000+06:30",
       "timezone": "Asia/Yangon",
-      "status": "PREPARING_STREAM",
+      "status": "LIVE",
       "h2h": {
         "summary": {
           "homeWins": 3,
@@ -375,7 +375,7 @@
       "fotmobMatchId": 5103674,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -393,15 +393,11 @@
       },
       "sourcePages": {},
       "streams": [],
-      "streamAttempts": {
-        "t30": true,
-        "t20": true,
-        "t15": true
-      },
+      "streamAttempts": {},
       "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_SEARCHING",
-      "matchUrlAttempts": 4,
-      "lastMatchUrlAttemptAt": "2026-10-26T22:45:12.350Z",
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -410,75 +406,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": true,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {
-          "t60": true,
-          "t50": true,
-          "t30": true
-        },
-        "sources": {
-          "cakhia": {
-            "matchUrl": null,
-            "status": "MATCH_URL_FAILED",
-            "attempts": 4,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-10-26T22:45:05.030Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true
-            },
-            "confidence": 0
-          },
-          "xoilac": {
-            "matchUrl": null,
-            "status": "MATCH_URL_FAILED",
-            "attempts": 4,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-10-26T22:45:10.152Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true
-            },
-            "confidence": 0
-          },
-          "phut": {
-            "matchUrl": null,
-            "status": "MATCH_URL_FAILED",
-            "attempts": 4,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-10-26T22:45:11.315Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true
-            },
-            "confidence": 0
-          },
-          "socolive": {
-            "matchUrl": null,
-            "status": "MATCH_URL_FAILED",
-            "attempts": 4,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-10-26T22:45:12.350Z",
-            "slotsDone": {
-              "t60": true,
-              "t50": true,
-              "t30": true
-            },
-            "confidence": 0
-          }
-        }
-      },
-      "updatedAt": "2026-10-26T22:45:55.102Z"
+      "updatedAt": "2026-10-26T23:00:12.170Z"
     },
     {
       "matchId": "sassuolo_lazio_20261028",
@@ -557,7 +485,7 @@
       "fotmobMatchId": 5749727,
       "leagueId": 55,
       "leagueName": "Serie A",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -588,18 +516,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-26T22:45:55.102Z"
+      "updatedAt": "2026-10-26T23:00:12.170Z"
     },
     {
       "matchId": "bradford_city_peterborough_united_20261028",
@@ -678,7 +595,7 @@
       "fotmobMatchId": 6275372,
       "leagueId": 938221,
       "leagueName": "EFL Cup (ENG LC)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -709,18 +626,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-26T22:45:55.102Z"
+      "updatedAt": "2026-10-26T23:00:12.170Z"
     },
     {
       "matchId": "as_roma_cagliari_20261028",
@@ -799,7 +705,7 @@
       "fotmobMatchId": 5749721,
       "leagueId": 55,
       "leagueName": "Serie A",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -830,18 +736,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-26T22:45:55.102Z"
+      "updatedAt": "2026-10-26T23:00:12.170Z"
     },
     {
       "matchId": "torino_como_20261028",
@@ -910,7 +805,7 @@
       "fotmobMatchId": 5749728,
       "leagueId": 55,
       "leagueName": "Serie A",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -941,18 +836,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-26T22:45:55.102Z"
+      "updatedAt": "2026-10-26T23:00:12.170Z"
     },
     {
       "matchId": "fleetwood_town_arsenal_20261028",
@@ -980,7 +864,7 @@
       "fotmobMatchId": 6275367,
       "leagueId": 938221,
       "leagueName": "EFL Cup (ENG LC)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1011,18 +895,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {},
-        "sources": {}
-      },
-      "updatedAt": "2026-10-26T22:45:55.102Z"
+      "updatedAt": "2026-10-26T23:00:12.170Z"
     }
   ],
   "meta": {
@@ -1031,23 +904,22 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive",
-      "highlight"
+      "socolive"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 11,
-      "streamsAdded": 1,
-      "matchesAdded": 2
+      "removedExpired": 0,
+      "streamsAdded": 0,
+      "matchesAdded": 0
     },
-    "liveCount": 1,
+    "liveCount": 2,
     "scheduledCount": 5,
     "endedCount": 0,
     "manualStreamCount": 0,
     "highlightCount": 30,
     "channelCount": 0,
-    "checksum": "1db6649763577f2eebdef404c6ee5b5a209d7bfa50fd0b5149f527bebe28db7b",
-    "cachedAt": "2026-10-26T22:45:55.111Z",
+    "checksum": "7b17f6a052f9b13a497a66b3821eede6abcdc688804b49d8c56d0b84735f5f05",
+    "cachedAt": "2026-10-26T23:00:12.182Z",
     "feed": "admin-match"
   }
 }
