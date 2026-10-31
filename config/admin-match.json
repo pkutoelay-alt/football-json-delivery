@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-31T23:33:51.505+06:30",
+  "generatedAt": "2026-10-31T23:33:59.381+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 35,
   "matches": [
@@ -160,7 +160,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.499Z",
+      "updatedAt": "2026-10-31T17:03:59.376Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -349,7 +349,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.500Z",
+      "updatedAt": "2026-10-31T17:03:59.377Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -509,7 +509,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.500Z"
+      "updatedAt": "2026-10-31T17:03:59.377Z"
     },
     {
       "matchId": "udinese_as_roma_20261031",
@@ -665,7 +665,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.501Z",
+      "updatedAt": "2026-10-31T17:03:59.377Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t50": true,
@@ -857,7 +857,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.501Z",
+      "updatedAt": "2026-10-31T17:03:59.377Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -994,7 +994,7 @@
       "fotmobMatchId": 5881208,
       "leagueId": 54,
       "leagueName": "Bundesliga",
-      "source": "fotmob",
+      "source": "socolive",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1031,14 +1031,10 @@
             "Origin": "https://soco.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": "2026-10-31T17:03:37.025Z",
-          "validationStatus": "HTTP_403",
-          "validationReason": "HTTP_403"
+          "checkedAt": null
         }
       ],
-      "streamAttempts": {
-        "t30": true
-      },
+      "streamAttempts": {},
       "matchUrl": "https://socolivezw.tv/truc-tiep/bayern-munich-vs-dortmund-luc-0030-ngay-01-11-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 3,
@@ -1051,31 +1047,11 @@
         "Origin": "https://soco.domainkqt.cc"
       },
       "streamStatus": "BLOCKED",
-      "attempts": 1,
-      "validationStatus": "HTTP_403",
-      "validationReason": "HTTP_403",
-      "lastAttemptAt": "2026-10-31T17:03:51.456Z",
-      "streamSearch": {
-        "started": true,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {
-          "socolive": {
-            "status": "SEARCHING",
-            "attempts": 1,
-            "postKickoffAttempts": 0,
-            "lastError": "HTTP_403",
-            "lastAttemptAt": "2026-10-31T17:03:51.456Z",
-            "updatedAt": "2026-10-31T17:03:51.456Z",
-            "slotsDone": {
-              "t30": true
-            },
-            "extractionMethod": "puppeteer",
-            "extractPassComplete": false
-          }
-        }
-      },
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "updatedAt": "2026-10-31T17:03:59.377Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -1133,8 +1109,7 @@
             "confidence": 0
           }
         }
-      },
-      "updatedAt": "2026-10-31T17:03:51.501Z"
+      }
     },
     {
       "matchId": "real_betis_malaga_20261101",
@@ -1213,13 +1188,13 @@
       "fotmobMatchId": 5868112,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": null,
+      "source": "socolive",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
-      "hasStreams": false,
-      "streamCount": 0,
+      "hasStreams": true,
+      "streamCount": 1,
       "originalNames": {
         "fotmob": {
           "league": "ESP LaLiga",
@@ -1232,21 +1207,69 @@
       "sourcePages": {
         "socolive": "https://socolivezw.tv/truc-tiep/real-betis-vs-malaga-luc-0030-ngay-01-11-2026/"
       },
-      "streams": [],
-      "streamAttempts": {},
+      "streams": [
+        {
+          "source": "socolive",
+          "type": "m3u8",
+          "quality": "ASTRA",
+          "name": "ASTRA",
+          "url": "https://live2.jorvakstreamcache.com/live/channel11.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.domainkqt.cc/",
+            "Origin": "https://soco.domainkqt.cc"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://soco.domainkqt.cc/",
+            "Origin": "https://soco.domainkqt.cc"
+          },
+          "active": true,
+          "checkedAt": "2026-10-31T17:03:59.334Z",
+          "validationStatus": "AVAILABLE",
+          "validationReason": null
+        }
+      ],
+      "streamAttempts": {
+        "t30": true
+      },
       "matchUrl": "https://socolivezw.tv/truc-tiep/real-betis-vs-malaga-luc-0030-ngay-01-11-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 3,
       "lastMatchUrlAttemptAt": "2026-10-31T17:02:04.385Z",
       "matchUrlSource": "socolive",
-      "streamUrl": null,
-      "streamHeaders": null,
-      "streamStatus": "SEARCHING",
-      "attempts": 0,
-      "validationStatus": "VALIDATING",
+      "streamUrl": "https://live2.jorvakstreamcache.com/live/channel11.m3u8",
+      "streamHeaders": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+        "Referer": "https://soco.domainkqt.cc/",
+        "Origin": "https://soco.domainkqt.cc"
+      },
+      "streamStatus": "AVAILABLE",
+      "attempts": 1,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.501Z",
+      "lastAttemptAt": "2026-10-31T17:03:59.335Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {
+          "socolive": {
+            "status": "AVAILABLE",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-10-31T17:03:59.335Z",
+            "updatedAt": "2026-10-31T17:03:59.335Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -1304,7 +1327,8 @@
             "confidence": 0
           }
         }
-      }
+      },
+      "updatedAt": "2026-10-31T17:03:59.378Z"
     },
     {
       "matchId": "benfica_b_chaves_20261101",
@@ -1414,7 +1438,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.502Z"
+      "updatedAt": "2026-10-31T17:03:59.378Z"
     },
     {
       "matchId": "uniao_de_leiria_avs_futebol_sad_20261101",
@@ -1494,7 +1518,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.502Z"
+      "updatedAt": "2026-10-31T17:03:59.378Z"
     },
     {
       "matchId": "coritiba_vitoria_20261101",
@@ -1604,7 +1628,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.502Z"
+      "updatedAt": "2026-10-31T17:03:59.379Z"
     },
     {
       "matchId": "troyes_le_mans_20261101",
@@ -1714,7 +1738,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.502Z"
+      "updatedAt": "2026-10-31T17:03:59.379Z"
     },
     {
       "matchId": "ac_milan_inter_milan_20261101",
@@ -1824,7 +1848,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.502Z"
+      "updatedAt": "2026-10-31T17:03:59.379Z"
     },
     {
       "matchId": "aston_villa_fulham_20261101",
@@ -1934,7 +1958,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.502Z"
+      "updatedAt": "2026-10-31T17:03:59.379Z"
     },
     {
       "matchId": "barcelona_alaves_20261101",
@@ -2044,7 +2068,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.502Z"
+      "updatedAt": "2026-10-31T17:03:59.379Z"
     },
     {
       "matchId": "fc_porto_estoril_20261101",
@@ -2154,7 +2178,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.502Z"
+      "updatedAt": "2026-10-31T17:03:59.379Z"
     },
     {
       "matchId": "ulsan_hd_fc_gangwon_fc_20261101",
@@ -2264,7 +2288,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.503Z"
+      "updatedAt": "2026-10-31T17:03:59.379Z"
     },
     {
       "matchId": "pohang_steelers_jeju_united_20261101",
@@ -2374,7 +2398,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.503Z"
+      "updatedAt": "2026-10-31T17:03:59.379Z"
     },
     {
       "matchId": "fc_seoul_incheon_united_20261101",
@@ -2484,7 +2508,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.503Z"
+      "updatedAt": "2026-10-31T17:03:59.379Z"
     },
     {
       "matchId": "fc_anyang_bucheon_fc_1995_20261101",
@@ -2594,7 +2618,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.503Z"
+      "updatedAt": "2026-10-31T17:03:59.379Z"
     },
     {
       "matchId": "vizela_academica_20261101",
@@ -2694,7 +2718,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.503Z"
+      "updatedAt": "2026-10-31T17:03:59.379Z"
     },
     {
       "matchId": "como_venezia_20261101",
@@ -2804,7 +2828,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.503Z"
+      "updatedAt": "2026-10-31T17:03:59.380Z"
     },
     {
       "matchId": "getafe_sevilla_20261101",
@@ -2914,7 +2938,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.504Z"
+      "updatedAt": "2026-10-31T17:03:59.380Z"
     },
     {
       "matchId": "strasbourg_auxerre_20261101",
@@ -3024,7 +3048,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.504Z"
+      "updatedAt": "2026-10-31T17:03:59.380Z"
     },
     {
       "matchId": "frosinone_torino_20261101",
@@ -3134,7 +3158,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.504Z"
+      "updatedAt": "2026-10-31T17:03:59.380Z"
     },
     {
       "matchId": "lazio_cagliari_20261101",
@@ -3244,7 +3268,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.504Z"
+      "updatedAt": "2026-10-31T17:03:59.380Z"
     },
     {
       "matchId": "tondela_felgueiras_1932_20261101",
@@ -3334,7 +3358,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.504Z"
+      "updatedAt": "2026-10-31T17:03:59.380Z"
     },
     {
       "matchId": "union_berlin_1_fc_koln_20261101",
@@ -3444,7 +3468,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.504Z"
+      "updatedAt": "2026-10-31T17:03:59.380Z"
     },
     {
       "matchId": "racing_santander_real_madrid_20261101",
@@ -3544,7 +3568,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.504Z"
+      "updatedAt": "2026-10-31T17:03:59.380Z"
     },
     {
       "matchId": "arouca_nacional_20261101",
@@ -3654,7 +3678,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.504Z"
+      "updatedAt": "2026-10-31T17:03:59.380Z"
     },
     {
       "matchId": "lusitania_lourosa_farense_20261101",
@@ -3734,7 +3758,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.504Z"
+      "updatedAt": "2026-10-31T17:03:59.380Z"
     },
     {
       "matchId": "olympique_lyonnais_angers_20261101",
@@ -3844,7 +3868,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.505Z"
+      "updatedAt": "2026-10-31T17:03:59.380Z"
     },
     {
       "matchId": "paris_fc_as_monaco_20261101",
@@ -3934,7 +3958,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.505Z"
+      "updatedAt": "2026-10-31T17:03:59.380Z"
     },
     {
       "matchId": "liverpool_arsenal_20261101",
@@ -4044,7 +4068,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.505Z"
+      "updatedAt": "2026-10-31T17:03:59.381Z"
     },
     {
       "matchId": "eintracht_frankfurt_hamburger_sv_20261101",
@@ -4154,7 +4178,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.505Z"
+      "updatedAt": "2026-10-31T17:03:59.381Z"
     },
     {
       "matchId": "lecce_genoa_20261101",
@@ -4264,7 +4288,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-10-31T17:03:51.505Z"
+      "updatedAt": "2026-10-31T17:03:59.381Z"
     }
   ],
   "meta": {
@@ -4287,8 +4311,8 @@
     "manualStreamCount": 0,
     "highlightCount": 25,
     "channelCount": 0,
-    "checksum": "d44588f6f5b562694a022595a89cdbf08942f9ff8fc1573da5491ece9e00e232",
-    "cachedAt": "2026-10-31T17:03:51.528Z",
+    "checksum": "c07235bb86eb625fa8777791a54e80fbad8fd9c5df182970ccad2fe763676ce7",
+    "cachedAt": "2026-10-31T17:03:59.400Z",
     "feed": "admin-match"
   }
 }
