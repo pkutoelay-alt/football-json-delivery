@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T23:15:08.412+06:30",
+  "generatedAt": "2026-11-01T23:15:14.848+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 15,
   "matches": [
@@ -169,7 +169,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T16:45:08.405Z",
+      "updatedAt": "2026-11-01T16:45:14.844Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -378,7 +378,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T16:45:08.405Z",
+      "updatedAt": "2026-11-01T16:45:14.845Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -509,7 +509,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T16:45:08.408Z"
+      "updatedAt": "2026-11-01T16:45:14.845Z"
     },
     {
       "matchId": "olympique_lyonnais_angers_20261101",
@@ -619,7 +619,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T16:45:08.408Z"
+      "updatedAt": "2026-11-01T16:45:14.846Z"
     },
     {
       "matchId": "paris_fc_as_monaco_20261101",
@@ -678,7 +678,7 @@
       "fotmobMatchId": 5802979,
       "leagueId": 53,
       "leagueName": "Ligue 1",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -718,7 +718,7 @@
             "Origin": "https://xlz.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-01T15:46:59.898Z"
         },
         {
           "source": "xoilac",
@@ -737,10 +737,19 @@
             "Origin": "https://xl365.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-01T15:47:06.623Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiazbc.tv/truc-tiep/paris-fc-vs-as-monaco-luc-2315-ngay-01-11-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -753,11 +762,86 @@
         "Origin": "https://xlz.domainkqt.cc"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T16:45:08.408Z",
+      "attempts": 2,
+      "validationStatus": "VALIDATING",
+      "validationReason": "NOT_FOUND",
+      "lastAttemptAt": "2026-11-01T16:31:18.355Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true,
+          "t0": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 4,
+            "postKickoffAttempts": 2,
+            "lastError": null,
+            "lastAttemptAt": "2026-11-01T16:30:38.147Z",
+            "updatedAt": "2026-11-01T16:45:14.793Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 4,
+            "postKickoffAttempts": 2,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-01T16:30:55.002Z",
+            "updatedAt": "2026-11-01T16:45:14.793Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 4,
+            "postKickoffAttempts": 2,
+            "lastError": null,
+            "lastAttemptAt": "2026-11-01T16:31:02.311Z",
+            "updatedAt": "2026-11-01T16:45:14.796Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 4,
+            "postKickoffAttempts": 2,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-01T16:31:18.355Z",
+            "updatedAt": "2026-11-01T16:45:14.796Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -808,7 +892,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-01T16:45:14.846Z"
     },
     {
       "matchId": "liverpool_arsenal_20261101",
@@ -985,7 +1070,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T16:45:08.409Z",
+      "updatedAt": "2026-11-01T16:45:14.846Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -1193,7 +1278,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T16:45:08.409Z",
+      "updatedAt": "2026-11-01T16:45:14.846Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -1401,7 +1486,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T16:45:08.409Z",
+      "updatedAt": "2026-11-01T16:45:14.847Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -1531,7 +1616,7 @@
       "fotmobMatchId": 5868114,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1566,13 +1651,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
+      "updatedAt": "2026-11-01T16:45:14.847Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -1625,8 +1704,7 @@
             "confidence": 100
           }
         }
-      },
-      "updatedAt": "2026-11-01T16:45:08.411Z"
+      }
     },
     {
       "matchId": "academico_viseu_rio_ave_20261102",
@@ -1716,7 +1794,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T16:45:08.411Z"
+      "updatedAt": "2026-11-01T16:45:14.847Z"
     },
     {
       "matchId": "maritimo_santa_clara_20261102",
@@ -1826,7 +1904,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T16:45:08.411Z"
+      "updatedAt": "2026-11-01T16:45:14.847Z"
     },
     {
       "matchId": "olympique_marseille_toulouse_20261102",
@@ -1936,7 +2014,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T16:45:08.411Z"
+      "updatedAt": "2026-11-01T16:45:14.848Z"
     },
     {
       "matchId": "juventus_napoli_20261102",
@@ -2046,7 +2124,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T16:45:08.412Z"
+      "updatedAt": "2026-11-01T16:45:14.848Z"
     },
     {
       "matchId": "athletic_bilbao_real_sociedad_20261102",
@@ -2156,7 +2234,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T16:45:08.412Z"
+      "updatedAt": "2026-11-01T16:45:14.848Z"
     },
     {
       "matchId": "braga_famalicao_20261102",
@@ -2266,7 +2344,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T16:45:08.412Z"
+      "updatedAt": "2026-11-01T16:45:14.848Z"
     }
   ],
   "meta": {
@@ -2289,8 +2367,8 @@
     "manualStreamCount": 0,
     "highlightCount": 26,
     "channelCount": 0,
-    "checksum": "daa934862fe28f7f4f4ad121554b75e0782e12001457210a2d57f9228b9d362f",
-    "cachedAt": "2026-11-01T16:45:08.425Z",
+    "checksum": "75ae5f0718bb65de16d6d4e2ab5470418e6ad3fd8a8a8041670ced1f82a18dec",
+    "cachedAt": "2026-11-01T16:45:14.858Z",
     "feed": "admin-match"
   }
 }
