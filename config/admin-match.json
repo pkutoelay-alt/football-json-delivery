@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T01:15:27.015+06:30",
+  "generatedAt": "2026-11-02T01:15:29.531+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 17,
   "matches": [
@@ -160,7 +160,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T18:45:27.013Z",
+      "updatedAt": "2026-11-01T18:45:29.528Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -290,7 +290,7 @@
       "fotmobMatchId": 5868114,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -329,7 +329,7 @@
             "Origin": "https://xlz.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-01T17:02:48.961Z"
         },
         {
           "source": "socolive",
@@ -348,10 +348,19 @@
             "Origin": "https://soco.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-01T17:03:00.432Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiazbc.tv/truc-tiep/elche-cf-vs-valencia-cf-luc-0030-ngay-02-11-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 4,
@@ -364,11 +373,70 @@
         "Origin": "https://xlz.domainkqt.cc"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T18:45:27.013Z",
+      "attempts": 3,
+      "validationStatus": "NOT_FOUND",
+      "validationReason": "NOT_FOUND",
+      "lastAttemptAt": "2026-11-01T18:00:41.033Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": true,
+        "stopTime": "2026-11-02T00:45:39.702+06:30",
+        "slotsDone": {
+          "t30": true,
+          "t20": true,
+          "t0": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-11-01T18:00:20.294Z",
+            "updatedAt": "2026-11-01T18:15:08.688Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "phut": {
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-11-01T18:00:23.761Z",
+            "updatedAt": "2026-11-01T18:15:08.688Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "socolive": {
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-01T18:00:41.033Z",
+            "updatedAt": "2026-11-01T18:00:41.033Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -425,7 +493,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-01T18:45:29.528Z"
     },
     {
       "matchId": "academico_viseu_rio_ave_20261102",
@@ -484,7 +553,7 @@
       "fotmobMatchId": 5887663,
       "leagueId": 61,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -502,11 +571,20 @@
       },
       "sourcePages": {},
       "streams": [],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 0,
-      "lastMatchUrlAttemptAt": null,
+      "matchUrlStatus": "MATCH_URL_SEARCHING",
+      "matchUrlAttempts": 4,
+      "lastMatchUrlAttemptAt": "2026-11-01T18:45:24.770Z",
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -515,7 +593,80 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T18:45:27.014Z"
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {
+          "t60": true,
+          "t50": true,
+          "t30": true,
+          "tLive": true
+        },
+        "sources": {
+          "cakhia": {
+            "matchUrl": null,
+            "status": "MATCH_URL_FAILED",
+            "attempts": 4,
+            "liveAttempts": 4,
+            "lastAttemptAt": "2026-11-01T18:45:05.589Z",
+            "slotsDone": {
+              "t60": true,
+              "t50": true,
+              "t30": true,
+              "tLive": true
+            },
+            "confidence": 0
+          },
+          "xoilac": {
+            "matchUrl": null,
+            "status": "MATCH_URL_FAILED",
+            "attempts": 4,
+            "liveAttempts": 4,
+            "lastAttemptAt": "2026-11-01T18:45:12.981Z",
+            "slotsDone": {
+              "t60": true,
+              "t50": true,
+              "t30": true,
+              "tLive": true
+            },
+            "confidence": 0
+          },
+          "phut": {
+            "matchUrl": null,
+            "status": "MATCH_URL_FAILED",
+            "attempts": 4,
+            "liveAttempts": 4,
+            "lastAttemptAt": "2026-11-01T18:45:18.776Z",
+            "slotsDone": {
+              "t60": true,
+              "t50": true,
+              "t30": true,
+              "tLive": true
+            },
+            "confidence": 0
+          },
+          "socolive": {
+            "matchUrl": null,
+            "status": "MATCH_URL_FAILED",
+            "attempts": 4,
+            "liveAttempts": 4,
+            "lastAttemptAt": "2026-11-01T18:45:24.770Z",
+            "slotsDone": {
+              "t60": true,
+              "t50": true,
+              "t30": true,
+              "tLive": true
+            },
+            "confidence": 0
+          }
+        }
+      },
+      "updatedAt": "2026-11-01T18:45:29.528Z"
     },
     {
       "matchId": "maritimo_santa_clara_20261102",
@@ -594,7 +745,7 @@
       "fotmobMatchId": 5887668,
       "leagueId": 61,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -633,7 +784,7 @@
             "Origin": "https://xlz.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-01T17:30:53.633Z"
         },
         {
           "source": "socolive",
@@ -652,14 +803,23 @@
             "Origin": "https://soco.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-01T17:31:05.116Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://cakhiazbc.tv/truc-tiep/maritimo-vs-santa-clara-luc-0100-ngay-02-11-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 4,
-      "lastMatchUrlAttemptAt": "2026-11-01T18:30:07.302Z",
+      "lastMatchUrlAttemptAt": "2026-11-01T18:45:12.981Z",
       "matchUrlSource": "cakhia",
       "streamUrl": "https://live2.jorvakstreamcache.com/live/channel14.m3u8",
       "streamHeaders": {
@@ -668,11 +828,70 @@
         "Origin": "https://xlz.domainkqt.cc"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T18:45:27.014Z",
+      "attempts": 3,
+      "validationStatus": "NOT_FOUND",
+      "validationReason": "NOT_FOUND",
+      "lastAttemptAt": "2026-11-01T18:30:37.519Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": true,
+        "stopTime": "2026-11-02T01:15:29.467+06:30",
+        "slotsDone": {
+          "t30": true,
+          "t20": true,
+          "t0": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-11-01T18:30:16.955Z",
+            "updatedAt": "2026-11-01T18:45:29.451Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "phut": {
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": null,
+            "lastAttemptAt": "2026-11-01T18:30:20.593Z",
+            "updatedAt": "2026-11-01T18:45:29.451Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "socolive": {
+            "status": "FAILED",
+            "attempts": 5,
+            "postKickoffAttempts": 3,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-01T18:30:37.519Z",
+            "updatedAt": "2026-11-01T18:30:37.519Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -694,10 +913,10 @@
           },
           "xoilac": {
             "matchUrl": null,
-            "status": "MATCH_URL_SEARCHING",
+            "status": "MATCH_URL_FAILED",
             "attempts": 4,
-            "liveAttempts": 3,
-            "lastAttemptAt": "2026-11-01T18:30:07.302Z",
+            "liveAttempts": 4,
+            "lastAttemptAt": "2026-11-01T18:45:12.981Z",
             "slotsDone": {
               "t60": true,
               "t50": true,
@@ -729,7 +948,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-01T18:45:29.529Z"
     },
     {
       "matchId": "olympique_marseille_toulouse_20261102",
@@ -808,7 +1028,7 @@
       "fotmobMatchId": 5802977,
       "leagueId": 53,
       "leagueName": "Ligue 1",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -843,7 +1063,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T18:45:27.014Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -894,7 +1120,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-01T18:45:29.529Z"
     },
     {
       "matchId": "juventus_napoli_20261102",
@@ -1066,7 +1293,7 @@
           }
         }
       },
-      "updatedAt": "2026-11-01T18:45:27.014Z"
+      "updatedAt": "2026-11-01T18:45:29.529Z"
     },
     {
       "matchId": "athletic_bilbao_real_sociedad_20261102",
@@ -1145,7 +1372,7 @@
       "fotmobMatchId": 5868111,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1176,7 +1403,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T18:45:27.014Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-01T18:45:29.529Z"
     },
     {
       "matchId": "braga_famalicao_20261102",
@@ -1255,7 +1493,7 @@
       "fotmobMatchId": 5887665,
       "leagueId": 61,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1286,7 +1524,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T18:45:27.014Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-01T18:45:29.529Z"
     },
     {
       "matchId": "sassuolo_fiorentina_20261103",
@@ -1365,7 +1614,7 @@
       "fotmobMatchId": 5749738,
       "leagueId": 55,
       "leagueName": "Serie A",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1396,7 +1645,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T18:45:27.014Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-01T18:45:29.529Z"
     },
     {
       "matchId": "penafiel_feirense_20261103",
@@ -1475,7 +1735,7 @@
       "fotmobMatchId": 5888094,
       "leagueId": 185,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1506,7 +1766,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T18:45:27.014Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-01T18:45:29.530Z"
     },
     {
       "matchId": "lorient_brest_20261103",
@@ -1585,7 +1856,7 @@
       "fotmobMatchId": 5802975,
       "leagueId": 53,
       "leagueName": "Ligue 1",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1616,7 +1887,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T18:45:27.014Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-01T18:45:29.530Z"
     },
     {
       "matchId": "atalanta_parma_20261103",
@@ -1695,7 +1977,7 @@
       "fotmobMatchId": 5749731,
       "leagueId": 55,
       "leagueName": "Serie A",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1726,7 +2008,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T18:45:27.015Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-01T18:45:29.530Z"
     },
     {
       "matchId": "newcastle_united_everton_20261103",
@@ -1805,7 +2098,7 @@
       "fotmobMatchId": 5795503,
       "leagueId": 47,
       "leagueName": "English Premier League (EPL)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1836,7 +2129,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T18:45:27.015Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-01T18:45:29.530Z"
     },
     {
       "matchId": "deportivo_a_coruna_osasuna_20261103",
@@ -1915,7 +2219,7 @@
       "fotmobMatchId": 5868113,
       "leagueId": 87,
       "leagueName": "La Liga",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1946,7 +2250,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T18:45:27.015Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-01T18:45:29.530Z"
     },
     {
       "matchId": "benfica_alverca_20261103",
@@ -1995,7 +2310,7 @@
       "fotmobMatchId": 5887671,
       "leagueId": 61,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2026,7 +2341,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T18:45:27.015Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-01T18:45:29.530Z"
     },
     {
       "matchId": "gil_vicente_vitoria_de_guimaraes_20261103",
@@ -2105,7 +2431,7 @@
       "fotmobMatchId": 5887667,
       "leagueId": 61,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2136,7 +2462,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T18:45:27.015Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-01T18:45:29.531Z"
     },
     {
       "matchId": "rb_bragantino_santos_20261103",
@@ -2215,7 +2552,7 @@
       "fotmobMatchId": 5103698,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2246,7 +2583,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T18:45:27.015Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-01T18:45:29.531Z"
     }
   ],
   "meta": {
@@ -2255,13 +2603,14 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive"
+      "socolive",
+      "highlight"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 0,
+      "removedExpired": 2,
       "streamsAdded": 0,
-      "matchesAdded": 0
+      "matchesAdded": 2
     },
     "liveCount": 4,
     "scheduledCount": 11,
@@ -2269,8 +2618,8 @@
     "manualStreamCount": 0,
     "highlightCount": 26,
     "channelCount": 0,
-    "checksum": "fc57e81eedf7f9de10eec3650c449d918d96eb4eade5d0a2b0279347e52ff532",
-    "cachedAt": "2026-11-01T18:45:27.025Z",
+    "checksum": "4b512289778c9f6fc2094fe068e10161249b14d51c2620f062718e8d6b18f8aa",
+    "cachedAt": "2026-11-01T18:45:29.548Z",
     "feed": "admin-match"
   }
 }
