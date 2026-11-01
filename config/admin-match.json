@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T18:00:33.856+06:30",
+  "generatedAt": "2026-11-01T18:00:50.380+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 23,
   "matches": [
@@ -102,7 +102,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.852Z"
+      "updatedAt": "2026-11-01T11:30:50.341Z"
     },
     {
       "matchId": "como_venezia_20261101",
@@ -181,13 +181,13 @@
       "fotmobMatchId": 5749733,
       "leagueId": 55,
       "leagueName": "Serie A",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
       "featured": false,
       "hasStreams": true,
-      "streamCount": 3,
+      "streamCount": 4,
       "originalNames": {
         "fotmob": {
           "league": "ITA Serie A",
@@ -209,6 +209,25 @@
           "type": "m3u8",
           "quality": "NICK",
           "name": "NICK",
+          "url": "https://live1.quickscoreboardz.com/live/channel5.m3u8?wsSecret=07d803e4270c30c6daf1d0b61e32165b&wsABSTime=1793575836",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://xlz.domainkqt.cc/",
+            "Origin": "https://xlz.domainkqt.cc"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://xlz.domainkqt.cc/",
+            "Origin": "https://xlz.domainkqt.cc"
+          },
+          "active": true,
+          "checkedAt": "2026-11-01T11:30:49.952Z"
+        },
+        {
+          "source": "cakhia",
+          "type": "m3u8",
+          "quality": "NICK",
+          "name": "NICK",
           "url": "https://live1.quickscoreboardz.com/live/channel5.m3u8?wsSecret=2d4f563573c32435b4ed9ed4d9a90507&wsABSTime=1793574934",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
@@ -221,7 +240,7 @@
             "Origin": "https://xlz.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-01T11:15:36.833Z"
         },
         {
           "source": "xoilac",
@@ -240,7 +259,7 @@
             "Origin": "https://xl365.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-01T11:01:05.173Z"
         },
         {
           "source": "socolive",
@@ -259,27 +278,101 @@
             "Origin": "https://soco.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-01T11:01:40.636Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true
+      },
       "matchUrl": "https://cakhiazbc.tv/truc-tiep/como-vs-venezia-luc-1830-ngay-01-11-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
       "lastMatchUrlAttemptAt": "2026-11-01T10:30:35.176Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": "https://live1.quickscoreboardz.com/live/channel5.m3u8?wsSecret=2d4f563573c32435b4ed9ed4d9a90507&wsABSTime=1793574934",
+      "streamUrl": "https://live1.quickscoreboardz.com/live/channel5.m3u8?wsSecret=07d803e4270c30c6daf1d0b61e32165b&wsABSTime=1793575836",
       "streamHeaders": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
         "Referer": "https://xlz.domainkqt.cc/",
         "Origin": "https://xlz.domainkqt.cc"
       },
       "streamStatus": "BLOCKED",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.852Z",
+      "attempts": 2,
+      "validationStatus": "HTTP_403",
+      "validationReason": "HTTP_403",
+      "lastAttemptAt": "2026-11-01T11:30:49.952Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-11-01T11:30:49.952Z",
+            "updatedAt": "2026-11-01T11:30:49.952Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-01T11:16:06.522Z",
+            "updatedAt": "2026-11-01T11:30:22.872Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-11-01T11:16:20.199Z",
+            "updatedAt": "2026-11-01T11:30:22.873Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-01T11:16:34.130Z",
+            "updatedAt": "2026-11-01T11:30:22.873Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -330,7 +423,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-01T11:30:50.363Z"
     },
     {
       "matchId": "getafe_sevilla_20261101",
@@ -440,7 +534,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.853Z"
+      "updatedAt": "2026-11-01T11:30:50.373Z"
     },
     {
       "matchId": "strasbourg_auxerre_20261101",
@@ -550,7 +644,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.853Z"
+      "updatedAt": "2026-11-01T11:30:50.374Z"
     },
     {
       "matchId": "frosinone_torino_20261101",
@@ -660,7 +754,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.853Z"
+      "updatedAt": "2026-11-01T11:30:50.374Z"
     },
     {
       "matchId": "lazio_cagliari_20261101",
@@ -770,7 +864,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.853Z"
+      "updatedAt": "2026-11-01T11:30:50.376Z"
     },
     {
       "matchId": "tondela_felgueiras_1932_20261101",
@@ -860,7 +954,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.853Z"
+      "updatedAt": "2026-11-01T11:30:50.376Z"
     },
     {
       "matchId": "union_berlin_1_fc_koln_20261101",
@@ -970,7 +1064,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.854Z"
+      "updatedAt": "2026-11-01T11:30:50.376Z"
     },
     {
       "matchId": "racing_santander_real_madrid_20261101",
@@ -1070,7 +1164,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.854Z"
+      "updatedAt": "2026-11-01T11:30:50.376Z"
     },
     {
       "matchId": "arouca_nacional_20261101",
@@ -1180,7 +1274,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.854Z"
+      "updatedAt": "2026-11-01T11:30:50.377Z"
     },
     {
       "matchId": "lusitania_lourosa_farense_20261101",
@@ -1260,7 +1354,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.854Z"
+      "updatedAt": "2026-11-01T11:30:50.377Z"
     },
     {
       "matchId": "olympique_lyonnais_angers_20261101",
@@ -1370,7 +1464,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.854Z"
+      "updatedAt": "2026-11-01T11:30:50.377Z"
     },
     {
       "matchId": "paris_fc_as_monaco_20261101",
@@ -1460,7 +1554,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.854Z"
+      "updatedAt": "2026-11-01T11:30:50.377Z"
     },
     {
       "matchId": "liverpool_arsenal_20261101",
@@ -1570,7 +1664,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.854Z"
+      "updatedAt": "2026-11-01T11:30:50.377Z"
     },
     {
       "matchId": "eintracht_frankfurt_hamburger_sv_20261101",
@@ -1680,7 +1774,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.855Z"
+      "updatedAt": "2026-11-01T11:30:50.377Z"
     },
     {
       "matchId": "lecce_genoa_20261101",
@@ -1790,7 +1884,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.855Z"
+      "updatedAt": "2026-11-01T11:30:50.377Z"
     },
     {
       "matchId": "elche_valencia_20261102",
@@ -1900,7 +1994,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.855Z"
+      "updatedAt": "2026-11-01T11:30:50.377Z"
     },
     {
       "matchId": "academico_viseu_rio_ave_20261102",
@@ -1990,7 +2084,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.855Z"
+      "updatedAt": "2026-11-01T11:30:50.377Z"
     },
     {
       "matchId": "maritimo_santa_clara_20261102",
@@ -2100,7 +2194,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.855Z"
+      "updatedAt": "2026-11-01T11:30:50.378Z"
     },
     {
       "matchId": "olympique_marseille_toulouse_20261102",
@@ -2210,7 +2304,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.855Z"
+      "updatedAt": "2026-11-01T11:30:50.378Z"
     },
     {
       "matchId": "juventus_napoli_20261102",
@@ -2320,7 +2414,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.856Z"
+      "updatedAt": "2026-11-01T11:30:50.378Z"
     },
     {
       "matchId": "athletic_bilbao_real_sociedad_20261102",
@@ -2430,7 +2524,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.856Z"
+      "updatedAt": "2026-11-01T11:30:50.378Z"
     },
     {
       "matchId": "braga_famalicao_20261102",
@@ -2540,7 +2634,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-01T11:30:33.856Z"
+      "updatedAt": "2026-11-01T11:30:50.378Z"
     }
   ],
   "meta": {
@@ -2553,9 +2647,9 @@
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 1,
-      "streamsAdded": 2,
-      "matchesAdded": 1
+      "removedExpired": 0,
+      "streamsAdded": 1,
+      "matchesAdded": 0
     },
     "liveCount": 2,
     "scheduledCount": 21,
@@ -2563,8 +2657,8 @@
     "manualStreamCount": 0,
     "highlightCount": 26,
     "channelCount": 0,
-    "checksum": "4b1e1ce997013fb569d7052e470d6c847087e13a42c120ec063a2cf9b593fe60",
-    "cachedAt": "2026-11-01T11:30:33.875Z",
+    "checksum": "9fe9c546e8351e465402ab633b5e784853529c058ea58ed46d358a84a2b746a2",
+    "cachedAt": "2026-11-01T11:30:50.431Z",
     "feed": "admin-match"
   }
 }
