@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T00:30:50.268+06:30",
+  "generatedAt": "2026-11-03T00:31:06.134+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 30,
   "matches": [
@@ -119,9 +119,7 @@
             "Origin": "https://ck.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": "2026-11-02T18:00:32.517Z",
-          "validationStatus": "AVAILABLE",
-          "validationReason": null
+          "checkedAt": null
         },
         {
           "source": "phut",
@@ -140,19 +138,10 @@
             "Origin": "https://91p.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": "2026-11-02T17:00:44.784Z"
+          "checkedAt": null
         }
       ],
-      "streamAttempts": {
-        "t30": true,
-        "t20": true,
-        "t15": true,
-        "t10": true,
-        "t5": true,
-        "t0": true,
-        "tP5": true,
-        "tP10": true
-      },
+      "streamAttempts": {},
       "matchUrl": "https://cronodon.com/truc-tiep/sassuolo-vs-fiorentina-luc-0030-ngay-03-11-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 4,
@@ -165,54 +154,11 @@
         "Origin": "https://ck.domainkqt.cc"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 3,
-      "validationStatus": "AVAILABLE",
+      "attempts": 0,
+      "validationStatus": null,
       "validationReason": null,
-      "lastAttemptAt": "2026-11-02T18:00:49.742Z",
-      "streamSearch": {
-        "started": true,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {
-          "t30": true,
-          "t20": true,
-          "t0": true
-        },
-        "sources": {
-          "cakhia": {
-            "status": "AVAILABLE",
-            "attempts": 5,
-            "postKickoffAttempts": 3,
-            "lastError": null,
-            "lastAttemptAt": "2026-11-02T18:00:32.518Z",
-            "updatedAt": "2026-11-02T18:00:32.518Z",
-            "slotsDone": {
-              "t30": true,
-              "t20": true,
-              "t0": true,
-              "catchup": true
-            },
-            "extractionMethod": "axios",
-            "extractPassComplete": true
-          },
-          "phut": {
-            "status": "FAILED",
-            "attempts": 5,
-            "postKickoffAttempts": 3,
-            "lastError": "NOT_FOUND",
-            "lastAttemptAt": "2026-11-02T18:00:49.742Z",
-            "updatedAt": "2026-11-02T18:00:49.742Z",
-            "slotsDone": {
-              "t30": true,
-              "t20": true,
-              "t0": true,
-              "catchup": true
-            },
-            "extractionMethod": "puppeteer",
-            "extractPassComplete": false
-          }
-        }
-      },
+      "lastAttemptAt": null,
+      "updatedAt": "2026-11-02T18:01:06.129Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -272,8 +218,7 @@
             "confidence": 0
           }
         }
-      },
-      "updatedAt": "2026-11-02T18:00:50.235Z"
+      }
     },
     {
       "matchId": "penafiel_feirense_20261103",
@@ -352,7 +297,7 @@
       "fotmobMatchId": 5888094,
       "leagueId": 185,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -391,10 +336,17 @@
             "Origin": "https://ck.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-02T17:30:51.497Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true
+      },
       "matchUrl": "https://socolivezw.tv/truc-tiep/penafiel-vs-feirense-luc-0100-ngay-03-11-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 4,
@@ -407,11 +359,64 @@
         "Origin": "https://ck.domainkqt.cc"
       },
       "streamStatus": "BLOCKED",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.262Z",
+      "attempts": 2,
+      "validationStatus": "VALIDATING",
+      "validationReason": "NOT_FOUND",
+      "lastAttemptAt": "2026-11-02T18:01:06.077Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-02T18:01:06.077Z",
+            "updatedAt": "2026-11-02T18:01:06.077Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-02T17:46:16.935Z",
+            "updatedAt": "2026-11-02T18:00:24.903Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-02T17:46:30.560Z",
+            "updatedAt": "2026-11-02T18:00:24.903Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -467,7 +472,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-02T18:01:06.130Z"
     },
     {
       "matchId": "lorient_brest_20261103",
@@ -579,7 +585,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.262Z",
+      "updatedAt": "2026-11-02T18:01:06.131Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -706,7 +712,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.263Z",
+      "updatedAt": "2026-11-02T18:01:06.131Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -833,7 +839,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.263Z",
+      "updatedAt": "2026-11-02T18:01:06.131Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -960,7 +966,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.263Z",
+      "updatedAt": "2026-11-02T18:01:06.131Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1057,7 +1063,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.263Z",
+      "updatedAt": "2026-11-02T18:01:06.131Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1184,7 +1190,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.263Z",
+      "updatedAt": "2026-11-02T18:01:06.132Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1311,7 +1317,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.263Z",
+      "updatedAt": "2026-11-02T18:01:06.132Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1385,7 +1391,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.263Z"
+      "updatedAt": "2026-11-02T18:01:06.132Z"
     },
     {
       "matchId": "shakhtar_donetsk_sporting_cp_20261104",
@@ -1444,7 +1450,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.263Z"
+      "updatedAt": "2026-11-02T18:01:06.132Z"
     },
     {
       "matchId": "blackburn_rovers_stoke_city_20261104",
@@ -1554,7 +1560,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.263Z"
+      "updatedAt": "2026-11-02T18:01:06.132Z"
     },
     {
       "matchId": "derby_county_norwich_city_20261104",
@@ -1664,7 +1670,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.263Z"
+      "updatedAt": "2026-11-02T18:01:06.133Z"
     },
     {
       "matchId": "portsmouth_swansea_city_20261104",
@@ -1774,7 +1780,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.264Z"
+      "updatedAt": "2026-11-02T18:01:06.133Z"
     },
     {
       "matchId": "preston_north_end_sheffield_united_20261104",
@@ -1884,7 +1890,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.264Z"
+      "updatedAt": "2026-11-02T18:01:06.133Z"
     },
     {
       "matchId": "queens_park_rangers_burnley_20261104",
@@ -1994,7 +2000,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.264Z"
+      "updatedAt": "2026-11-02T18:01:06.133Z"
     },
     {
       "matchId": "watford_lincoln_city_20261104",
@@ -2053,7 +2059,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.264Z"
+      "updatedAt": "2026-11-02T18:01:06.133Z"
     },
     {
       "matchId": "charlton_athletic_bolton_wanderers_20261104",
@@ -2163,7 +2169,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.264Z"
+      "updatedAt": "2026-11-02T18:01:06.133Z"
     },
     {
       "matchId": "atletico_madrid_bayern_munich_20261104",
@@ -2273,7 +2279,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.264Z"
+      "updatedAt": "2026-11-02T18:01:06.133Z"
     },
     {
       "matchId": "barcelona_aston_villa_20261104",
@@ -2332,7 +2338,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.264Z"
+      "updatedAt": "2026-11-02T18:01:06.133Z"
     },
     {
       "matchId": "bod_glimt_lille_20261104",
@@ -2391,7 +2397,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.264Z"
+      "updatedAt": "2026-11-02T18:01:06.134Z"
     },
     {
       "matchId": "feyenoord_inter_milan_20261104",
@@ -2471,7 +2477,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.264Z"
+      "updatedAt": "2026-11-02T18:01:06.134Z"
     },
     {
       "matchId": "lask_slovan_bratislava_20261104",
@@ -2530,7 +2536,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.264Z"
+      "updatedAt": "2026-11-02T18:01:06.134Z"
     },
     {
       "matchId": "manchester_united_as_roma_20261104",
@@ -2620,7 +2626,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.265Z"
+      "updatedAt": "2026-11-02T18:01:06.134Z"
     },
     {
       "matchId": "villarreal_paris_saint_germain_20261104",
@@ -2679,7 +2685,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.265Z"
+      "updatedAt": "2026-11-02T18:01:06.134Z"
     },
     {
       "matchId": "birmingham_city_millwall_20261104",
@@ -2789,7 +2795,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.265Z"
+      "updatedAt": "2026-11-02T18:01:06.134Z"
     },
     {
       "matchId": "west_bromwich_albion_southampton_20261104",
@@ -2899,7 +2905,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.265Z"
+      "updatedAt": "2026-11-02T18:01:06.134Z"
     },
     {
       "matchId": "chapecoense_mirassol_20261104",
@@ -3009,7 +3015,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.265Z"
+      "updatedAt": "2026-11-02T18:01:06.134Z"
     },
     {
       "matchId": "internacional_coritiba_20261104",
@@ -3119,7 +3125,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.265Z"
+      "updatedAt": "2026-11-02T18:01:06.134Z"
     },
     {
       "matchId": "rennes_olympiacos_20261104",
@@ -3178,7 +3184,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T18:00:50.265Z"
+      "updatedAt": "2026-11-02T18:01:06.134Z"
     }
   ],
   "meta": {
@@ -3192,7 +3198,7 @@
     "adminApplied": true,
     "sync": {
       "removedExpired": 0,
-      "streamsAdded": 1,
+      "streamsAdded": 0,
       "matchesAdded": 0
     },
     "liveCount": 2,
@@ -3201,8 +3207,8 @@
     "manualStreamCount": 0,
     "highlightCount": 29,
     "channelCount": 0,
-    "checksum": "30948d0d81762019a7b0ca05bb3851cb803174fc273b05ddedcee4680e980b0f",
-    "cachedAt": "2026-11-02T18:00:50.299Z",
+    "checksum": "06420ac28b2ef31be948431efa84fb8d7110012af5b4afa50a34d031e1203505",
+    "cachedAt": "2026-11-02T18:01:06.150Z",
     "feed": "admin-match"
   }
 }
