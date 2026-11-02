@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T02:15:16.182+06:30",
+  "generatedAt": "2026-11-03T02:15:19.103+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 29,
   "matches": [
@@ -140,7 +140,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.177Z",
+      "updatedAt": "2026-11-02T19:45:19.098Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -332,7 +332,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.178Z",
+      "updatedAt": "2026-11-02T19:45:19.098Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -469,7 +469,7 @@
       "fotmobMatchId": 5749731,
       "leagueId": 55,
       "leagueName": "Serie A",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -488,6 +488,7 @@
       "sourcePages": {
         "socolive": "https://socolivezw.tv/truc-tiep/atalanta-vs-parma-luc-0245-ngay-03-11-2026/",
         "cakhia": "https://cronodon.com/truc-tiep/atalanta-vs-parma-luc-0245-ngay-03-11-2026/",
+        "xoilac": "https://bluecloudsolutions.com/truc-tiep/atalanta-vs-parma-luc-0245-ngay-03-11-2026/",
         "phut": "https://90phutzaq.tv/truc-tiep/atalanta-vs-parma-luc-0245-ngay-03-11-2026/"
       },
       "streams": [
@@ -508,7 +509,7 @@
             "Origin": "https://ck.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-02T19:16:08.046Z"
         },
         {
           "source": "phut",
@@ -527,14 +528,18 @@
             "Origin": "https://91p.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-02T19:16:18.906Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true
+      },
       "matchUrl": "https://socolivezw.tv/truc-tiep/atalanta-vs-parma-luc-0245-ngay-03-11-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 4,
-      "lastMatchUrlAttemptAt": "2026-11-02T19:30:19.290Z",
+      "lastMatchUrlAttemptAt": "2026-11-02T19:45:19.077Z",
       "matchUrlSource": "socolive",
       "streamUrl": "https://live2.jorvakstreamcache.com/live/channel2.m3u8",
       "streamHeaders": {
@@ -543,16 +548,69 @@
         "Origin": "https://ck.domainkqt.cc"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.179Z",
+      "attempts": 2,
+      "validationStatus": "VALIDATING",
+      "validationReason": "NOT_FOUND",
+      "lastAttemptAt": "2026-11-02T19:31:51.012Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-02T19:31:23.419Z",
+            "updatedAt": "2026-11-02T19:31:23.419Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-02T19:31:37.190Z",
+            "updatedAt": "2026-11-02T19:31:37.190Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-02T19:31:51.012Z",
+            "updatedAt": "2026-11-02T19:31:51.012Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
           "t50": true,
-          "t30": true
+          "t30": true,
+          "tLive": true
         },
         "sources": {
           "socolive": {
@@ -577,17 +635,18 @@
             "confidence": 100
           },
           "xoilac": {
-            "matchUrl": null,
-            "status": "MATCH_URL_FAILED",
+            "matchUrl": "https://bluecloudsolutions.com/truc-tiep/atalanta-vs-parma-luc-0245-ngay-03-11-2026/",
+            "status": "MATCH_URL_CONFIRMED",
             "attempts": 4,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-11-02T19:30:19.290Z",
+            "liveAttempts": 1,
+            "lastAttemptAt": "2026-11-02T19:45:19.077Z",
             "slotsDone": {
               "t60": true,
               "t50": true,
-              "t30": true
+              "t30": true,
+              "tLive": true
             },
-            "confidence": 0
+            "confidence": 100
           },
           "phut": {
             "matchUrl": "https://90phutzaq.tv/truc-tiep/atalanta-vs-parma-luc-0245-ngay-03-11-2026/",
@@ -601,7 +660,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-02T19:45:19.098Z"
     },
     {
       "matchId": "newcastle_united_everton_20261103",
@@ -777,7 +837,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.179Z",
+      "updatedAt": "2026-11-02T19:45:19.098Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -967,7 +1027,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.180Z",
+      "updatedAt": "2026-11-02T19:45:19.099Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -1109,7 +1169,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.180Z",
+      "updatedAt": "2026-11-02T19:45:19.099Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -1275,7 +1335,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.180Z",
+      "updatedAt": "2026-11-02T19:45:19.099Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -1439,7 +1499,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.180Z",
+      "updatedAt": "2026-11-02T19:45:19.100Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1513,7 +1573,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.180Z"
+      "updatedAt": "2026-11-02T19:45:19.100Z"
     },
     {
       "matchId": "shakhtar_donetsk_sporting_cp_20261104",
@@ -1572,7 +1632,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.180Z"
+      "updatedAt": "2026-11-02T19:45:19.100Z"
     },
     {
       "matchId": "blackburn_rovers_stoke_city_20261104",
@@ -1682,7 +1742,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.181Z"
+      "updatedAt": "2026-11-02T19:45:19.100Z"
     },
     {
       "matchId": "derby_county_norwich_city_20261104",
@@ -1792,7 +1852,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.181Z"
+      "updatedAt": "2026-11-02T19:45:19.100Z"
     },
     {
       "matchId": "portsmouth_swansea_city_20261104",
@@ -1902,7 +1962,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.181Z"
+      "updatedAt": "2026-11-02T19:45:19.100Z"
     },
     {
       "matchId": "preston_north_end_sheffield_united_20261104",
@@ -2012,7 +2072,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.181Z"
+      "updatedAt": "2026-11-02T19:45:19.101Z"
     },
     {
       "matchId": "queens_park_rangers_burnley_20261104",
@@ -2122,7 +2182,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.181Z"
+      "updatedAt": "2026-11-02T19:45:19.101Z"
     },
     {
       "matchId": "watford_lincoln_city_20261104",
@@ -2181,7 +2241,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.181Z"
+      "updatedAt": "2026-11-02T19:45:19.101Z"
     },
     {
       "matchId": "charlton_athletic_bolton_wanderers_20261104",
@@ -2291,7 +2351,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.181Z"
+      "updatedAt": "2026-11-02T19:45:19.101Z"
     },
     {
       "matchId": "atletico_madrid_bayern_munich_20261104",
@@ -2401,7 +2461,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.181Z"
+      "updatedAt": "2026-11-02T19:45:19.101Z"
     },
     {
       "matchId": "barcelona_aston_villa_20261104",
@@ -2460,7 +2520,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.181Z"
+      "updatedAt": "2026-11-02T19:45:19.101Z"
     },
     {
       "matchId": "bod_glimt_lille_20261104",
@@ -2519,7 +2579,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.181Z"
+      "updatedAt": "2026-11-02T19:45:19.101Z"
     },
     {
       "matchId": "feyenoord_inter_milan_20261104",
@@ -2599,7 +2659,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.181Z"
+      "updatedAt": "2026-11-02T19:45:19.102Z"
     },
     {
       "matchId": "lask_slovan_bratislava_20261104",
@@ -2658,7 +2718,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.182Z"
+      "updatedAt": "2026-11-02T19:45:19.102Z"
     },
     {
       "matchId": "manchester_united_as_roma_20261104",
@@ -2748,7 +2808,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.182Z"
+      "updatedAt": "2026-11-02T19:45:19.102Z"
     },
     {
       "matchId": "villarreal_paris_saint_germain_20261104",
@@ -2807,7 +2867,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.182Z"
+      "updatedAt": "2026-11-02T19:45:19.102Z"
     },
     {
       "matchId": "birmingham_city_millwall_20261104",
@@ -2917,7 +2977,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.182Z"
+      "updatedAt": "2026-11-02T19:45:19.102Z"
     },
     {
       "matchId": "west_bromwich_albion_southampton_20261104",
@@ -3027,7 +3087,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.182Z"
+      "updatedAt": "2026-11-02T19:45:19.102Z"
     },
     {
       "matchId": "chapecoense_mirassol_20261104",
@@ -3137,7 +3197,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.182Z"
+      "updatedAt": "2026-11-02T19:45:19.103Z"
     },
     {
       "matchId": "internacional_coritiba_20261104",
@@ -3247,7 +3307,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.182Z"
+      "updatedAt": "2026-11-02T19:45:19.103Z"
     },
     {
       "matchId": "rennes_olympiacos_20261104",
@@ -3306,7 +3366,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T19:45:16.182Z"
+      "updatedAt": "2026-11-02T19:45:19.103Z"
     }
   ],
   "meta": {
@@ -3319,9 +3379,9 @@
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 1,
+      "removedExpired": 0,
       "streamsAdded": 0,
-      "matchesAdded": 1
+      "matchesAdded": 0
     },
     "liveCount": 3,
     "scheduledCount": 22,
@@ -3329,8 +3389,8 @@
     "manualStreamCount": 0,
     "highlightCount": 29,
     "channelCount": 0,
-    "checksum": "b11498001161df21cce1c20e812f08979cba16ba359d50a6edd409dafde0033f",
-    "cachedAt": "2026-11-02T19:45:16.197Z",
+    "checksum": "03a36d4c974dea7a0b7dc0d2c2abb83f3bbefac7ea84d8454667cd43a07d4338",
+    "cachedAt": "2026-11-02T19:45:19.117Z",
     "feed": "admin-match"
   }
 }
