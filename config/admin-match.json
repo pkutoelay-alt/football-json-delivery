@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T00:00:16.770+06:30",
+  "generatedAt": "2026-11-03T00:00:24.276+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 9,
   "matches": [
@@ -87,7 +87,7 @@
       "pinned": false,
       "featured": false,
       "hasStreams": true,
-      "streamCount": 2,
+      "streamCount": 3,
       "originalNames": {
         "fotmob": {
           "league": "ITA Serie A",
@@ -107,6 +107,25 @@
           "type": "m3u8",
           "quality": "TOM",
           "name": "TOM",
+          "url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://ck.domainkqt.cc/",
+            "Origin": "https://ck.domainkqt.cc"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://ck.domainkqt.cc/",
+            "Origin": "https://ck.domainkqt.cc"
+          },
+          "active": true,
+          "checkedAt": "2026-11-02T17:30:24.256Z"
+        },
+        {
+          "source": "cakhia",
+          "type": "m3u8",
+          "quality": "TOM",
+          "name": "TOM",
           "url": "https://live2.domaincdn.cc/livecdn/channel-4.m3u8?auth_key=3000001793639727-0-0-96311244108dd520471887d741ac244c",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
@@ -119,7 +138,7 @@
             "Origin": "https://ck.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-02T17:15:28.073Z"
         },
         {
           "source": "phut",
@@ -138,27 +157,73 @@
             "Origin": "https://91p.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-02T17:00:44.784Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true
+      },
       "matchUrl": "https://cronodon.com/truc-tiep/sassuolo-vs-fiorentina-luc-0030-ngay-03-11-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 4,
       "lastMatchUrlAttemptAt": "2026-11-02T17:30:14.067Z",
       "matchUrlSource": "cakhia",
-      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-4.m3u8?auth_key=3000001793639727-0-0-96311244108dd520471887d741ac244c",
+      "streamUrl": "https://live2.jorvakstreamcache.com/live/channel6.m3u8",
       "streamHeaders": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
         "Referer": "https://ck.domainkqt.cc/",
         "Origin": "https://ck.domainkqt.cc"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
+      "attempts": 2,
+      "validationStatus": "AVAILABLE",
       "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T17:30:16.767Z",
+      "lastAttemptAt": "2026-11-02T17:30:24.256Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "AVAILABLE",
+            "attempts": 3,
+            "postKickoffAttempts": 1,
+            "lastError": null,
+            "lastAttemptAt": "2026-11-02T17:30:24.256Z",
+            "updatedAt": "2026-11-02T17:30:24.256Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true,
+              "t0": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-02T17:15:56.708Z",
+            "updatedAt": "2026-11-02T17:30:14.102Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -218,7 +283,8 @@
             "confidence": 0
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-02T17:30:24.274Z"
     },
     {
       "matchId": "penafiel_feirense_20261103",
@@ -297,7 +363,7 @@
       "fotmobMatchId": 5888094,
       "leagueId": 185,
       "leagueName": "Liga Portugal (PRO D1)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -319,9 +385,7 @@
         "phut": "https://90phutzaq.tv/truc-tiep/penafiel-vs-feirense-luc-0100-ngay-03-11-2026/"
       },
       "streams": [],
-      "streamAttempts": {
-        "t30": true
-      },
+      "streamAttempts": {},
       "matchUrl": "https://socolivezw.tv/truc-tiep/penafiel-vs-feirense-luc-0100-ngay-03-11-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 3,
@@ -334,47 +398,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": true,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {
-          "cakhia": {
-            "status": "SEARCHING",
-            "attempts": 0,
-            "postKickoffAttempts": 0,
-            "lastError": null,
-            "lastAttemptAt": null,
-            "updatedAt": "2026-11-02T17:30:14.103Z",
-            "slotsDone": {},
-            "extractionMethod": null,
-            "extractPassComplete": false
-          },
-          "phut": {
-            "status": "SEARCHING",
-            "attempts": 0,
-            "postKickoffAttempts": 0,
-            "lastError": null,
-            "lastAttemptAt": null,
-            "updatedAt": "2026-11-02T17:30:14.103Z",
-            "slotsDone": {},
-            "extractionMethod": null,
-            "extractPassComplete": false
-          },
-          "socolive": {
-            "status": "SEARCHING",
-            "attempts": 0,
-            "postKickoffAttempts": 0,
-            "lastError": null,
-            "lastAttemptAt": null,
-            "updatedAt": "2026-11-02T17:30:14.103Z",
-            "slotsDone": {},
-            "extractionMethod": null,
-            "extractPassComplete": false
-          }
-        }
-      },
+      "updatedAt": "2026-11-02T17:30:24.275Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -428,8 +452,7 @@
             "confidence": 100
           }
         }
-      },
-      "updatedAt": "2026-11-02T17:30:16.768Z"
+      }
     },
     {
       "matchId": "lorient_brest_20261103",
@@ -541,7 +564,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T17:30:16.768Z",
+      "updatedAt": "2026-11-02T17:30:24.275Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -668,7 +691,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T17:30:16.769Z",
+      "updatedAt": "2026-11-02T17:30:24.275Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -795,7 +818,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T17:30:16.769Z",
+      "updatedAt": "2026-11-02T17:30:24.275Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -922,7 +945,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T17:30:16.769Z",
+      "updatedAt": "2026-11-02T17:30:24.275Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1019,7 +1042,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T17:30:16.769Z",
+      "updatedAt": "2026-11-02T17:30:24.276Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1146,7 +1169,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T17:30:16.769Z",
+      "updatedAt": "2026-11-02T17:30:24.276Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1273,7 +1296,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-02T17:30:16.770Z",
+      "updatedAt": "2026-11-02T17:30:24.276Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1302,7 +1325,7 @@
     "adminApplied": true,
     "sync": {
       "removedExpired": 0,
-      "streamsAdded": 0,
+      "streamsAdded": 1,
       "matchesAdded": 0
     },
     "liveCount": 1,
@@ -1311,8 +1334,8 @@
     "manualStreamCount": 0,
     "highlightCount": 33,
     "channelCount": 0,
-    "checksum": "612124c69e815a1759862c3ba6ead913f911cd024bb151f5fca66db200aab5f0",
-    "cachedAt": "2026-11-02T17:30:16.778Z",
+    "checksum": "5c00d92ae41756a2697b7491e375abc7813b15b63dd0b12dd54fbc6ebd4e74db",
+    "cachedAt": "2026-11-02T17:30:24.285Z",
     "feed": "admin-match"
   }
 }
