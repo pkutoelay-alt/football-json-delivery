@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-04T00:02:02.063+06:30",
+  "generatedAt": "2026-11-04T00:02:04.547+06:30",
   "timezone": "Asia/Yangon",
-  "matchCount": 21,
+  "matchCount": 37,
   "matches": [
     {
       "matchId": "galatasaray_vfb_stuttgart_20261104",
@@ -30,7 +30,7 @@
       "fotmobMatchId": 6106341,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -70,7 +70,7 @@
             "Origin": "https://ck.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-03T17:15:16.318Z"
         },
         {
           "source": "xoilac",
@@ -89,7 +89,7 @@
             "Origin": "https://xl365.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-03T17:15:25.981Z"
         },
         {
           "source": "phut",
@@ -108,10 +108,14 @@
             "Origin": "https://91p.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-03T17:15:58.176Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true
+      },
       "matchUrl": "https://cakhiazbe.tv/truc-tiep/galatasaray-vs-vfb-stuttgart-luc-0045-ngay-04-11-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -124,11 +128,77 @@
         "Origin": "https://ck.domainkqt.cc"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.055Z",
+      "attempts": 2,
+      "validationStatus": "VALIDATING",
+      "validationReason": "NOT_FOUND",
+      "lastAttemptAt": "2026-11-03T17:31:09.091Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-03T17:30:25.038Z",
+            "updatedAt": "2026-11-03T17:30:25.038Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-03T17:30:39.617Z",
+            "updatedAt": "2026-11-03T17:30:39.617Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-03T17:30:54.607Z",
+            "updatedAt": "2026-11-03T17:30:54.607Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-03T17:31:09.091Z",
+            "updatedAt": "2026-11-03T17:31:09.091Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -178,7 +248,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.543Z"
     },
     {
       "matchId": "shakhtar_donetsk_sporting_cp_20261104",
@@ -313,7 +384,8 @@
         "stopped": false,
         "stopTime": null,
         "slotsDone": {
-          "t30": true
+          "t30": true,
+          "t20": true
         },
         "sources": {
           "cakhia": {
@@ -424,7 +496,7 @@
           }
         }
       },
-      "updatedAt": "2026-11-03T17:32:02.055Z"
+      "updatedAt": "2026-11-03T17:32:04.543Z"
     },
     {
       "matchId": "blackburn_rovers_stoke_city_20261104",
@@ -503,7 +575,7 @@
       "fotmobMatchId": 5836911,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -536,7 +608,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.056Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -551,7 +629,8 @@
             "manual": true
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.543Z"
     },
     {
       "matchId": "derby_county_norwich_city_20261104",
@@ -630,7 +709,7 @@
       "fotmobMatchId": 5836912,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -663,7 +742,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.056Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -678,7 +763,8 @@
             "manual": true
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.543Z"
     },
     {
       "matchId": "portsmouth_swansea_city_20261104",
@@ -757,7 +843,7 @@
       "fotmobMatchId": 5836913,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -790,7 +876,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.056Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -805,7 +897,8 @@
             "manual": true
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.544Z"
     },
     {
       "matchId": "preston_north_end_sheffield_united_20261104",
@@ -884,7 +977,7 @@
       "fotmobMatchId": 5836914,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -917,7 +1010,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.056Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -932,7 +1031,8 @@
             "manual": true
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.544Z"
     },
     {
       "matchId": "queens_park_rangers_burnley_20261104",
@@ -1011,7 +1111,7 @@
       "fotmobMatchId": 5836915,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1044,7 +1144,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.056Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1059,7 +1165,8 @@
             "manual": true
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.544Z"
     },
     {
       "matchId": "watford_lincoln_city_20261104",
@@ -1087,7 +1194,7 @@
       "fotmobMatchId": 5836916,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1120,7 +1227,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.057Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1135,7 +1248,8 @@
             "manual": true
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.544Z"
     },
     {
       "matchId": "charlton_athletic_bolton_wanderers_20261104",
@@ -1214,7 +1328,7 @@
       "fotmobMatchId": 5836920,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1247,7 +1361,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.057Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1262,7 +1382,8 @@
             "manual": true
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.544Z"
     },
     {
       "matchId": "atletico_madrid_bayern_munich_20261104",
@@ -1341,7 +1462,7 @@
       "fotmobMatchId": 6106266,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1374,7 +1495,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.058Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1389,7 +1516,8 @@
             "manual": true
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.544Z"
     },
     {
       "matchId": "barcelona_aston_villa_20261104",
@@ -1417,7 +1545,7 @@
       "fotmobMatchId": 6106263,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1450,7 +1578,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.058Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1465,7 +1599,8 @@
             "manual": true
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.544Z"
     },
     {
       "matchId": "bod_glimt_lille_20261104",
@@ -1493,7 +1628,7 @@
       "fotmobMatchId": 6106316,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1526,7 +1661,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.059Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1541,7 +1682,8 @@
             "manual": true
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.544Z"
     },
     {
       "matchId": "feyenoord_inter_milan_20261104",
@@ -1590,7 +1732,7 @@
       "fotmobMatchId": 6106306,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1623,7 +1765,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.059Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1638,7 +1786,8 @@
             "manual": true
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.545Z"
     },
     {
       "matchId": "lask_slovan_bratislava_20261104",
@@ -1666,7 +1815,7 @@
       "fotmobMatchId": 6106408,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1699,7 +1848,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.059Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1714,7 +1869,8 @@
             "manual": true
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.545Z"
     },
     {
       "matchId": "manchester_united_as_roma_20261104",
@@ -1773,7 +1929,7 @@
       "fotmobMatchId": 6106291,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1806,7 +1962,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.059Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1821,7 +1983,8 @@
             "manual": true
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.545Z"
     },
     {
       "matchId": "villarreal_paris_saint_germain_20261104",
@@ -1849,7 +2012,7 @@
       "fotmobMatchId": 6106326,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1882,7 +2045,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.059Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -1897,7 +2066,8 @@
             "manual": true
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.545Z"
     },
     {
       "matchId": "birmingham_city_millwall_20261104",
@@ -1976,7 +2146,7 @@
       "fotmobMatchId": 5836910,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2009,7 +2179,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.060Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -2024,7 +2200,8 @@
             "manual": true
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.545Z"
     },
     {
       "matchId": "west_bromwich_albion_southampton_20261104",
@@ -2103,7 +2280,7 @@
       "fotmobMatchId": 5836917,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2136,7 +2313,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.060Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -2151,7 +2334,8 @@
             "manual": true
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.545Z"
     },
     {
       "matchId": "chapecoense_mirassol_20261104",
@@ -2230,7 +2414,7 @@
       "fotmobMatchId": 5103703,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2263,7 +2447,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.060Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -2278,7 +2468,8 @@
             "manual": true
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.545Z"
     },
     {
       "matchId": "internacional_coritiba_20261104",
@@ -2357,7 +2548,7 @@
       "fotmobMatchId": 5103700,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2390,7 +2581,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.062Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -2405,7 +2602,8 @@
             "manual": true
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.545Z"
     },
     {
       "matchId": "rennes_olympiacos_20261104",
@@ -2433,7 +2631,7 @@
       "fotmobMatchId": 6112306,
       "leagueId": 943229,
       "leagueName": "UEFA Europa League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -2466,7 +2664,13 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-03T17:32:02.063Z",
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -2481,7 +2685,1630 @@
             "manual": true
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-03T17:32:04.545Z"
+    },
+    {
+      "matchId": "aek_athens_real_madrid_20261105",
+      "league": "UEFA Champions League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943230.png",
+      "homeTeam": "AEK Athens",
+      "awayTeam": "Real Madrid",
+      "homeTeamId": 8563,
+      "awayTeamId": 8633,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8563.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8633.png",
+      "date": "5.11.2026",
+      "time": "12:15 AM",
+      "kickoff": "2026-11-05T00:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "matches": []
+      },
+      "fotmobMatchId": 6106401,
+      "leagueId": 943230,
+      "leagueName": "UEFA Champions League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Champions League",
+          "country": "INT",
+          "leagueId": 943230,
+          "homeTeam": "AEK Athens",
+          "awayTeam": "Real Madrid"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-03T17:32:04.545Z"
+    },
+    {
+      "matchId": "fenerbahce_liverpool_20261105",
+      "league": "UEFA Champions League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943230.png",
+      "homeTeam": "Fenerbahçe",
+      "awayTeam": "Liverpool",
+      "homeTeamId": 8695,
+      "awayTeamId": 8650,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8695.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8650.png",
+      "date": "5.11.2026",
+      "time": "12:15 AM",
+      "kickoff": "2026-11-05T00:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "matches": []
+      },
+      "fotmobMatchId": 6106330,
+      "leagueId": 943230,
+      "leagueName": "UEFA Champions League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Champions League",
+          "country": "INT",
+          "leagueId": 943230,
+          "homeTeam": "Fenerbahçe",
+          "awayTeam": "Liverpool"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-03T17:32:04.546Z"
+    },
+    {
+      "matchId": "cardiff_city_west_ham_united_20261105",
+      "league": "English Championship (ENG LCH)",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/1000001801.png",
+      "homeTeam": "Cardiff City",
+      "awayTeam": "West Ham United",
+      "homeTeamId": 8344,
+      "awayTeamId": 8654,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8344.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8654.png",
+      "date": "5.11.2026",
+      "time": "2:15 AM",
+      "kickoff": "2026-11-05T02:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 1,
+          "draws": 0,
+          "awayWins": 4
+        },
+        "matches": [
+          {
+            "date": "2019-03-09",
+            "homeTeam": "Cardiff City",
+            "awayTeam": "West Ham United",
+            "homeTeamId": 8344,
+            "awayTeamId": 8654,
+            "homeScore": 2,
+            "awayScore": 0,
+            "competition": "Premier League"
+          },
+          {
+            "date": "2018-12-04",
+            "homeTeam": "West Ham United",
+            "awayTeam": "Cardiff City",
+            "homeTeamId": 8654,
+            "awayTeamId": 8344,
+            "homeScore": 3,
+            "awayScore": 1,
+            "competition": "Premier League"
+          },
+          {
+            "date": "2014-01-11",
+            "homeTeam": "Cardiff City",
+            "awayTeam": "West Ham United",
+            "homeTeamId": 8344,
+            "awayTeamId": 8654,
+            "homeScore": 0,
+            "awayScore": 2,
+            "competition": "Premier League"
+          },
+          {
+            "date": "2013-09-24",
+            "homeTeam": "West Ham United",
+            "awayTeam": "Cardiff City",
+            "homeTeamId": 8654,
+            "awayTeamId": 8344,
+            "homeScore": 3,
+            "awayScore": 2,
+            "competition": "League Cup"
+          },
+          {
+            "date": "2013-08-17",
+            "homeTeam": "West Ham United",
+            "awayTeam": "Cardiff City",
+            "homeTeamId": 8654,
+            "awayTeamId": 8344,
+            "homeScore": 2,
+            "awayScore": 0,
+            "competition": "Premier League"
+          }
+        ]
+      },
+      "fotmobMatchId": 5836919,
+      "leagueId": 1000001801,
+      "leagueName": "English Championship (ENG LCH)",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "ENG Championship",
+          "country": "ENG",
+          "leagueId": 1000001801,
+          "homeTeam": "Cardiff City",
+          "awayTeam": "West Ham United"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-03T17:32:04.546Z"
+    },
+    {
+      "matchId": "wrexham_middlesbrough_20261105",
+      "league": "English Championship (ENG LCH)",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/1000001801.png",
+      "homeTeam": "Wrexham",
+      "awayTeam": "Middlesbrough",
+      "homeTeamId": 9841,
+      "awayTeamId": 8549,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9841.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8549.png",
+      "date": "5.11.2026",
+      "time": "2:15 AM",
+      "kickoff": "2026-11-05T02:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 2,
+          "awayWins": 1
+        },
+        "matches": [
+          {
+            "date": "2026-08-07",
+            "homeTeam": "Middlesbrough",
+            "awayTeam": "Wrexham",
+            "homeTeamId": 8549,
+            "awayTeamId": 9841,
+            "homeScore": 1,
+            "awayScore": 0,
+            "competition": "EFL Cup"
+          },
+          {
+            "date": "2026-05-02",
+            "homeTeam": "Wrexham",
+            "awayTeam": "Middlesbrough",
+            "homeTeamId": 9841,
+            "awayTeamId": 8549,
+            "homeScore": 2,
+            "awayScore": 2,
+            "competition": "Championship"
+          },
+          {
+            "date": "2025-10-25",
+            "homeTeam": "Middlesbrough",
+            "awayTeam": "Wrexham",
+            "homeTeamId": 8549,
+            "awayTeamId": 9841,
+            "homeScore": 1,
+            "awayScore": 1,
+            "competition": "Championship"
+          }
+        ]
+      },
+      "fotmobMatchId": 5836921,
+      "leagueId": 1000001801,
+      "leagueName": "English Championship (ENG LCH)",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "ENG Championship",
+          "country": "ENG",
+          "leagueId": 1000001801,
+          "homeTeam": "Wrexham",
+          "awayTeam": "Middlesbrough"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-03T17:32:04.546Z"
+    },
+    {
+      "matchId": "borussia_dortmund_real_betis_20261105",
+      "league": "UEFA Champions League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943230.png",
+      "homeTeam": "Borussia Dortmund",
+      "awayTeam": "Real Betis",
+      "homeTeamId": 9789,
+      "awayTeamId": 8603,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9789.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8603.png",
+      "date": "5.11.2026",
+      "time": "2:30 AM",
+      "kickoff": "2026-11-05T02:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 1,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "matches": [
+          {
+            "date": "2015-08-01",
+            "homeTeam": "Borussia Dortmund",
+            "awayTeam": "Real Betis",
+            "homeTeamId": 9789,
+            "awayTeamId": 8603,
+            "homeScore": 2,
+            "awayScore": 0,
+            "competition": "Club Friendlies"
+          }
+        ]
+      },
+      "fotmobMatchId": 6106271,
+      "leagueId": 943230,
+      "leagueName": "UEFA Champions League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Champions League",
+          "country": "INT",
+          "leagueId": 943230,
+          "homeTeam": "Borussia Dortmund",
+          "awayTeam": "Real Betis"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-03T17:32:04.546Z"
+    },
+    {
+      "matchId": "fc_porto_napoli_20261105",
+      "league": "UEFA Champions League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943230.png",
+      "homeTeam": "FC Porto",
+      "awayTeam": "Napoli",
+      "homeTeamId": 9773,
+      "awayTeamId": 9875,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9773.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9875.png",
+      "date": "5.11.2026",
+      "time": "2:30 AM",
+      "kickoff": "2026-11-05T02:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 2,
+          "draws": 2,
+          "awayWins": 0
+        },
+        "matches": [
+          {
+            "date": "2015-08-08",
+            "homeTeam": "FC Porto",
+            "awayTeam": "Napoli",
+            "homeTeamId": 9773,
+            "awayTeamId": 9875,
+            "homeScore": 0,
+            "awayScore": 0,
+            "competition": "Club Friendlies"
+          },
+          {
+            "date": "2014-03-20",
+            "homeTeam": "Napoli",
+            "awayTeam": "FC Porto",
+            "homeTeamId": 9875,
+            "awayTeamId": 9773,
+            "homeScore": 2,
+            "awayScore": 2,
+            "competition": "Europa League"
+          },
+          {
+            "date": "2014-03-13",
+            "homeTeam": "FC Porto",
+            "awayTeam": "Napoli",
+            "homeTeamId": 9773,
+            "awayTeamId": 9875,
+            "homeScore": 1,
+            "awayScore": 0,
+            "competition": "Europa League"
+          },
+          {
+            "date": "2013-08-04",
+            "homeTeam": "Napoli",
+            "awayTeam": "FC Porto",
+            "homeTeamId": 9875,
+            "awayTeamId": 9773,
+            "homeScore": 1,
+            "awayScore": 3,
+            "competition": "Club Friendlies"
+          }
+        ]
+      },
+      "fotmobMatchId": 6106288,
+      "leagueId": 943230,
+      "leagueName": "UEFA Champions League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Champions League",
+          "country": "INT",
+          "leagueId": 943230,
+          "homeTeam": "FC Porto",
+          "awayTeam": "Napoli"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-03T17:32:04.546Z"
+    },
+    {
+      "matchId": "lens_como_20261105",
+      "league": "UEFA Champions League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943230.png",
+      "homeTeam": "Lens",
+      "awayTeam": "Como",
+      "homeTeamId": 8588,
+      "awayTeamId": 10171,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8588.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10171.png",
+      "date": "5.11.2026",
+      "time": "2:30 AM",
+      "kickoff": "2026-11-05T02:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "matches": []
+      },
+      "fotmobMatchId": 6106416,
+      "leagueId": 943230,
+      "leagueName": "UEFA Champions League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Champions League",
+          "country": "INT",
+          "leagueId": 943230,
+          "homeTeam": "Lens",
+          "awayTeam": "Como"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-03T17:32:04.546Z"
+    },
+    {
+      "matchId": "psv_eindhoven_club_brugge_20261105",
+      "league": "UEFA Champions League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943230.png",
+      "homeTeam": "PSV Eindhoven",
+      "awayTeam": "Club Brugge",
+      "homeTeamId": 8640,
+      "awayTeamId": 8342,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8640.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8342.png",
+      "date": "5.11.2026",
+      "time": "2:30 AM",
+      "kickoff": "2026-11-05T02:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 1,
+          "draws": 1,
+          "awayWins": 1
+        },
+        "matches": [
+          {
+            "date": "2024-07-13",
+            "homeTeam": "PSV Eindhoven",
+            "awayTeam": "Club Brugge",
+            "homeTeamId": 8640,
+            "awayTeamId": 8342,
+            "homeScore": 1,
+            "awayScore": 1,
+            "competition": "Club Friendlies"
+          },
+          {
+            "date": "2020-01-09",
+            "homeTeam": "PSV Eindhoven",
+            "awayTeam": "Club Brugge",
+            "homeTeamId": 8640,
+            "awayTeamId": 8342,
+            "homeScore": 1,
+            "awayScore": 2,
+            "competition": "Club Friendlies"
+          },
+          {
+            "date": "2019-01-11",
+            "homeTeam": "PSV Eindhoven",
+            "awayTeam": "Club Brugge",
+            "homeTeamId": 8640,
+            "awayTeamId": 8342,
+            "homeScore": 2,
+            "awayScore": 1,
+            "competition": "Club Friendlies"
+          }
+        ]
+      },
+      "fotmobMatchId": 6106303,
+      "leagueId": 943230,
+      "leagueName": "UEFA Champions League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Champions League",
+          "country": "INT",
+          "leagueId": 943230,
+          "homeTeam": "PSV Eindhoven",
+          "awayTeam": "Club Brugge"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-03T17:32:04.546Z"
+    },
+    {
+      "matchId": "rb_leipzig_manchester_city_20261105",
+      "league": "UEFA Champions League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943230.png",
+      "homeTeam": "RB Leipzig",
+      "awayTeam": "Manchester City",
+      "homeTeamId": 178475,
+      "awayTeamId": 8456,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/178475.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8456.png",
+      "date": "5.11.2026",
+      "time": "2:30 AM",
+      "kickoff": "2026-11-05T02:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 1,
+          "draws": 1,
+          "awayWins": 3
+        },
+        "matches": [
+          {
+            "date": "2023-11-28",
+            "homeTeam": "Manchester City",
+            "awayTeam": "RB Leipzig",
+            "homeTeamId": 8456,
+            "awayTeamId": 178475,
+            "homeScore": 3,
+            "awayScore": 2,
+            "competition": "Champions League"
+          },
+          {
+            "date": "2023-10-04",
+            "homeTeam": "RB Leipzig",
+            "awayTeam": "Manchester City",
+            "homeTeamId": 178475,
+            "awayTeamId": 8456,
+            "homeScore": 1,
+            "awayScore": 3,
+            "competition": "Champions League"
+          },
+          {
+            "date": "2023-03-14",
+            "homeTeam": "Manchester City",
+            "awayTeam": "RB Leipzig",
+            "homeTeamId": 8456,
+            "awayTeamId": 178475,
+            "homeScore": 7,
+            "awayScore": 0,
+            "competition": "Champions League"
+          },
+          {
+            "date": "2023-02-22",
+            "homeTeam": "RB Leipzig",
+            "awayTeam": "Manchester City",
+            "homeTeamId": 178475,
+            "awayTeamId": 8456,
+            "homeScore": 1,
+            "awayScore": 1,
+            "competition": "Champions League"
+          },
+          {
+            "date": "2021-12-07",
+            "homeTeam": "RB Leipzig",
+            "awayTeam": "Manchester City",
+            "homeTeamId": 178475,
+            "awayTeamId": 8456,
+            "homeScore": 2,
+            "awayScore": 1,
+            "competition": "Champions League"
+          }
+        ]
+      },
+      "fotmobMatchId": 6106322,
+      "leagueId": 943230,
+      "leagueName": "UEFA Champions League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Champions League",
+          "country": "INT",
+          "leagueId": 943230,
+          "homeTeam": "RB Leipzig",
+          "awayTeam": "Manchester City"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-03T17:32:04.546Z"
+    },
+    {
+      "matchId": "slavia_prague_arsenal_20261105",
+      "league": "UEFA Champions League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943230.png",
+      "homeTeam": "Slavia Prague",
+      "awayTeam": "Arsenal",
+      "homeTeamId": 7787,
+      "awayTeamId": 9825,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/7787.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9825.png",
+      "date": "5.11.2026",
+      "time": "2:30 AM",
+      "kickoff": "2026-11-05T02:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 1,
+          "awayWins": 2
+        },
+        "matches": [
+          {
+            "date": "2025-11-04",
+            "homeTeam": "Slavia Prague",
+            "awayTeam": "Arsenal",
+            "homeTeamId": 7787,
+            "awayTeamId": 9825,
+            "homeScore": 0,
+            "awayScore": 3,
+            "competition": "Champions League"
+          },
+          {
+            "date": "2021-04-15",
+            "homeTeam": "Slavia Prague",
+            "awayTeam": "Arsenal",
+            "homeTeamId": 7787,
+            "awayTeamId": 9825,
+            "homeScore": 0,
+            "awayScore": 4,
+            "competition": "Europa League"
+          },
+          {
+            "date": "2021-04-08",
+            "homeTeam": "Arsenal",
+            "awayTeam": "Slavia Prague",
+            "homeTeamId": 9825,
+            "awayTeamId": 7787,
+            "homeScore": 1,
+            "awayScore": 1,
+            "competition": "Europa League"
+          }
+        ]
+      },
+      "fotmobMatchId": 6106389,
+      "leagueId": 943230,
+      "leagueName": "UEFA Champions League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Champions League",
+          "country": "INT",
+          "leagueId": 943230,
+          "homeTeam": "Slavia Prague",
+          "awayTeam": "Arsenal"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-03T17:32:04.546Z"
+    },
+    {
+      "matchId": "viking_sabah_fk_20261105",
+      "league": "UEFA Champions League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943230.png",
+      "homeTeam": "Viking",
+      "awayTeam": "Sabah FK",
+      "homeTeamId": 8478,
+      "awayTeamId": 951893,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8478.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/951893.png",
+      "date": "5.11.2026",
+      "time": "2:30 AM",
+      "kickoff": "2026-11-05T02:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "matches": []
+      },
+      "fotmobMatchId": 6106420,
+      "leagueId": 943230,
+      "leagueName": "UEFA Champions League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Champions League",
+          "country": "INT",
+          "leagueId": 943230,
+          "homeTeam": "Viking",
+          "awayTeam": "Sabah FK"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-03T17:32:04.546Z"
+    },
+    {
+      "matchId": "bristol_city_wolverhampton_wanderers_20261105",
+      "league": "English Championship (ENG LCH)",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/1000001801.png",
+      "homeTeam": "Bristol City",
+      "awayTeam": "Wolverhampton Wanderers",
+      "homeTeamId": 8427,
+      "awayTeamId": 8602,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8427.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8602.png",
+      "date": "5.11.2026",
+      "time": "2:30 AM",
+      "kickoff": "2026-11-05T02:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 1,
+          "draws": 1,
+          "awayWins": 3
+        },
+        "matches": [
+          {
+            "date": "2025-01-11",
+            "homeTeam": "Bristol City",
+            "awayTeam": "Wolverhampton Wanderers",
+            "homeTeamId": 8427,
+            "awayTeamId": 8602,
+            "homeScore": 1,
+            "awayScore": 2,
+            "competition": "FA Cup"
+          },
+          {
+            "date": "2019-02-17",
+            "homeTeam": "Bristol City",
+            "awayTeam": "Wolverhampton Wanderers",
+            "homeTeamId": 8427,
+            "awayTeamId": 8602,
+            "homeScore": 0,
+            "awayScore": 1,
+            "competition": "FA Cup"
+          },
+          {
+            "date": "2017-12-30",
+            "homeTeam": "Bristol City",
+            "awayTeam": "Wolverhampton Wanderers",
+            "homeTeamId": 8427,
+            "awayTeamId": 8602,
+            "homeScore": 1,
+            "awayScore": 2,
+            "competition": "Championship"
+          },
+          {
+            "date": "2017-09-12",
+            "homeTeam": "Wolverhampton Wanderers",
+            "awayTeam": "Bristol City",
+            "homeTeamId": 8602,
+            "awayTeamId": 8427,
+            "homeScore": 3,
+            "awayScore": 3,
+            "competition": "Championship"
+          },
+          {
+            "date": "2017-04-08",
+            "homeTeam": "Bristol City",
+            "awayTeam": "Wolverhampton Wanderers",
+            "homeTeamId": 8427,
+            "awayTeamId": 8602,
+            "homeScore": 3,
+            "awayScore": 1,
+            "competition": "Championship"
+          }
+        ]
+      },
+      "fotmobMatchId": 5836918,
+      "leagueId": 1000001801,
+      "leagueName": "English Championship (ENG LCH)",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "ENG Championship",
+          "country": "ENG",
+          "leagueId": 1000001801,
+          "homeTeam": "Bristol City",
+          "awayTeam": "Wolverhampton Wanderers"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-03T17:32:04.546Z"
+    },
+    {
+      "matchId": "flamengo_gremio_20261105",
+      "league": "Brazil Serie A (BRA D1)",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/1000001407.png",
+      "homeTeam": "Flamengo",
+      "awayTeam": "Gremio",
+      "homeTeamId": 9770,
+      "awayTeamId": 9769,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9770.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9769.png",
+      "date": "5.11.2026",
+      "time": "5:00 AM",
+      "kickoff": "2026-11-05T05:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 3,
+          "draws": 1,
+          "awayWins": 1
+        },
+        "matches": [
+          {
+            "date": "2026-05-10",
+            "homeTeam": "Grêmio",
+            "awayTeam": "Flamengo",
+            "homeTeamId": 9769,
+            "awayTeamId": 9770,
+            "homeScore": 0,
+            "awayScore": 1,
+            "competition": "Série A"
+          },
+          {
+            "date": "2025-08-31",
+            "homeTeam": "Flamengo",
+            "awayTeam": "Grêmio",
+            "homeTeamId": 9770,
+            "awayTeamId": 9769,
+            "homeScore": 1,
+            "awayScore": 1,
+            "competition": "Serie A"
+          },
+          {
+            "date": "2025-04-13",
+            "homeTeam": "Grêmio",
+            "awayTeam": "Flamengo",
+            "homeTeamId": 9769,
+            "awayTeamId": 9770,
+            "homeScore": 0,
+            "awayScore": 2,
+            "competition": "Serie A"
+          },
+          {
+            "date": "2024-09-22",
+            "homeTeam": "Grêmio",
+            "awayTeam": "Flamengo",
+            "homeTeamId": 9769,
+            "awayTeamId": 9770,
+            "homeScore": 3,
+            "awayScore": 2,
+            "competition": "Serie A"
+          },
+          {
+            "date": "2024-06-13",
+            "homeTeam": "Flamengo",
+            "awayTeam": "Grêmio",
+            "homeTeamId": 9770,
+            "awayTeamId": 9769,
+            "homeScore": 2,
+            "awayScore": 1,
+            "competition": "Serie A"
+          }
+        ]
+      },
+      "fotmobMatchId": 5103694,
+      "leagueId": 1000001407,
+      "leagueName": "Brazil Serie A (BRA D1)",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "BRA Série A",
+          "country": "BRA",
+          "leagueId": 1000001407,
+          "homeTeam": "Flamengo",
+          "awayTeam": "Grêmio"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-03T17:32:04.547Z"
+    },
+    {
+      "matchId": "athletico_paranaense_vasco_da_gama_20261105",
+      "league": "Brazil Serie A (BRA D1)",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/1000001407.png",
+      "homeTeam": "Athletico Paranaense",
+      "awayTeam": "Vasco da Gama",
+      "homeTeamId": 10273,
+      "awayTeamId": 10276,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10273.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10276.png",
+      "date": "5.11.2026",
+      "time": "5:00 AM",
+      "kickoff": "2026-11-05T05:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 2,
+          "draws": 0,
+          "awayWins": 3
+        },
+        "matches": [
+          {
+            "date": "2026-05-10",
+            "homeTeam": "Vasco da Gama",
+            "awayTeam": "Athletico Paranaense",
+            "homeTeamId": 10276,
+            "awayTeamId": 10273,
+            "homeScore": 1,
+            "awayScore": 0,
+            "competition": "Série A"
+          },
+          {
+            "date": "2024-09-12",
+            "homeTeam": "Athletico Paranaense",
+            "awayTeam": "Vasco da Gama",
+            "homeTeamId": 10273,
+            "awayTeamId": 10276,
+            "homeScore": 2,
+            "awayScore": 1,
+            "competition": "Cup"
+          },
+          {
+            "date": "2024-08-29",
+            "homeTeam": "Vasco da Gama",
+            "awayTeam": "Athletico Paranaense",
+            "homeTeamId": 10276,
+            "awayTeamId": 10273,
+            "homeScore": 2,
+            "awayScore": 1,
+            "competition": "Cup"
+          },
+          {
+            "date": "2024-08-27",
+            "homeTeam": "Vasco da Gama",
+            "awayTeam": "Athletico Paranaense",
+            "homeTeamId": 10276,
+            "awayTeamId": 10273,
+            "homeScore": 2,
+            "awayScore": 1,
+            "competition": "Serie A"
+          },
+          {
+            "date": "2024-05-05",
+            "homeTeam": "Athletico Paranaense",
+            "awayTeam": "Vasco da Gama",
+            "homeTeamId": 10273,
+            "awayTeamId": 10276,
+            "homeScore": 1,
+            "awayScore": 0,
+            "competition": "Serie A"
+          }
+        ]
+      },
+      "fotmobMatchId": 5103701,
+      "leagueId": 1000001407,
+      "leagueName": "Brazil Serie A (BRA D1)",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "BRA Série A",
+          "country": "BRA",
+          "leagueId": 1000001407,
+          "homeTeam": "Athletico Paranaense",
+          "awayTeam": "Vasco da Gama"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-03T17:32:04.547Z"
+    },
+    {
+      "matchId": "botafogo_atletico_mg_20261105",
+      "league": "Brazil Serie A (BRA D1)",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/1000001407.png",
+      "homeTeam": "Botafogo",
+      "awayTeam": "Atlético-MG",
+      "homeTeamId": 8517,
+      "awayTeamId": 10272,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8517.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10272.png",
+      "date": "5.11.2026",
+      "time": "7:00 AM",
+      "kickoff": "2026-11-05T07:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 2,
+          "draws": 2,
+          "awayWins": 1
+        },
+        "matches": [
+          {
+            "date": "2026-05-10",
+            "homeTeam": "Atlético-MG",
+            "awayTeam": "Botafogo",
+            "homeTeamId": 10272,
+            "awayTeamId": 8517,
+            "homeScore": 1,
+            "awayScore": 1,
+            "competition": "Série A"
+          },
+          {
+            "date": "2025-09-20",
+            "homeTeam": "Botafogo",
+            "awayTeam": "Atlético-MG",
+            "homeTeamId": 8517,
+            "awayTeamId": 10272,
+            "homeScore": 1,
+            "awayScore": 0,
+            "competition": "Serie A"
+          },
+          {
+            "date": "2025-04-20",
+            "homeTeam": "Atlético-MG",
+            "awayTeam": "Botafogo",
+            "homeTeamId": 10272,
+            "awayTeamId": 8517,
+            "homeScore": 1,
+            "awayScore": 0,
+            "competition": "Serie A"
+          },
+          {
+            "date": "2024-11-30",
+            "homeTeam": "Atlético-MG",
+            "awayTeam": "Botafogo",
+            "homeTeamId": 10272,
+            "awayTeamId": 8517,
+            "homeScore": 1,
+            "awayScore": 3,
+            "competition": "Copa Libertadores"
+          },
+          {
+            "date": "2024-11-21",
+            "homeTeam": "Atlético-MG",
+            "awayTeam": "Botafogo",
+            "homeTeamId": 10272,
+            "awayTeamId": 8517,
+            "homeScore": 0,
+            "awayScore": 0,
+            "competition": "Serie A"
+          }
+        ]
+      },
+      "fotmobMatchId": 5103695,
+      "leagueId": 1000001407,
+      "leagueName": "Brazil Serie A (BRA D1)",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "BRA Série A",
+          "country": "BRA",
+          "leagueId": 1000001407,
+          "homeTeam": "Botafogo",
+          "awayTeam": "Atlético-MG"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-03T17:32:04.547Z"
+    },
+    {
+      "matchId": "sao_paulo_corinthians_20261105",
+      "league": "Brazil Serie A (BRA D1)",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/1000001407.png",
+      "homeTeam": "Sao Paulo",
+      "awayTeam": "Corinthians",
+      "homeTeamId": 10277,
+      "awayTeamId": 9808,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10277.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9808.png",
+      "date": "5.11.2026",
+      "time": "7:00 AM",
+      "kickoff": "2026-11-05T07:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 2,
+          "draws": 1,
+          "awayWins": 2
+        },
+        "matches": [
+          {
+            "date": "2026-05-10",
+            "homeTeam": "Corinthians",
+            "awayTeam": "São Paulo",
+            "homeTeamId": 9808,
+            "awayTeamId": 10277,
+            "homeScore": 3,
+            "awayScore": 2,
+            "competition": "Série A"
+          },
+          {
+            "date": "2026-01-18",
+            "homeTeam": "Corinthians",
+            "awayTeam": "São Paulo",
+            "homeTeamId": 9808,
+            "awayTeamId": 10277,
+            "homeScore": 1,
+            "awayScore": 1,
+            "competition": "Paulista A1"
+          },
+          {
+            "date": "2025-11-20",
+            "homeTeam": "Corinthians",
+            "awayTeam": "São Paulo",
+            "homeTeamId": 9808,
+            "awayTeamId": 10277,
+            "homeScore": 3,
+            "awayScore": 1,
+            "competition": "Serie A"
+          },
+          {
+            "date": "2025-07-20",
+            "homeTeam": "São Paulo",
+            "awayTeam": "Corinthians",
+            "homeTeamId": 10277,
+            "awayTeamId": 9808,
+            "homeScore": 2,
+            "awayScore": 0,
+            "competition": "Serie A"
+          },
+          {
+            "date": "2025-01-26",
+            "homeTeam": "São Paulo",
+            "awayTeam": "Corinthians",
+            "homeTeamId": 10277,
+            "awayTeamId": 9808,
+            "homeScore": 3,
+            "awayScore": 1,
+            "competition": "Paulista A1"
+          }
+        ]
+      },
+      "fotmobMatchId": 5103696,
+      "leagueId": 1000001407,
+      "leagueName": "Brazil Serie A (BRA D1)",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "BRA Série A",
+          "country": "BRA",
+          "leagueId": 1000001407,
+          "homeTeam": "São Paulo",
+          "awayTeam": "Corinthians"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-03T17:32:04.547Z"
     }
   ],
   "meta": {
@@ -2490,22 +4317,23 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive"
+      "socolive",
+      "highlight"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 0,
+      "removedExpired": 1,
       "streamsAdded": 0,
-      "matchesAdded": 0
+      "matchesAdded": 17
     },
     "liveCount": 0,
-    "scheduledCount": 19,
+    "scheduledCount": 35,
     "endedCount": 0,
     "manualStreamCount": 0,
-    "highlightCount": 35,
+    "highlightCount": 25,
     "channelCount": 0,
-    "checksum": "eb7d5f90496e7a02ddb4f745597dd5a3d0bcc3c390f5a6b3d2186e3ad880ca5c",
-    "cachedAt": "2026-11-03T17:32:02.074Z",
+    "checksum": "5b53f048b488df347f7b603a3797bec999e432525922e763e9efff5e1cebbb94",
+    "cachedAt": "2026-11-03T17:32:04.565Z",
     "feed": "admin-match"
   }
 }
