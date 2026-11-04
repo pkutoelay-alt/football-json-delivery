@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-05T00:02:16.128+06:30",
+  "generatedAt": "2026-11-05T00:02:18.625+06:30",
   "timezone": "Asia/Yangon",
-  "matchCount": 16,
+  "matchCount": 35,
   "matches": [
     {
       "matchId": "aek_athens_real_madrid_20261105",
@@ -30,7 +30,7 @@
       "fotmobMatchId": 6106401,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -70,7 +70,9 @@
             "Origin": "https://ck.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-04T17:30:14.164Z",
+          "validationStatus": "HTTP_403",
+          "validationReason": "HTTP_403"
         },
         {
           "source": "xoilac",
@@ -89,7 +91,7 @@
             "Origin": "https://xl365.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-04T17:15:32.446Z"
         },
         {
           "source": "phut",
@@ -108,7 +110,7 @@
             "Origin": "https://91p.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-04T17:15:38.320Z"
         },
         {
           "source": "socolive",
@@ -127,10 +129,14 @@
             "Origin": "https://soco.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-04T17:16:07.158Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true
+      },
       "matchUrl": "https://childrensradiofoundation.org/truc-tiep/aek-athens-vs-real-madrid-luc-0045-ngay-05-11-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -143,11 +149,77 @@
         "Origin": "https://ck.domainkqt.cc"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-11-04T17:32:16.123Z",
+      "attempts": 2,
+      "validationStatus": "HTTP_403",
+      "validationReason": "HTTP_403",
+      "lastAttemptAt": "2026-11-04T17:31:16.815Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true,
+          "t20": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-11-04T17:30:28.910Z",
+            "updatedAt": "2026-11-04T17:30:28.910Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": true
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-11-04T17:30:47.158Z",
+            "updatedAt": "2026-11-04T17:30:47.158Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": true
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-04T17:31:02.316Z",
+            "updatedAt": "2026-11-04T17:31:02.316Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-04T17:31:16.815Z",
+            "updatedAt": "2026-11-04T17:31:16.815Z",
+            "slotsDone": {
+              "t30": true,
+              "t20": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -198,7 +270,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-04T17:32:18.616Z"
     },
     {
       "matchId": "fenerbahce_liverpool_20261105",
@@ -354,7 +427,8 @@
         "stopped": false,
         "stopTime": null,
         "slotsDone": {
-          "t30": true
+          "t30": true,
+          "t20": true
         },
         "sources": {
           "cakhia": {
@@ -466,7 +540,7 @@
           }
         }
       },
-      "updatedAt": "2026-11-04T17:32:16.124Z"
+      "updatedAt": "2026-11-04T17:32:18.617Z"
     },
     {
       "matchId": "cardiff_city_west_ham_united_20261105",
@@ -545,7 +619,7 @@
       "fotmobMatchId": 5836919,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -576,7 +650,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-04T17:32:16.125Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.617Z"
     },
     {
       "matchId": "wrexham_middlesbrough_20261105",
@@ -635,7 +720,7 @@
       "fotmobMatchId": 5836921,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -666,7 +751,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-04T17:32:16.125Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.618Z"
     },
     {
       "matchId": "borussia_dortmund_real_betis_20261105",
@@ -705,7 +801,7 @@
       "fotmobMatchId": 6106271,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -736,7 +832,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-04T17:32:16.125Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.618Z"
     },
     {
       "matchId": "fc_porto_napoli_20261105",
@@ -805,7 +912,7 @@
       "fotmobMatchId": 6106288,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -836,7 +943,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-04T17:32:16.125Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.618Z"
     },
     {
       "matchId": "lens_como_20261105",
@@ -864,7 +982,7 @@
       "fotmobMatchId": 6106416,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -895,7 +1013,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-04T17:32:16.126Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.619Z"
     },
     {
       "matchId": "psv_eindhoven_club_brugge_20261105",
@@ -954,7 +1083,7 @@
       "fotmobMatchId": 6106303,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -985,7 +1114,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-04T17:32:16.126Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.619Z"
     },
     {
       "matchId": "rb_leipzig_manchester_city_20261105",
@@ -1064,7 +1204,7 @@
       "fotmobMatchId": 6106322,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1095,7 +1235,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-04T17:32:16.126Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.619Z"
     },
     {
       "matchId": "slavia_prague_arsenal_20261105",
@@ -1154,7 +1305,7 @@
       "fotmobMatchId": 6106389,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1185,7 +1336,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-04T17:32:16.126Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.620Z"
     },
     {
       "matchId": "viking_sabah_fk_20261105",
@@ -1213,7 +1375,7 @@
       "fotmobMatchId": 6106420,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1244,7 +1406,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-04T17:32:16.126Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.620Z"
     },
     {
       "matchId": "bristol_city_wolverhampton_wanderers_20261105",
@@ -1323,7 +1496,7 @@
       "fotmobMatchId": 5836918,
       "leagueId": 1000001801,
       "leagueName": "English Championship (ENG LCH)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1354,7 +1527,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-04T17:32:16.127Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.620Z"
     },
     {
       "matchId": "flamengo_gremio_20261105",
@@ -1433,7 +1617,7 @@
       "fotmobMatchId": 5103694,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1464,7 +1648,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-04T17:32:16.127Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.620Z"
     },
     {
       "matchId": "athletico_paranaense_vasco_da_gama_20261105",
@@ -1543,7 +1738,7 @@
       "fotmobMatchId": 5103701,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1574,7 +1769,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-04T17:32:16.127Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.620Z"
     },
     {
       "matchId": "botafogo_atletico_mg_20261105",
@@ -1653,7 +1859,7 @@
       "fotmobMatchId": 5103695,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1684,7 +1890,18 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-04T17:32:16.127Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.621Z"
     },
     {
       "matchId": "sao_paulo_corinthians_20261105",
@@ -1763,7 +1980,7 @@
       "fotmobMatchId": 5103696,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -1794,7 +2011,1535 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-04T17:32:16.128Z"
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.621Z"
+    },
+    {
+      "matchId": "ac_milan_ferencvaros_20261106",
+      "league": "UEFA Europa League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943229.png",
+      "homeTeam": "AC Milan",
+      "awayTeam": "Ferencvaros",
+      "homeTeamId": 8564,
+      "awayTeamId": 8222,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8564.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8222.png",
+      "date": "6.11.2026",
+      "time": "12:15 AM",
+      "kickoff": "2026-11-06T00:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "matches": []
+      },
+      "fotmobMatchId": 6112255,
+      "leagueId": 943229,
+      "leagueName": "UEFA Europa League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League",
+          "country": "INT",
+          "leagueId": 943229,
+          "homeTeam": "Milan",
+          "awayTeam": "Ferencváros"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.621Z"
+    },
+    {
+      "matchId": "anderlecht_salzburg_20261106",
+      "league": "UEFA Europa League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943229.png",
+      "homeTeam": "Anderlecht",
+      "awayTeam": "Salzburg",
+      "homeTeamId": 8635,
+      "awayTeamId": 10013,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8635.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10013.png",
+      "date": "6.11.2026",
+      "time": "12:15 AM",
+      "kickoff": "2026-11-06T00:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 2
+        },
+        "matches": [
+          {
+            "date": "2017-07-07",
+            "homeTeam": "Salzburg",
+            "awayTeam": "Anderlecht",
+            "homeTeamId": 10013,
+            "awayTeamId": 8635,
+            "homeScore": 4,
+            "awayScore": 1,
+            "competition": "Club Friendlies"
+          },
+          {
+            "date": "2012-07-08",
+            "homeTeam": "Salzburg",
+            "awayTeam": "Anderlecht",
+            "homeTeamId": 10013,
+            "awayTeamId": 8635,
+            "homeScore": 2,
+            "awayScore": 0,
+            "competition": "Club Friendlies"
+          }
+        ]
+      },
+      "fotmobMatchId": 6112311,
+      "leagueId": 943229,
+      "leagueName": "UEFA Europa League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League",
+          "country": "INT",
+          "leagueId": 943229,
+          "homeTeam": "Anderlecht",
+          "awayTeam": "Salzburg"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.621Z"
+    },
+    {
+      "matchId": "crystal_palace_tsg_hoffenheim_20261106",
+      "league": "UEFA Europa League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943229.png",
+      "homeTeam": "Crystal Palace",
+      "awayTeam": "TSG Hoffenheim",
+      "homeTeamId": 9826,
+      "awayTeamId": 8226,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9826.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8226.png",
+      "date": "6.11.2026",
+      "time": "12:15 AM",
+      "kickoff": "2026-11-06T00:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "matches": []
+      },
+      "fotmobMatchId": 6112325,
+      "leagueId": 943229,
+      "leagueName": "UEFA Europa League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League",
+          "country": "INT",
+          "leagueId": 943229,
+          "homeTeam": "Crystal Palace",
+          "awayTeam": "Hoffenheim"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.622Z"
+    },
+    {
+      "matchId": "levski_sofia_jagiellonia_bia_ystok_20261106",
+      "league": "UEFA Europa League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943229.png",
+      "homeTeam": "Levski Sofia",
+      "awayTeam": "Jagiellonia Białystok",
+      "homeTeamId": 8632,
+      "awayTeamId": 1957,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8632.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1957.png",
+      "date": "6.11.2026",
+      "time": "12:15 AM",
+      "kickoff": "2026-11-06T00:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "matches": []
+      },
+      "fotmobMatchId": 6112380,
+      "leagueId": 943229,
+      "leagueName": "UEFA Europa League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League",
+          "country": "INT",
+          "leagueId": 943229,
+          "homeTeam": "Levski Sofia",
+          "awayTeam": "Jagiellonia Białystok"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.622Z"
+    },
+    {
+      "matchId": "lillestr_m_viktoria_plzen_20261106",
+      "league": "UEFA Europa League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943229.png",
+      "homeTeam": "Lillestrøm",
+      "awayTeam": "Viktoria Plzen",
+      "homeTeamId": 8476,
+      "awayTeamId": 6033,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8476.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/6033.png",
+      "date": "6.11.2026",
+      "time": "12:15 AM",
+      "kickoff": "2026-11-06T00:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "matches": []
+      },
+      "fotmobMatchId": 6112375,
+      "leagueId": 943229,
+      "leagueName": "UEFA Europa League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League",
+          "country": "INT",
+          "leagueId": 943229,
+          "homeTeam": "Lillestrøm",
+          "awayTeam": "Viktoria Plzeň"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.622Z"
+    },
+    {
+      "matchId": "nec_nijmegen_omonia_nicosia_20261106",
+      "league": "UEFA Europa League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943229.png",
+      "homeTeam": "NEC Nijmegen",
+      "awayTeam": "Omonia Nicosia",
+      "homeTeamId": 8464,
+      "awayTeamId": 8044,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8464.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8044.png",
+      "date": "6.11.2026",
+      "time": "12:15 AM",
+      "kickoff": "2026-11-06T00:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "matches": []
+      },
+      "fotmobMatchId": 6112368,
+      "leagueId": 943229,
+      "leagueName": "UEFA Europa League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League",
+          "country": "INT",
+          "leagueId": 943229,
+          "homeTeam": "NEC Nijmegen",
+          "awayTeam": "Omonia Nicosia"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.622Z"
+    },
+    {
+      "matchId": "real_sociedad_olympique_lyonnais_20261106",
+      "league": "UEFA Europa League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943229.png",
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Olympique Lyonnais",
+      "homeTeamId": 8560,
+      "awayTeamId": 9748,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8560.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9748.png",
+      "date": "6.11.2026",
+      "time": "12:15 AM",
+      "kickoff": "2026-11-06T00:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 2,
+          "draws": 1,
+          "awayWins": 0
+        },
+        "matches": [
+          {
+            "date": "2013-08-28",
+            "homeTeam": "Real Sociedad",
+            "awayTeam": "Lyon",
+            "homeTeamId": 8560,
+            "awayTeamId": 9748,
+            "homeScore": 2,
+            "awayScore": 0,
+            "competition": "Champions League Qualification"
+          },
+          {
+            "date": "2013-08-20",
+            "homeTeam": "Lyon",
+            "awayTeam": "Real Sociedad",
+            "homeTeamId": 9748,
+            "awayTeamId": 8560,
+            "homeScore": 0,
+            "awayScore": 2,
+            "competition": "Champions League Qualification"
+          },
+          {
+            "date": "2012-07-20",
+            "homeTeam": "Lyon",
+            "awayTeam": "Real Sociedad",
+            "homeTeamId": 9748,
+            "awayTeamId": 8560,
+            "homeScore": 1,
+            "awayScore": 1,
+            "competition": "Club Friendlies"
+          }
+        ]
+      },
+      "fotmobMatchId": 6112270,
+      "leagueId": 943229,
+      "leagueName": "UEFA Europa League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League",
+          "country": "INT",
+          "leagueId": 943229,
+          "homeTeam": "Real Sociedad",
+          "awayTeam": "Lyon"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.623Z"
+    },
+    {
+      "matchId": "sparta_prague_bournemouth_20261106",
+      "league": "UEFA Europa League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943229.png",
+      "homeTeam": "Sparta Prague",
+      "awayTeam": "Bournemouth",
+      "homeTeamId": 10247,
+      "awayTeamId": 8678,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10247.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8678.png",
+      "date": "6.11.2026",
+      "time": "12:15 AM",
+      "kickoff": "2026-11-06T00:15:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "matches": []
+      },
+      "fotmobMatchId": 6112304,
+      "leagueId": 943229,
+      "leagueName": "UEFA Europa League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League",
+          "country": "INT",
+          "leagueId": 943229,
+          "homeTeam": "Sparta Prague",
+          "awayTeam": "AFC Bournemouth"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.623Z"
+    },
+    {
+      "matchId": "az_alkmaar_juventus_20261106",
+      "league": "UEFA Europa League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943229.png",
+      "homeTeam": "AZ Alkmaar",
+      "awayTeam": "Juventus",
+      "homeTeamId": 10229,
+      "awayTeamId": 9885,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10229.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9885.png",
+      "date": "6.11.2026",
+      "time": "2:30 AM",
+      "kickoff": "2026-11-06T02:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "matches": []
+      },
+      "fotmobMatchId": 6112262,
+      "leagueId": 943229,
+      "leagueName": "UEFA Europa League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League",
+          "country": "INT",
+          "leagueId": 943229,
+          "homeTeam": "AZ Alkmaar",
+          "awayTeam": "Juventus"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.623Z"
+    },
+    {
+      "matchId": "bayer_leverkusen_olympique_marseille_20261106",
+      "league": "UEFA Europa League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943229.png",
+      "homeTeam": "Bayer Leverkusen",
+      "awayTeam": "Olympique Marseille",
+      "homeTeamId": 8178,
+      "awayTeamId": 8592,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8178.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8592.png",
+      "date": "6.11.2026",
+      "time": "2:30 AM",
+      "kickoff": "2026-11-06T02:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 1,
+          "draws": 0,
+          "awayWins": 1
+        },
+        "matches": [
+          {
+            "date": "2023-08-02",
+            "homeTeam": "Marseille",
+            "awayTeam": "Bayer Leverkusen",
+            "homeTeamId": 8592,
+            "awayTeamId": 8178,
+            "homeScore": 1,
+            "awayScore": 2,
+            "competition": "Club Friendlies"
+          },
+          {
+            "date": "2014-07-19",
+            "homeTeam": "Bayer Leverkusen",
+            "awayTeam": "Marseille",
+            "homeTeamId": 8178,
+            "awayTeamId": 8592,
+            "homeScore": 1,
+            "awayScore": 4,
+            "competition": "Club Friendlies"
+          }
+        ]
+      },
+      "fotmobMatchId": 6112242,
+      "leagueId": 943229,
+      "leagueName": "UEFA Europa League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League",
+          "country": "INT",
+          "leagueId": 943229,
+          "homeTeam": "Bayer Leverkusen",
+          "awayTeam": "Marseille"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.623Z"
+    },
+    {
+      "matchId": "benfica_lech_poznan_20261106",
+      "league": "UEFA Europa League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943229.png",
+      "homeTeam": "Benfica",
+      "awayTeam": "Lech Poznań",
+      "homeTeamId": 9772,
+      "awayTeamId": 2182,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9772.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/2182.png",
+      "date": "6.11.2026",
+      "time": "2:30 AM",
+      "kickoff": "2026-11-06T02:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 2,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "matches": [
+          {
+            "date": "2020-12-03",
+            "homeTeam": "Benfica",
+            "awayTeam": "Lech Poznań",
+            "homeTeamId": 9772,
+            "awayTeamId": 2182,
+            "homeScore": 4,
+            "awayScore": 0,
+            "competition": "Europa League"
+          },
+          {
+            "date": "2020-10-22",
+            "homeTeam": "Lech Poznań",
+            "awayTeam": "Benfica",
+            "homeTeamId": 2182,
+            "awayTeamId": 9772,
+            "homeScore": 2,
+            "awayScore": 4,
+            "competition": "Europa League"
+          }
+        ]
+      },
+      "fotmobMatchId": 6112248,
+      "leagueId": 943229,
+      "leagueName": "UEFA Europa League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League",
+          "country": "INT",
+          "leagueId": 943229,
+          "homeTeam": "Benfica",
+          "awayTeam": "Lech Poznań"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.623Z"
+    },
+    {
+      "matchId": "celta_vigo_union_st_gilloise_20261106",
+      "league": "UEFA Europa League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943229.png",
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Union St.Gilloise",
+      "homeTeamId": 9910,
+      "awayTeamId": 7978,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9910.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/7978.png",
+      "date": "6.11.2026",
+      "time": "2:30 AM",
+      "kickoff": "2026-11-06T02:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "matches": []
+      },
+      "fotmobMatchId": 6112347,
+      "leagueId": 943229,
+      "leagueName": "UEFA Europa League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League",
+          "country": "INT",
+          "leagueId": 943229,
+          "homeTeam": "Celta Vigo",
+          "awayTeam": "Union St.Gilloise"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.624Z"
+    },
+    {
+      "matchId": "celtic_besiktas_20261106",
+      "league": "UEFA Europa League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943229.png",
+      "homeTeam": "Celtic",
+      "awayTeam": "Beşiktaş",
+      "homeTeamId": 9925,
+      "awayTeamId": 10188,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9925.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10188.png",
+      "date": "6.11.2026",
+      "time": "2:30 AM",
+      "kickoff": "2026-11-06T02:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "matches": []
+      },
+      "fotmobMatchId": 6112301,
+      "leagueId": 943229,
+      "leagueName": "UEFA Europa League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League",
+          "country": "INT",
+          "leagueId": 943229,
+          "homeTeam": "Celtic",
+          "awayTeam": "Beşiktaş"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.624Z"
+    },
+    {
+      "matchId": "hapoel_beer_sheva_ofi_crete_20261106",
+      "league": "UEFA Europa League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943229.png",
+      "homeTeam": "Hapoel Beer Sheva",
+      "awayTeam": "OFI Crete",
+      "homeTeamId": 9754,
+      "awayTeamId": 7753,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9754.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/7753.png",
+      "date": "6.11.2026",
+      "time": "2:30 AM",
+      "kickoff": "2026-11-06T02:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "matches": []
+      },
+      "fotmobMatchId": 6112365,
+      "leagueId": 943229,
+      "leagueName": "UEFA Europa League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League",
+          "country": "INT",
+          "leagueId": 943229,
+          "homeTeam": "Hapoel Beer Sheva",
+          "awayTeam": "OFI Crete"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.624Z"
+    },
+    {
+      "matchId": "sturm_graz_nk_celje_20261106",
+      "league": "UEFA Europa League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943229.png",
+      "homeTeam": "Sturm Graz",
+      "awayTeam": "NK Celje",
+      "homeTeamId": 10014,
+      "awayTeamId": 4622,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10014.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/4622.png",
+      "date": "6.11.2026",
+      "time": "2:30 AM",
+      "kickoff": "2026-11-06T02:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 2,
+          "draws": 1,
+          "awayWins": 0
+        },
+        "matches": [
+          {
+            "date": "2016-06-15",
+            "homeTeam": "Sturm Graz",
+            "awayTeam": "NK Celje",
+            "homeTeamId": 10014,
+            "awayTeamId": 4622,
+            "homeScore": 2,
+            "awayScore": 0,
+            "competition": "Club Friendlies"
+          },
+          {
+            "date": "2015-09-04",
+            "homeTeam": "Sturm Graz",
+            "awayTeam": "NK Celje",
+            "homeTeamId": 10014,
+            "awayTeamId": 4622,
+            "homeScore": 6,
+            "awayScore": 2,
+            "competition": "Club Friendlies"
+          },
+          {
+            "date": "2015-02-07",
+            "homeTeam": "Sturm Graz",
+            "awayTeam": "NK Celje",
+            "homeTeamId": 10014,
+            "awayTeamId": 4622,
+            "homeScore": 1,
+            "awayScore": 1,
+            "competition": "Club Friendlies"
+          }
+        ]
+      },
+      "fotmobMatchId": 6112316,
+      "leagueId": 943229,
+      "leagueName": "UEFA Europa League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League",
+          "country": "INT",
+          "leagueId": 943229,
+          "homeTeam": "Sturm Graz",
+          "awayTeam": "NK Celje"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.624Z"
+    },
+    {
+      "matchId": "sunderland_dinamo_zagreb_20261106",
+      "league": "UEFA Europa League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943229.png",
+      "homeTeam": "Sunderland",
+      "awayTeam": "Dinamo Zagreb",
+      "homeTeamId": 8472,
+      "awayTeamId": 10156,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/8472.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10156.png",
+      "date": "6.11.2026",
+      "time": "2:30 AM",
+      "kickoff": "2026-11-06T02:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "matches": []
+      },
+      "fotmobMatchId": 6112331,
+      "leagueId": 943229,
+      "leagueName": "UEFA Europa League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League",
+          "country": "INT",
+          "leagueId": 943229,
+          "homeTeam": "Sunderland",
+          "awayTeam": "Dinamo Zagreb"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.625Z"
+    },
+    {
+      "matchId": "torreense_ararat_armenia_20261106",
+      "league": "UEFA Europa League",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/943229.png",
+      "homeTeam": "Torreense",
+      "awayTeam": "Ararat Armenia",
+      "homeTeamId": 212820,
+      "awayTeamId": 866109,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/212820.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/866109.png",
+      "date": "6.11.2026",
+      "time": "2:30 AM",
+      "kickoff": "2026-11-06T02:30:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 0,
+          "awayWins": 0
+        },
+        "matches": []
+      },
+      "fotmobMatchId": 6112361,
+      "leagueId": 943229,
+      "leagueName": "UEFA Europa League",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "INT Europa League",
+          "country": "INT",
+          "leagueId": 943229,
+          "homeTeam": "Torreense",
+          "awayTeam": "Ararat Armenia"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.625Z"
+    },
+    {
+      "matchId": "palmeiras_remo_20261106",
+      "league": "Brazil Serie A (BRA D1)",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/1000001407.png",
+      "homeTeam": "Palmeiras",
+      "awayTeam": "Remo",
+      "homeTeamId": 10283,
+      "awayTeamId": 1626,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/10283.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/1626.png",
+      "date": "6.11.2026",
+      "time": "5:00 AM",
+      "kickoff": "2026-11-06T05:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 0,
+          "draws": 1,
+          "awayWins": 0
+        },
+        "matches": [
+          {
+            "date": "2026-05-10",
+            "homeTeam": "Remo",
+            "awayTeam": "Palmeiras",
+            "homeTeamId": 1626,
+            "awayTeamId": 10283,
+            "homeScore": 1,
+            "awayScore": 1,
+            "competition": "Série A"
+          }
+        ]
+      },
+      "fotmobMatchId": 5103697,
+      "leagueId": 1000001407,
+      "leagueName": "Brazil Serie A (BRA D1)",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "BRA Série A",
+          "country": "BRA",
+          "leagueId": 1000001407,
+          "homeTeam": "Palmeiras",
+          "awayTeam": "Remo"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.625Z"
+    },
+    {
+      "matchId": "cruzeiro_bahia_20261106",
+      "league": "Brazil Serie A (BRA D1)",
+      "leagueIcon": "https://images.fotmob.com/image_resources/logo/leaguelogo/1000001407.png",
+      "homeTeam": "Cruzeiro",
+      "awayTeam": "Bahia",
+      "homeTeamId": 9781,
+      "awayTeamId": 7877,
+      "homeLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/9781.png",
+      "awayLogo": "https://images.fotmob.com/image_resources/logo/teamlogo/7877.png",
+      "date": "6.11.2026",
+      "time": "7:00 AM",
+      "kickoff": "2026-11-06T07:00:00.000+06:30",
+      "timezone": "Asia/Yangon",
+      "status": "Scheduled",
+      "h2h": {
+        "summary": {
+          "homeWins": 3,
+          "draws": 1,
+          "awayWins": 1
+        },
+        "matches": [
+          {
+            "date": "2026-05-10",
+            "homeTeam": "Bahia",
+            "awayTeam": "Cruzeiro",
+            "homeTeamId": 7877,
+            "awayTeamId": 9781,
+            "homeScore": 1,
+            "awayScore": 2,
+            "competition": "Série A"
+          },
+          {
+            "date": "2025-09-15",
+            "homeTeam": "Bahia",
+            "awayTeam": "Cruzeiro",
+            "homeTeamId": 7877,
+            "awayTeamId": 9781,
+            "homeScore": 1,
+            "awayScore": 2,
+            "competition": "Serie A"
+          },
+          {
+            "date": "2025-04-18",
+            "homeTeam": "Cruzeiro",
+            "awayTeam": "Bahia",
+            "homeTeamId": 9781,
+            "awayTeamId": 7877,
+            "homeScore": 3,
+            "awayScore": 0,
+            "competition": "Serie A"
+          },
+          {
+            "date": "2024-10-19",
+            "homeTeam": "Cruzeiro",
+            "awayTeam": "Bahia",
+            "homeTeamId": 9781,
+            "awayTeamId": 7877,
+            "homeScore": 1,
+            "awayScore": 1,
+            "competition": "Serie A"
+          },
+          {
+            "date": "2024-06-23",
+            "homeTeam": "Bahia",
+            "awayTeam": "Cruzeiro",
+            "homeTeamId": 7877,
+            "awayTeamId": 9781,
+            "homeScore": 4,
+            "awayScore": 1,
+            "competition": "Serie A"
+          }
+        ]
+      },
+      "fotmobMatchId": 5103699,
+      "leagueId": 1000001407,
+      "leagueName": "Brazil Serie A (BRA D1)",
+      "source": "fotmob",
+      "manual": false,
+      "statusLocked": false,
+      "pinned": false,
+      "featured": false,
+      "hasStreams": false,
+      "streamCount": 0,
+      "originalNames": {
+        "fotmob": {
+          "league": "BRA Série A",
+          "country": "BRA",
+          "leagueId": 1000001407,
+          "homeTeam": "Cruzeiro",
+          "awayTeam": "Bahia"
+        }
+      },
+      "sourcePages": {},
+      "streams": [],
+      "streamAttempts": {},
+      "matchUrl": null,
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
+      "matchUrlSource": null,
+      "streamUrl": null,
+      "streamHeaders": null,
+      "streamStatus": "PREPARING_STREAM",
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "streamSearch": {
+        "started": false,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {}
+      },
+      "matchUrlSearch": {
+        "slotsDone": {},
+        "sources": {}
+      },
+      "updatedAt": "2026-11-04T17:32:18.625Z"
     }
   ],
   "meta": {
@@ -1803,22 +3548,23 @@
       "cakhia",
       "xoilac",
       "phut",
-      "socolive"
+      "socolive",
+      "highlight"
     ],
     "adminApplied": true,
     "sync": {
-      "removedExpired": 0,
-      "streamsAdded": 2,
-      "matchesAdded": 0
+      "removedExpired": 4,
+      "streamsAdded": 4,
+      "matchesAdded": 23
     },
     "liveCount": 0,
-    "scheduledCount": 14,
+    "scheduledCount": 33,
     "endedCount": 0,
     "manualStreamCount": 0,
-    "highlightCount": 33,
+    "highlightCount": 30,
     "channelCount": 0,
-    "checksum": "db86e711f733d2c9edb681b2e177aa1d5acab341fd875ec3143ccc2160edd5bf",
-    "cachedAt": "2026-11-04T17:32:16.142Z",
+    "checksum": "ea6973712b8d6a5ae216f12de8f31d0bd548bfe8ee7561bc1637e80ba2e0611e",
+    "cachedAt": "2026-11-04T17:32:18.644Z",
     "feed": "admin-match"
   }
 }
