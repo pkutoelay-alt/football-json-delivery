@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-05T07:30:11.229+06:30",
+  "generatedAt": "2026-11-05T07:30:19.857+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 21,
   "matches": [
@@ -81,7 +81,7 @@
       "fotmobMatchId": 5103695,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -99,20 +99,11 @@
       },
       "sourcePages": {},
       "streams": [],
-      "streamAttempts": {
-        "t30": true,
-        "t20": true,
-        "t15": true,
-        "t10": true,
-        "t5": true,
-        "t0": true,
-        "tP5": true,
-        "tP10": true
-      },
+      "streamAttempts": {},
       "matchUrl": null,
-      "matchUrlStatus": "MATCH_URL_SEARCHING",
-      "matchUrlAttempts": 3,
-      "lastMatchUrlAttemptAt": "2026-11-05T01:00:11.205Z",
+      "matchUrlStatus": "MATCH_URL_PENDING",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -121,65 +112,7 @@
       "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": true,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {
-          "tLive": true
-        },
-        "sources": {
-          "cakhia": {
-            "matchUrl": null,
-            "status": "MATCH_URL_SEARCHING",
-            "attempts": 3,
-            "liveAttempts": 3,
-            "lastAttemptAt": "2026-11-05T01:00:11.205Z",
-            "slotsDone": {
-              "tLive": true
-            },
-            "confidence": 0
-          },
-          "xoilac": {
-            "matchUrl": null,
-            "status": "MATCH_URL_SEARCHING",
-            "attempts": 2,
-            "liveAttempts": 2,
-            "lastAttemptAt": "2026-11-05T00:45:08.348Z",
-            "slotsDone": {
-              "tLive": true
-            },
-            "confidence": 0
-          },
-          "phut": {
-            "matchUrl": null,
-            "status": "MATCH_URL_SEARCHING",
-            "attempts": 2,
-            "liveAttempts": 2,
-            "lastAttemptAt": "2026-11-05T00:45:09.690Z",
-            "slotsDone": {
-              "tLive": true
-            },
-            "confidence": 0
-          },
-          "socolive": {
-            "matchUrl": null,
-            "status": "MATCH_URL_SEARCHING",
-            "attempts": 2,
-            "liveAttempts": 2,
-            "lastAttemptAt": "2026-11-05T00:45:10.574Z",
-            "slotsDone": {
-              "tLive": true
-            },
-            "confidence": 0
-          }
-        }
-      },
-      "updatedAt": "2026-11-05T01:00:11.224Z"
+      "updatedAt": "2026-11-05T01:00:19.853Z"
     },
     {
       "matchId": "sao_paulo_corinthians_20261105",
@@ -258,7 +191,7 @@
       "fotmobMatchId": 5103696,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -320,7 +253,16 @@
           "checkedAt": null
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true,
+        "t10": true,
+        "t5": true,
+        "t0": true,
+        "tP5": true,
+        "tP10": true
+      },
       "matchUrl": "https://childrensradiofoundation.org/truc-tiep/sao-paulo-vs-corinthians-sp-luc-0730-ngay-05-11-2026/",
       "matchUrlStatus": "MATCH_URL_FOUND",
       "matchUrlAttempts": 1,
@@ -333,11 +275,76 @@
         "Origin": "https://ck.domainkqt.cc"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.225Z",
+      "attempts": 2,
+      "validationStatus": "VALIDATING",
+      "validationReason": "NOT_FOUND",
+      "lastAttemptAt": "2026-11-05T00:46:04.151Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t0": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 2,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-05T00:45:21.281Z",
+            "updatedAt": "2026-11-05T01:00:19.796Z",
+            "slotsDone": {
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 2,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-05T00:45:36.548Z",
+            "updatedAt": "2026-11-05T01:00:19.796Z",
+            "slotsDone": {
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 2,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-05T00:45:50.141Z",
+            "updatedAt": "2026-11-05T01:00:19.796Z",
+            "slotsDone": {
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 2,
+            "postKickoffAttempts": 2,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-05T00:46:04.151Z",
+            "updatedAt": "2026-11-05T01:00:19.796Z",
+            "slotsDone": {
+              "t0": true,
+              "catchup": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true
@@ -388,7 +395,8 @@
             "confidence": 89
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-05T01:00:19.853Z"
     },
     {
       "matchId": "ac_milan_ferencvaros_20261106",
@@ -447,7 +455,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.225Z"
+      "updatedAt": "2026-11-05T01:00:19.854Z"
     },
     {
       "matchId": "anderlecht_salzburg_20261106",
@@ -527,7 +535,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.225Z"
+      "updatedAt": "2026-11-05T01:00:19.854Z"
     },
     {
       "matchId": "crystal_palace_tsg_hoffenheim_20261106",
@@ -586,7 +594,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.226Z"
+      "updatedAt": "2026-11-05T01:00:19.854Z"
     },
     {
       "matchId": "levski_sofia_jagiellonia_bia_ystok_20261106",
@@ -645,7 +653,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.226Z"
+      "updatedAt": "2026-11-05T01:00:19.854Z"
     },
     {
       "matchId": "lillestr_m_viktoria_plzen_20261106",
@@ -704,7 +712,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.226Z"
+      "updatedAt": "2026-11-05T01:00:19.855Z"
     },
     {
       "matchId": "nec_nijmegen_omonia_nicosia_20261106",
@@ -763,7 +771,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.226Z"
+      "updatedAt": "2026-11-05T01:00:19.855Z"
     },
     {
       "matchId": "real_sociedad_olympique_lyonnais_20261106",
@@ -853,7 +861,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.226Z"
+      "updatedAt": "2026-11-05T01:00:19.855Z"
     },
     {
       "matchId": "sparta_prague_bournemouth_20261106",
@@ -912,7 +920,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.227Z"
+      "updatedAt": "2026-11-05T01:00:19.855Z"
     },
     {
       "matchId": "az_alkmaar_juventus_20261106",
@@ -971,7 +979,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.227Z"
+      "updatedAt": "2026-11-05T01:00:19.855Z"
     },
     {
       "matchId": "bayer_leverkusen_olympique_marseille_20261106",
@@ -1051,7 +1059,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.227Z"
+      "updatedAt": "2026-11-05T01:00:19.856Z"
     },
     {
       "matchId": "benfica_lech_poznan_20261106",
@@ -1131,7 +1139,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.227Z"
+      "updatedAt": "2026-11-05T01:00:19.856Z"
     },
     {
       "matchId": "celta_vigo_union_st_gilloise_20261106",
@@ -1190,7 +1198,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.227Z"
+      "updatedAt": "2026-11-05T01:00:19.856Z"
     },
     {
       "matchId": "celtic_besiktas_20261106",
@@ -1249,7 +1257,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.227Z"
+      "updatedAt": "2026-11-05T01:00:19.856Z"
     },
     {
       "matchId": "hapoel_beer_sheva_ofi_crete_20261106",
@@ -1308,7 +1316,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.228Z"
+      "updatedAt": "2026-11-05T01:00:19.856Z"
     },
     {
       "matchId": "sturm_graz_nk_celje_20261106",
@@ -1398,7 +1406,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.228Z"
+      "updatedAt": "2026-11-05T01:00:19.856Z"
     },
     {
       "matchId": "sunderland_dinamo_zagreb_20261106",
@@ -1457,7 +1465,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.228Z"
+      "updatedAt": "2026-11-05T01:00:19.856Z"
     },
     {
       "matchId": "torreense_ararat_armenia_20261106",
@@ -1516,7 +1524,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.228Z"
+      "updatedAt": "2026-11-05T01:00:19.856Z"
     },
     {
       "matchId": "palmeiras_remo_20261106",
@@ -1586,7 +1594,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.228Z"
+      "updatedAt": "2026-11-05T01:00:19.856Z"
     },
     {
       "matchId": "cruzeiro_bahia_20261106",
@@ -1696,7 +1704,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-05T01:00:11.229Z"
+      "updatedAt": "2026-11-05T01:00:19.856Z"
     }
   ],
   "meta": {
@@ -1719,8 +1727,8 @@
     "manualStreamCount": 0,
     "highlightCount": 38,
     "channelCount": 0,
-    "checksum": "a00c463bc105bb663a90f27e0beb692cdc258c63cf1e7bd7b98cb8b57b494625",
-    "cachedAt": "2026-11-05T01:00:11.241Z",
+    "checksum": "85b85af2f11aed7fba88a629ee7aae9a98bf0de38672d183486d3264b916a0ef",
+    "cachedAt": "2026-11-05T01:00:19.868Z",
     "feed": "admin-match"
   }
 }
