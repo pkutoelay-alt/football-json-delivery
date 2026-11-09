@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-10T03:00:02.654+06:30",
+  "generatedAt": "2026-11-10T03:01:35.676+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 1,
   "matches": [
@@ -87,7 +87,7 @@
       "pinned": false,
       "featured": false,
       "hasStreams": true,
-      "streamCount": 1,
+      "streamCount": 2,
       "originalNames": {
         "fotmob": {
           "league": "Liga Portugal 2",
@@ -101,6 +101,25 @@
         "xoilac": "https://xoilacvax.tv/truc-tiep/scu-torreense-vs-uniao-leiria-luc-0315-ngay-10-11-2026/"
       },
       "streams": [
+        {
+          "source": "xoilac",
+          "type": "m3u8",
+          "quality": "BEE",
+          "name": "BEE",
+          "url": "https://live2.domaincdn.cc/livecdn/channel-8.m3u8?auth_key=3000001794256206-0-0-9a9a006d29c0865a706bd01c5a69412f",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://xl365.domainkqt.cc/",
+            "Origin": "https://xl365.domainkqt.cc"
+          },
+          "streamHeaders": {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
+            "Referer": "https://xl365.domainkqt.cc/",
+            "Origin": "https://xl365.domainkqt.cc"
+          },
+          "active": true,
+          "checkedAt": "2026-11-09T20:31:35.418Z"
+        },
         {
           "source": "xoilac",
           "type": "m3u8",
@@ -136,17 +155,17 @@
       "matchUrlAttempts": 6,
       "lastMatchUrlAttemptAt": "2026-11-09T20:00:08.824Z",
       "matchUrlSource": "xoilac",
-      "streamUrl": "https://live2.jorvakstreamcache.com/live/channel8.m3u8",
+      "streamUrl": "https://live2.domaincdn.cc/livecdn/channel-8.m3u8?auth_key=3000001794256206-0-0-9a9a006d29c0865a706bd01c5a69412f",
       "streamHeaders": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 13; Mobile) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36",
         "Referer": "https://xl365.domainkqt.cc/",
         "Origin": "https://xl365.domainkqt.cc"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 1,
-      "validationStatus": "VALIDATING",
-      "validationReason": null,
-      "lastAttemptAt": "2026-11-09T20:15:28.367Z",
+      "attempts": 2,
+      "validationStatus": "HTTP_403",
+      "validationReason": "HTTP_403",
+      "lastAttemptAt": "2026-11-09T20:31:35.418Z",
       "streamSearch": {
         "started": true,
         "stopped": false,
@@ -159,17 +178,18 @@
         "sources": {
           "xoilac": {
             "status": "SEARCHING",
-            "attempts": 3,
-            "postKickoffAttempts": 1,
-            "lastError": null,
-            "lastAttemptAt": "2026-11-09T20:15:28.367Z",
-            "updatedAt": "2026-11-09T20:30:02.612Z",
+            "attempts": 4,
+            "postKickoffAttempts": 2,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-11-09T20:31:35.418Z",
+            "updatedAt": "2026-11-09T20:31:35.418Z",
             "slotsDone": {
               "t30": true,
               "t20": true,
-              "t0": true
+              "t0": true,
+              "tP15": true
             },
-            "extractionMethod": "axios",
+            "extractionMethod": "puppeteer",
             "extractPassComplete": true
           }
         }
@@ -240,7 +260,7 @@
           }
         }
       },
-      "updatedAt": "2026-11-09T20:30:02.650Z"
+      "updatedAt": "2026-11-09T20:31:35.649Z"
     }
   ],
   "meta": {
