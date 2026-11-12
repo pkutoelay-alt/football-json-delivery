@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T19:30:09.947+06:30",
+  "generatedAt": "2026-11-12T19:30:11.831+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 7,
   "matches": [
@@ -41,7 +41,7 @@
       "fotmobMatchId": 6618311,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": "fotmob",
+      "source": "cakhia",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -78,17 +78,10 @@
             "Origin": "https://ck.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": "2026-11-12T12:32:17.700Z"
+          "checkedAt": null
         }
       ],
-      "streamAttempts": {
-        "t30": true,
-        "t20": true,
-        "t15": true,
-        "t10": true,
-        "t5": true,
-        "t0": true
-      },
+      "streamAttempts": {},
       "matchUrl": "https://cakhiazam.tv/truc-tiep/sk-rapid-wien-vs-dunajska-streda-luc-2000-ngay-12-11-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 4,
@@ -101,35 +94,11 @@
         "Origin": "https://ck.domainkqt.cc"
       },
       "streamStatus": "BLOCKED",
-      "attempts": 2,
-      "validationStatus": "VALIDATING",
-      "validationReason": "NOT_FOUND",
-      "lastAttemptAt": "2026-11-12T12:47:58.778Z",
-      "streamSearch": {
-        "started": true,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {
-          "t30": true,
-          "t20": true
-        },
-        "sources": {
-          "cakhia": {
-            "status": "SEARCHING",
-            "attempts": 2,
-            "postKickoffAttempts": 0,
-            "lastError": "NOT_FOUND",
-            "lastAttemptAt": "2026-11-12T12:47:58.778Z",
-            "updatedAt": "2026-11-12T13:00:03.254Z",
-            "slotsDone": {
-              "t30": true,
-              "t20": true
-            },
-            "extractionMethod": "puppeteer",
-            "extractPassComplete": false
-          }
-        }
-      },
+      "attempts": 0,
+      "validationStatus": null,
+      "validationReason": null,
+      "lastAttemptAt": null,
+      "updatedAt": "2026-11-12T13:00:11.829Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -187,8 +156,7 @@
             "confidence": 0
           }
         }
-      },
-      "updatedAt": "2026-11-12T13:00:09.945Z"
+      }
     },
     {
       "matchId": "vfl_wolfsburg_union_berlin_20261112",
@@ -267,7 +235,7 @@
       "fotmobMatchId": 6615924,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": null,
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -290,7 +258,9 @@
         "socolive": "https://socolivezas.tv/truc-tiep/vfl-wolfsburg-vs-union-berlin-luc-2030-ngay-12-11-2026/"
       },
       "streams": [],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true
+      },
       "matchUrl": "https://cakhiazam.tv/truc-tiep/vfl-wolfsburg-vs-union-berlin-luc-2030-ngay-12-11-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -298,12 +268,63 @@
       "matchUrlSource": "cakhia",
       "streamUrl": null,
       "streamHeaders": null,
-      "streamStatus": "PREPARING_STREAM",
+      "streamStatus": "SEARCHING",
       "attempts": 0,
-      "validationStatus": null,
+      "validationStatus": "VALIDATING",
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-12T13:00:09.946Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {},
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-11-12T13:00:03.258Z",
+            "slotsDone": {},
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-11-12T13:00:03.259Z",
+            "slotsDone": {},
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-11-12T13:00:03.260Z",
+            "slotsDone": {},
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 0,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": null,
+            "updatedAt": "2026-11-12T13:00:03.260Z",
+            "slotsDone": {},
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t90": true
@@ -353,7 +374,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-12T13:00:11.830Z"
     },
     {
       "matchId": "borussia_monchengladbach_standard_liege_20261112",
@@ -469,7 +491,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-12T13:00:09.946Z",
+      "updatedAt": "2026-11-12T13:00:11.830Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -609,7 +631,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-12T13:00:09.946Z",
+      "updatedAt": "2026-11-12T13:00:11.830Z",
       "matchUrlSearch": {
         "slotsDone": {},
         "sources": {
@@ -730,7 +752,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-12T13:00:09.946Z",
+      "updatedAt": "2026-11-12T13:00:11.830Z",
       "matchUrlSearch": {
         "slotsDone": {
           "t60": true,
@@ -898,7 +920,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-12T13:00:09.947Z"
+      "updatedAt": "2026-11-12T13:00:11.831Z"
     },
     {
       "matchId": "sarpsborg_08_ifk_goteborg_20261112",
@@ -1008,7 +1030,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-12T13:00:09.947Z"
+      "updatedAt": "2026-11-12T13:00:11.831Z"
     }
   ],
   "meta": {
