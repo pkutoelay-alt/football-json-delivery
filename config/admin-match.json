@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T05:45:05.936+06:30",
+  "generatedAt": "2026-11-15T05:45:12.029+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 10,
   "matches": [
@@ -81,7 +81,7 @@
       "fotmobMatchId": 5103573,
       "leagueId": 1000001407,
       "leagueName": "Brazil Serie A (BRA D1)",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -123,7 +123,7 @@
             "Cookie": "_ga_XXF09PYBD2=GS2.1.s1794697237$o1$g0$t1794697237$j60$l0$h0; _ga=GA1.1.1998879219.1794697238"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-14T23:00:34.629Z"
         },
         {
           "source": "xoilac",
@@ -142,10 +142,14 @@
             "Origin": "https://xl365.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-14T23:02:37.178Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true
+      },
       "matchUrl": "https://cakhiazbk.tv/truc-tiep/chapecoense-sc-vs-vasco-da-gama-luc-0630-ngay-15-11-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 4,
@@ -159,11 +163,72 @@
         "Cookie": "_ga_XXF09PYBD2=GS2.1.s1794697237$o1$g0$t1794697237$j60$l0$h0; _ga=GA1.1.1998879219.1794697238"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-11-14T23:15:05.933Z",
+      "attempts": 1,
+      "validationStatus": "VALIDATING",
+      "validationReason": "NOT_FOUND",
+      "lastAttemptAt": "2026-11-14T23:07:21.349Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-11-14T23:02:30.270Z",
+            "updatedAt": "2026-11-14T23:15:11.997Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-11-14T23:04:13.080Z",
+            "updatedAt": "2026-11-14T23:15:11.998Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-14T23:05:50.732Z",
+            "updatedAt": "2026-11-14T23:15:11.998Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "NOT_FOUND",
+            "lastAttemptAt": "2026-11-14T23:07:21.349Z",
+            "updatedAt": "2026-11-14T23:15:11.998Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": null,
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t90": true,
@@ -223,7 +288,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-14T23:15:12.027Z"
     },
     {
       "matchId": "red_bull_new_york_cf_america_20261115",
@@ -251,7 +317,7 @@
       "fotmobMatchId": 6633973,
       "leagueId": 915708,
       "leagueName": "Club Friendlies",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -272,8 +338,8 @@
       "streamAttempts": {},
       "matchUrl": null,
       "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 2,
-      "lastMatchUrlAttemptAt": "2026-11-14T23:15:05.908Z",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -282,67 +348,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": false,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {
-          "t90": true,
-          "t80": true
-        },
-        "sources": {
-          "cakhia": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 2,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-11-14T23:15:05.908Z",
-            "slotsDone": {
-              "t90": true,
-              "t80": true
-            },
-            "confidence": 0
-          },
-          "xoilac": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 1,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-11-14T23:00:14.434Z",
-            "slotsDone": {
-              "t90": true
-            },
-            "confidence": 0
-          },
-          "phut": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 1,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-11-14T23:00:20.689Z",
-            "slotsDone": {
-              "t90": true
-            },
-            "confidence": 0
-          },
-          "socolive": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 1,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-11-14T23:00:25.490Z",
-            "slotsDone": {
-              "t90": true
-            },
-            "confidence": 0
-          }
-        }
-      },
-      "updatedAt": "2026-11-14T23:15:05.934Z"
+      "updatedAt": "2026-11-14T23:15:12.028Z"
     },
     {
       "matchId": "amarante_fc_felgueiras_1932_20261115",
@@ -401,7 +407,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-14T23:15:05.934Z"
+      "updatedAt": "2026-11-14T23:15:12.028Z"
     },
     {
       "matchId": "tondela_farense_20261115",
@@ -511,7 +517,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-14T23:15:05.934Z"
+      "updatedAt": "2026-11-14T23:15:12.028Z"
     },
     {
       "matchId": "polissya_zhytomyr_fc_kolos_kovalivka_20261115",
@@ -621,7 +627,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-14T23:15:05.934Z"
+      "updatedAt": "2026-11-14T23:15:12.028Z"
     },
     {
       "matchId": "hamburger_sv_hajduk_split_20261115",
@@ -691,7 +697,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-14T23:15:05.935Z"
+      "updatedAt": "2026-11-14T23:15:12.028Z"
     },
     {
       "matchId": "zenit_st_petersburg_trabzonspor_20261115",
@@ -750,7 +756,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-14T23:15:05.935Z"
+      "updatedAt": "2026-11-14T23:15:12.028Z"
     },
     {
       "matchId": "portimonense_academica_20261115",
@@ -860,7 +866,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-14T23:15:05.935Z"
+      "updatedAt": "2026-11-14T23:15:12.028Z"
     },
     {
       "matchId": "penafiel_lusitania_lourosa_20261115",
@@ -940,7 +946,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-14T23:15:05.935Z"
+      "updatedAt": "2026-11-14T23:15:12.028Z"
     },
     {
       "matchId": "leixoes_chaves_20261116",
@@ -1050,7 +1056,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-14T23:15:05.935Z"
+      "updatedAt": "2026-11-14T23:15:12.029Z"
     }
   ],
   "meta": {
