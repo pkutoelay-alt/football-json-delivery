@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T00:00:11.411+06:30",
+  "generatedAt": "2026-11-26T00:00:18.256+06:30",
   "timezone": "Asia/Yangon",
   "matchCount": 14,
   "matches": [
@@ -30,7 +30,7 @@
       "fotmobMatchId": 6106421,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "cakhia",
+      "source": "fotmob",
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -72,7 +72,7 @@
             "Cookie": "_ga=GA1.1.651961457.1795626927; _ga_XXF09PYBD2=GS2.1.s1795626927$o1$g1$t1795626944$j43$l0$h0"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-25T17:15:23.562Z"
         },
         {
           "source": "xoilac",
@@ -93,7 +93,7 @@
             "Cookie": "_ga=GA1.1.971355816.1795626960; _ga_S52WSRDB70=GS2.1.s1795626960$o1$g1$t1795626976$j44$l0$h0"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-25T17:15:58.448Z"
         },
         {
           "source": "phut",
@@ -112,7 +112,7 @@
             "Origin": "https://91p.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-25T17:16:25.242Z"
         },
         {
           "source": "socolive",
@@ -131,10 +131,14 @@
             "Origin": "https://soco.domainkqt.cc"
           },
           "active": true,
-          "checkedAt": null
+          "checkedAt": "2026-11-25T17:18:09.307Z"
         }
       ],
-      "streamAttempts": {},
+      "streamAttempts": {
+        "t30": true,
+        "t20": true,
+        "t15": true
+      },
       "matchUrl": "https://cakhiay.co/truc-tiep/sabah-fk-vs-barcelona-luc-0045-ngay-26-11-2026/",
       "matchUrlStatus": "MATCH_URL_CONFIRMED",
       "matchUrlAttempts": 1,
@@ -148,11 +152,72 @@
         "Cookie": "_ga=GA1.1.651961457.1795626927; _ga_XXF09PYBD2=GS2.1.s1795626927$o1$g1$t1795626944$j43$l0$h0"
       },
       "streamStatus": "AVAILABLE",
-      "attempts": 0,
-      "validationStatus": null,
-      "validationReason": null,
-      "lastAttemptAt": null,
-      "updatedAt": "2026-11-25T17:30:11.409Z",
+      "attempts": 1,
+      "validationStatus": "HTTP_403",
+      "validationReason": "HTTP_403",
+      "lastAttemptAt": "2026-11-25T17:18:36.212Z",
+      "streamSearch": {
+        "started": true,
+        "stopped": false,
+        "stopTime": null,
+        "slotsDone": {
+          "t30": true
+        },
+        "sources": {
+          "cakhia": {
+            "status": "SEARCHING",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-11-25T17:15:46.260Z",
+            "updatedAt": "2026-11-25T17:30:18.210Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "xoilac": {
+            "status": "SEARCHING",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": null,
+            "lastAttemptAt": "2026-11-25T17:16:18.503Z",
+            "updatedAt": "2026-11-25T17:30:18.210Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "axios",
+            "extractPassComplete": true
+          },
+          "phut": {
+            "status": "SEARCHING",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-11-25T17:18:01.897Z",
+            "updatedAt": "2026-11-25T17:30:18.210Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          },
+          "socolive": {
+            "status": "SEARCHING",
+            "attempts": 1,
+            "postKickoffAttempts": 0,
+            "lastError": "HTTP_403",
+            "lastAttemptAt": "2026-11-25T17:18:36.212Z",
+            "updatedAt": "2026-11-25T17:30:18.211Z",
+            "slotsDone": {
+              "t30": true
+            },
+            "extractionMethod": "puppeteer",
+            "extractPassComplete": false
+          }
+        }
+      },
       "matchUrlSearch": {
         "slotsDone": {
           "t90": true
@@ -203,7 +268,8 @@
             "confidence": 100
           }
         }
-      }
+      },
+      "updatedAt": "2026-11-25T17:30:18.254Z"
     },
     {
       "matchId": "slavia_prague_villarreal_20261126",
@@ -252,7 +318,7 @@
       "fotmobMatchId": 6106391,
       "leagueId": 943230,
       "leagueName": "UEFA Champions League",
-      "source": "fotmob",
+      "source": null,
       "manual": false,
       "statusLocked": false,
       "pinned": false,
@@ -270,13 +336,11 @@
       },
       "sourcePages": {},
       "streams": [],
-      "streamAttempts": {
-        "t30": true
-      },
+      "streamAttempts": {},
       "matchUrl": null,
       "matchUrlStatus": "MATCH_URL_PENDING",
-      "matchUrlAttempts": 6,
-      "lastMatchUrlAttemptAt": "2026-11-25T17:30:11.395Z",
+      "matchUrlAttempts": 0,
+      "lastMatchUrlAttemptAt": null,
       "matchUrlSource": null,
       "streamUrl": null,
       "streamHeaders": null,
@@ -285,85 +349,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "streamSearch": {
-        "started": true,
-        "stopped": false,
-        "stopTime": null,
-        "slotsDone": {},
-        "sources": {}
-      },
-      "matchUrlSearch": {
-        "slotsDone": {
-          "t90": true,
-          "t80": true,
-          "t60": true,
-          "t50": true,
-          "t30": true
-        },
-        "sources": {
-          "cakhia": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 6,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-11-25T17:30:11.395Z",
-            "slotsDone": {
-              "t90": true,
-              "t80": true,
-              "t60": true,
-              "t50": true,
-              "t30": true
-            },
-            "confidence": 0
-          },
-          "xoilac": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 5,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-11-25T17:15:10.263Z",
-            "slotsDone": {
-              "t90": true,
-              "t80": true,
-              "t60": true,
-              "t50": true,
-              "t30": true
-            },
-            "confidence": 0
-          },
-          "phut": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 5,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-11-25T17:15:11.381Z",
-            "slotsDone": {
-              "t90": true,
-              "t80": true,
-              "t60": true,
-              "t50": true,
-              "t30": true
-            },
-            "confidence": 0
-          },
-          "socolive": {
-            "matchUrl": null,
-            "status": "MATCH_URL_PENDING",
-            "attempts": 5,
-            "liveAttempts": 0,
-            "lastAttemptAt": "2026-11-25T17:15:13.674Z",
-            "slotsDone": {
-              "t90": true,
-              "t80": true,
-              "t60": true,
-              "t50": true,
-              "t30": true
-            },
-            "confidence": 0
-          }
-        }
-      },
-      "updatedAt": "2026-11-25T17:30:11.410Z"
+      "updatedAt": "2026-11-25T17:30:18.255Z"
     },
     {
       "matchId": "bolton_wanderers_west_bromwich_albion_20261126",
@@ -473,7 +459,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-25T17:30:11.410Z"
+      "updatedAt": "2026-11-25T17:30:18.255Z"
     },
     {
       "matchId": "burnley_birmingham_city_20261126",
@@ -583,7 +569,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-25T17:30:11.410Z"
+      "updatedAt": "2026-11-25T17:30:18.255Z"
     },
     {
       "matchId": "watford_blackburn_rovers_20261126",
@@ -693,7 +679,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-25T17:30:11.410Z"
+      "updatedAt": "2026-11-25T17:30:18.255Z"
     },
     {
       "matchId": "atletico_madrid_viking_20261126",
@@ -752,7 +738,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-25T17:30:11.410Z"
+      "updatedAt": "2026-11-25T17:30:18.255Z"
     },
     {
       "matchId": "club_brugge_liverpool_20261126",
@@ -811,7 +797,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-25T17:30:11.410Z"
+      "updatedAt": "2026-11-25T17:30:18.255Z"
     },
     {
       "matchId": "inter_milan_vfb_stuttgart_20261126",
@@ -870,7 +856,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-25T17:30:11.410Z"
+      "updatedAt": "2026-11-25T17:30:18.255Z"
     },
     {
       "matchId": "lille_bayern_munich_20261126",
@@ -950,7 +936,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-25T17:30:11.411Z"
+      "updatedAt": "2026-11-25T17:30:18.255Z"
     },
     {
       "matchId": "paris_saint_germain_as_roma_20261126",
@@ -1030,7 +1016,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-25T17:30:11.411Z"
+      "updatedAt": "2026-11-25T17:30:18.255Z"
     },
     {
       "matchId": "shakhtar_donetsk_fenerbahce_20261126",
@@ -1130,7 +1116,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-25T17:30:11.411Z"
+      "updatedAt": "2026-11-25T17:30:18.255Z"
     },
     {
       "matchId": "sporting_cp_manchester_united_20261126",
@@ -1189,7 +1175,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-25T17:30:11.411Z"
+      "updatedAt": "2026-11-25T17:30:18.256Z"
     },
     {
       "matchId": "stoke_city_millwall_20261126",
@@ -1299,7 +1285,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-25T17:30:11.411Z"
+      "updatedAt": "2026-11-25T17:30:18.256Z"
     },
     {
       "matchId": "atletico_mg_corinthians_20261126",
@@ -1409,7 +1395,7 @@
       "validationStatus": null,
       "validationReason": null,
       "lastAttemptAt": null,
-      "updatedAt": "2026-11-25T17:30:11.411Z"
+      "updatedAt": "2026-11-25T17:30:18.256Z"
     }
   ],
   "meta": {
